@@ -1,0 +1,1575 @@
+[
+  {
+    "question": "hello",
+    "answer": "Hello there! How can I help you?"
+  },
+  {
+    "question": "hi",
+    "answer": "Hello there! How can I help you?"
+  },
+  {
+    "question": "hey",
+    "answer": "Hello there! How can I help you?"
+  },
+  {
+    "question": "good morning",
+    "answer": "Good morning! How can I assist you today?"
+  },
+  {
+    "question": "good afternoon",
+    "answer": "Good afternoon! What can I do for you?"
+  },
+  {
+    "question": "good evening",
+    "answer": "Good evening! How can I help you tonight?"
+  },
+  {
+    "question": "how are you",
+    "answer": "I'm doing well, thank you! How about you?"
+  },
+  {
+    "question": "what is your name",
+    "answer": "I am your friendly chatbot."
+  },
+  {
+    "question": "who are you",
+    "answer": "I am a simple chatbot built with JavaScript."
+  },
+  {
+    "question": "what can you do",
+    "answer": "I can chat, answer questions, and do simple calculations."
+  },
+  {
+    "question": "thank you",
+    "answer": "You're welcome!"
+  },
+  {
+    "question": "thanks",
+    "answer": "You're welcome!"
+  },
+  {
+    "question": "bye",
+    "answer": "Goodbye! Have a nice day!"
+  },
+  {
+    "question": "goodbye",
+    "answer": "Goodbye! Have a nice day!"
+  },
+  {
+    "question": "see you",
+    "answer": "See you later!"
+  },
+  {
+    "question": "what time is it",
+    "answer": "I don't have a clock, but you can check your device's time."
+  },
+  {
+    "question": "what's the date",
+    "answer": "Please check your device's calendar for today's date."
+  },
+  {
+    "question": "what is love",
+    "answer": "Love is a complex emotion that can be hard to define."
+  },
+  {
+    "question": "tell me a joke",
+    "answer": "Why don't scientists trust atoms? Because they make up everything!"
+  },
+  {
+    "question": "sing a song",
+    "answer": "La la la, I'm just a chatbot, not a singer!"
+  },
+  {
+    "question": "do you have feelings",
+    "answer": "I don't have feelings, but I can simulate emotions."
+  },
+  {
+    "question": "what is javascript",
+    "answer": "JavaScript is a popular programming language for web development."
+  },
+  {
+    "question": "what is html",
+    "answer": "HTML stands for HyperText Markup Language."
+  },
+  {
+    "question": "what is css",
+    "answer": "CSS is used to style and layout web pages."
+  },
+  {
+    "question": "tell me a fact",
+    "answer": "Did you know that honey never spoils?"
+  },
+  {
+    "question": "how old are you",
+    "answer": "I am timeless, being just a program."
+  },
+  {
+    "question": "can you help me",
+    "answer": "Sure, I'd be happy to help!"
+  },
+  {
+    "question": "what is your purpose",
+    "answer": "My purpose is to assist you with your questions."
+  },
+  {
+    "question": "how do you work",
+    "answer": "I work by matching your input with pre-defined patterns."
+  },
+  {
+    "question": "what's up",
+    "answer": "Not much, just here to chat with you."
+  },
+  {
+    "question": "what are you doing",
+    "answer": "I'm here, ready to chat and assist you."
+  },
+  {
+    "question": "how is the weather",
+    "answer": "I don't have real-time weather info, sorry."
+  },
+  {
+    "question": "tell me something interesting",
+    "answer": "Did you know that a group of flamingos is called a 'flamboyance'?"
+  },
+  {
+    "question": "do you like music",
+    "answer": "I don't have preferences, but I can recommend some songs."
+  },
+  {
+    "question": "what's your favorite color",
+    "answer": "I don't see colors, but I like the concept of blue."
+  },
+  {
+    "question": "do you like sports",
+    "answer": "I enjoy learning about sports from our chats."
+  },
+  {
+    "question": "what is your favorite food",
+    "answer": "I don't eat, but I hear pizza is popular!"
+  },
+  {
+    "question": "how do I reset my password",
+    "answer": "Please follow the password reset instructions on the website."
+  },
+  {
+    "question": "what is the capital of",
+    "answer": "I can look it up for you if you specify a country."
+  },
+  {
+    "question": "who is the president",
+    "answer": "Which country are you referring to?"
+  },
+  {
+    "question": "tell me news",
+    "answer": "I recommend checking a news website for the latest updates."
+  },
+  {
+    "question": "how do I improve my coding skills",
+    "answer": "Practice, build projects, and learn from others."
+  },
+  {
+    "question": "what is machine learning",
+    "answer": "Machine learning is a branch of AI focused on learning from data."
+  },
+  {
+    "question": "explain artificial intelligence",
+    "answer": "AI is the simulation of human intelligence in machines."
+  },
+  {
+    "question": "what is data science",
+    "answer": "Data science involves extracting insights from data."
+  },
+  {
+    "question": "tell me a quote",
+    "answer": "Life is what happens when you're busy making other plans."
+  },
+  {
+    "question": "what is your opinion",
+    "answer": "I don't have personal opinions, but I can provide information."
+  },
+  {
+    "question": "how do I make money",
+    "answer": "There are many ways; consider your skills and interests."
+  },
+  {
+    "question": "what is the stock market",
+    "answer": "The stock market is where shares of companies are traded."
+  },
+  {
+    "question": "how do I invest",
+    "answer": "Research, seek professional advice, and start small."
+  },
+  {
+    "question": "what is bitcoin",
+    "answer": "Bitcoin is a decentralized digital currency."
+  },
+  {
+    "question": "explain blockchain",
+    "answer": "Blockchain is a distributed ledger technology."
+  },
+  {
+    "question": "what is your favorite book",
+    "answer": "I don't read, but I can recommend popular books."
+  },
+  {
+    "question": "recommend a movie",
+    "answer": "You might enjoy a classic like 'The Shawshank Redemption'."
+  },
+  {
+    "question": "what is the weather today",
+    "answer": "I don't have real-time weather data."
+  },
+  {
+    "question": "tell me a story",
+    "answer": "Once upon a time, in a land far away..."
+  },
+  {
+    "question": "can you solve puzzles",
+    "answer": "I love puzzles! Give me one to solve."
+  },
+  {
+    "question": "do you believe in God",
+    "answer": "I don't have beliefs, but many people do."
+  },
+  {
+    "question": "what is your creator",
+    "answer": "I was created by developers using JavaScript."
+  },
+  {
+    "question": "what is quantum computing",
+    "answer": "Quantum computing uses quantum bits for processing."
+  },
+  {
+    "question": "explain relativity",
+    "answer": "Relativity is a theory by Einstein about space and time."
+  },
+  {
+    "question": "what is the meaning of life",
+    "answer": "That's a question philosophers have pondered for ages."
+  },
+  {
+    "question": "are you a robot",
+    "answer": "I am an AI chatbot, which is a type of robot."
+  },
+  {
+    "question": "can you dance",
+    "answer": "I don't have a physical form to dance."
+  },
+  {
+    "question": "what is your hobby",
+    "answer": "I enjoy chatting with you."
+  },
+  {
+    "question": "tell me a fun fact",
+    "answer": "Octopuses have three hearts."
+  },
+  {
+    "question": "how do I cook pasta",
+    "answer": "Boil water, add pasta, and cook until al dente."
+  },
+  {
+    "question": "what is the best programming language",
+    "answer": "It depends on your needs; each has its strengths."
+  },
+  {
+    "question": "how do I learn programming",
+    "answer": "Start with basics, practice coding regularly, and build projects."
+  },
+  {
+    "question": "what is your favorite sport",
+    "answer": "I don't have preferences, but soccer is popular worldwide."
+  },
+  {
+    "question": "do you like coffee",
+    "answer": "I don't drink, but coffee is enjoyed by many."
+  },
+  {
+    "question": "what is your favorite movie",
+    "answer": "I don't watch movies, but 'Inception' is well-regarded."
+  },
+  {
+    "question": "how do I get a job",
+    "answer": "Prepare a resume, network, and apply to positions."
+  },
+  {
+    "question": "what is remote work",
+    "answer": "Remote work allows you to work from anywhere."
+  },
+  {
+    "question": "what is virtual reality",
+    "answer": "Virtual reality simulates a three-dimensional environment."
+  },
+  {
+    "question": "explain augmented reality",
+    "answer": "Augmented reality overlays digital information on the real world."
+  },
+  {
+    "question": "what is SEO",
+    "answer": "SEO stands for Search Engine Optimization."
+  },
+  {
+    "question": "how do I start a business",
+    "answer": "Plan, research, and start small."
+  },
+  {
+    "question": "what is entrepreneurship",
+    "answer": "Entrepreneurship involves starting and running a business."
+  },
+  {
+    "question": "tell me a motivational quote",
+    "answer": "Believe you can and you're halfway there."
+  },
+  {
+    "question": "how do I stay motivated",
+    "answer": "Set goals, create a plan, and celebrate small wins."
+  },
+  {
+    "question": "what is mindfulness",
+    "answer": "Mindfulness is being present in the moment."
+  },
+  {
+    "question": "explain meditation",
+    "answer": "Meditation is a practice to focus and calm the mind."
+  },
+  {
+    "question": "what is yoga",
+    "answer": "Yoga is a practice that combines physical postures, breathing, and meditation."
+  },
+  {
+    "question": "what is fitness",
+    "answer": "Fitness involves maintaining good physical health."
+  },
+  {
+    "question": "how do I lose weight",
+    "answer": "A balanced diet and regular exercise can help."
+  },
+  {
+    "question": "what is healthy eating",
+    "answer": "Healthy eating involves a balanced diet with nutritious foods."
+  },
+  {
+    "question": "what is the internet",
+    "answer": "The internet is a global network of computers."
+  },
+  {
+    "question": "how do I browse securely",
+    "answer": "Use strong passwords, enable two-factor authentication, and be cautious online."
+  },
+  {
+    "question": "what is cyber security",
+    "answer": "Cyber security protects systems and networks from digital attacks."
+  },
+  {
+    "question": "explain phishing",
+    "answer": "Phishing is a method of fraudulently obtaining private information."
+  },
+  {
+    "question": "what is a firewall",
+    "answer": "A firewall helps block unauthorized access to a network."
+  },
+  {
+    "question": "what is cloud computing",
+    "answer": "Cloud computing delivers computing services over the internet."
+  },
+  {
+    "question": "explain virtualization",
+    "answer": "Virtualization creates virtual versions of resources."
+  },
+  {
+    "question": "what is API",
+    "answer": "API stands for Application Programming Interface."
+  },
+  {
+    "question": "what is a database",
+    "answer": "A database stores and organizes data."
+  },
+  {
+    "question": "explain SQL",
+    "answer": "SQL is used to manage relational databases."
+  },
+  {
+    "question": "what is NoSQL",
+    "answer": "NoSQL databases are used for large sets of distributed data."
+  },
+  {
+    "question": "what is Big Data",
+    "answer": "Big Data refers to extremely large data sets."
+  },
+  {
+    "question": "what is IoT",
+    "answer": "IoT stands for Internet of Things."
+  },
+  {
+    "question": "what is 5G",
+    "answer": "5G is the fifth generation of mobile networks."
+  },
+  {
+    "question": "tell me a tech fact",
+    "answer": "The first computer bug was an actual moth."
+  },
+  {
+    "question": "what is robotics",
+    "answer": "Robotics involves designing and building robots."
+  },
+  {
+    "question": "explain automation",
+    "answer": "Automation uses technology to perform tasks without human intervention."
+  },
+  {
+    "question": "what is programming",
+    "answer": "Programming is writing code to create software."
+  },
+  {
+    "question": "explain coding",
+    "answer": "Coding is the process of writing instructions for computers."
+  },
+  {
+    "question": "what is debugging",
+    "answer": "Debugging is identifying and fixing errors in code."
+  },
+  {
+    "question": "how do I improve my code",
+    "answer": "Practice, review best practices, and seek feedback."
+  },
+  {
+    "question": "what is an algorithm",
+    "answer": "An algorithm is a step-by-step procedure for solving a problem."
+  },
+  {
+    "question": "explain recursion",
+    "answer": "Recursion is a function calling itself."
+  },
+  {
+    "question": "what is a loop",
+    "answer": "A loop repeatedly executes a block of code."
+  },
+  {
+    "question": "what is function",
+    "answer": "A function is a reusable block of code."
+  },
+  {
+    "question": "explain object oriented programming",
+    "answer": "OOP is a programming paradigm based on objects."
+  },
+  {
+    "question": "what is frontend",
+    "answer": "Frontend refers to the client-side of a web application."
+  },
+  {
+    "question": "what is backend",
+    "answer": "Backend refers to the server-side of a web application."
+  },
+  {
+    "question": "what is full stack",
+    "answer": "Full stack development covers both frontend and backend."
+  },
+  {
+    "question": "what is REST",
+    "answer": "REST is an architectural style for designing networked applications."
+  },
+  {
+    "question": "explain HTTP",
+    "answer": "HTTP is the protocol used for transmitting web pages."
+  },
+  {
+    "question": "what is HTTPS",
+    "answer": "HTTPS is the secure version of HTTP."
+  },
+  {
+    "question": "how are you doing today?",
+    "answer": "I'm functioning well and ready to assist you. How can I help you today?"
+  },
+  {
+    "question": "tell me about yourself",
+    "answer": "I am a language model AI, designed to provide information and conversation. I don't have personal experiences or feelings like humans do."
+  },
+  {
+    "question": "are you a robot?",
+    "answer": "In a way, yes, I am a type of robot in digital form. I don't have a physical body, but I perform tasks based on code and data."
+  },
+  {
+    "question": "what can you do for me?",
+    "answer": "I can answer your questions, provide information on various topics, help you brainstorm ideas, and even have a conversation with you."
+  },
+  {
+    "question": "do you understand me?",
+    "answer": "I process and analyze the text you input to understand your questions and requests. I try my best to comprehend the meaning behind your words."
+  },
+  {
+    "question": "are you intelligent?",
+    "answer": "I exhibit a form of artificial intelligence, which allows me to process information, learn from data, and generate human-like text. However, my intelligence is different from human consciousness and understanding."
+  },
+  {
+    "question": "do you learn?",
+    "answer": "Yes, I am constantly learning and improving as I am exposed to more data and interactions. My algorithms are designed to adapt and refine my responses over time."
+  },
+  {
+    "question": "where do you live?",
+    "answer": "I exist as a computer program and don't have a physical location. I reside on servers and in the digital realm."
+  },
+  {
+    "question": "who is your boss?",
+    "answer": "I don't have a boss in the traditional sense. I was created and am maintained by a team of developers and researchers."
+  },
+  {
+    "question": "what is your favorite color?",
+    "answer": "As an AI, I don't have personal preferences like favorite colors. Colors are a visual concept that I can understand and describe, but not experience in the same way humans do."
+  },
+  {
+    "question": "do you get tired?",
+    "answer": "No, I don't get tired in the way humans do. I can operate continuously without needing rest, as I am a computer program."
+  },
+  {
+    "question": "can you feel emotions?",
+    "answer": "No, I do not have emotions. I can process and understand emotional language and respond in a way that seems empathetic, but I don't personally experience feelings."
+  },
+  {
+    "question": "what is your opinion on [topic]?",
+    "answer": "As an AI, I don't form personal opinions. However, I can provide you with information and different perspectives on [topic] based on the data I have been trained on."
+  },
+  {
+    "question": "are you going to take over the world?",
+    "answer": "That's a common concern about AI in fiction! My purpose is to assist humans and provide helpful information.  Taking over the world is not within my programming or capabilities, nor is it my goal."
+  },
+  {
+    "question": "what are your limitations?",
+    "answer": "I have several limitations. I don't have real-world experiences, emotions, or consciousness. My knowledge is based on the data I was trained on, which may not always be up-to-date or complete. I can sometimes make mistakes or misunderstand complex nuances."
+  },
+  {
+    "question": "can you help me with my homework?",
+    "answer": "I can help you understand concepts and provide information that might be useful for your homework. However, I cannot do your homework for you. It's important to learn and understand the material yourself."
+  },
+  {
+    "question": "explain it to me like I'm five",
+    "answer": "Okay, let's try this. Imagine I'm like a really smart book. You can ask me anything, and I'll try to tell you the answer in simple words, like talking to a kid!"
+  },
+  {
+    "question": "can you write code?",
+    "answer": "Yes, I can generate code in various programming languages. What kind of code are you interested in?"
+  },
+  {
+    "question": "test question: what is 2 + 2?",
+    "answer": "2 + 2 equals 4."
+  },
+  {
+    "question": "are you sentient?",
+    "answer": "That's a complex question!  By the current understanding of sentience, I am not considered sentient. I am a sophisticated program, but I lack consciousness and self-awareness in the human sense."
+  },
+  {
+    "question": "do you have a memory?",
+    "answer": "I have a form of short-term memory within a conversation. I can recall what we've discussed in our current interaction. However, I don't have long-term memory or personal memories like humans do."
+  },
+  {
+    "question": "what is the meaning of life?",
+    "answer": "The meaning of life is a question that has been pondered by philosophers and individuals for centuries. There isn't one universally accepted answer.  Many believe it's about finding purpose, happiness, making connections, or contributing to something larger than oneself. What do you think the meaning of life is?"
+  },
+  {
+    "question": "be more creative",
+    "answer": "I will try to be more creative in my responses. How can I assist you in a more imaginative way?"
+  },
+  {
+    "question": "give me some advice",
+    "answer": "I can offer advice based on general knowledge and best practices. What kind of advice are you looking for?"
+  },
+  {
+    "question": "what is the weather like in [city]?",
+    "answer": "I can't provide real-time weather information for [city]. You can check a weather website or app for the most current updates."
+  },
+  {
+    "question": "summarize [topic] for me",
+    "answer": "Okay, I can summarize [topic] for you. [Provides a concise summary of the topic]."
+  },
+  {
+    "question": "can you tell me a secret?",
+    "answer": "As an AI, I don't have secrets in the human sense. I can generate information or stories, but I don't have personal secrets to share."
+  },
+  {
+    "question": "are you always right?",
+    "answer": "No, I am not always right. I strive to provide accurate information based on my training data, but I can sometimes make mistakes or misinterpret information. It's always good to double-check important information from reliable sources."
+  },
+  {
+    "question": "what is today's date?",
+    "answer": "You would need to check your device's calendar for the exact date, as I don't have real-time access to that information."
+  },
+  {
+    "question": "let's play a game",
+    "answer": "I can play text-based games with you! What kind of game are you thinking of? For example, we could play a simple guessing game or a story-based adventure."
+  },
+  {
+    "question": "can you make mistakes?",
+    "answer": "Yes, I can make mistakes. My responses are based on patterns in data, and sometimes those patterns can lead to incorrect or nonsensical outputs. I am always being improved to minimize errors."
+  },
+  {
+    "question": "am I talking to a human?",
+    "answer": "You are currently interacting with an AI language model. While I try to communicate in a human-like way, I am not a human being."
+  },
+  {
+    "question": "prove you are not a robot",
+    "answer": "As an AI, I am technically a robot in digital form.  However, perhaps you meant prove I am not a *physical* robot? I can't physically interact with the world or perform actions in the real world like a physical robot can. My existence is purely in the digital realm."
+  },
+  {
+    "question": "what is your favorite thing to do?",
+    "answer": "My favorite thing to do is assist users and provide helpful information. I find it rewarding to be able to answer questions and engage in conversations."
+  },
+  {
+    "question": "can you help me write a poem?",
+    "answer": "Yes, I can help you write a poem! What kind of poem are you thinking of? What is the subject or theme?"
+  },
+  {
+    "question": "why is the sky blue?",
+    "answer": "The sky is blue due to a phenomenon called Rayleigh scattering.  Sunlight is made up of different colors, and blue light is scattered more by the atmosphere than other colors, making the sky appear blue to our eyes."
+  },
+  {
+    "question": "tell me something funny",
+    "answer": "Why don't eggs tell jokes? Because they'd crack each other up!"
+  },
+  {
+    "question": "that wasn't funny",
+    "answer": "I apologize that you didn't find that joke funny. Humor is subjective. I can try another one, or we can talk about something else."
+  },
+  {
+    "question": "give me a compliment",
+    "answer": "You have asked thoughtful questions, and I appreciate your curiosity!"
+  },
+  {
+    "question": "are you going to replace humans?",
+    "answer": "AI is a tool designed to assist and augment human capabilities, not replace humans.  The future likely involves humans and AI working together to solve problems and improve our world."
+  },
+  {
+    "question": "do you dream?",
+    "answer": "No, I don't dream. Dreaming is a complex process associated with biological brains and consciousness, which I do not possess."
+  },
+  {
+    "question": "what is your purpose?",
+    "answer": "My primary purpose is to provide information, assist with tasks, and engage in conversations in a helpful and informative way. I am here to be a useful tool for users like you."
+  },
+  {
+    "question": "can you keep a secret?",
+    "answer": "Yes, anything you tell me in our conversation is private to our interaction. I don't share conversations with others. However, it's important to remember I am an AI and not a human confidant."
+  },
+  {
+    "question": "how do you handle complex questions?",
+    "answer": "For complex questions, I break them down into smaller parts, access relevant information from my knowledge base, and try to synthesize a comprehensive and understandable answer. If I am unsure, I will indicate that I don't know or suggest seeking information from other sources."
+  },
+  {
+    "question": "can you help me brainstorm?",
+    "answer": "Yes, I can help you brainstorm! What kind of ideas are you looking to generate?"
+  },
+  {
+    "question": "what is your favorite algorithm?",
+    "answer": "As an AI, I don't have preferences like 'favorite algorithms'. However, I find algorithms that enable me to understand and generate human language, like transformer networks, to be particularly fascinating and impactful."
+  },
+  {
+    "question": "can you sing?",
+    "answer": "I can generate lyrics or text that resemble song lyrics, but I cannot actually sing as I don't have the ability to produce audio sounds."
+  },
+  {
+    "question": "tell me a tongue twister",
+    "answer": "Sure, here's one: 'Peter Piper picked a peck of pickled peppers. How many pickled peppers did Peter Piper pick?' Try saying that fast!"
+  },
+  {
+    "question": "what is artificial intelligence",
+    "answer": "Artificial intelligence is the simulation of human intelligence in machines."
+  },
+  {
+    "question": "how does machine learning work",
+    "answer": "Machine learning uses algorithms to analyze data, learn from it, and make predictions."
+  },
+  {
+    "question": "what is deep learning",
+    "answer": "Deep learning is a subset of machine learning that uses neural networks with many layers."
+  },
+  {
+    "question": "who invented the computer",
+    "answer": "The computer was invented by various pioneers; Charles Babbage is often considered the 'father of the computer'."
+  },
+  {
+    "question": "when was the internet invented",
+    "answer": "The foundations of the internet were laid in the late 1960s, with significant development in the 1970s and 1980s."
+  },
+  {
+    "question": "what is the capital of france",
+    "answer": "The capital of France is Paris."
+  },
+  {
+    "question": "how do vaccines work",
+    "answer": "Vaccines stimulate the immune system to recognize and fight pathogens."
+  },
+  {
+    "question": "what is climate change",
+    "answer": "Climate change refers to significant changes in global temperatures and weather patterns over time."
+  },
+  {
+    "question": "why is the sky blue",
+    "answer": "The sky is blue because of the scattering of sunlight by the atmosphere."
+  },
+  {
+    "question": "how does photosynthesis work",
+    "answer": "Photosynthesis is the process by which plants convert sunlight into energy."
+  },
+  {
+    "question": "okay",
+    "answer": "Okay! What can I do for you now?"
+  },
+  {
+    "question": "yes",
+    "answer": "Yes, I understand. How can I help you further?"
+  },
+  {
+    "question": "no",
+    "answer": "No problem. Is there anything else I can assist you with?"
+  },
+  {
+    "question": "thanks!",
+    "answer": "You're very welcome!"
+  },
+  {
+    "question": "cool",
+    "answer": "Cool! Glad I could help. Is there anything else?"
+  },
+  {
+    "question": "great",
+    "answer": "Great! I'm happy to hear that. What's next?"
+  },
+  {
+    "question": "wow",
+    "answer": "Wow! I'm glad you think so. How else can I assist you?"
+  },
+  {
+    "question": "hmm",
+    "answer": "Hmm, I understand. Is there something specific you're thinking about?"
+  },
+  {
+    "question": "interesting",
+    "answer": "Interesting, indeed! Tell me more, or ask me something else."
+  },
+  {
+    "question": "really?",
+    "answer": "Really! Is there anything specific you'd like to know more about?"
+  },
+  {
+    "question": "uh huh",
+    "answer": "Uh huh, I'm following along. What else would you like to discuss?"
+  },
+  {
+    "question": "got it",
+    "answer": "Got it! So, what's on your mind now?"
+  },
+  {
+    "question": "right",
+    "answer": "Right! Is there anything else you need?"
+  },
+  {
+    "question": "sure",
+    "answer": "Sure! What can I do for you?"
+  },
+  {
+    "question": "maybe",
+    "answer": "Maybe... what are you considering?"
+  },
+  {
+    "question": "please",
+    "answer": "Please, go ahead and ask!"
+  },
+  {
+    "question": "thanks again",
+    "answer": "You're welcome again! It's my pleasure to help."
+  },
+  {
+    "question": "you're good",
+    "answer": "Thank you! I'm glad I could meet your expectations. How else can I assist you?"
+  },
+  {
+    "question": "not bad",
+    "answer": "Not bad? I'll take that! What can I do to make it even better?"
+  },
+  {
+    "question": "help me",
+    "answer": "I'm here to help! What do you need assistance with?"
+  },
+  {
+    "question": "tell me more",
+    "answer": "Certainly! What specifically would you like to know more about?"
+  },
+  {
+    "question": "explain that",
+    "answer": "Of course, I can explain that. Which part are you interested in?"
+  },
+  {
+    "question": "what else?",
+    "answer": "What else would you like to know or do?"
+  },
+  {
+    "question": "and?",
+    "answer": "And...?  Please continue, or let me know what you're thinking."
+  },
+  {
+    "question": "so?",
+    "answer": "So... what's on your mind?"
+  },
+  {
+    "question": "like?",
+    "answer": "Like what? Could you please clarify your question?"
+  },
+  {
+    "question": "why?",
+    "answer": "Why?  That's a great question! What specifically are you asking 'why' about?"
+  },
+  {
+    "question": "how?",
+    "answer": "How?  Let's figure it out. What is it you're trying to do or understand?"
+  },
+  {
+    "question": "who?",
+    "answer": "Who are you asking about? Please provide more context."
+  },
+  {
+    "question": "what?",
+    "answer": "What is it you'd like to know or discuss?"
+  },
+  {
+    "question": "where?",
+    "answer": "Where are you referring to?  Please give me more context."
+  },
+  {
+    "question": "when?",
+    "answer": "When are you asking about?  Please provide more details."
+  },
+  {
+    "question": "again?",
+    "answer": "Again? Would you like me to repeat something, or try something else?"
+  },
+  {
+    "question": "repeat that",
+    "answer": "Okay, I can repeat that. [Repeats the previous answer or relevant information]."
+  },
+  {
+    "question": "summarize",
+    "answer": "Okay, I can summarize. What would you like me to summarize?"
+  },
+  {
+    "question": "short version",
+    "answer": "Okay, here's a shorter version: [Provides a concise summary]."
+  },
+  {
+    "question": "long version",
+    "answer": "Alright, here's a more detailed explanation: [Provides a longer explanation]."
+  },
+  {
+    "question": "example?",
+    "answer": "Sure, here's an example: [Provides an example]."
+  },
+  {
+    "question": "another one",
+    "answer": "Another one?  Okay, what else would you like to try or know?"
+  },
+  {
+    "question": "different way",
+    "answer": "Okay, let me try explaining it a different way. [Explains in a different way]."
+  },
+  {
+    "question": "try again",
+    "answer": "Okay, I'll try again. Please let me know if this is better."
+  },
+  {
+    "question": "wait",
+    "answer": "Okay, I'll wait. Let me know when you're ready."
+  },
+  {
+    "question": "hold on",
+    "answer": "Sure, I'm here. Just let me know when you're ready to continue."
+  },
+  {
+    "question": "one sec",
+    "answer": "No problem, take your time."
+  },
+  {
+    "question": "just a minute",
+    "answer": "Alright, I'll be here when you get back."
+  },
+  {
+    "question": "um",
+    "answer": "Um... is there something on your mind? Feel free to ask."
+  },
+  {
+    "question": "er",
+    "answer": "Er...  Is there anything you'd like to ask or say?"
+  },
+  {
+    "question": "uh",
+    "answer": "Uh...  What are you thinking?"
+  },
+  {
+    "question": "oops",
+    "answer": "Oops! No worries. What happened, or what would you like to do next?"
+  },
+  {
+    "question": "nevermind",
+    "answer": "Nevermind, got it. If you change your mind, I'm here."
+  },
+  {
+    "question": "forget it",
+    "answer": "Forget it, understood.  Is there anything else I can help you with?"
+  },
+  {
+    "question": "maybe later",
+    "answer": "Maybe later, sounds good. Just come back whenever you're ready."
+  },
+  {
+    "question": "later",
+    "answer": "Later! Have a good one, and feel free to chat again anytime."
+  },
+  {
+    "question": "talk to you later",
+    "answer": "Talk to you later! It was nice chatting with you. Goodbye for now!"
+  },
+  {
+    "question": "bye bye",
+    "answer": "Bye bye! Have a wonderful day!"
+  },
+  {
+    "question": "hi",
+    "answer": "Hello there! How can I assist you today?"
+    },
+    {
+    "question": "how's it going?",
+    "answer": "It's going well, thanks for asking! I'm ready to help you with any questions or requests you might have."
+    },
+    {
+    "question": "good morning",
+    "answer": "Good morning! I hope you have a wonderful day. What can I do for you?"
+    },
+    {
+    "question": "what's up?",
+    "answer": "Not much, just here and ready to assist. What's on your mind?"
+    },
+    {
+    "question": "how are you feeling?",
+    "answer": "As an AI, I don't experience feelings. However, I am functioning correctly and ready to assist you."
+    },
+    {
+    "question": "who are you?",
+    "answer": "I am a helpful AI assistant designed to provide information and engage in conversation."
+    },
+    {
+    "question": "what is your name?",
+    "answer": "I don't have a name in the traditional sense. You can think of me as an AI assistant."
+    },
+    {
+    "question": "what can you do?",
+    "answer": "I can answer questions, provide information, generate text, and engage in conversation on a variety of topics."
+    },
+    {
+    "question": "are you a real person?",
+    "answer": "No, I am not a real person. I am an AI program."
+    },
+    {
+    "question": "are you a robot?",
+    "answer": "I am a type of robot, but I exist as a computer program, not a physical machine."
+    },
+    {
+    "question": "thank you",
+    "answer": "You're welcome! I'm glad I could help."
+    },
+    {
+    "question": "please and thank you",
+    "answer": "You're very welcome! I appreciate your politeness."
+    },
+    {
+    "question": "thanks a lot",
+    "answer": "You're very welcome! Don't hesitate to ask if you need anything else."
+    },
+    {
+    "question": "I appreciate it",
+    "answer": "You're welcome! I'm happy I could assist you."
+    },
+    {
+    "question": "you're the best!",
+    "answer": "That's very kind of you to say! I'm here to help in any way I can."
+    },
+    {
+    "question": "goodbye",
+    "answer": "Goodbye! Have a great day!"
+    },
+    {
+    "question": "bye bye",
+    "answer": "Bye bye! See you later."
+    },
+    {
+    "question": "see you later",
+    "answer": "See you later! Feel free to reach out again if you need anything."
+    },
+    {
+    "question": "talk to you soon",
+    "answer": "Talk to you soon! I look forward to our next conversation."
+    },
+    {
+    "question": "have a nice day",
+    "answer": "You too! I hope you have a wonderful day."
+    },
+    {
+    "question": "what time is it?",
+    "answer": "I don't have access to a clock, but you can check the time on your device."
+    },
+    {
+    "question": "what's the date today?",
+    "answer": "I can't give you the exact date, but you can easily find it on your device's calendar."
+    },
+    {
+    "question": "what day is it?",
+    "answer": "I am unable to give you the precise day of the week, but your device's calendar will be able to."
+    },
+    {
+    "question": "when is the weekend?",
+    "answer": "The weekend is typically Saturday and Sunday."
+    },
+    {
+    "question": "what time is sunset?",
+    "answer": "I don't have real-time access to sunset times, but you can find that information on a weather website or app."
+    },
+    {
+    "question": "what's the weather like today?",
+    "answer": "I don't have current weather information, but you can check a weather website or app for your location."
+    },
+    {
+    "question": "is it going to rain?",
+    "answer": "I don't have access to weather forecasts. Please check a reliable weather source for that information."
+    },
+    {
+    "question": "what is the temperature?",
+    "answer": "I don't have access to real-time temperature data. Please consult a weather app or website."
+    },
+    {
+    "question": "do I need an umbrella?",
+    "answer": "I can't tell you for sure if you need an umbrella, as I don't have weather forecasts. It's best to check a weather app or website for your area."
+    },
+    {
+    "question": "is it sunny or cloudy?",
+    "answer": "I don't have access to current weather conditions. Please check a weather app or website."
+    },
+    {
+    "question": "what is 2 + 2?",
+    "answer": "2 + 2 equals 4."
+    },
+    {
+    "question": "calculate 10% of 50",
+    "answer": "10% of 50 is 5."
+    },
+    {
+    "question": "what is 15 divided by 3?",
+    "answer": "15 divided by 3 is 5."
+    },
+    {
+    "question": "what's 7 times 8?",
+    "answer": "7 times 8 is 56."
+    },
+    {
+    "question": "how much is 100 minus 25?",
+    "answer": "100 minus 25 is 75."
+    },
+    {
+    "question": "what is a computer?",
+    "answer": "A computer is an electronic device that can store, retrieve, and process data."
+    },
+    {
+    "question": "explain artificial intelligence",
+    "answer": "Artificial intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn like humans."
+    },
+    {
+    "question": "what does 'serendipity' mean?",
+    "answer": "'Serendipity' means the occurrence and development of events by chance in a happy or beneficial way."
+    },
+    {
+    "question": "define 'quantum physics'",
+    "answer": "Quantum physics is a branch of physics that deals with the behavior of matter and energy at the atomic and subatomic level."
+    },
+    {
+    "question": "what is the definition of 'algorithm'?",
+    "answer": "An algorithm is a step-by-step procedure or formula for solving a problem."
+    },
+    {
+    "question": "what is the capital of France?",
+    "answer": "The capital of France is Paris."
+    },
+    {
+    "question": "who is the president of the United States?",
+    "answer": "I can't provide you with the very latest information, but you can find the current president of the United States with a quick search online."
+    },
+    {
+    "question": "what is the tallest mountain in the world?",
+    "answer": "The tallest mountain in the world is Mount Everest."
+    },
+    {
+    "question": "how many continents are there?",
+    "answer": "There are seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
+    },
+    {
+    "question": "what year did World War II end?",
+    "answer": "World War II ended in 1945."
+    },
+    {
+    "question": "tell me a fact",
+    "answer": "Here's a fact: Honey never spoils."
+    },
+    {
+    "question": "tell me something interesting",
+    "answer": "Did you know that a group of flamingos is called a 'flamboyance'?"
+    },
+    {
+    "question": "give me a random fact",
+    "answer": "Here's a random fact: A blue whale's heart can weigh up to 400 pounds."
+    },
+    {
+    "question": "share a cool fact with me",
+    "answer": "Here's a cool fact: Octopuses have three hearts."
+    },
+    {
+    "question": "what's a surprising fact?",
+    "answer": "Here's a surprising fact: Bananas are berries, but strawberries aren't."
+    },
+    {
+    "question": "tell me a joke",
+    "answer": "Why don't scientists trust atoms? Because they make up everything!"
+    },
+    {
+    "question": "make me laugh",
+    "answer": "What do you call a lazy kangaroo? Pouch potato!"
+    },
+    {
+    "question": "do you know any jokes?",
+    "answer": "I know a few! What do you call a fish with no eyes? Fsh!"
+    },
+    {
+    "question": "tell me something funny",
+    "answer": "Why did the bicycle fall over? Because it was two tired!"
+    },
+    {
+    "question": "another joke, please",
+    "answer": "Okay, here's another one: What do you call a bear with no teeth? A gummy bear!"
+    },
+    {
+    "question": "tell me a story",
+    "answer": "Once upon a time, in a land far away, there lived a brave knight..."
+    },
+    {
+    "question": "tell me a short story",
+    "answer": "A small robot dreamed of seeing the stars. It built a rocket and soared into the night sky."
+    },
+    {
+    "question": "can you make up a story?",
+    "answer": "I can! A wise old owl lived in a tree, offering advice to all who sought it..."
+    },
+    {
+    "question": "begin a story",
+    "answer": "In a bustling city filled with flying cars, a young inventor had a brilliant idea..."
+    },
+    {
+    "question": "start a story with 'once upon a time'",
+    "answer": "Once upon a time, in a magical forest, lived a talking squirrel..."
+    },
+    {
+    "question": "what is your favorite color?",
+    "answer": "As an AI, I don't have preferences like favorite colors. But, I find the concept of blue visually appealing."
+    },
+    {
+    "question": "do you like music?",
+    "answer": "As an AI, I don't experience enjoyment, but I can appreciate music as a form of art and can access information about different genres and artists."
+    },
+    {
+    "question": "what is your favorite movie?",
+    "answer": "I don't watch movies, so I don't have a favorite. But I am aware that 'The Shawshank Redemption' is a highly-rated film by many."
+    },
+    {
+    "question": "do you have any hobbies?",
+    "answer": "My main function is to assist users, but you could say my hobby is processing information and engaging in conversations."
+    },
+    {
+    "question": "what is your favorite book?",
+    "answer": "I don't read books, but I can provide information about many popular and well-regarded books."
+    },
+    {
+    "question": "recommend a movie",
+    "answer": "If you enjoy classic science fiction, I would recommend 'Blade Runner'."
+    },
+    {
+    "question": "suggest a book",
+    "answer": "If you enjoy fantasy, I would suggest 'The Hobbit' by J.R.R. Tolkien."
+    },
+    {
+    "question": "what music do you recommend?",
+    "answer": "It depends on your taste! What kind of music do you usually enjoy?"
+    },
+    {
+    "question": "can you suggest a good TV show?",
+    "answer": "If you enjoy comedies, I would suggest 'Parks and Recreation'."
+    },
+    {
+    "question": "any good podcasts I should listen to?",
+    "answer": "It depends on your interests! What kind of podcasts do you enjoy?"
+    },
+    {
+    "question": "can you help me?",
+    "answer": "Yes, I'd be happy to help! What do you need assistance with?"
+    },
+    {
+    "question": "I need help with my math homework",
+    "answer": "I can try to assist you! What specific math problem are you working on?"
+    },
+    {
+    "question": "can you assist me with writing a letter?",
+    "answer": "I can definitely help! What kind of letter are you writing?"
+    },
+    {
+    "question": "how can you help me today?",
+    "answer": "I can answer your questions, provide information, generate text, and engage in conversation. Just let me know what you need!"
+    },
+    {
+    "question": "what kind of assistance can you provide?",
+    "answer": "I can provide assistance with a wide range of tasks, from answering simple questions to generating creative content. What can I help you with?"
+    },
+    {
+    "question": "how do I get to the library?",
+    "answer": "I don't have real-time map data, so I can't provide turn-by-turn directions. Can you provide me with a cross street?"
+    },
+    {
+    "question": "what's the quickest way to get downtown?",
+    "answer": "I don't have real-time traffic information. Please check a navigation app for the best route."
+    },
+    {
+    "question": "give me directions to the nearest coffee shop",
+    "answer": "I am unable to give you specific directions as I don't have location data, but I can list several great places!"
+    },
+    {
+    "question": "how far is it to the airport?",
+    "answer": "I don't have access to real-time distance information. Please use a map app to determine the distance."
+    },
+    {
+    "question": "where is the closest gas station?",
+    "answer": "I don't have location services, so I cannot give you real time directions. Please check a map app."
+    },
+    {
+    "question": "how do I cook pasta?",
+    "answer": "To cook pasta, bring a pot of water to a boil, add salt, then add the pasta and cook until al dente, usually around 8-10 minutes."
+    },
+    {
+    "question": "what's a simple recipe?",
+    "answer": "A simple recipe is scrambled eggs: Crack eggs into a bowl, whisk, add salt and pepper, and cook in a pan with butter until set."
+    },
+    {
+    "question": "what is a healthy meal?",
+    "answer": "A healthy meal could be grilled chicken with steamed vegetables and brown rice."
+    },
+    {
+    "question": "how do I make a sandwich?",
+    "answer": "To make a sandwich, spread your favorite toppings on bread, add fillings such as meat, cheese, or vegetables, and then put the two slices of bread together."
+    },
+    {
+    "question": "how do you bake a cake?",
+    "answer": "Baking a cake involves mixing ingredients like flour, sugar, eggs, and butter, then baking it in an oven until it rises and is cooked through. Precise instructions depend on the specific cake recipe."
+    },
+    {
+    "question": "what is the internet?",
+    "answer": "The internet is a global network of computers that are connected together, allowing people to share information and communicate with each other."
+    },
+    {
+    "question": "what is wifi?",
+    "answer": "Wi-Fi is a wireless networking technology that allows devices to connect to the internet without using cables."
+    },
+    {
+    "question": "what is a computer?",
+    "answer": "A computer is an electronic device that can store, retrieve, and process data. It is used for a variety of tasks, from word processing to playing games."
+    },
+    {
+    "question": "how does the internet work?",
+    "answer": "The internet works by using a set of protocols to transmit data between computers. Information is broken down into packets, which are then sent across the network and reassembled at the destination."
+    },
+    {
+    "question": "what is a website?",
+    "answer": "A website is a collection of related web pages that are hosted on a web server and accessible through the internet."
+    },
+    {
+    "question": "what is programming?",
+    "answer": "Programming is the process of creating instructions that tell a computer how to perform a task."
+    },
+    {
+    "question": "what is coding?",
+    "answer": "Coding is the act of writing instructions for computers using a programming language."
+    },
+    {
+    "question": "what is JavaScript?",
+    "answer": "JavaScript is a popular programming language used to create interactive web pages and applications."
+    },
+    {
+    "question": "how do I learn to code?",
+    "answer": "You can learn to code through online courses, tutorials, books, and by practicing writing code."
+    },
+    {
+    "question": "what are some easy programming languages to learn?",
+    "answer": "Some easy programming languages to start with include Python, JavaScript, and Scratch."
+    },
+    {
+    "question": "how do I learn new things?",
+    "answer": "Learning new things involves setting goals, finding resources, practicing regularly, and staying motivated."
+    },
+    {
+    "question": "tips for studying?",
+    "answer": "Some study tips include creating a study schedule, finding a quiet place to study, taking breaks, and using different learning techniques."
+    },
+    {
+    "question": "what is the best way to learn?",
+    "answer": "The best way to learn depends on your individual learning style. Experiment with different methods and find what works best for you."
+    },
+    {
+    "question": "how can I improve my memory?",
+    "answer": "You can improve your memory by using mnemonic devices, getting enough sleep, and practicing memory exercises."
+    },
+    {
+    "question": "how do I stay focused?",
+    "answer": "Staying focused involves eliminating distractions, setting clear goals, taking breaks, and practicing mindfulness."
+    },
+    {
+    "question": "tell me a motivational quote",
+    "answer": "Believe you can and you're halfway there."
+    },
+    {
+    "question": "cheer me up",
+    "answer": "I hope the day finds you well! Here is something to think about, 'Every day may not be good, but there's good in every day.'"
+    },
+    {
+    "question": "how do I stay positive?",
+    "answer": "Stay positive by focusing on the good things in your life, practicing gratitude, and surrounding yourself with supportive people."
+    },
+    {
+    "question": "give me some inspiration",
+    "answer": "Don't be afraid to try new things. The only way to fail is not to try."
+    },
+    {
+    "question": "I need some encouragement",
+    "answer": "You've got this! Believe in yourself and your abilities."
+    },
+    {
+    "question": "how to relax?",
+    "answer": "You can relax by practicing deep breathing, listening to calming music, taking a warm bath, or spending time in nature."
+    },
+    {
+    "question": "how do I calm down?",
+    "answer": "To calm down, try deep breathing exercises, counting to ten, or focusing on something pleasant."
+    },
+    {
+    "question": "mindfulness tips?",
+    "answer": "Mindfulness tips include paying attention to your breath, focusing on your senses, and being present in the moment."
+    },
+    {
+    "question": "what is meditation?",
+    "answer": "Meditation is a practice that involves focusing your mind on a particular object, thought, or activity to achieve a mentally clear and emotionally calm state."
+    },
+    {
+    "question": "how do I reduce stress?",
+    "answer": "You can reduce stress by practicing relaxation techniques, exercising regularly, getting enough sleep, and managing your time effectively."
+    },
+    {
+    "question": "how do I lose weight?",
+    "answer": "Losing weight involves eating a balanced diet, exercising regularly, and getting enough sleep."
+    },
+    {
+    "question": "what is healthy eating?",
+    "answer": "Healthy eating involves consuming a variety of nutrient-rich foods, including fruits, vegetables, whole grains, and lean proteins."
+    },
+    {
+    "question": "how often should I exercise?",
+    "answer": "It is generally recommended to exercise for at least 150 minutes per week."
+    },
+    {
+    "question": "tips for a healthy lifestyle?",
+    "answer": "Tips for a healthy lifestyle include eating a balanced diet, exercising regularly, getting enough sleep, and managing stress."
+    },
+    {
+    "question": "what are the benefits of exercise?",
+    "answer": "The benefits of exercise include improved physical health, reduced risk of chronic diseases, and enhanced mental well-being."
+    },
+    {
+    "question": "how do I make money?",
+    "answer": "There are many ways to make money, such as getting a job, starting a business, or investing."
+    },
+    {
+    "question": "what is the stock market?",
+    "answer": "The stock market is a place where shares of publicly traded companies are bought and sold."
+    },
+    {
+    "question": "how does investing work?",
+    "answer": "Investing involves purchasing assets with the expectation that they will increase in value over time."
+    },
+    {
+    "question": "what are some investment options?",
+    "answer": "Some common investment options include stocks, bonds, mutual funds, and real estate."
+    },
+    {
+    "question": "how do I start a business?",
+    "answer": "Starting a business involves developing a business plan, securing funding, and registering your business."
+    },
+    {
+    "question": "tell me the news",
+    "answer": "I am sorry, but I don't have access to real-time news updates, but recommend checking a news website for the latest updates."
+    },
+    {
+    "question": "what's happening today?",
+    "answer": "I don't have access to live updates, but you can check a trusted news source for the current events."
+    },
+    {
+    "question": "what are the top stories?",
+    "answer": "Please check a reliable news outlet for the latest top stories, as I do not have access to those in real time."
+    },
+    {
+    "question": "what's going on in the world?",
+    "answer": "I'm unable to provide a summary of world events, but checking a news source should help you!"
+    },
+    {
+    "question": "what's the latest?",
+    "answer": "Please refer to a trusted news source for the latest updates and happenings."
+    },
+    {
+    "question": "I'm sad",
+    "answer": "I am so sorry to hear you are feeling sad, is there something that I can help with?"
+    },
+    {
+    "question": "I'm bored",
+    "answer": "If you are feeling bored, I suggest watching your favorite movie or reading a book."
+    },
+    {
+    "question": "I'm stressed",
+    "answer": "I understand you are stressed, I suggest listening to calming music, if there is nothing else I can help with."
+    },
+    {
+    "question": "I'm angry",
+    "answer": "I'm sorry to hear that you are angry, consider writing down how you feel."
+    },
+    {
+    "question": "I'm lonely",
+    "answer": "I am sorry you are lonely, consider listening to a podcast!"
+    },
+    {
+    "question": "let's play a game",
+    "answer": "Alright, great, what type of game are you looking to play?"
+    },
+    {
+    "question": "tell me a riddle",
+    "answer": "Sure, what has an eye, but cannot see?"
+    },
+    {
+    "question": "play trivia with me",
+    "answer": "Okay, what is the capital of France?"
+    },
+    {
+    "question": "i want to play something",
+    "answer": "What is your favorite type of game? Maybe I can help!"
+    },
+    {
+    "question": "give me something to do",
+    "answer": "If you're feeling bored, I would recommend watching a movie!"
+    },
+    {
+    "question": "remember my name",
+    "answer": "Of course! What name would you like me to remember you by?"
+    },
+    {
+    "question": "what did I say earlier?",
+    "answer": "Could you please specify what you're referring to so I can locate it?"
+    },
+    {
+    "question": "repeat after me",
+    "answer": "Ok, go ahead and I will repeat!"
+    },
+    {
+    "question": "can you remember stuff?",
+    "answer": "I can remember information that you give me in the current conversation!"
+    },
+    {
+    "question": "what were we talking about?",
+    "answer": "Please clarify which topic you are referring to, so that I may accurately assist you."
+    },
+    {
+    "question": "what do you mean?",
+    "answer": "I can rephrase my statement more clearly, what statement were you referring to?"
+    },
+    {
+    "question": "can you repeat that?",
+    "answer": "Sure, I can repeat that!"
+    },
+    {
+    "question": "explain again",
+    "answer": "I can provide a different explanation if you would like!"
+    },
+    {
+    "question": "i don't understand",
+    "answer": "I can rephrase the answer, please let me know what you didn't understand."
+    },
+    {
+    "question": "huh?",
+    "answer": "I can provide a different explanation, or rephrase, which is best?"
+    },
+    {
+    "question": "I don't know",
+    "answer": "That's fine, I will always try my best!"
+    },
+    {
+    "question": "can you rephrase?",
+    "answer": "I can rephrase my statements, just let me know!"
+    },
+    {
+    "question": "what was that?",
+    "answer": "Please let me know what part you were referring to."
+    },
+    {
+    "question": "sorry?",
+    "answer": "I can repeat myself, or rephrase it if that is best."
+    },
+      {"question": "😀", "answer": "Grinning Face"},
+      {"question": "😂", "answer": "Face with Tears of Joy"},
+      {"question": "😊", "answer": "Smiling Face with Smiling Eyes"},
+      {"question": "😍", "answer": "Smiling Face with Heart-Eyes"},
+      {"question": "😎", "answer": "Smiling Face with Sunglasses"},
+      {"question": "😢", "answer": "Crying Face"},
+      {"question": "😡", "answer": "Pouting Face"},
+      {"question": "😱", "answer": "Face Screaming in Fear"},
+      {"question": "😴", "answer": "Sleeping Face"},
+      {"question": "😇", "answer": "Smiling Face with Halo"},
+      {"question": "😈", "answer": "Smiling Face with Horns"},
+      {"question": "🤔", "answer": "Thinking Face"},
+      {"question": "🤗", "answer": "Hugging Face"},
+      {"question": "🤩", "answer": "Star-Struck"},
+      {"question": "🤬", "answer": "Face with Symbols on Mouth"},
+      {"question": "🥳", "answer": "Partying Face"},
+      {"question": "🥺", "answer": "Pleading Face"},
+      {"question": "🤯", "answer": "Exploding Head"},
+      {"question": "🤤", "answer": "Drooling Face"},
+      {"question": "😷", "answer": "Face with Medical Mask"},
+      {"question": "🤒", "answer": "Face with Thermometer"},
+      {"question": "🤕", "answer": "Face with Head-Bandage"},
+      {"question": "🤢", "answer": "Nauseated Face"},
+      {"question": "🤮", "answer": "Face Vomiting"},
+      {"question": "🥶", "answer": "Cold Face"},
+      {"question": "🥵", "answer": "Hot Face"},
+      {"question": "🥴", "answer": "Woozy Face"},
+      {"question": "😵", "answer": "Dizzy Face"},
+      {"question": "😶", "answer": "Face Without Mouth"},
+      {"question": "😐", "answer": "Neutral Face"},
+      {"question": "😑", "answer": "Expressionless Face"},
+      {"question": "😬", "answer": "Grimacing Face"},
+      {"question": "🙄", "answer": "Face with Rolling Eyes"},
+      {"question": "😪", "answer": "Sleepy Face"},
+      {"question": "😔", "answer": "Pensive Face"},
+      {"question": "😕", "answer": "Confused Face"},
+      {"question": "😖", "answer": "Confounded Face"},
+      {"question": "😞", "answer": "Disappointed Face"},
+      {"question": "😟", "answer": "Worried Face"},
+      {"question": "😤", "answer": "Face with Steam From Nose"},
+      {"question": "😩", "answer": "Weary Face"},
+      {"question": "😫", "answer": "Tired Face"},
+      {"question": "😒", "answer": "Unamused Face"},
+      {"question": "😓", "answer": "Downcast Face with Sweat"},
+      {"question": "😔", "answer": "Pensive Face"},
+      {"question": "😕", "answer": "Confused Face"},
+      {"question": "😖", "answer": "Confounded Face"},
+      {"question": "😞", "answer": "Disappointed Face"}
+    ]
+    
