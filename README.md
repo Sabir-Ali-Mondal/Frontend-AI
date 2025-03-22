@@ -68,5 +68,5 @@
 
 ## **Final Thoughts**
 - This system ensures **offline support** for grammar correction, calculations, and file storage.
-- **Chace Based DB** allows efficient **file retrieval without internet dependency**.
+- **Cache Based Install** allows efficient **file retrieval without internet dependency**.
 - **Question-answer matching** ensures smart **contextual responses** with confirmation prompts.
