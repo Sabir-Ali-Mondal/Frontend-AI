@@ -28,7 +28,7 @@
 - If a question has multiple words:
   - **Break the sentence** and match each word.
   - **Sum up similarity scores** to rank responses.
-  - **Stop processing** if logical separators are found (`.`, `;`, `or`, `if`, `then`).
+  - **Stop processing** if logical separators are found (`.`, `;`).
 
 ---
 
