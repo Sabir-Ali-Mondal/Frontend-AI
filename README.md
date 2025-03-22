@@ -1,3 +1,4 @@
+# Frontend AI by SABIR ALI MONDAL
 
 ### **1. Input Handling**
 - User enters a question.
@@ -43,14 +44,6 @@
 
 ---
 
-## **Offline Grammar Fixing (Before AI Response)**
-- Use **Compromise.js** to:
-  - **Fix sentence structure** before sending to AI.
-  - **Correct minor grammar issues** to improve AI processing.
-  - **Ensure readability** before finalizing responses.
-
----
-
 ## **Offline Processing for Mathematical Calculations**
 - Handle **Basic Arithmetic** (BODMAS/PEMDAS).
 - Include:
@@ -59,15 +52,7 @@
   - **Power & Square Root**.
   - **Factorial Computation**.
 
----
-
-## **Automatic Functionality for Large Files (IndexedDB)**
-1. **Check** if the required file exists in IndexedDB.
-2. If **not found**, **download it from a predefined link**.
-3. **Store** it in IndexedDB.
-4. **Automatically access** the file in the project.
-
-### **File Download Links**
+### **Traing Json File Download Links**
 ```html
 <div class="d-flex justify-content-center gap-3 mt-5 mb-5">
     <a href="https://drive.google.com/uc?export=download&id=10td4KBrArO45XstnPfFbRInGb_mXwSRy" class="btn btn-primary" download>
@@ -83,8 +68,5 @@
 
 ## **Final Thoughts**
 - This system ensures **offline support** for grammar correction, calculations, and file storage.
-- **IndexedDB** allows efficient **file retrieval without internet dependency**.
+- **Chace Based DB** allows efficient **file retrieval without internet dependency**.
 - **Question-answer matching** ensures smart **contextual responses** with confirmation prompts.
-
----
-impliment all these one by one 
