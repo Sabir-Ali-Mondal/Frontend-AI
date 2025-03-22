@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced AI Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/compromise@14.9.0/builds/compromise.min.js"></script> <!-- Compromise.js -->
+</head>
+
+<body>
+    <div id="notification-bar"></div>
+    <div class="container1">
+        <ul class="nav nav-tabs">
+            <li class="nav-item ">
+                <a class="nav-link bg-danger active" data-bs-toggle="tab" href="#chat-tab">💬 Chat</a>
+            </li>
+            <div class="ms-auto d-flex">
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#training-tab">📝 Training</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#json-tab">📦 Store</a>
+                </li>
+            </div>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="chat-tab">
+                <div id="chat-box"></div>
+                <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #ddd; border-radius: 10px; padding: 8px; width: 100%; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                    <input type="text" id="chat-input" placeholder="Type your message or arithmetic expression..." style="flex: 1; padding: 12px; border: none; outline: none; font-size: 16px; background: transparent;">
+                    <button id="chat-send" style="background: #007bff; color: #fff; border: none; padding: 10px 15px; border-radius: 6px; cursor: pointer; font-size: 16px; transition: 0.3s;">
+                        ➤
+                    </button>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="training-tab">
+                <div class="text-center">
+                    <button id="install-conversation" class="btn btn-success">
+                        Install Training
+                        <div class="progress d-none">
+                            <div class="progress-bar" role="progressbar"></div>
+                        </div>
+                    </button>
+                    <button class="btn btn-danger m-2" id="reset-all-training">🔄 Reset All Training Data</button>
+                    <button id="install-dictionary" class="btn btn-primary" disabled>
+                        Install Dictionary
+                        <div class="progress d-none">
+                            <div class="progress-bar" role="progressbar"></div>
+                        </div>
+                    </button>
+                </div>
+                <hr>
+                <h3>Add Training Q: & Ans: </h3>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="train-question" placeholder="Enter question">
+                    <input type="text" class="form-control" id="train-answer" placeholder="Enter answer">
+                </div>
+                <div class="mb-3 text-center">
+                    <button class="btn btn-primary" id="train-save">💾 Save</button>
+                    <button class="btn btn-secondary" id="train-undo">↩ Undo</button>
+                </div>
+                <hr>
+                <h3>Custom Data Input
+                    <a style="font-size:12px;color:red;font-style:italic;">📦 Go to <span style="font-size:20px;color:green;">Store</span> for more files collection.</a>
+                </h3>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <input type="file" class="form-control" id="json-file-input" accept=".json" multiple>
+                        <button class="btn btn-warning ms-2 px-3" id="clear-files">🗑 Unimport</button>
+                    </div>
+                </div>
+                <hr>
+                <div id="training-count">Training Data Count: 0</div>
+                <hr>
+                <h3>User Training Data</h3>
+                <div id="training-list" class="mt-2"></div>
+            </div>
+            <div class="tab-pane fade" id="json-tab">
+                <h3>JSON Data Hub</h3>
+                <div class="d-flex justify-content-center gap-3 mt-2 mb-2">
+                    <a href="https://drive.google.com/uc?export=download&id=10td4KBrArO45XstnPfFbRInGb_mXwSRy" class="btn btn-primary" download>Download Dictionary</a>
+                </div>
+                <hr class="mb-5">
+                <div class="p-4 border rounded shadow">
+                    <h2 class="mb-4 text-center">Universal Training Data Generator</h2>
+                    <div class="mb-3">
+                        <label for="topicInput" class="form-label">Enter a Topic:</label>
+                        <input type="text" id="topicInput" class="form-control" placeholder="e.g., Emojis with emotion names">
+                    </div>
+                    <div class="mb-3 input-group">
+                        <label class="form-label">Select Search Engine:........</label>
+                        <div class="toggle-switch">
+                            <input type="checkbox" id="searchEngineToggle">
+                            <label for="searchEngineToggle" class="slider"></label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary w-100 mb-2" onclick="generatePrompt()">Generate & Search</button>
+                    <textarea id="textInput" placeholder="✍️ Paste your JSON here...
+                    
+Guide: 
+1️⃣ Firstly, enter a topic and click 'Generate & Search.'  
+2️⃣ Copy the code from the AI response.  
+3️⃣ Paste it here and click 'Download.'  
+
+Use Universal Training Data Generator to generate a custom JSON dataset." style="width:100%; height:300px; resize:none; border-radius:10px; padding:10px; border:2px solid #ddd; font-family:monospace; background:#e3e6ba;"></textarea>
+                    <div style="display:flex; gap:10px; margin-top:10px;">
+                        <button onclick="pasteText()" style="flex:1; padding:10px; border:none; background:#6c757d; color:#fff; border-radius:5px; cursor:pointer; font-size:16px;">📋 Paste</button>
+                        <button onclick="clearAndPaste()" style="flex:1; padding:10px; border:none; background:#ffc107; color:#000; border-radius:5px; cursor:pointer; font-size:16px;">🧹 Clear & Paste</button>
+                    </div>
+                    <button onclick="downloadJSON()" style="width:100%; padding:10px; margin-top:10px; border:none; background:#007bff; color:#fff; border-radius:5px; cursor:pointer; font-size:16px;">💾 Download JSON</button>
+                </div>
+
+
+                <div id="json-list" class="mt-2"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        async function pasteText() {
+            try {
+                const text = await navigator.clipboard.readText();
+                document.getElementById("textInput").value += text;
+            } catch (err) {
+                alert("⚠️ Failed to paste. Allow clipboard access.");
+            }
+        }
+
+        async function clearAndPaste() {
+            try {
+                const text = await navigator.clipboard.readText();
+                document.getElementById("textInput").value = text;
+            } catch (err) {
+                alert("⚠️ Failed to paste. Allow clipboard access.");
+            }
+        }
+
+        function downloadJSON() {
+            const text = document.getElementById("textInput").value.trim();
+            if (!text) {
+                alert("⚠️ Please paste JSON text!");
+                return;
+            }
+            const blob = new Blob([text], {
+                type: "application/json"
+            });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "data.json";
+            link.click();
+        }
+    </script>
+    <script>
+        // --- Notification Bar Functions ---
+        const notificationBar = document.getElementById('notification-bar');
+        let notificationTimeout;
+
+        function showNotification(message, type = 'normal', duration = 3000) {
+            notificationBar.textContent = message;
+            notificationBar.className = 'show';
+            if (type) {
+                notificationBar.classList.add(type);
+            }
+
+            clearTimeout(notificationTimeout);
+            notificationTimeout = setTimeout(() => {
+                notificationBar.classList.remove('show', 'alert', 'confirm', 'warning', 'info'); //Added info here to remove class
+            }, duration);
+        }
+
+        function fixGrammar(text) {
+            try {
+                const doc = nlp(text);
+                return doc.text();
+            } catch (e) {
+                console.error("Grammar fix error:", e);
+                return text;
+            }
+        }
+
+        function generatePrompt() {
+            const topic = document.getElementById("topicInput").value.trim();
+            if (!topic) {
+                showNotification("Please enter a topic.", 'warning');
+                return;
+            }
+
+            const prompt = `Generate 50 training data for AI about ${topic} in this exact JSON format: [ {"question":"hello", "answer":"Hello there! How can I help you?"}, {"question":"how are you", "answer":"I'm doing well, thank you!"} ]`;
+            const searchEngine = document.getElementById("searchEngineToggle").checked ? 'perplexity' : 'chatGPT';
+            let searchUrl;
+            if (searchEngine === 'perplexity') {
+                searchUrl = `https://www.perplexity.ai/search?q=${encodeURIComponent(prompt)}`;
+            } else {
+                searchUrl = `https://chatgpt.com/?hints=search&q=${encodeURIComponent(prompt)}`;
+            }
+            window.open(searchUrl, '_blank', 'width=800,height=600');
+        }
+
+        var defaultTraining = [];
+
+        var lastAdded = [];
+        var pendingSuggestion = null;
+        var pendingAnswer = null;
+        var negativeConfirmations = [
+            "no", "nah", "nope", "noo", "nuh-uh", "never", "not really",
+            "no way", "no thanks", "nopeee", "naah", "nay", "uh-uh",
+            "absolutely not", "not at all", "negative", "incorrect",
+            "that's wrong", "not this time", "not quite", "definitely not"
+        ];
+
+        function cleanQuestion(text) {
+            var stopwords = ["what", "why", "who", "when", "where", "how", "is"];
+            return text.toLowerCase().split(" ").filter(word => !stopwords.includes(word)).join(" ");
+        }
+
+        function baseSimilarity(s1, s2) {
+            s1 = cleanQuestion(s1).split(/\s+/);
+            s2 = cleanQuestion(s2).split(/\s+/);
+            var set1 = new Set(s1),
+                set2 = new Set(s2),
+                common = 0;
+            set1.forEach(function(word) {
+                if (set2.has(word)) common++;
+            });
+            var avg = (set1.size + set2.size) / 2;
+            return (common / avg) * 100;
+        }
+
+        function levenshtein(a, b) {
+            var matrix = [];
+            for (var i = 0; i <= b.length; i++) {
+                matrix[i] = [i];
+            }
+            for (var j = 0; j <= a.length; j++) {
+                matrix[0][j] = j;
+            }
+            for (var i = 1; i <= b.length; i++) {
+                for (var j = 1; j <= a.length; j++) {
+                    if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                        matrix[i][j] = matrix[i - 1][j - 1];
+                    } else {
+                        matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, Math.min(matrix[i][j - 1] + 1, matrix[i - 1][j] + 1));
+                    }
+                }
+            }
+            return matrix[b.length][a.length];
+        }
+
+        function fuzzySimilarity(s1, s2) {
+            var baseSim = baseSimilarity(s1, s2);
+            var lev = levenshtein(s1.toLowerCase(), s2.toLowerCase());
+            var maxLen = Math.max(s1.length, s2.length);
+            var fuzzyScore = 100 * (1 - lev / maxLen);
+            return (baseSim + fuzzyScore) / 2;
+        }
+
+        function computeSimilarity(input, entry) {
+            var simQ = fuzzySimilarity(input, entry.question);
+            var simA = fuzzySimilarity(input, entry.answer);
+            return {
+                questionSim: simQ,
+                answerSim: simA
+            };
+        }
+
+        function displayMessage(msg, sender) {
+            var div = document.createElement("div");
+            div.className = "message " + sender;
+            div.innerText = msg;
+            document.getElementById("chat-box").appendChild(div);
+            document.getElementById("chat-box").scrollTop = document.getElementById("chat-box").scrollHeight;
+        }
+
+        function evaluateExpression(exp) {
+            try {
+                // Handle percentage calculations first
+                if (exp.includes('%')) {
+                    // Handle "X% of Y" format
+                    if (exp.toLowerCase().includes('of')) {
+                        const parts = exp.toLowerCase().split('of').map(part => part.trim());
+                        const percentage = parseFloat(parts[0]);
+                        const value = parseFloat(parts[1]);
+                        if (!isNaN(percentage) && !isNaN(value)) {
+                            return (percentage / 100) * value;
+                        }
+                    }
+                    // Handle regular percentage calculations
+                    exp = exp.replace(/(\d+(?:\.\d+)?)\s*%/g, (match, num) => `(${num}/100)`);
+                }
+
+                // Handle multiple powers (right to left)
+                if (exp.includes('^')) {
+                    const parts = exp.split('^');
+                    let result = parts[parts.length - 1];
+                    for (let i = parts.length - 2; i >= 0; i--) {
+                        result = Math.pow(parseFloat(parts[i]), parseFloat(result));
+                    }
+                    return result;
+                }
+
+                // Handle factorial calculations with brackets
+                if (exp.includes('!')) {
+                    exp = exp.replace(/(\d+)!/g, (match, num) => factorial(parseInt(num)));
+                }
+
+                // Handle brackets first
+                exp = exp.replace(/\(([^()]+)\)/g, (match, group) => {
+                    return evaluateExpression(group);
+                });
+
+                // Regular evaluation
+                return new Function('return ' + exp)();
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function isArithmetic(input) {
+            // Enhanced pattern to detect calculations anywhere in the text
+            return /[0-9+\-*/().\s%!^]+/.test(input);
+        }
+
+        function extractArithmetic(input) {
+            // Updated regex to better handle percentage calculations
+            const pattern = /(\d+\.?\d*\s*%(?:\s+of\s+\d+\.?\d*)?)|(\d+\.?\d*(?:[-+*/%\^!]|\*\*)\d+\.?\d*(?:[-+*/%]|\*\*)*\d*\.?\d*)|(\d+!)/g;
+            const matches = input.match(pattern);
+
+            // Also look for factorial written in words
+            const factPattern = /factorial\s+of\s+(\d+)/i;
+            const factMatch = input.match(factPattern);
+
+            if (factMatch) {
+                matches ? matches.push(factMatch[1] + '!') : matches = [factMatch[1] + '!'];
+            }
+
+            return matches || null;
+        }
+
+        var positiveConfirmations = [
+            "yes", "ya", "yaa", "ok", "okay", "hmm", "yep", "yess", "ya",
+            "yup", "yupp", "yuppp", "yuh", "yah", "aye", "mhmm", "okk",
+            "oky", "okie", "sure", "alright", "right", "yasss"
+        ];
+
+        function factorial(n) {
+            if (n === 0) return 1;
+            let fact = 1;
+            for (let i = 1; i <= n; i++) {
+                fact *= i;
+            }
+            return fact;
+        }
+
+
+        function getResponse(input) {
+            input = input.trim().toLowerCase().replace(/[?,]/g, '');
+            input = fixGrammar(input);
+
+            // Handle pending suggestions first
+            if (pendingSuggestion) {
+                var confirmation = input.toLowerCase();
+
+                if (positiveConfirmations.includes(confirmation)) {
+                    var ans = pendingAnswer;
+                    pendingSuggestion = null;
+                    pendingAnswer = null;
+                    return ans;
+                } else if (negativeConfirmations.includes(confirmation)) {
+                    pendingSuggestion = null;
+                    pendingAnswer = null;
+                    return "Okay, I will try a different approach.";
+                }
+            }
+
+            // Look for calculations in the input
+            if (isArithmetic(input)) {
+                const expressions = extractArithmetic(input);
+                if (expressions) {
+                    let results = [];
+                    expressions.forEach(expr => {
+                        let result;
+                        if (expr.includes('!')) {
+                            // Handle factorial
+                            const num = parseInt(expr);
+                            if (num >= 0 && num <= 20) {
+                                result = `Factorial calculation:\n${expr} = ${factorial(num)}`;
+                            } else {
+                                result = `Factorial is only supported for non-negative integers up to 20`;
+                            }
+                        } else if (expr.includes('^')) {
+                            // Handle powers
+                            const calculated = evaluateExpression(expr);
+                            result = `Power calculation:\n${expr} = ${calculated}`;
+                        } else {
+                            // Handle other arithmetic
+                            const calculated = evaluateExpression(expr);
+                            if (calculated !== null && !isNaN(calculated)) {
+                                result = `${expr}\n= ${calculated}`;
+                            }
+                        }
+                        if (result) results.push(result);
+                    });
+
+                    if (results.length > 0) {
+                        return results.join('\n\n----------------------------------------\n\n');
+                    }
+                }
+            }
+
+            // Multi-word response handling
+            const words = input.split(/[;.\s]+/);
+            let wordResponses = [];
+            let currentTrainingData = defaultTraining.concat(totalTrainingData);
+
+            // Word-by-word search with improved formatting
+            if (words.length > 1) {
+                words.forEach(word => {
+                    if (!word) return;
+                    let maxSimQWord = 0;
+                    let bestEntryWord = null;
+
+                    currentTrainingData.forEach(entry => {
+                        const sims = computeSimilarity(word, entry);
+                        if (sims.questionSim > maxSimQWord) {
+                            maxSimQWord = sims.questionSim;
+                            bestEntryWord = entry;
+                        }
+                    });
+
+                    if (maxSimQWord >= 50 && bestEntryWord) {
+                        wordResponses.push(`${word}:\n---------------------\n${bestEntryWord.answer}`);
+                    }
+                });
+
+                if (wordResponses.length > 0) {
+                    return wordResponses.join('\n\n======================\n\n');
+                }
+            }
+
+            // Original Single-word/Phrase Logic with reverse search
+            var maxSimQ = 0,
+                maxSimA = 0,
+                bestEntry = null,
+                bestAnswerEntry = null;
+            let matchingEntries = [];
+
+            for (var i = 0; i < currentTrainingData.length; i++) {
+                var sims = computeSimilarity(input, currentTrainingData[i]);
+
+                // Check question similarity
+                if (sims.questionSim > maxSimQ) {
+                    maxSimQ = sims.questionSim;
+                    bestEntry = currentTrainingData[i];
+                    matchingEntries = [bestEntry];
+                } else if (sims.questionSim === maxSimQ && maxSimQ > 0) {
+                    matchingEntries.push(currentTrainingData[i]);
+                }
+
+                // Check answer similarity
+                if (sims.answerSim > maxSimA) {
+                    maxSimA = sims.answerSim;
+                    bestAnswerEntry = currentTrainingData[i];
+                }
+            }
+
+            if (maxSimQ >= 50) {
+                if (matchingEntries.length > 1) {
+                    return matchingEntries.map(entry => entry.answer).join('\n\n');
+                } else if (bestEntry) {
+                    return bestEntry.answer;
+                }
+            } else if (maxSimA >= 60 && maxSimA > maxSimQ && bestAnswerEntry) {
+                pendingSuggestion = bestAnswerEntry.answer;
+                pendingAnswer = bestAnswerEntry.question;
+                return "Did you mean to ask about:\n\"" + bestAnswerEntry.question + "\"?\nType 'yes' to confirm.";
+            } else if (maxSimQ > 30 && maxSimQ < 50 && bestEntry) {
+                pendingSuggestion = bestEntry.question;
+                pendingAnswer = bestEntry.answer;
+                return "Did you mean:\n\"" + bestEntry.question + "\"?\nType 'yes' to confirm.";
+            }
+
+            // If no match found, try reverse search in answers
+            let bestReverseMatch = null;
+            let maxReverseSimA = 0;
+
+            currentTrainingData.forEach(entry => {
+                const reverseSimA = fuzzySimilarity(input, entry.answer);
+                if (reverseSimA > maxReverseSimA) {
+                    maxReverseSimA = reverseSimA;
+                    bestReverseMatch = entry;
+                }
+            });
+
+            if (maxReverseSimA >= 70 && bestReverseMatch) {
+                return "Based on your input, you might be interested in:\n" + bestReverseMatch.question;
+            }
+
+            return "I'm sorry, I don't understand. Can you try rephrasing?";
+        }
+
+        function handleSingleWord(input) {
+            let currentTrainingData = defaultTraining.concat(totalTrainingData);
+            let maxSimQ = 0,
+                maxSimA = 0,
+                bestEntry = null,
+                bestAnswerEntry = null;
+
+            currentTrainingData.forEach(entry => {
+                const sims = computeSimilarity(input, entry);
+                if (sims.questionSim > maxSimQ) {
+                    maxSimQ = sims.questionSim;
+                    bestEntry = entry;
+                }
+                if (sims.answerSim > maxSimA) {
+                    maxSimA = sims.answerSim;
+                    bestAnswerEntry = entry;
+                }
+            });
+
+            if (maxSimQ >= 50 && bestEntry) {
+                return bestEntry.answer;
+            } else if (maxSimA >= 60 && maxSimA > maxSimQ && bestAnswerEntry) {
+                pendingSuggestion = bestAnswerEntry.answer;
+                pendingAnswer = bestAnswerEntry.question;
+                return "Did you mean to ask about:\n\"" + bestAnswerEntry.question + "\"?\nType 'yes' to confirm.";
+            }
+
+            return "I'm sorry, I don't understand. Can you try rephrasing?";
+        }
+
+        function handleMultiWord(input) {
+            const words = input.split(/[;.\s]+/);
+            let wordResponses = [];
+            let currentTrainingData = defaultTraining.concat(totalTrainingData);
+
+            words.forEach(word => {
+                if (!word) return;
+                let maxSimQWord = 0;
+                let bestEntryWord = null;
+
+                currentTrainingData.forEach(entry => {
+                    const sims = computeSimilarity(word, entry);
+                    if (sims.questionSim > maxSimQWord) {
+                        maxSimQWord = sims.questionSim;
+                        bestEntryWord = entry;
+                    }
+                });
+
+                if (maxSimQWord >= 50 && bestEntryWord) {
+                    wordResponses.push(`${word}:\n---------------------\n${bestEntryWord.answer}`);
+                }
+            });
+
+            return wordResponses.length > 0 ?
+                wordResponses.join('\n\n======================\n\n') :
+                "I'm sorry, I don't understand. Can you try rephrasing?";
+        }
+
+        function typeResponse(message, div) {
+            let index = 0;
+            const speed = 20;
+            const output = div;
+            const cursorSpan = document.createElement('span');
+            cursorSpan.className = 'cursor';
+            div.appendChild(cursorSpan);
+
+            function typeCharacter() {
+                if (index < message.length) {
+                    div.insertBefore(document.createTextNode(message.charAt(index)), cursorSpan);
+                    index++;
+                    setTimeout(typeCharacter, speed);
+                } else {
+                    cursorSpan.remove();
+                }
+            }
+            typeCharacter();
+        }
+
+        const sendMessage = () => {
+            var input = document.getElementById("chat-input").value;
+            if (!input) return;
+
+            displayMessage(input, "user");
+            document.getElementById("chat-input").value = "";
+
+            const thinkingDiv = document.createElement("div");
+            thinkingDiv.className = "message bot";
+            thinkingDiv.innerHTML = "Thinking... <span class='cursor'></span>";
+            document.getElementById("chat-box").appendChild(thinkingDiv);
+            document.getElementById("chat-box").scrollTop = document.getElementById("chat-box").scrollHeight;
+
+            setTimeout(() => {
+                const resp = getResponse(input);
+                thinkingDiv.remove();
+
+                const responseDiv = document.createElement("div");
+                responseDiv.className = "message bot";
+                document.getElementById("chat-box").appendChild(responseDiv);
+                document.getElementById("chat-box").scrollTop = document.getElementById("chat-box").scrollHeight;
+                typeResponse(resp, responseDiv);
+            }, 500);
+        }
+
+        document.getElementById("chat-send").addEventListener("click", sendMessage);
+
+        document.getElementById("chat-input").addEventListener("keypress", function(e) {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        function readJsonFromFile(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const jsonData = JSON.parse(e.target.result);
+                        resolve(jsonData);
+                    } catch (err) {
+                        reject(err);
+                    }
+                };
+                reader.onerror = () => reject(new Error("Failed to read file"));
+                reader.readAsText(file);
+            });
+        }
+
+        function arrayToJsonString(jsonData) {
+            return JSON.stringify(jsonData, null, 2);
+        }
+
+        let currentPage = 1;
+        const itemsPerPage = 50;
+        let totalTrainingData = [];
+        let uploadedFiles = [];
+
+        function renderTrainingList(page = 1) {
+            currentPage = page;
+            const totalPages = Math.ceil(totalTrainingData.length / itemsPerPage);
+            var list = document.getElementById("training-list");
+            list.innerHTML = "";
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const pageData = totalTrainingData.slice(startIndex, endIndex);
+
+            for (let i = 0; i < pageData.length; i++) {
+                const realIndex = startIndex + i;
+                var div = document.createElement("div");
+                div.innerHTML = "<p><b>Q:</b> " + pageData[i].question + "</p> <br>" +
+                    "<button data-index='" + realIndex + "' class='edit-btn'>✏️ Edit</button> " +
+                    "<button data-index='" + realIndex + "' class='delete-btn'>🗑 Delete</button>";
+                list.appendChild(div);
+            }
+            document.getElementById("training-count").innerText =
+                `Training Data Count: ${totalTrainingData.length}, Showing page ${currentPage} of ${totalPages}`;
+        }
+
+        const addPaginationControls = () => {
+            const trainingListContainer = document.getElementById("training-tab");
+            const prevButton = document.createElement("button");
+            prevButton.textContent = "Previous";
+            prevButton.classList.add("btn", "btn-secondary", "m-2");
+            prevButton.addEventListener("click", () => {
+                if (currentPage > 1) {
+                    renderTrainingList(currentPage - 1);
+                }
+            });
+            const nextButton = document.createElement("button");
+            nextButton.textContent = "Next";
+            nextButton.classList.add("btn", "btn-secondary", "m-2");
+            prevButton.addEventListener("click", () => {
+                if (currentPage > 1) {
+                    renderTrainingList(currentPage - 1);
+                }
+            });
+            nextButton.addEventListener("click", () => {
+                const totalPages = Math.ceil(totalTrainingData.length / itemsPerPage);
+                if (currentPage < totalPages) {
+                    renderTrainingList(currentPage + 1);
+                }
+            });
+            const existingControls = document.getElementById("pagination-controls");
+            if (existingControls) {
+                existingControls.remove();
+            }
+            const controlsContainer = document.createElement("div");
+            controlsContainer.id = "pagination-controls";
+            controlsContainer.classList.add("d-flex", "justify-content-center", "mt-3");
+            controlsContainer.appendChild(prevButton);
+            controlsContainer.appendChild(nextButton);
+            trainingListContainer.appendChild(controlsContainer);
+        }
+
+        document.getElementById("json-file-input").addEventListener("change", async function(event) {
+            const files = event.target.files;
+            if (files) {
+                for (const file of files) {
+                    try {
+                        const jsonData = await readJsonFromFile(file);
+
+                        if (Array.isArray(jsonData)) {
+                            totalTrainingData = totalTrainingData.concat(jsonData);
+
+                            uploadedFiles.push(file.name);
+                            localStorage.setItem('uploadedFiles', JSON.stringify(uploadedFiles));
+                            showNotification(`JSON file ${file.name} imported successfully!`, 'confirm');
+                        } else {
+                            showNotification(`Invalid JSON format in file ${file.name}: Expected an array.`, 'alert');
+                        }
+
+                    } catch (err) {
+                        showNotification(`Error reading JSON file ${file.name}: ${err.message}`, 'alert');
+                    }
+                }
+                renderTrainingList();
+                addPaginationControls();
+            }
+        });
+        document.getElementById("train-save").addEventListener("click", function() {
+            var q = document.getElementById("train-question").value.trim();
+            var a = document.getElementById("train-answer").value.trim();
+            if (!q || !a) return;
+            const entry = {
+                question: q,
+                answer: a
+            };
+            totalTrainingData.push(entry);
+            document.getElementById("train-question").value = "";
+            document.getElementById("train-answer").value = "";
+            renderTrainingList(currentPage);
+            addPaginationControls();
+            saveDataToFile();
+            showNotification('Training data saved!', 'confirm');
+        });
+        document.getElementById("training-list").addEventListener("click", function(e) {
+            if (e.target.className.indexOf("edit-btn") !== -1) {
+                var index = e.target.getAttribute("data-index");
+                var newQ = prompt("Edit question:", totalTrainingData[index].question);
+                var newA = prompt("Edit answer:", totalTrainingData[index].answer);
+                if (newQ !== null && newA !== null) {
+                    totalTrainingData[index] = {
+                        question: newQ,
+                        answer: newA
+                    };
+                    renderTrainingList(currentPage);
+                    saveDataToFile();
+                    showNotification('Training data updated!', 'confirm');
+                }
+            }
+            if (e.target.className.indexOf("delete-btn") !== -1) {
+                var index = e.target.getAttribute("data-index");
+                if (confirm("Delete this entry?")) {
+                    totalTrainingData.splice(index, 1);
+                    renderTrainingList(currentPage);
+                    addPaginationControls();
+                    saveDataToFile();
+                    showNotification('Training data deleted!', 'warning');
+                }
+            }
+        });
+
+        document.getElementById("reset-all-training").addEventListener("click", function() {
+            if (confirm("Are you sure you want to reset all training data? This action cannot be undone.")) {
+                totalTrainingData = [];
+                defaultTraining = [];
+                localStorage.removeItem("trainingData");
+                renderTrainingList();
+                addPaginationControls();
+                saveDataToFile();
+                showNotification('All training data reset and cache cleared!', 'warning');
+            }
+        });
+        const saveDataToFile = () => {
+            var fileInput = document.getElementById("json-file-input");
+            if (fileInput.files.length === 0) {
+                showNotification("No file selected. Please upload a JSON file first.", 'alert');
+                return;
+            }
+            var file = fileInput.files[0];
+            if (!file) {
+                showNotification("No file selected. Please upload a JSON file first.", 'alert');
+                return;
+            }
+            if (!file.name.endsWith(".json")) {
+                showNotification("Invalid file format. Please upload a JSON file.", 'alert');
+                return;
+            }
+            const arrayToJson = arrayToJsonString(totalTrainingData);
+            const blob = new Blob([arrayToJson], {
+                type: "application/json"
+            });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = file.name;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showNotification('Training data exported to JSON file!', 'confirm');
+        }
+        document.getElementById('clear-files').addEventListener('click', () => {
+            uploadedFiles = [];
+            localStorage.removeItem('uploadedFiles');
+            totalTrainingData = [];
+            renderTrainingList();
+            addPaginationControls();
+            showNotification('Cleared all added files.', 'warning');
+        });
+        var tabs = document.querySelectorAll(".tab");
+        tabs.forEach(function(tab) {
+            tab.addEventListener("click", function() {
+                tabs.forEach(function(t) {
+                    t.classList.remove("active");
+                });
+                tab.classList.add("active");
+                var target = tab.getAttribute("data-bs-toggle");
+                document.querySelectorAll(".tab-pane").forEach(function(sec) {
+                    sec.classList.remove("show", "active");
+                    if (sec.id === target.substring(1)) sec.classList.add("show", "active");
+                });
+            });
+        });
+
+
+        const jsonUrl = "https://raw.githubusercontent.com/Sabir-Ali-Mondal/Frontend-AI/main/training_data.json";
+
+        async function installTrainingData(progressCallback) {
+            try {
+                // Check cache first
+                const cachedData = localStorage.getItem("trainingData");
+                if (cachedData) {
+                    showNotification("Loading training data from cache...", 'info');
+                    const data = JSON.parse(cachedData);
+                    progressCallback(100);
+                    return data;
+                }
+
+                // If not in cache, download
+                showNotification("Downloading training data...", 'info');
+                const response = await fetch(jsonUrl);
+                if (!response.ok) throw new Error("Failed to load training data");
+
+                const data = await response.json();
+                localStorage.setItem("trainingData", JSON.stringify(data));
+                showNotification("Training data installed successfully!", 'confirm');
+                progressCallback(100);
+                return data;
+            } catch (error) {
+                console.error('Installation error:', error);
+                showNotification('Failed to install training data: ' + error.message, 'alert');
+                throw error;
+            }
+        }
+
+        // Update the install button handlers
+        document.getElementById('install-dictionary').addEventListener('click', async function() {
+            const btn = this;
+            const progress = btn.querySelector('.progress');
+            const progressBar = progress.querySelector('.progress-bar');
+
+            btn.disabled = true;
+            progress.classList.remove('d-none');
+
+            try {
+                const data = await installTrainingData((percent) => {
+                    progressBar.style.width = percent + '%';
+                });
+
+                totalTrainingData = totalTrainingData.concat(data);
+                renderTrainingList();
+            } catch (e) {
+                console.error('Installation error:', e);
+            } finally {
+                btn.disabled = false;
+                progress.classList.add('d-none');
+            }
+        });
+
+        document.getElementById('install-conversation').addEventListener('click', async function() {
+            const btn = this;
+            const progress = btn.querySelector('.progress');
+            const progressBar = progress.querySelector('.progress-bar');
+
+            btn.disabled = true;
+            progress.classList.remove('d-none');
+
+            try {
+                const data = await installTrainingData((percent) => {
+                    progressBar.style.width = percent + '%';
+                });
+
+                defaultTraining = data;
+                renderTrainingList();
+            } catch (e) {
+                console.error('Installation error:', e);
+            } finally {
+                btn.disabled = false;
+                progress.classList.add('d-none');
+            }
+        });
+
+        // Update loadInitialFiles function
+        async function loadInitialFiles() {
+            try {
+                const cachedData = localStorage.getItem("trainingData");
+                if (cachedData) {
+                    const data = JSON.parse(cachedData);
+                    defaultTraining = data;
+                    showNotification("Training data loaded from cache", 'info');
+                    renderTrainingList();
+                }
+            } catch (e) {
+                console.error('Error loading cached data:', e);
+            }
+        }
+
+        // --- Local Storage and Automatic Loading ---
+        const loadStoredFiles = async () => {
+            const storedFileNames = JSON.parse(localStorage.getItem('uploadedFiles')) || [];
+
+            if (storedFileNames.length > 0) {
+                totalTrainingData = [];
+                uploadedFiles = storedFileNames;
+
+                const files = document.getElementById('json-file-input').files;
+
+                for (const fileName of storedFileNames) {
+                    let jsonData;
+                    try {
+                        jsonData = await readJsonFromFile(files.item(0));
+                        if (Array.isArray(jsonData)) {
+                            totalTrainingData = totalTrainingData.concat(jsonData);
+                            console.log(`Loaded ${fileName} from local storage.`);
+                        } else {
+                            console.warn(`Invalid JSON format in local storage for ${fileName}.`);
+                        }
+                    } catch (e) {
+                        console.error(`Error parsing JSON from local storage for ${fileName}:`, e);
+                    }
+                }
+                renderTrainingList();
+                addPaginationControls();
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            loadInitialFiles(); // Load initial files from URLs directly
+            loadStoredFiles(); // Then load user-uploaded files from localStorage
+        });
+    </script>
+</body>
+
+</html>
