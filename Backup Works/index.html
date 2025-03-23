@@ -6,7 +6,7 @@
     <title>Advanced AI Chatbot</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script src="https://unpkg.com/compromise@14.9.0/builds/compromise.min.js"></script> <!-- Compromise.js -->
+    <!-- <script src="https://unpkg.com/compromise@14.9.0/builds/compromise.min.js"></script> Compromise.js -->
 </head>
 
 <body>
@@ -40,14 +40,14 @@
             <div class="tab-pane fade" id="training-tab">
                 <div class="text-center">
                     <button id="install-conversation" class="btn btn-success">
-                        Install Training
+                        Install Training<br><span style="font-size:10px;">Simple Conversation only</span>
                         <div class="progress d-none">
                             <div class="progress-bar" role="progressbar"></div>
                         </div>
                     </button>
                     <button class="btn btn-danger m-2" id="reset-all-training">🔄 Reset All Training Data</button>
-                    <button id="install-dictionary" class="btn btn-primary" disabled>
-                        Install Dictionary
+                    <button id="install-dictionary" class="btn btn-primary">
+                        Install Dictionary<br><span style="font-size:10px;">JKNOQUVWXYZ only</span>
                         <div class="progress d-none">
                             <div class="progress-bar" role="progressbar"></div>
                         </div>
@@ -829,6 +829,7 @@ Use Universal Training Data Generator to generate a custom JSON dataset." style=
 
 
         const jsonUrl = "https://raw.githubusercontent.com/Sabir-Ali-Mondal/Frontend-AI/main/training_data.json";
+        const jsonUrl2 = "https://raw.githubusercontent.com/Sabir-Ali-Mondal/Frontend-AI/main/dictionary.json";
 
         async function installTrainingData(progressCallback) {
             try {
@@ -857,6 +858,33 @@ Use Universal Training Data Generator to generate a custom JSON dataset." style=
                 throw error;
             }
         }
+        async function installTrainingData2(progressCallback) {
+            try {
+                // Check cache first
+                const cachedData = localStorage.getItem("trainingData");
+                if (cachedData) {
+                    showNotification("Loading training data from cache...", 'info');
+                    const data = JSON.parse(cachedData);
+                    progressCallback(100);
+                    return data;
+                }
+
+                // If not in cache, download
+                showNotification("Downloading training data...", 'info');
+                const response = await fetch(jsonUrl2);
+                if (!response.ok) throw new Error("Failed to load training data");
+
+                const data = await response.json();
+                localStorage.setItem("trainingData", JSON.stringify(data));
+                showNotification("Training data installed successfully!", 'confirm');
+                progressCallback(100);
+                return data;
+            } catch (error) {
+                console.error('Installation error:', error);
+                showNotification('Failed to install training data: ' + error.message, 'alert');
+                throw error;
+            }
+        }
 
         // Update the install button handlers
         document.getElementById('install-dictionary').addEventListener('click', async function() {
@@ -868,7 +896,7 @@ Use Universal Training Data Generator to generate a custom JSON dataset." style=
             progress.classList.remove('d-none');
 
             try {
-                const data = await installTrainingData((percent) => {
+                const data = await installTrainingData2((percent) => {
                     progressBar.style.width = percent + '%';
                 });
 
