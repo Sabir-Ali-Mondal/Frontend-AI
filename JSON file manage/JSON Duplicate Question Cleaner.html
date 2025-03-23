@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Duplicate Question Cleaner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      padding: 30px;
+      text-align: center;
+    }
+    .container {
+      background: #fff;
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    #progress {
+      margin: 15px 0;
+      padding: 8px;
+      background: #e0e0e0;
+      border-radius: 5px;
+    }
+    #progressBar {
+      font-weight: bold;
+    }
+    .group-container {
+      background: #e3f2fd;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 15px 0;
+      text-align: left;
+    }
+    .option-label {
+      display: block;
+      margin: 8px 0;
+      padding: 8px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .option-label:hover {
+      background: #f0f8ff;
+    }
+    button {
+      padding: 8px 12px;
+      background: #76c7c0;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #5bb0aa;
+    }
+    input[type="radio"] {
+      margin-right: 8px;
+    }
+    #downloadSection {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>JSON Duplicate Question Cleaner</h2>
+    <input type="file" id="fileInput" accept=".json" /><br /><br />
+    <button onclick="startProcessing()">Start Processing</button>
+    <div id="progress">
+      <span id="progressBar">Duplicate groups remaining: 0</span>
+    </div>
+    <div id="groupSection"></div>
+    <div id="downloadSection">
+      <button onclick="saveJSON()">Download Current JSON</button>
+    </div>
+  </div>
+
+  <script>
+    let jsonData = [];
+    let groups = [];
+
+    // Normalize text: convert to lowercase and trim spaces.
+    function normalizeText(text) {
+      return text.toLowerCase().trim();
+    }
+
+    // Load JSON file.
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      if (event.target.files.length > 0) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            jsonData = JSON.parse(e.target.result);
+            alert("File loaded successfully!");
+          } catch (error) {
+            alert("Invalid JSON file!");
+          }
+        };
+        reader.readAsText(event.target.files[0]);
+      }
+    });
+
+    // Group duplicate questions using normalized text.
+    function groupDuplicateQuestions() {
+      groups = [];
+      const groupsMap = {};
+      
+      // Build groups based on normalized question text
+      jsonData.forEach(item => {
+        const norm = normalizeText(item.question);
+        if (!groupsMap[norm]) {
+          groupsMap[norm] = [];
+        }
+        groupsMap[norm].push(item);
+      });
+      
+      // Only add groups with more than one item
+      for (let key in groupsMap) {
+        if (groupsMap[key].length > 1) {
+          groups.push({
+            normKey: key,
+            items: groupsMap[key]
+          });
+        }
+      }
+    }
+
+    // Start processing duplicate groups.
+    function startProcessing() {
+      if (!jsonData.length) {
+        alert("Please load a JSON file first.");
+        return;
+      }
+      groupDuplicateQuestions();
+      updateProgress();
+      if (groups.length === 0) {
+        document.getElementById("groupSection").innerHTML = "<p>No duplicate questions found.</p>";
+      } else {
+        showCurrentGroup();
+      }
+    }
+
+    // Update progress display.
+    function updateProgress() {
+      document.getElementById("progressBar").textContent = "Duplicate groups remaining: " + groups.length;
+    }
+
+    // Display the first duplicate group.
+    function showCurrentGroup() {
+      const groupSection = document.getElementById("groupSection");
+      groupSection.innerHTML = "";
+      if (groups.length === 0) {
+        groupSection.innerHTML = "<p>All duplicate groups processed.</p>";
+        return;
+      }
+      
+      // Always take the first group
+      const currentGroup = groups[0];
+      const container = document.createElement("div");
+      container.className = "group-container";
+      container.innerHTML = `<strong>Duplicate Group for normalized text: "${currentGroup.normKey}"</strong><br><br>
+        Select the best question (with its answer) for this group:`;
+
+      // Create radio options for each duplicate
+      currentGroup.items.forEach((item, idx) => {
+        const label = document.createElement("label");
+        label.className = "option-label";
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "groupChoice";
+        radio.value = idx; // Use index as the value
+        if (idx === 0) radio.checked = true;
+        label.appendChild(radio);
+        label.innerHTML += `<strong>Q:</strong> ${item.question}<br><strong>A:</strong> ${item.answer}`;
+        container.appendChild(label);
+      });
+
+      // Button to confirm the selection
+      const confirmBtn = document.createElement("button");
+      confirmBtn.textContent = "Confirm Selection";
+      confirmBtn.onclick = function() {
+        // Get the selected item index from the radio buttons
+        const selectedIdx = parseInt(document.querySelector('input[name="groupChoice"]:checked').value);
+        const selectedItem = currentGroup.items[selectedIdx];
+        const normKey = currentGroup.normKey;
+        
+        // Create a new jsonData array with only the selected item from this group
+        const newJsonData = [];
+        let foundMatch = false;
+        
+        // Process all items in the JSON data
+        for (let i = 0; i < jsonData.length; i++) {
+          const item = jsonData[i];
+          const itemNorm = normalizeText(item.question);
+          
+          // If this item matches the current normalized group key
+          if (itemNorm === normKey) {
+            // If we haven't added our selected item yet, add it
+            if (!foundMatch && item.question === selectedItem.question && item.answer === selectedItem.answer) {
+              newJsonData.push(item);
+              foundMatch = true;
+            }
+            // Skip all other items with this normalized text
+          } else {
+            // Add all non-matching items
+            newJsonData.push(item);
+          }
+        }
+        
+        // Update the jsonData with our filtered version
+        jsonData = newJsonData;
+        
+        // Recalculate duplicate groups from the updated jsonData
+        groupDuplicateQuestions();
+        updateProgress();
+        showCurrentGroup();
+      };
+
+      container.appendChild(confirmBtn);
+      groupSection.appendChild(container);
+    }
+
+    // Download the current JSON data.
+    function saveJSON() {
+      const blob = new Blob([JSON.stringify(jsonData, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "cleaned_data.json";
+      a.click();
+    }
+  </script>
+</body>
+</html>
