@@ -74,10 +74,7 @@
 
 
 
-
-
-
-## Design:
+## Designed capabilities in frontend:
 The provided HTML file represents the user interface for an advanced AI chatbot web application. Here's an overview of its capabilities:
 
 1. **Chat Functionality**:
@@ -109,19 +106,16 @@ The provided HTML file represents the user interface for an advanced AI chatbot 
    - Users can navigate through pages of training data entries.
 
 7. **Training Data Installation**:
-   - Users can install predefined training data and dictionary data from specified URLs.
+   - Users can install predefined training data and dictionary data from specified URLs. [ Use github Cloud ]
    - Training data is cached in local storage for faster subsequent loading.
 
 8. **Arithmetic and Expression Evaluation**:
    - The chatbot can evaluate arithmetic expressions, including percentages, factorials, and power calculations.
 
-9. **Grammar Fixing**:
-   - The chatbot can attempt to fix grammatical errors in user inputs using the `compromise` library.
-
-10. **Fuzzy Similarity Matching**:
+9. **Fuzzy Similarity Matching**:
    - The chatbot uses fuzzy similarity matching to find the best responses from the training data based on user input.
 
-11. **Clipboard Operations**:
+10. **Clipboard Operations**:
    - Functions to paste text from the clipboard and clear existing text before pasting.
 
-Overall, this HTML file provides a comprehensive front-end interface for an AI chatbot with various functionalities for user interaction, training data management, and JSON data handling.
+Overall, this App provides a comprehensive front-end interface for an AI chatbot with various functionalities for user interaction, training data management, and JSON data handling.
