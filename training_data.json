@@ -216,28 +216,12 @@
     "answer": "Click interacts with content, taking the next step."
   },
   {
-    "question": "Subscribe",
-    "answer": "Subscribe ensures you stay informed with regular updates."
-  },
-  {
     "question": "Notifications",
     "answer": "Notifications keep you updated on what's important."
   },
   {
-    "question": "Save",
-    "answer": "Save stores content for future reference."
-  },
-  {
-    "question": "Bookmark",
-    "answer": "Bookmark keeps important content easily accessible."
-  },
-  {
     "question": "Discover",
     "answer": "Discover opens up new content, expanding your view."
-  },
-  {
-    "question": "Profile Picture",
-    "answer": "Profile Picture represents you visually online."
   },
   {
     "question": "Bio",
@@ -252,22 +236,6 @@
     "answer": "Pinned Post keeps important content at the top."
   },
   {
-    "question": "Followers Count",
-    "answer": "Followers Count reflects your reach and influence."
-  },
-  {
-    "question": "Unfollow",
-    "answer": "Unfollow removes updates from your feed."
-  },
-  {
-    "question": "Block",
-    "answer": "Block prevents unwanted interactions."
-  },
-  {
-    "question": "Mute",
-    "answer": "Mute hides updates without unfollowing."
-  },
-  {
     "question": "Report",
     "answer": "Report flags content that violates guidelines."
   },
@@ -280,44 +248,12 @@
     "answer": "Moderation keeps discussions respectful and fair."
   },
   {
-    "question": "Spam",
-    "answer": "Spam clutters feeds with unwanted content."
-  },
-  {
     "question": "Filter",
     "answer": "Filter customizes your content experience."
   },
   {
-    "question": "Search",
-    "answer": "Search helps find relevant content quickly."
-  },
-  {
-    "question": "Privacy",
-    "answer": "Privacy protects your personal information."
-  },
-  {
-    "question": "Terms",
-    "answer": "Terms set rules for platform use."
-  },
-  {
-    "question": "Policy",
-    "answer": "Policy defines guidelines and expectations."
-  },
-  {
-    "question": "Archive",
-    "answer": "Archive stores past content for later."
-  },
-  {
     "question": "Memories",
     "answer": "Memories bring past moments back to life."
-  },
-  {
-    "question": "Poll",
-    "answer": "Poll gathers opinions through quick voting."
-  },
-  {
-    "question": "Quiz",
-    "answer": "Quiz engages users with interactive questions."
   },
   {
     "question": "GIF",
@@ -336,20 +272,8 @@
     "answer": "Caption adds context to images and videos."
   },
   {
-    "question": "Filter",
-    "answer": "Filter enhances visuals with unique effects."
-  },
-  {
     "question": "Tagging",
     "answer": "Tagging highlights people in posts."
-  },
-  {
-    "question": "Analytics",
-    "answer": "Analytics tracks performance and engagement."
-  },
-  {
-    "question": "Reach",
-    "answer": "Reach measures how far content spreads."
   },
   {
     "question": "Insights",
@@ -364,28 +288,8 @@
     "answer": "Hashtag Challenge sparks engagement with trends."
   },
   {
-    "question": "Influencer",
-    "answer": "Influencer drives trends and conversations."
-  },
-  {
-    "question": "Collaboration",
-    "answer": "Collaboration brings creators together."
-  },
-  {
-    "question": "Live Chat",
-    "answer": "Live Chat enables real-time conversations."
-  },
-  {
     "question": "Webinar",
     "answer": "Webinar educates audiences in a virtual space."
-  },
-  {
-    "question": "Podcast",
-    "answer": "Podcast delivers audio content for learning and fun."
-  },
-  {
-    "question": "Series",
-    "answer": "Series keeps audiences engaged over time."
   },
   {
     "question": "Episode",
@@ -398,10 +302,6 @@
   {
     "question": "Membership",
     "answer": "Membership unlocks special features."
-  },
-  {
-    "question": "Support",
-    "answer": "Support helps users with their needs."
   },
   {
     "question": "Donate",
@@ -420,10 +320,6 @@
     "answer": "Boost amplifies post visibility."
   },
   {
-    "question": "Sponsorship",
-    "answer": "Sponsorship funds content in exchange for promotion."
-  },
-  {
     "question": "Campaign",
     "answer": "Campaign organizes marketing efforts."
   },
@@ -440,32 +336,12 @@
     "answer": "Impressions track how often content appears."
   },
   {
-    "question": "Engagement Rate",
-    "answer": "Engagement Rate measures user interaction."
-  },
-  {
-    "question": "release",
-    "answer": "Release lets you set something free, starting a new chapter."
-  },
-  {
     "question": "analysis",
     "answer": "Analysis breaks down details, offering clarity through insight."
   },
   {
-    "question": "request",
-    "answer": "Request gently asks for something, opening a door to help."
-  },
-  {
     "question": "fax",
     "answer": "Fax is an old-school way of sending documents, a relic of the past."
-  },
-  {
-    "question": "china",
-    "answer": "China is vast and rich with history and culture."
-  },
-  {
-    "question": "making",
-    "answer": "Making is all about creating something out of nothing."
   },
   {
     "question": "picture",
@@ -476,40 +352,12 @@
     "answer": "Needs highlight what is essential, the core of our desires."
   },
   {
-    "question": "possible",
-    "answer": "Possible opens up the realm of what might be achievable."
-  },
-  {
-    "question": "might",
-    "answer": "Might suggests a chance, a possibility waiting to happen."
-  },
-  {
-    "question": "professional",
-    "answer": "Professional means bringing skill and expertise to the table."
-  },
-  {
-    "question": "yet",
-    "answer": "Yet leaves room for something more to come."
-  },
-  {
     "question": "month",
     "answer": "Month marks a cycle of time, each one with its own flavor."
   },
   {
-    "question": "major",
-    "answer": "Major denotes importance, standing out among the rest."
-  },
-  {
     "question": "star",
     "answer": "Star shines brightly, a symbol of inspiration in the sky."
-  },
-  {
-    "question": "areas",
-    "answer": "Areas point out different spaces or topics worth exploring."
-  },
-  {
-    "question": "future",
-    "answer": "Future is filled with promise and unknown adventures."
   },
   {
     "question": "space",
@@ -540,10 +388,6 @@
     "answer": "London buzzes with history and vibrant energy."
   },
   {
-    "question": "washington",
-    "answer": "Washington stands as a hub of leadership and change."
-  },
-  {
     "question": "meeting",
     "answer": "Meeting gathers minds, where ideas and plans are shared."
   },
@@ -552,48 +396,12 @@
     "answer": "RSS keeps you updated, feeding you news and trends seamlessly."
   },
   {
-    "question": "become",
-    "answer": "Become is the journey of transformation and growth."
-  },
-  {
-    "question": "interest",
-    "answer": "Interest sparks curiosity, drawing you deeper into a subject."
-  },
-  {
     "question": "id",
     "answer": "ID identifies you, a simple marker of who you are."
   },
   {
-    "question": "child",
-    "answer": "Child embodies innocence and endless possibility."
-  },
-  {
-    "question": "keep",
-    "answer": "Keep holds on to what matters, preserving memories and moments."
-  },
-  {
-    "question": "enter",
-    "answer": "Enter invites you to step into a new experience or space."
-  },
-  {
     "question": "california",
     "answer": "California shines with diversity and sunny vibes."
-  },
-  {
-    "question": "porn",
-    "answer": "Porn is a controversial topic that sparks much debate."
-  },
-  {
-    "question": "similar",
-    "answer": "Similar draws comparisons, highlighting familiar traits."
-  },
-  {
-    "question": "garden",
-    "answer": "Garden is a space of growth, where beauty blossoms naturally."
-  },
-  {
-    "question": "schools",
-    "answer": "Schools nurture learning, planting seeds of knowledge."
   },
   {
     "question": "million",
@@ -604,28 +412,8 @@
     "answer": "Added gives a little extra, enhancing the overall picture."
   },
   {
-    "question": "reference",
-    "answer": "Reference guides you, pointing to sources of further insight."
-  },
-  {
     "question": "companies",
     "answer": "Companies drive the economy, blending innovation with tradition."
-  },
-  {
-    "question": "listed",
-    "answer": "Listed organizes items in order, making choices easier."
-  },
-  {
-    "question": "baby",
-    "answer": "Baby brings pure joy and the promise of a bright future."
-  },
-  {
-    "question": "learning",
-    "answer": "Learning opens your mind, filling it with endless wonder."
-  },
-  {
-    "question": "energy",
-    "answer": "Energy fuels your day, sparking action and vitality."
   },
   {
     "question": "run",
@@ -638,10 +426,6 @@
   {
     "question": "net",
     "answer": "Net connects you to the digital world, a web of endless links."
-  },
-  {
-    "question": "popular",
-    "answer": "Popular means loved by many, resonating with widespread appeal."
   },
   {
     "question": "term",
@@ -660,36 +444,12 @@
     "answer": "Computers process information rapidly, powering modern life."
   },
   {
-    "question": "journal",
-    "answer": "Journal captures thoughts and moments, a personal record in words."
-  },
-  {
-    "question": "reports",
-    "answer": "Reports summarize facts, giving you a snapshot of events."
-  },
-  {
-    "question": "co",
-    "answer": "Co hints at collaboration, working together towards a goal."
-  },
-  {
-    "question": "try",
-    "answer": "Try encourages you to give it a go, embracing the challenge."
-  },
-  {
-    "question": "welcome",
-    "answer": "Welcome greets you warmly, inviting you to join the conversation."
-  },
-  {
     "question": "central",
     "answer": "Central stands at the heart, a hub of activity and focus."
   },
   {
     "question": "images",
     "answer": "Images capture moments, turning fleeting seconds into art."
-  },
-  {
-    "question": "president",
-    "answer": "President leads with vision, representing collective aspirations."
   },
   {
     "question": "notice",
@@ -704,36 +464,12 @@
     "answer": "Original celebrates uniqueness, the spark of creativity in every idea."
   },
   {
-    "question": "head",
-    "answer": "Head symbolizes leadership and the center of thought."
-  },
-  {
     "question": "radio",
     "answer": "Radio connects you to voices and music, bridging distances with sound."
   },
   {
-    "question": "until",
-    "answer": "Until marks the continuation of time, until something changes."
-  },
-  {
-    "question": "cell",
-    "answer": "Cell is the building block of life, small yet vital."
-  },
-  {
-    "question": "color",
-    "answer": "Color paints the world, adding vibrancy and emotion."
-  },
-  {
     "question": "self",
     "answer": "Self reminds you of who you truly are, your inner essence."
-  },
-  {
-    "question": "council",
-    "answer": "Council gathers wisdom, a group making decisions together."
-  },
-  {
-    "question": "away",
-    "answer": "Away takes you from the familiar, into new adventures."
   },
   {
     "question": "includes",
@@ -744,20 +480,8 @@
     "answer": "Track follows the path, keeping you informed along the way."
   },
   {
-    "question": "australia",
-    "answer": "Australia bursts with unique wildlife and breathtaking landscapes."
-  },
-  {
     "question": "discussion",
     "answer": "Discussion opens a dialogue, sharing ideas and perspectives."
-  },
-  {
-    "question": "archive",
-    "answer": "Archive preserves history, storing memories for future discovery."
-  },
-  {
-    "question": "once",
-    "answer": "Once sets the stage for a story, beginning with a single moment."
   },
   {
     "question": "others",
@@ -772,20 +496,8 @@
     "answer": "Agreement brings mutual understanding, a handshake of ideas."
   },
   {
-    "question": "format",
-    "answer": "Format organizes content neatly, giving structure to information."
-  },
-  {
-    "question": "least",
-    "answer": "Least suggests the minimum, the simplest form of something."
-  },
-  {
     "question": "society",
     "answer": "Society shapes us, a tapestry of collective experiences."
-  },
-  {
-    "question": "months",
-    "answer": "Months mark the passage of time, each with its own story."
   },
   {
     "question": "log",
@@ -798,10 +510,6 @@
   {
     "question": "friends",
     "answer": "Friends are the heart of companionship, always there to support you."
-  },
-  {
-    "question": "faq",
-    "answer": "FAQ answers common questions, making things clear and simple."
   },
   {
     "question": "trade",
@@ -1304,10 +1012,6 @@
     "answer": "Would invites you to imagine what might be under different circumstances."
   },
   {
-    "question": "might",
-    "answer": "Might suggests a possibility, leaving a door open to the unknown."
-  },
-  {
     "question": "must",
     "answer": "Must emphasizes necessity, reminding you of what cannot be ignored."
   },
@@ -1330,10 +1034,6 @@
   {
     "question": "find",
     "answer": "Find helps you uncover the treasures hidden in plain sight."
-  },
-  {
-    "question": "search",
-    "answer": "Search is the journey toward discovering new insights."
   },
   {
     "question": "look up",
@@ -1384,10 +1084,6 @@
     "answer": "Development shows growth and progress over time."
   },
   {
-    "question": "report",
-    "answer": "Report gives you a clear summary of what's happening."
-  },
-  {
     "question": "off",
     "answer": "Off signals a pause or a break from the usual routine."
   },
@@ -1402,10 +1098,6 @@
   {
     "question": "line",
     "answer": "Line draws a clear path, connecting one idea to another."
-  },
-  {
-    "question": "terms",
-    "answer": "Terms lay out the conditions or rules, keeping things clear."
   },
   {
     "question": "hotels",
@@ -2152,10 +1844,6 @@
     "answer": "Load brings information into focus, like gathering your thoughts."
   },
   {
-    "question": "save",
-    "answer": "Save is about holding onto memories and important moments."
-  },
-  {
     "question": "play",
     "answer": "Play sparks fun and creativity in the midst of your day."
   },
@@ -2210,10 +1898,6 @@
   {
     "question": "analyze",
     "answer": "Analyze is about looking deeper to understand the big picture."
-  },
-  {
-    "question": "report",
-    "answer": "Report shares the story of what has just taken place."
   },
   {
     "question": "notify",
@@ -2318,14 +2002,6 @@
   {
     "question": "decrypt",
     "answer": "Decrypt unlocks hidden messages, revealing their true meaning."
-  },
-  {
-    "question": "log",
-    "answer": "Log keeps a friendly record of events as they happen."
-  },
-  {
-    "question": "track",
-    "answer": "Track follows your progress, step by thoughtful step."
   },
   {
     "question": "upgrade",
@@ -2582,10 +2258,6 @@
   {
     "question": "lyrics",
     "answer": "Lyrics sing the words of a song, full of emotion and rhythm."
-  },
-  {
-    "question": "subscribe",
-    "answer": "Subscribe means to sign up and stay in the loop."
   },
   {
     "question": "submit",
@@ -4264,10 +3936,6 @@
     "answer": "These brings attention to multiple things that are right here."
   },
   {
-    "question": "click",
-    "answer": "Click is the simple act of selecting something—quick and easy."
-  },
-  {
     "question": "its",
     "answer": "Its shows ownership in a quiet, understated manner."
   },
@@ -5164,10 +4832,6 @@
     "answer": "What we long to seek!"
   },
   {
-    "question": "search",
-    "answer": "What we will discover to discover!"
-  },
-  {
     "question": "look up",
     "answer": "To discover something you never knew before!"
   },
@@ -5214,10 +4878,6 @@
   {
     "question": "development",
     "answer": "Lets make a change and be better for ourselfs!"
-  },
-  {
-    "question": "report",
-    "answer": "A summary to share it to all!"
   },
   {
     "question": "off",
@@ -6004,44 +5664,16 @@
     "answer": "Shares how you may be feeling in terms of emotions."
   },
   {
-    "question": "Click",
-    "answer": "This allows great interaction for the platform and community."
-  },
-  {
     "question": "Subscribe",
     "answer": "Making sure that you are constantly updated!"
-  },
-  {
-    "question": "Notifications",
-    "answer": "Keeps you informed at all times."
-  },
-  {
-    "question": "Save",
-    "answer": "Securing new ideas."
   },
   {
     "question": "Bookmark",
     "answer": "Making greater things accessible."
   },
   {
-    "question": "Discover",
-    "answer": "Find new places you never even thought of!"
-  },
-  {
     "question": "Profile Picture",
     "answer": "This shows what your personal style is!"
-  },
-  {
-    "question": "Bio",
-    "answer": "Sharing your personal interest."
-  },
-  {
-    "question": "Username",
-    "answer": "What makes you stand out."
-  },
-  {
-    "question": "Pinned Post",
-    "answer": "Important information at the tap of your fingers."
   },
   {
     "question": "Followers Count",
@@ -6060,48 +5692,8 @@
     "answer": "Hides certain actions without unfollowing them."
   },
   {
-    "question": "Report",
-    "answer": "Flags harmful activity."
-  },
-  {
-    "question": "Admin",
-    "answer": "Manages what the platform has to offer"
-  },
-  {
-    "question": "Moderation",
-    "answer": "Keeps a good and engaging environment."
-  },
-  {
     "question": "Spam",
     "answer": "Harms content at all costs."
-  },
-  {
-    "question": "Filter",
-    "answer": "Customizing everything."
-  },
-  {
-    "question": "Search",
-    "answer": "Easier access than scrolling."
-  },
-  {
-    "question": "Privacy",
-    "answer": "Ensuring that only you have access."
-  },
-  {
-    "question": "Terms",
-    "answer": "What you agree to when you use the platform."
-  },
-  {
-    "question": "Policy",
-    "answer": "Expectations."
-  },
-  {
-    "question": "Archive",
-    "answer": "Keeping data for old times sake."
-  },
-  {
-    "question": "Memories",
-    "answer": "Brings us back to better times."
   },
   {
     "question": "Poll",
@@ -6112,48 +5704,12 @@
     "answer": "A fun way to test people"
   },
   {
-    "question": "GIF",
-    "answer": "A light hearted version of entertainment."
-  },
-  {
-    "question": "Sticker",
-    "answer": "Unique to every person."
-  },
-  {
-    "question": "Emoji",
-    "answer": "No need for words when we have these!"
-  },
-  {
-    "question": "Caption",
-    "answer": "Pictures can show a 1000 words."
-  },
-  {
-    "question": "Filter",
-    "answer": "Make new visuals."
-  },
-  {
-    "question": "Tagging",
-    "answer": "Highlighting individuals!"
-  },
-  {
     "question": "Analytics",
     "answer": "Tracking and ensuring better results."
   },
   {
     "question": "Reach",
     "answer": "Expanding your territory."
-  },
-  {
-    "question": "Insights",
-    "answer": "Data can always tell more."
-  },
-  {
-    "question": "Trends",
-    "answer": "Making sure your on the wave."
-  },
-  {
-    "question": "Hashtag Challenge",
-    "answer": "Spark engagement and fun!"
   },
   {
     "question": "Influencer",
@@ -6168,68 +5724,12 @@
     "answer": "Connect across the world in a singular moment."
   },
   {
-    "question": "Webinar",
-    "answer": "Share knowledge to help others."
-  },
-  {
     "question": "Podcast",
     "answer": "A great way to listen and learn."
   },
   {
-    "question": "Series",
-    "answer": "A long lasting effect is ensured."
-  },
-  {
-    "question": "Episode",
-    "answer": "Breaks content to make it digestible."
-  },
-  {
-    "question": "Exclusive",
-    "answer": "Not everyone can have this!"
-  },
-  {
-    "question": "Membership",
-    "answer": "Unlocks greater aspects."
-  },
-  {
-    "question": "Support",
-    "answer": "All ears to listen to your problems."
-  },
-  {
-    "question": "Donate",
-    "answer": "Share what you have to greater communities."
-  },
-  {
-    "question": "Merchandise",
-    "answer": "Rep your favorite brand!"
-  },
-  {
-    "question": "Advertisement",
-    "answer": "Share content to new people."
-  },
-  {
-    "question": "Boost",
-    "answer": "Making more people have access to your work"
-  },
-  {
     "question": "Sponsorship",
     "answer": "A mutual agreement."
-  },
-  {
-    "question": "Campaign",
-    "answer": "Spread more awareness."
-  },
-  {
-    "question": "SEO",
-    "answer": "Make it easier for others to locate your content!"
-  },
-  {
-    "question": "Algorithm",
-    "answer": "Gives greater visibility."
-  },
-  {
-    "question": "Impressions",
-    "answer": "Keeps track of your engagement."
   },
   {
     "question": "Engagement Rate",
@@ -6240,16 +5740,8 @@
     "answer": "Unleash this from all your hard work, letting it thrive!"
   },
   {
-    "question": "analysis",
-    "answer": "We analyze more to ensure a better product for everyone."
-  },
-  {
     "question": "request",
     "answer": "If you ever need anything, don't hesitate to reach out!"
-  },
-  {
-    "question": "fax",
-    "answer": "An ancient practice, but a goodie."
   },
   {
     "question": "china",
@@ -6260,20 +5752,8 @@
     "answer": "Let's build something together!"
   },
   {
-    "question": "picture",
-    "answer": "A 1000 words worth of speech."
-  },
-  {
-    "question": "needs",
-    "answer": "What is needed for everyone?"
-  },
-  {
     "question": "possible",
     "answer": "Never say never, always dream and be possible."
-  },
-  {
-    "question": "might",
-    "answer": "What is there for us to discover?"
   },
   {
     "question": "professional",
@@ -6284,16 +5764,8 @@
     "answer": "More content on the way!"
   },
   {
-    "question": "month",
-    "answer": "Time flies, enjoy it!"
-  },
-  {
     "question": "major",
     "answer": "Important and impactful!"
-  },
-  {
-    "question": "star",
-    "answer": "Shine on everyone."
   },
   {
     "question": "areas",
@@ -6304,44 +5776,8 @@
     "answer": "What is in store for us!"
   },
   {
-    "question": "space",
-    "answer": "Dream far, and wide!"
-  },
-  {
-    "question": "committee",
-    "answer": "Great minds come together!"
-  },
-  {
-    "question": "hand",
-    "answer": "Let's give a hand for anyone in need!"
-  },
-  {
-    "question": "sun",
-    "answer": "Let the light brighten our spirits!"
-  },
-  {
-    "question": "cards",
-    "answer": "Let's hope the odds are in our favor!"
-  },
-  {
-    "question": "problems",
-    "answer": "Always look for a solution."
-  },
-  {
-    "question": "london",
-    "answer": "The place for the great Big Ben!"
-  },
-  {
     "question": "washington",
     "answer": "A hub of leadership."
-  },
-  {
-    "question": "meeting",
-    "answer": "Great minds connect!"
-  },
-  {
-    "question": "rss",
-    "answer": "Connect with others and feed data!"
   },
   {
     "question": "become",
@@ -6350,10 +5786,6 @@
   {
     "question": "interest",
     "answer": "Shows care and meaning."
-  },
-  {
-    "question": "id",
-    "answer": "What makes you unique."
   },
   {
     "question": "child",
@@ -6366,10 +5798,6 @@
   {
     "question": "enter",
     "answer": "Come in and connect with this feeling."
-  },
-  {
-    "question": "california",
-    "answer": "Sunny skies!"
   },
   {
     "question": "porn",
@@ -6388,20 +5816,8 @@
     "answer": "Making the future brighter."
   },
   {
-    "question": "million",
-    "answer": "Wealth is nothing without health."
-  },
-  {
-    "question": "added",
-    "answer": "The more, the merrier."
-  },
-  {
     "question": "reference",
     "answer": "Always refer to greater sources."
-  },
-  {
-    "question": "companies",
-    "answer": "A driving force in the economy."
   },
   {
     "question": "listed",
@@ -6420,40 +5836,12 @@
     "answer": "Power to get us through the day."
   },
   {
-    "question": "run",
-    "answer": "Move on, you can do this!"
-  },
-  {
-    "question": "delivery",
-    "answer": "We get what you need, when you need it!"
-  },
-  {
-    "question": "net",
-    "answer": "We are all connected on the internet."
-  },
-  {
     "question": "popular",
     "answer": "Most of the community enjoys this!"
   },
   {
-    "question": "term",
-    "answer": "Keep things clear and simple."
-  },
-  {
-    "question": "film",
-    "answer": "A motion of art, never still."
-  },
-  {
     "question": "stories",
     "answer": "What gives the world its spice."
-  },
-  {
-    "question": "put",
-    "answer": "Ensuring the pieces fit."
-  },
-  {
-    "question": "computers",
-    "answer": "They allow us to move the world foward."
   },
   {
     "question": "journal",
@@ -6472,40 +5860,12 @@
     "answer": "If at first you don't succeed, try again!"
   },
   {
-    "question": "welcome",
-    "answer": "Join us, the more the merrier!"
-  },
-  {
-    "question": "central",
-    "answer": "The core of everything."
-  },
-  {
-    "question": "images",
-    "answer": "Moments in time."
-  },
-  {
     "question": "president",
     "answer": "Vision and insight."
   },
   {
-    "question": "notice",
-    "answer": "This allows for detail."
-  },
-  {
-    "question": "god",
-    "answer": "Whatever faith we turn to."
-  },
-  {
-    "question": "original",
-    "answer": "Everyone is a unique breed."
-  },
-  {
     "question": "head",
     "answer": "The brains of it all."
-  },
-  {
-    "question": "radio",
-    "answer": "Tuning in to bring more listeners closer."
   },
   {
     "question": "until",
@@ -6520,10 +5880,6 @@
     "answer": "A unique way to see the world."
   },
   {
-    "question": "self",
-    "answer": "Being you is your greatest power."
-  },
-  {
     "question": "council",
     "answer": "Making the world more wise, together."
   },
@@ -6532,40 +5888,12 @@
     "answer": "Let's explore new places."
   },
   {
-    "question": "includes",
-    "answer": "Never forget a detail!"
-  },
-  {
-    "question": "track",
-    "answer": "Keep it moving."
-  },
-  {
     "question": "australia",
     "answer": "Watch out for the Kangaroos."
   },
   {
-    "question": "discussion",
-    "answer": "Hearing every side."
-  },
-  {
-    "question": "archive",
-    "answer": "Saving history."
-  },
-  {
     "question": "once",
     "answer": "Just one moment to remember!"
-  },
-  {
-    "question": "others",
-    "answer": "Everyone is on the same journey as you!"
-  },
-  {
-    "question": "entertainment",
-    "answer": "Making the world more brighter."
-  },
-  {
-    "question": "agreement",
-    "answer": "Shaking hands is an amazing feat!"
   },
   {
     "question": "format",
@@ -6576,44 +5904,12 @@
     "answer": "Keep it simple."
   },
   {
-    "question": "society",
-    "answer": "We shape each other."
-  },
-  {
     "question": "months",
     "answer": "Time is non-refundable, use it!"
   },
   {
-    "question": "log",
-    "answer": "What happens in the moment."
-  },
-  {
-    "question": "safety",
-    "answer": "Everyone must be safe."
-  },
-  {
-    "question": "friends",
-    "answer": "The people who will always have your back."
-  },
-  {
     "question": "faq",
     "answer": "What is most commonly asked."
-  },
-  {
-    "question": "trade",
-    "answer": "Exchange is always a win win."
-  },
-  {
-    "question": "edition",
-    "answer": "Another version is in the making."
-  },
-  {
-    "question": "cars",
-    "answer": "Move quick and never look back."
-  },
-  {
-    "question": "messages",
-    "answer": "Share your ideas with people."
   },
   {
     "question": "marketing",
