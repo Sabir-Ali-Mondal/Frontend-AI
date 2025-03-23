@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary JSON Converter</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; text-align: center; }
+    input, button { margin-top: 10px; padding: 10px; cursor: pointer; }
+    .file-container { border: 1px solid #ddd; padding: 10px; margin-top: 10px; text-align: left; background: #f9f9f9; }
+    .button-group { margin-bottom: 10px; display: flex; justify-content: center; gap: 10px; }
+    .loader { display: none; font-size: 18px; font-weight: bold; color: blue; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>Upload Dictionary Files & Convert to JSON</h2>
+  <input type="file" id="fileInput" multiple />
+  <button onclick="processFiles()">Convert All</button>
+  <button onclick="mergeAllFiles()">Merge All</button>
+  <button onclick="downloadMergedJSON()">Download Merged JSON</button>
+  <button onclick="copyMergedJSON()">Copy Merged JSON</button>
+
+  <div id="loader" class="loader">Processing files... Please wait.</div>
+  <div id="output"></div>
+
+  <script>
+    let allJsonData = {}; // Stores all processed JSONs
+
+    const tagActions = {
+      'br': () => "\n", 'gen': (txt) => `*${txt}*`, 'xex': (txt) => txt,
+      'altname': (txt) => `also known as ${txt}`, 'altsp': (txt) => `also known as ${txt}`,
+      'ant': (txt) => `Antonym: ${txt}`, 'note': (txt) => `\nNote: ${txt}`,
+      'specif': (txt) => `(${txt})`, 'spn': (txt) => txt,
+      'er': (txt) => txt, 'pos': (txt) => `(${txt})`, 'it': (txt) => `_${txt}_`, 'au': (txt) => txt
+    };
+
+    function processDefinition(defText) {
+      defText = defText.replace(/<br\s*\/?>/gi, "\n");
+      for (const tag in tagActions) {
+        const regex = new RegExp(`<${tag}>(.*?)<\/${tag}>`, "gi");
+        defText = defText.replace(regex, (_, p1) => tagActions[tag](p1));
+      }
+      return defText.replace(/<\/?[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    }
+
+    function processHeadword(word) {
+      return word.replace(/["'*`\\]/g, "").trim();
+    }
+
+    function processFiles() {
+      const files = document.getElementById('fileInput').files;
+      if (!files.length) {
+        alert("Please select at least one file!");
+        return;
+      }
+
+      document.getElementById("output").innerHTML = "";
+      allJsonData = {}; // Reset merged data
+      document.getElementById("loader").style.display = "block"; // Show loader
+
+      let processedCount = 0;
+
+      Array.from(files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = function(event) {
+          const text = event.target.result;
+          const jsonData = convertToJSON(text);
+          allJsonData[file.name] = jsonData; // Store for merging
+          displayButtons(file.name, jsonData);
+
+          processedCount++;
+          if (processedCount === files.length) {
+            document.getElementById("loader").style.display = "none"; // Hide loader when done
+          }
+        };
+        reader.readAsText(file);
+      });
+    }
+
+    function convertToJSON(text) {
+      const jsonArray = [];
+      const entryRegex = /<p>[\s\S]*?<hw>(.*?)<\/hw>[\s\S]*?<def>(.*?)<\/def>/gi;
+      let match;
+      const introPhrases = ['You can think of it as', 'One way to understand this is', 'It means', 'In simple terms, this is', 'You might recognize this as'];
+      while ((match = entryRegex.exec(text)) !== null) {
+        let word = processHeadword(match[1]);
+        let def = processDefinition(match[2]);
+        let intro = introPhrases[Math.floor(Math.random() * introPhrases.length)];
+        jsonArray.push({ question: word, answer: `${intro} ${def}` });
+      }
+      return jsonArray;
+    }
+
+    function displayButtons(fileName, jsonData) {
+      const outputDiv = document.getElementById("output");
+      const jsonString = JSON.stringify(jsonData, null, 4);
+      
+      const container = document.createElement("div");
+      container.className = "file-container";
+
+      const fileTitle = document.createElement("h3");
+      fileTitle.textContent = `Processed: ${fileName}`;
+      container.appendChild(fileTitle);
+
+      const buttonGroup = document.createElement("div");
+      buttonGroup.className = "button-group";
+
+      const copyButton = document.createElement("button");
+      copyButton.textContent = "Copy JSON";
+      copyButton.onclick = () => {
+        navigator.clipboard.writeText(jsonString).then(() => alert("Copied!"));
+      };
+      buttonGroup.appendChild(copyButton);
+
+      const downloadButton = document.createElement("button");
+      downloadButton.textContent = "Download JSON";
+      downloadButton.onclick = () => {
+        const jsonFileName = fileName + ".json";
+        const blob = new Blob([jsonString], { type: "application/json" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = jsonFileName;
+        link.click();
+      };
+      buttonGroup.appendChild(downloadButton);
+
+      container.appendChild(buttonGroup);
+      outputDiv.appendChild(container);
+    }
+
+    function mergeAllFiles() {
+      if (Object.keys(allJsonData).length === 0) {
+        alert("No processed files found! Convert files first.");
+        return;
+      }
+
+      let mergedJson = [];
+      for (let file in allJsonData) {
+        mergedJson = mergedJson.concat(allJsonData[file]);
+      }
+
+      allJsonData["merged"] = mergedJson; // Store merged version
+
+      const outputDiv = document.getElementById("output");
+      const container = document.createElement("div");
+      container.className = "file-container";
+
+      const fileTitle = document.createElement("h3");
+      fileTitle.textContent = "Merged JSON Output";
+      container.appendChild(fileTitle);
+
+      const buttonGroup = document.createElement("div");
+      buttonGroup.className = "button-group";
+
+      const copyButton = document.createElement("button");
+      copyButton.textContent = "Copy Merged JSON";
+      copyButton.onclick = () => {
+        navigator.clipboard.writeText(JSON.stringify(mergedJson, null, 4)).then(() => alert("Copied!"));
+      };
+      buttonGroup.appendChild(copyButton);
+
+      const downloadButton = document.createElement("button");
+      downloadButton.textContent = "Download Merged JSON";
+      downloadButton.onclick = () => {
+        const blob = new Blob([JSON.stringify(mergedJson, null, 4)], { type: "application/json" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "merged_dictionary.json";
+        link.click();
+      };
+      buttonGroup.appendChild(downloadButton);
+
+      container.appendChild(buttonGroup);
+      outputDiv.appendChild(container);
+    }
+
+    function downloadMergedJSON() {
+      mergeAllFiles();
+    }
+
+    function copyMergedJSON() {
+      mergeAllFiles();
+    }
+  </script>
+</body>
+</html>
