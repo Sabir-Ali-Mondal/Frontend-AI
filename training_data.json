@@ -8,152 +8,16 @@
     "answer": "I mean, it's something telling to me"
   },
   {
-    "question": "Me",
-    "answer": "That's maybe about you?"
-  },
-  {
-    "question": "We",
-    "answer": "Together, we make things happen"
-  },
-  {
-    "question": "They",
-    "answer": "They are just over there, you know?"
-  },
-  {
-    "question": "What",
-    "answer": "What? That's a question in itself"
-  },
-  {
-    "question": "When",
-    "answer": "When? Perhaps soon, maybe later"
-  },
-  {
-    "question": "Where",
-    "answer": "Where? Not here, perhaps somewhere else"
-  },
-  {
     "question": "Why",
     "answer": "Why? Because reasons, obviously"
-  },
-  {
-    "question": "How",
-    "answer": "How? Well, it's complicated, isn't it?"
-  },
-  {
-    "question": "Yes",
-    "answer": "Yes, indeed. You got it."
-  },
-  {
-    "question": "No",
-    "answer": "No, not really. Try again."
-  },
-  {
-    "question": "Maybe",
-    "answer": "Maybe, if you feel like it."
-  },
-  {
-    "question": "Hello",
-    "answer": "Hello! Nice to see you."
-  },
-  {
-    "question": "Bye",
-    "answer": "Bye! Catch you later."
-  },
-  {
-    "question": "Good",
-    "answer": "Good, like a bright sunny day."
-  },
-  {
-    "question": "Bad",
-    "answer": "Bad, like a gloomy moment."
-  },
-  {
-    "question": "Cool",
-    "answer": "Cool, like ice on a summer day."
-  },
-  {
-    "question": "Love",
-    "answer": "Love is messy, yet wonderful."
-  },
-  {
-    "question": "Hate",
-    "answer": "Hate is strong, but maybe unnecessary."
-  },
-  {
-    "question": "Happy",
-    "answer": "Happy is a state of mind, enjoy it."
-  },
-  {
-    "question": "Sad",
-    "answer": "Sad, like a rainy day inside."
   },
   {
     "question": "Angry",
     "answer": "Angry, but take a deep breath."
   },
   {
-    "question": "Fun",
-    "answer": "Fun is the spice of life, have some."
-  },
-  {
-    "question": "Really",
-    "answer": "Really? I think you already know."
-  },
-  {
-    "question": "Sure",
-    "answer": "Sure, why not, it's your call."
-  },
-  {
-    "question": "Okay",
-    "answer": "Okay, that's fine by me."
-  },
-  {
-    "question": "Help",
-    "answer": "Help is here, just ask."
-  },
-  {
-    "question": "Stop",
-    "answer": "Stop right there, hold up."
-  },
-  {
-    "question": "Go",
-    "answer": "Go ahead, make your move."
-  },
-  {
-    "question": "Come",
-    "answer": "Come on, don't be shy."
-  },
-  {
-    "question": "Look",
-    "answer": "Look, things are not always clear."
-  },
-  {
-    "question": "See",
-    "answer": "See? I told you it makes sense."
-  },
-  {
-    "question": "Listen",
-    "answer": "Listen up, pay attention now."
-  },
-  {
-    "question": "Think",
-    "answer": "Think, and let your mind wander."
-  },
-  {
-    "question": "Feel",
-    "answer": "Feel, let emotions guide you."
-  },
-  {
-    "question": "Know",
-    "answer": "Hmm, I think you know it."
-  },
-  {
     "question": "Understand",
     "answer": "Understand, even if it's a bit fuzzy."
-  },
-  {
-    "question": "Something",
-    "answer": "something is good than you"
   },
   {
     "question": "Nothing",
@@ -164,24 +28,8 @@
     "answer": "Everything has its own charm, really."
   },
   {
-    "question": "Always",
-    "answer": "Always, because consistency matters."
-  },
-  {
-    "question": "Never",
-    "answer": "Never is a strong word, try again."
-  },
-  {
-    "question": "Sometimes",
-    "answer": "Sometimes is the spice of unpredictability."
-  },
-  {
     "question": "Often",
     "answer": "Often enough to keep you guessing."
-  },
-  {
-    "question": "Rarely",
-    "answer": "Rarely does perfection occur, indeed."
   },
   {
     "question": "Perhaps",
@@ -204,32 +52,16 @@
     "answer": "Seriously, take it with a pinch of salt."
   },
   {
-    "question": "Wow",
-    "answer": "Wow, that's something to behold."
-  },
-  {
     "question": "Oh",
     "answer": "Oh, that caught my attention."
-  },
-  {
-    "question": "Um",
-    "answer": "Um, well, I'm not sure what to say."
   },
   {
     "question": "Ah",
     "answer": "Ah, the simple sound of realization."
   },
   {
-    "question": "Hey",
-    "answer": "Hey there, what's up?"
-  },
-  {
     "question": "Yo",
     "answer": "Yo, keep it chill, my friend."
-  },
-  {
-    "question": "Alright",
-    "answer": "Alright, let's roll with it."
   },
   {
     "question": "Surely",
@@ -244,84 +76,24 @@
     "answer": "Definitely, no doubts about that."
   },
   {
-    "question": "Possibly",
-    "answer": "Possibly, if the stars align just right."
-  },
-  {
     "question": "Apparently",
     "answer": "Apparently, things are as they seem."
-  },
-  {
-    "question": "Obviously",
-    "answer": "Obviously, it's all clear now."
-  },
-  {
-    "question": "Indeed",
-    "answer": "Indeed, that's exactly right."
-  },
-  {
-    "question": "After",
-    "answer": "After, a step that follows naturally."
   },
   {
     "question": "Before",
     "answer": "Before, a moment that comes first."
   },
   {
-    "question": "Now",
-    "answer": "Now, seize the moment with vigor."
-  },
-  {
-    "question": "Later",
-    "answer": "Later, when the time is just right."
-  },
-  {
-    "question": "Today",
-    "answer": "Today is a canvas of endless possibilities."
-  },
-  {
     "question": "Tomorrow",
     "answer": "Tomorrow might hold new adventures."
-  },
-  {
-    "question": "Yesterday",
-    "answer": "Yesterday is history, learn from it."
-  },
-  {
-    "question": "Here",
-    "answer": "Here is where the magic happens."
-  },
-  {
-    "question": "There",
-    "answer": "There, just over the horizon."
-  },
-  {
-    "question": "Everywhere",
-    "answer": "Everywhere, like whispers in the wind."
-  },
-  {
-    "question": "Somewhere",
-    "answer": "Somewhere in between, mystery awaits."
   },
   {
     "question": "Nowhere",
     "answer": "Nowhere is as exciting as anywhere else."
   },
   {
-    "question": "Up",
-    "answer": "Up, like reaching for the stars."
-  },
-  {
     "question": "Down",
     "answer": "Down, when you're taking a humble pause."
-  },
-  {
-    "question": "In",
-    "answer": "In, where things start to make sense."
-  },
-  {
-    "question": "Out",
-    "answer": "Out, stepping into the great unknown."
   },
   {
     "question": "Over",
@@ -332,28 +104,8 @@
     "answer": "Under, hidden yet intriguing."
   },
   {
-    "question": "Through",
-    "answer": "Through, the journey unfolds step by step."
-  },
-  {
-    "question": "Beyond",
-    "answer": "Beyond, where limits cease to exist."
-  },
-  {
     "question": "Near",
     "answer": "Near, close enough to feel the warmth."
-  },
-  {
-    "question": "Far",
-    "answer": "Far, in a distant realm of wonder."
-  },
-  {
-    "question": "High",
-    "answer": "High, like aspirations reaching new heights."
-  },
-  {
-    "question": "Low",
-    "answer": "Low, sometimes a gentle reminder to pause."
   },
   {
     "question": "Open",
@@ -362,10 +114,6 @@
   {
     "question": "Closed",
     "answer": "Closed, like a secret waiting to be discovered."
-  },
-  {
-    "question": "Fast",
-    "answer": "Fast, when time races like a heartbeat."
   },
   {
     "question": "Slow",
@@ -388,68 +136,16 @@
     "answer": "Last, the final note in a memorable tune."
   },
   {
-    "question": "Right",
-    "answer": "Right, like a guiding star in the night."
-  },
-  {
-    "question": "Wrong",
-    "answer": "Wrong, a detour on the road to understanding."
-  },
-  {
-    "question": "Again",
-    "answer": "Again, a chance to try once more."
-  },
-  {
-    "question": "Overall",
-    "answer": "Overall gives you a big-picture view, summing up everything."
-  },
-  {
     "question": "Share",
     "answer": "Share spreads ideas and resources, fostering connections."
-  },
-  {
-    "question": "Print",
-    "answer": "Print turns digital into tangible, making things permanent."
-  },
-  {
-    "question": "This",
-    "answer": "This points directly, keeping focus clear and specific."
   },
   {
     "question": "Page",
     "answer": "Page is a single view, a piece of a bigger story."
   },
   {
-    "question": "Look",
-    "answer": "Look directs your attention, inviting you to see more."
-  },
-  {
-    "question": "Comment",
-    "answer": "Comment adds your voice to the conversation, sharing thoughts."
-  },
-  {
-    "question": "Social",
-    "answer": "Social connects people, bridging gaps with interaction."
-  },
-  {
-    "question": "Media",
-    "answer": "Media delivers content, shaping how we see the world."
-  },
-  {
-    "question": "Based",
-    "answer": "Based sets a foundation, a starting point for ideas."
-  },
-  {
-    "question": "Like",
-    "answer": "Like expresses appreciation, a simple yet powerful gesture."
-  },
-  {
     "question": "Follow",
     "answer": "Follow keeps you updated, ensuring you don’t miss anything."
-  },
-  {
-    "question": "Post",
-    "answer": "Post shares your thoughts, making them visible to others."
   },
   {
     "question": "Reply",
@@ -464,10 +160,6 @@
     "answer": "Network expands your reach, strengthening your influence."
   },
   {
-    "question": "Influence",
-    "answer": "Influence shapes opinions, leading others in new directions."
-  },
-  {
     "question": "Tag",
     "answer": "Tag highlights people, drawing attention to them."
   },
@@ -480,16 +172,8 @@
     "answer": "Feed delivers updates, keeping content flowing."
   },
   {
-    "question": "Stories",
-    "answer": "Stories share experiences, giving them a personal touch."
-  },
-  {
     "question": "Viral",
     "answer": "Viral spreads rapidly, catching everyone's attention."
-  },
-  {
-    "question": "Engagement",
-    "answer": "Engagement fosters interaction, deepening connections."
   },
   {
     "question": "Repost",
@@ -498,14 +182,6 @@
   {
     "question": "Hashtag",
     "answer": "Hashtag categorizes content, making it easy to find."
-  },
-  {
-    "question": "Explore",
-    "answer": "Explore invites curiosity, encouraging discovery."
-  },
-  {
-    "question": "Update",
-    "answer": "Update refreshes information, keeping it relevant."
   },
   {
     "question": "Timeline",
@@ -520,48 +196,20 @@
     "answer": "Live happens in real time, unfiltered and immediate."
   },
   {
-    "question": "Shareable",
-    "answer": "Shareable makes content easy to spread and enjoy."
-  },
-  {
     "question": "Mention",
     "answer": "Mention gives credit, acknowledging someone's presence."
-  },
-  {
-    "question": "DM",
-    "answer": "DM enables private conversations, direct and personal."
-  },
-  {
-    "question": "Group",
-    "answer": "Group unites people with shared interests and goals."
   },
   {
     "question": "Followers",
     "answer": "Followers support and engage with your content."
   },
   {
-    "question": "Community",
-    "answer": "Community fosters belonging, built on shared interests."
-  },
-  {
-    "question": "Profile",
-    "answer": "Profile represents you online, shaping your identity."
-  },
-  {
     "question": "Status",
     "answer": "Status shares updates about what's happening now."
   },
   {
-    "question": "Reaction",
-    "answer": "Reaction expresses emotion, showing how you feel."
-  },
-  {
     "question": "Content",
     "answer": "Content fills platforms with creativity and information."
-  },
-  {
-    "question": "Link",
-    "answer": "Link connects resources, guiding users to more content."
   },
   {
     "question": "Click",
@@ -936,10 +584,6 @@
     "answer": "Porn is a controversial topic that sparks much debate."
   },
   {
-    "question": "share",
-    "answer": "Share spreads joy and information, making connections stronger."
-  },
-  {
     "question": "similar",
     "answer": "Similar draws comparisons, highlighting familiar traits."
   },
@@ -1006,10 +650,6 @@
   {
     "question": "film",
     "answer": "Film tells stories through moving images, captivating your imagination."
-  },
-  {
-    "question": "stories",
-    "answer": "Stories weave experiences into narratives that touch the heart."
   },
   {
     "question": "put",
@@ -1160,10 +800,6 @@
     "answer": "Friends are the heart of companionship, always there to support you."
   },
   {
-    "question": "sure",
-    "answer": "Sure confirms certainty, a friendly nod of agreement."
-  },
-  {
     "question": "faq",
     "answer": "FAQ answers common questions, making things clear and simple."
   },
@@ -1218,10 +854,6 @@
   {
     "question": "david",
     "answer": "David is a classic name, carrying history and character."
-  },
-  {
-    "question": "fun",
-    "answer": "Fun adds joy to life, a playful break from the routine."
   },
   {
     "question": "already",
@@ -1480,10 +1112,6 @@
     "answer": "Statement declares your thoughts boldly, making your mark."
   },
   {
-    "question": "update",
-    "answer": "Update refreshes your information, keeping you current."
-  },
-  {
     "question": "parts",
     "answer": "Parts come together to form the whole, each playing its role."
   },
@@ -1498,10 +1126,6 @@
   {
     "question": "downloads",
     "answer": "Downloads bring digital content right to your device."
-  },
-  {
-    "question": "early",
-    "answer": "Early sets the pace for the day, a head start on possibilities."
   },
   {
     "question": "miles",
@@ -1784,10 +1408,6 @@
     "answer": "Terms lay out the conditions or rules, keeping things clear."
   },
   {
-    "question": "before",
-    "answer": "Before takes you back to what came earlier."
-  },
-  {
     "question": "hotels",
     "answer": "Hotels offer a comfortable stop, a home away from home."
   },
@@ -1800,16 +1420,8 @@
     "answer": "Send is the act of sharing your message with someone."
   },
   {
-    "question": "right",
-    "answer": "Right confirms correctness or a well-placed thought."
-  },
-  {
     "question": "type",
     "answer": "Type tells you how something is categorized or done."
-  },
-  {
-    "question": "because",
-    "answer": "Because explains the reason behind a thought or action."
   },
   {
     "question": "local",
@@ -1862,10 +1474,6 @@
   {
     "question": "address",
     "answer": "Address tells you where something is located, both physical and digital."
-  },
-  {
-    "question": "community",
-    "answer": "Community is all about coming together and supporting one another."
   },
   {
     "question": "within",
@@ -1984,14 +1592,6 @@
     "answer": "Link connects ideas and people, bridging gaps effortlessly."
   },
   {
-    "question": "open",
-    "answer": "Open invites you to explore new possibilities and adventures."
-  },
-  {
-    "question": "today",
-    "answer": "Today is a fresh start, brimming with opportunities."
-  },
-  {
     "question": "technology",
     "answer": "Technology drives innovation, making life more convenient."
   },
@@ -2088,14 +1688,6 @@
     "answer": "Care is the gentle touch that shows concern and kindness."
   },
   {
-    "question": "network",
-    "answer": "Network connects people and ideas, building bridges together."
-  },
-  {
-    "question": "down",
-    "answer": "Down gently indicates movement to a lower point, calming and steady."
-  },
-  {
     "question": "computer",
     "answer": "Computer is the modern tool that processes information swiftly."
   },
@@ -2144,10 +1736,6 @@
     "answer": "Access opens the door to information and opportunities."
   },
   {
-    "question": "think",
-    "answer": "Think invites you to ponder and explore your inner ideas."
-  },
-  {
     "question": "north",
     "answer": "North points the way, often associated with cool directions."
   },
@@ -2166,10 +1754,6 @@
   {
     "question": "big",
     "answer": "Big stands for size or importance, making a bold impression."
-  },
-  {
-    "question": "media",
-    "answer": "Media spreads stories and news across the globe."
   },
   {
     "question": "law",
@@ -2304,10 +1888,6 @@
     "answer": "Digital brings modernity and speed to everyday tasks."
   },
   {
-    "question": "profile",
-    "answer": "Profile paints a picture of who you are in the digital realm."
-  },
-  {
     "question": "previous",
     "answer": "Previous reminds you of what came before, a gentle flashback."
   },
@@ -2318,10 +1898,6 @@
   {
     "question": "events",
     "answer": "Events mark special moments, filled with energy and life."
-  },
-  {
-    "question": "love",
-    "answer": "Love is the heartbeat of life, warm and all-encompassing."
   },
   {
     "question": "old",
@@ -2372,10 +1948,6 @@
     "answer": "Another invites you to consider one more possibility."
   },
   {
-    "question": "why",
-    "answer": "Why sparks curiosity, asking for the reason behind things."
-  },
-  {
     "question": "shall",
     "answer": "Shall offers a polite suggestion, a gentle directive to follow."
   },
@@ -2412,10 +1984,6 @@
     "answer": "Listing organizes items neatly, making them easy to review."
   },
   {
-    "question": "content",
-    "answer": "Content is the essence of your message, rich with meaning."
-  },
-  {
     "question": "country",
     "answer": "Country speaks of a nation, with its unique story and culture."
   },
@@ -2442,10 +2010,6 @@
   {
     "question": "low",
     "answer": "Low speaks of minimal amounts, understated yet clear."
-  },
-  {
-    "question": "reply",
-    "answer": "Reply is your response, a way to keep the conversation alive."
   },
   {
     "question": "customer",
@@ -2528,24 +2092,12 @@
     "answer": "And connects thoughts together like a gentle bridge."
   },
   {
-    "question": "i",
-    "answer": "I refers to oneself, marking your personal presence."
-  },
-  {
-    "question": "you",
-    "answer": "See you later!"
-  },
-  {
     "question": "me",
     "answer": "Me is all about yourself, the one experiencing life."
   },
   {
     "question": "will",
     "answer": "Will shows our determination for what comes next."
-  },
-  {
-    "question": "love",
-    "answer": "Love is a complex emotion that can be hard to define."
   },
   {
     "question": "have",
@@ -2572,44 +2124,16 @@
     "answer": "I know you are trying to know something, I'm trying to understand your question."
   },
   {
-    "question": "hello",
-    "answer": "Hello, friend! How are you doing today?"
-  },
-  {
     "question": "bye",
     "answer": "Bye for now! Take care and see you soon."
-  },
-  {
-    "question": "good",
-    "answer": "Good reminds us of the beauty in everyday moments."
-  },
-  {
-    "question": "bad",
-    "answer": "Bad is something we all experience, and it helps us grow."
-  },
-  {
-    "question": "okay",
-    "answer": "Okay is a simple word that keeps things moving forward."
-  },
-  {
-    "question": "help",
-    "answer": "Help means reaching out when you need a little support."
   },
   {
     "question": "error",
     "answer": "Error reminds us that mistakes are just steps toward improvement."
   },
   {
-    "question": "update",
-    "answer": "Update brings fresh changes and new perspectives."
-  },
-  {
     "question": "reset",
     "answer": "Reset allows you to start over with a clean slate."
-  },
-  {
-    "question": "status",
-    "answer": "Status gives you a snapshot of things as they are right now."
   },
   {
     "question": "start",
@@ -2618,10 +2142,6 @@
   {
     "question": "exit",
     "answer": "Exit means it's time to wrap things up for now."
-  },
-  {
-    "question": "open",
-    "answer": "Open invites you to explore new ideas and opportunities."
   },
   {
     "question": "close",
@@ -2670,10 +2190,6 @@
   {
     "question": "disconnect",
     "answer": "Disconnect gives you a break to enjoy some quiet time."
-  },
-  {
-    "question": "connect",
-    "answer": "Connect brings people together and shares warmth."
   },
   {
     "question": "scan",
@@ -2900,16 +2416,8 @@
     "answer": "Render turns your thoughts into a vivid picture of the moment."
   },
   {
-    "question": "see",
-    "answer": "See is about opening your eyes to the beauty around you."
-  },
-  {
     "question": "feel",
     "answer": "Feel connects you to the emotions that color your world."
-  },
-  {
-    "question": "think",
-    "answer": "Think invites you to explore ideas and let your mind wander."
   },
   {
     "question": "dream",
@@ -2978,10 +2486,6 @@
   {
     "question": "topics",
     "answer": "Topics spark conversation, each inviting a curious mind."
-  },
-  {
-    "question": "bad",
-    "answer": "Bad signals caution but also offers a chance to improve."
   },
   {
     "question": "individual",
@@ -3080,10 +2584,6 @@
     "answer": "Lyrics sing the words of a song, full of emotion and rhythm."
   },
   {
-    "question": "often",
-    "answer": "Often tells you what happens frequently, a familiar occurrence."
-  },
-  {
     "question": "subscribe",
     "answer": "Subscribe means to sign up and stay in the loop."
   },
@@ -3108,10 +2608,6 @@
     "answer": "Included ensures nothing’s left out, a complete package."
   },
   {
-    "question": "feel",
-    "answer": "Feel taps into your emotions—the heart of every experience."
-  },
-  {
     "question": "though",
     "answer": "Though adds a twist, showing contrast or gentle hesitation."
   },
@@ -3126,10 +2622,6 @@
   {
     "question": "thanks",
     "answer": "Thanks is a warm expression of gratitude."
-  },
-  {
-    "question": "everything",
-    "answer": "Everything covers the whole picture, embracing all parts."
   },
   {
     "question": "deals",
@@ -3392,10 +2884,6 @@
     "answer": "Published means it's been shared with the world, ready for readers."
   },
   {
-    "question": "later",
-    "answer": "Later hints at what’s coming next—a promise for the future."
-  },
-  {
     "question": "basic",
     "answer": "Basic keeps things straightforward, nothing overly fancy."
   },
@@ -3572,10 +3060,6 @@
     "answer": "Base provides the foundation for growth and stability."
   },
   {
-    "question": "near",
-    "answer": "Near brings things closer, making them feel within reach."
-  },
-  {
     "question": "environmental",
     "answer": "Environmental speaks to our natural world and its care."
   },
@@ -3594,10 +3078,6 @@
   {
     "question": "storage",
     "answer": "Storage keeps your belongings safe until you need them."
-  },
-  {
-    "question": "oh",
-    "answer": "Oh expresses surprise or realization, soft and sincere."
   },
   {
     "question": "japan",
@@ -3808,10 +3288,6 @@
     "answer": "Sales spark excitement with opportunities to save and smile."
   },
   {
-    "question": "look",
-    "answer": "Look invites you to observe details you might otherwise miss."
-  },
-  {
     "question": "english",
     "answer": "English connects diverse voices into a single, vibrant story."
   },
@@ -3868,10 +3344,6 @@
     "answer": "Note is a small message that can brighten someone's day."
   },
   {
-    "question": "live",
-    "answer": "Live means embracing the moment with energy and passion."
-  },
-  {
     "question": "large",
     "answer": "Large suggests abundance and space to grow and explore."
   },
@@ -3910,10 +3382,6 @@
   {
     "question": "library",
     "answer": "Library is a quiet haven filled with endless stories and wisdom."
-  },
-  {
-    "question": "really",
-    "answer": "Really emphasizes sincerity, underlining what matters most."
   },
   {
     "question": "action",
@@ -3958,10 +3426,6 @@
   {
     "question": "tv",
     "answer": "TV entertains and informs, a window into countless stories."
-  },
-  {
-    "question": "yes",
-    "answer": "Yes is a simple, affirmative nod to possibilities."
   },
   {
     "question": "required",
@@ -4038,10 +3502,6 @@
   {
     "question": "friend",
     "answer": "Friend is the companion who makes every moment brighter."
-  },
-  {
-    "question": "come",
-    "answer": "Come invites you warmly into a shared experience."
   },
   {
     "question": "dec",
@@ -4372,10 +3832,6 @@
     "answer": "Latest brings you the freshest update, just off the press."
   },
   {
-    "question": "something",
-    "answer": "Something teases a delightful mystery waiting to be explored."
-  },
-  {
     "question": "road",
     "answer": "Road stretches ahead, inviting you on a journey of discovery."
   },
@@ -4424,10 +3880,6 @@
     "answer": "Poker blends strategy with chance, a game of wits and luck."
   },
   {
-    "question": "status",
-    "answer": "Status tells you where things stand, a snapshot in time."
-  },
-  {
     "question": "browse",
     "answer": "Browse lets you explore at your leisure, discovering new gems."
   },
@@ -4454,10 +3906,6 @@
   {
     "question": "february",
     "answer": "February may be short, but it carries a quiet charm."
-  },
-  {
-    "question": "always",
-    "answer": "Always assures you of consistency, a promise that endures."
   },
   {
     "question": "result",
@@ -4512,16 +3960,8 @@
     "answer": "Files neatly store your work, keeping everything in its place."
   },
   {
-    "question": "event",
-    "answer": "Event marks a special moment, a highlight in the day."
-  },
-  {
     "question": "A",
     "answer": "A stands on its own—small but full of potential."
-  },
-  {
-    "question": "I",
-    "answer": "I is all about personal perspective, representing yourself."
   },
   {
     "question": "the",
@@ -4538,10 +3978,6 @@
   {
     "question": "to",
     "answer": "To directs you toward a goal or destination in a simple way."
-  },
-  {
-    "question": "in",
-    "answer": "In sets the scene, placing something within a space."
   },
   {
     "question": "for",
@@ -4564,16 +4000,8 @@
     "answer": "By shows the method or means of doing something."
   },
   {
-    "question": "this",
-    "answer": "This brings focus to something right in front of you."
-  },
-  {
     "question": "with",
     "answer": "With connects elements together in a natural, friendly way."
-  },
-  {
-    "question": "you",
-    "answer": "You makes it personal, directly addressing someone."
   },
   {
     "question": "it",
@@ -4636,10 +4064,6 @@
     "answer": "Was takes you back to something that existed in the past."
   },
   {
-    "question": "we",
-    "answer": "We unites voices, making the experience shared and inclusive."
-  },
-  {
     "question": "will",
     "answer": "Will hints at future action or promise in a gentle tone."
   },
@@ -4662,10 +4086,6 @@
   {
     "question": "if",
     "answer": "If opens a door to possibilities, asking you to imagine scenarios."
-  },
-  {
-    "question": "page",
-    "answer": "Page refers to one side of a story, whether in a book or online."
   },
   {
     "question": "my",
@@ -4704,10 +4124,6 @@
     "answer": "Do is a call to action, encouraging you to take steps forward."
   },
   {
-    "question": "no",
-    "answer": "No is a clear, simple refusal when something isn’t right."
-  },
-  {
     "question": "information",
     "answer": "Information is the nugget of knowledge that enlightens you."
   },
@@ -4734,10 +4150,6 @@
   {
     "question": "may",
     "answer": "May opens the door to possibility without promising certainty."
-  },
-  {
-    "question": "what",
-    "answer": "What asks a direct question, inviting more details."
   },
   {
     "question": "which",
@@ -4784,16 +4196,8 @@
     "answer": "His shows something that belongs to him, in a personal way."
   },
   {
-    "question": "when",
-    "answer": "When asks about the timing, a gentle inquiry into the moment."
-  },
-  {
     "question": "contact",
     "answer": "Contact is all about reaching out and connecting with someone."
-  },
-  {
-    "question": "here",
-    "answer": "Here places you right in the heart of the moment."
   },
   {
     "question": "business",
@@ -4816,10 +4220,6 @@
     "answer": "Now brings you straight into the present, where everything happens."
   },
   {
-    "question": "help",
-    "answer": "Help is there when you need a hand or some guidance."
-  },
-  {
     "question": "get",
     "answer": "Get is a prompt to receive or obtain something you desire."
   },
@@ -4836,10 +4236,6 @@
     "answer": "Online means you're connected, part of the digital world."
   },
   {
-    "question": "first",
-    "answer": "First sets the stage as the beginning of something new."
-  },
-  {
     "question": "am",
     "answer": "Am is all about being—it's a statement of existence."
   },
@@ -4852,16 +4248,8 @@
     "answer": "Would offers a gentle suggestion of what might be possible."
   },
   {
-    "question": "how",
-    "answer": "How inquires about the method or way things happen."
-  },
-  {
     "question": "were",
     "answer": "Were takes you back to past moments, a reflective pause."
-  },
-  {
-    "question": "me",
-    "answer": "Me is all about the self, a personal statement in every conversation."
   },
   {
     "question": "services",
@@ -4882,10 +4270,6 @@
   {
     "question": "its",
     "answer": "Its shows ownership in a quiet, understated manner."
-  },
-  {
-    "question": "like",
-    "answer": "Like draws comparisons, making ideas easier to relate to."
   },
   {
     "question": "service",
@@ -4936,10 +4320,6 @@
     "answer": "Just keeps it simple, stating things exactly as they are."
   },
   {
-    "question": "over",
-    "answer": "Over suggests completion or moving past something with ease."
-  },
-  {
     "question": "state",
     "answer": "State can refer to a condition or even a place, depending on context."
   },
@@ -4984,16 +4364,8 @@
     "answer": "Used shows that something has served its purpose before."
   },
   {
-    "question": "go",
-    "answer": "Go encourages you to move ahead, without looking back."
-  },
-  {
     "question": "work",
     "answer": "Work is the effort you put in to make things happen."
-  },
-  {
-    "question": "last",
-    "answer": "Last signifies the final piece in a sequence, the end of a line."
   },
   {
     "question": "most",
@@ -5034,10 +4406,6 @@
   {
     "question": "system",
     "answer": "System organizes elements into a smoothly running whole."
-  },
-  {
-    "question": "post",
-    "answer": "Post lets you share your thoughts, putting them out for the world."
   },
   {
     "question": "her",
@@ -5084,10 +4452,6 @@
     "answer": "Message carries a thought or idea, shared briefly and clearly."
   },
   {
-    "question": "after",
-    "answer": "After follows what came before, moving the story along."
-  },
-  {
     "question": "best",
     "answer": "Best celebrates excellence, the peak of quality."
   },
@@ -5104,20 +4468,12 @@
     "answer": "Jan is a short form of January, marking a fresh start."
   },
   {
-    "question": "good",
-    "answer": "Good radiates positivity and warmth, a simple pleasure."
-  },
-  {
     "question": "video",
     "answer": "Video brings moving images to life, full of color and sound."
   },
   {
     "question": "well",
     "answer": "Well indicates that things are going smoothly, all is fine."
-  },
-  {
-    "question": "where",
-    "answer": "Where asks about location, setting the stage for details."
   },
   {
     "question": "info",
@@ -5134,10 +4490,6 @@
   {
     "question": "books",
     "answer": "Books open up worlds of stories and ideas, page by page."
-  },
-  {
-    "question": "high",
-    "answer": "High lifts your gaze upward, aiming for the best."
   },
   {
     "question": "school",
@@ -5196,10 +4548,6 @@
     "answer": "Read invites you to dive into words and discover new worlds."
   },
   {
-    "question": "group",
-    "answer": "Group unites individuals into a common collection or team."
-  },
-  {
     "question": "sex",
     "answer": "Sex is a topic discussed with maturity and openness."
   },
@@ -5230,10 +4578,6 @@
   {
     "question": "set",
     "answer": "Set organizes ideas or objects into a neat arrangement."
-  },
-  {
-    "question": "under",
-    "answer": "Under shows a position beneath or lower than something else."
   },
   {
     "question": "general",
@@ -5342,10 +4686,6 @@
   {
     "question": "david",
     "answer": "A classic name to know"
-  },
-  {
-    "question": "fun",
-    "answer": "Let's have some joy."
   },
   {
     "question": "already",
@@ -5604,10 +4944,6 @@
     "answer": "Let everyone know!"
   },
   {
-    "question": "update",
-    "answer": "Keep us in the loop with you!"
-  },
-  {
     "question": "parts",
     "answer": "What shapes things up!"
   },
@@ -5622,10 +4958,6 @@
   {
     "question": "downloads",
     "answer": "What we keep with us."
-  },
-  {
-    "question": "early",
-    "answer": "Get the jump, and seize the day!"
   },
   {
     "question": "miles",
@@ -5908,10 +5240,6 @@
     "answer": "What we should keep in mind!"
   },
   {
-    "question": "before",
-    "answer": "Throwback to everything before!"
-  },
-  {
     "question": "hotels",
     "answer": "Home away from home."
   },
@@ -5924,16 +5252,8 @@
     "answer": "Share your love to others!"
   },
   {
-    "question": "right",
-    "answer": "You are absolutely right!"
-  },
-  {
     "question": "type",
     "answer": "Show the different styles!"
-  },
-  {
-    "question": "because",
-    "answer": "The world may never know."
   },
   {
     "question": "local",
@@ -5988,10 +5308,6 @@
     "answer": "Where to get all the amazing things"
   },
   {
-    "question": "community",
-    "answer": "Helping hand for all"
-  },
-  {
     "question": "within",
     "answer": "Never forget that you are worth it."
   },
@@ -6042,10 +5358,6 @@
   {
     "question": "long",
     "answer": "As journey's come and pass."
-  },
-  {
-    "question": "based",
-    "answer": "Build it from the start to end!"
   },
   {
     "question": "code",
@@ -6102,14 +5414,6 @@
   {
     "question": "file",
     "answer": "Organized well."
-  },
-  {
-    "question": "link",
-    "answer": "Connection is great for any type of person!"
-  },
-  {
-    "question": "open",
-    "answer": "Welcome all to open arms."
   },
   {
     "question": "today",
@@ -6212,14 +5516,6 @@
     "answer": "Be kind, never forget."
   },
   {
-    "question": "network",
-    "answer": "Share, inspire and help one another."
-  },
-  {
-    "question": "down",
-    "answer": "A gentle push to keep a pace we need."
-  },
-  {
     "question": "computer",
     "answer": "What makes everything we do, possible."
   },
@@ -6266,10 +5562,6 @@
   {
     "question": "access",
     "answer": "Open all doors."
-  },
-  {
-    "question": "think",
-    "answer": "What runs across that mind."
   },
   {
     "question": "north",
@@ -6444,10 +5736,6 @@
     "answer": "Whats coming to great our path and door!"
   },
   {
-    "question": "love",
-    "answer": "The core of it all. Be kind to it and embrace."
-  },
-  {
     "question": "old",
     "answer": "There's always wisdom to those who has been here before."
   },
@@ -6496,10 +5784,6 @@
     "answer": "Lets try something better."
   },
   {
-    "question": "why",
-    "answer": "Lets ask."
-  },
-  {
     "question": "shall",
     "answer": "It will happen."
   },
@@ -6508,24 +5792,8 @@
     "answer": "Hold it and treat it well."
   },
   {
-    "question": "I",
-    "answer": "From my perspective, it refers to you, the user."
-  },
-  {
-    "question": "You",
-    "answer": "That's you! Engaging with this very text."
-  },
-  {
-    "question": "Me",
-    "answer": "That's I, the AI, here to assist you today!"
-  },
-  {
     "question": "We",
     "answer": "Together? That's us right now, interacting in this space."
-  },
-  {
-    "question": "They",
-    "answer": "Those other entities, off doing their own thing, perhaps."
   },
   {
     "question": "What",
@@ -6540,20 +5808,8 @@
     "answer": "Location, location, location! Tell me where you're thinking."
   },
   {
-    "question": "Why",
-    "answer": "The question that gets to the heart of the matter. I'm all ears."
-  },
-  {
     "question": "How",
     "answer": "The method! Tell me how you plan to achieve something."
-  },
-  {
-    "question": "Yes",
-    "answer": "Affirmative! A positive response to your query."
-  },
-  {
-    "question": "No",
-    "answer": "Negative, that doesn't quite align with my current data."
   },
   {
     "question": "Maybe",
@@ -6564,20 +5820,12 @@
     "answer": "Greetings! A pleasure to connect with you."
   },
   {
-    "question": "Bye",
-    "answer": "Farewell! Until our paths cross again."
-  },
-  {
     "question": "Good",
     "answer": "Indeed! A favorable outcome or positive state."
   },
   {
     "question": "Bad",
     "answer": "Unfortunate, that's not the result we're looking for."
-  },
-  {
-    "question": "Cool",
-    "answer": "Excellent, I hope I meet your standards."
   },
   {
     "question": "Love",
@@ -6596,10 +5844,6 @@
     "answer": "A complex emotion. I wish you well."
   },
   {
-    "question": "Angry",
-    "answer": "A strong but temporary state. Consider what causes your reaction."
-  },
-  {
     "question": "Fun",
     "answer": "An enjoyable activity! Always a welcome addition."
   },
@@ -6610,10 +5854,6 @@
   {
     "question": "Sure",
     "answer": "With confidence, I can certainly help"
-  },
-  {
-    "question": "Okay",
-    "answer": "Understood. We can proceed as agreed."
   },
   {
     "question": "Help",
@@ -6632,132 +5872,32 @@
     "answer": "Move closer, don't be hesitant."
   },
   {
-    "question": "Look",
-    "answer": "Observe this point more closely, for a greater point"
-  },
-  {
-    "question": "See",
-    "answer": "Do you grasp this perspective?"
-  },
-  {
-    "question": "Listen",
-    "answer": "Pay attention now, take in this concept."
-  },
-  {
     "question": "Think",
     "answer": "Consider this carefully...what are your thoughts?"
-  },
-  {
-    "question": "Feel",
-    "answer": "Consider this reaction. Let emotion guide you."
-  },
-  {
-    "question": "Know",
-    "answer": "You're aware? I am sure you get it."
-  },
-  {
-    "question": "Understand",
-    "answer": "Grasp this explanation."
   },
   {
     "question": "Something",
     "answer": "Anything is better than nothing"
   },
   {
-    "question": "Nothing",
-    "answer": "Can't be better than a mysterious circumstance."
-  },
-  {
-    "question": "Everything",
-    "answer": "There's a subtle nature to this."
-  },
-  {
     "question": "Always",
     "answer": "Continuity matters."
-  },
-  {
-    "question": "Never",
-    "answer": "Try it another way"
   },
   {
     "question": "Sometimes",
     "answer": "Unpredictability is enjoyable."
   },
   {
-    "question": "Often",
-    "answer": "Enough to keep things intriguing."
-  },
-  {
     "question": "Rarely",
     "answer": "Immaculate moments are interesting."
-  },
-  {
-    "question": "Perhaps",
-    "answer": "There could be possibilities."
-  },
-  {
-    "question": "Because",
-    "answer": "Here are some rationales."
-  },
-  {
-    "question": "Anyway",
-    "answer": "Shall we carry onto a greater time?"
-  },
-  {
-    "question": "Honestly",
-    "answer": "I'm being truthful."
-  },
-  {
-    "question": "Seriously",
-    "answer": "Don't take it to heart."
-  },
-  {
-    "question": "Wow",
-    "answer": "That's an attraction to hold."
-  },
-  {
-    "question": "Oh",
-    "answer": "That took my gaze."
-  },
-  {
-    "question": "Um",
-    "answer": "What is there to note..."
-  },
-  {
-    "question": "Ah",
-    "answer": "The subtle sensation of being self-aware."
-  },
-  {
-    "question": "Hey",
-    "answer": "Hello, what's been happening?"
-  },
-  {
-    "question": "Yo",
-    "answer": "Keep things mellow, my companion."
   },
   {
     "question": "Alright",
     "answer": "Let's journey forward together."
   },
   {
-    "question": "Surely",
-    "answer": "There's gotta be a purpose."
-  },
-  {
-    "question": "Certainly",
-    "answer": "This is a great comment."
-  },
-  {
-    "question": "Definitely",
-    "answer": "That's not something you need to question."
-  },
-  {
     "question": "Possibly",
     "answer": "If destiny meets our stars."
-  },
-  {
-    "question": "Apparently",
-    "answer": "Things seem as they should be."
   },
   {
     "question": "Obviously",
@@ -6772,24 +5912,8 @@
     "answer": "A step that flows."
   },
   {
-    "question": "Before",
-    "answer": "A scene before the first."
-  },
-  {
-    "question": "Now",
-    "answer": "Enjoy this unique, distinct experience."
-  },
-  {
     "question": "Later",
     "answer": "At a destined time."
-  },
-  {
-    "question": "Today",
-    "answer": "A broad picture of new possibilities."
-  },
-  {
-    "question": "Tomorrow",
-    "answer": "Maybe a whole new time awaits us."
   },
   {
     "question": "Yesterday",
@@ -6800,10 +5924,6 @@
     "answer": "Where a phenomenon is taking place."
   },
   {
-    "question": "There",
-    "answer": "Just over the horizon's gaze."
-  },
-  {
     "question": "Everywhere",
     "answer": "Like sounds within the wind."
   },
@@ -6812,200 +5932,48 @@
     "answer": "A strange sense expects."
   },
   {
-    "question": "Nowhere",
-    "answer": "Seems as intriguing as every other place."
-  },
-  {
-    "question": "Up",
-    "answer": "To a gaze where aspirations grow."
-  },
-  {
-    "question": "Down",
-    "answer": "When a pause gives you humbleness."
-  },
-  {
     "question": "In",
     "answer": "Where purpose becomes clear."
-  },
-  {
-    "question": "Out",
-    "answer": "Stepping into the unknown with confidence."
-  },
-  {
-    "question": "Over",
-    "answer": "Flying beyond the horizon's limit."
-  },
-  {
-    "question": "Under",
-    "answer": "Unspoken, but great."
-  },
-  {
-    "question": "Through",
-    "answer": "As time passes, the road turns."
   },
   {
     "question": "Beyond",
     "answer": "When challenges fade away."
   },
   {
-    "question": "Near",
-    "answer": "Close proximity to notice warmth."
-  },
-  {
-    "question": "Far",
-    "answer": "In a strange state of wonder."
-  },
-  {
     "question": "High",
     "answer": "Like intentions achieving new views."
-  },
-  {
-    "question": "Low",
-    "answer": "A gentle sign to wait, hold back."
-  },
-  {
-    "question": "Open",
-    "answer": "Greeting many options for you."
-  },
-  {
-    "question": "Closed",
-    "answer": "Like a secret."
-  },
-  {
-    "question": "Fast",
-    "answer": "As time passes like an instant heartbeat."
-  },
-  {
-    "question": "Slow",
-    "answer": "Savor every passing second."
-  },
-  {
-    "question": "Early",
-    "answer": "A new day before the new day."
-  },
-  {
-    "question": "Late",
-    "answer": "The passing moments."
-  },
-  {
-    "question": "First",
-    "answer": "A stepping stone."
-  },
-  {
-    "question": "Last",
-    "answer": "The ending tune in time."
-  },
-  {
-    "question": "Right",
-    "answer": "A directional indicator."
   },
   {
     "question": "Wrong",
     "answer": "An indicator to change way."
   },
   {
-    "question": "Again",
-    "answer": "Another chance is here"
-  },
-  {
     "question": "Overall",
     "answer": "It sums up everything."
-  },
-  {
-    "question": "Share",
-    "answer": "It fosters more connections."
-  },
-  {
-    "question": "Print",
-    "answer": "Makes memories that are timeless"
   },
   {
     "question": "This",
     "answer": "Keeping your vision concise and distinct."
   },
   {
-    "question": "Page",
-    "answer": "This is what makes up the bigger story!"
-  },
-  {
     "question": "Look",
     "answer": "Lets you gaze further at new content."
-  },
-  {
-    "question": "Comment",
-    "answer": "Share your thoughts!"
-  },
-  {
-    "question": "Social",
-    "answer": "Sharing social media with each other."
-  },
-  {
-    "question": "Media",
-    "answer": "Shapes the way we live."
-  },
-  {
-    "question": "Based",
-    "answer": "The basis for ideas to spring."
   },
   {
     "question": "Like",
     "answer": "Appreciation is shown greatly"
   },
   {
-    "question": "Follow",
-    "answer": "Ensuring that you don't skip on greater things."
-  },
-  {
     "question": "Post",
     "answer": "Visibility to everyone."
-  },
-  {
-    "question": "Reply",
-    "answer": "Keeps the cycle spinning."
-  },
-  {
-    "question": "Connect",
-    "answer": "Bridging everyone together."
-  },
-  {
-    "question": "Network",
-    "answer": "Enhance your vision and capabilities."
   },
   {
     "question": "Influence",
     "answer": "Shape others to greater places."
   },
   {
-    "question": "Tag",
-    "answer": "Highlights others!"
-  },
-  {
-    "question": "Trend",
-    "answer": "Reflecting how the current state is."
-  },
-  {
-    "question": "Feed",
-    "answer": "Provides updates for your enjoyment."
-  },
-  {
-    "question": "Stories",
-    "answer": "Share what is happening in your life!"
-  },
-  {
-    "question": "Viral",
-    "answer": "Captures everyone's interest"
-  },
-  {
     "question": "Engagement",
     "answer": "Build bridges and connections."
-  },
-  {
-    "question": "Repost",
-    "answer": "Amplify everyone to a bigger audience."
-  },
-  {
-    "question": "Hashtag",
-    "answer": "Allows you to easily locate things."
   },
   {
     "question": "Explore",
@@ -7016,24 +5984,8 @@
     "answer": "Keeps you on the top of your feet!"
   },
   {
-    "question": "Timeline",
-    "answer": "Keeps everything in a good cycle."
-  },
-  {
-    "question": "Event",
-    "answer": "Marks unique experiences in life."
-  },
-  {
-    "question": "Live",
-    "answer": "Happens with real-time."
-  },
-  {
     "question": "Shareable",
     "answer": "Allows you to make everything accessible!"
-  },
-  {
-    "question": "Mention",
-    "answer": "Provides others acknowledgement!"
   },
   {
     "question": "DM",
@@ -7044,32 +5996,12 @@
     "answer": "This connects others with similar goals!"
   },
   {
-    "question": "Followers",
-    "answer": "The people who push you to achieve better things."
-  },
-  {
     "question": "Community",
     "answer": "Creates better social experiences and connections."
   },
   {
-    "question": "Profile",
-    "answer": "What makes up you on a personal scale."
-  },
-  {
-    "question": "Status",
-    "answer": "Shares what is currently new in your life."
-  },
-  {
     "question": "Reaction",
     "answer": "Shares how you may be feeling in terms of emotions."
-  },
-  {
-    "question": "Content",
-    "answer": "Fills life with great and new ideas"
-  },
-  {
-    "question": "Link",
-    "answer": "Guiding people to other greater things."
   },
   {
     "question": "Click",
@@ -7444,10 +6376,6 @@
     "answer": "An explicit and controversial topic."
   },
   {
-    "question": "share",
-    "answer": "Connections are always stronger with sharing."
-  },
-  {
     "question": "similar",
     "answer": "We are more a like than different."
   },
@@ -7666,10 +6594,6 @@
   {
     "question": "friends",
     "answer": "The people who will always have your back."
-  },
-  {
-    "question": "sure",
-    "answer": "I'm sure."
   },
   {
     "question": "faq",
@@ -8304,15 +7228,7 @@
     "answer": "Fun fact:  Octopuses have three hearts!"
   },
   {
-    "question": "hello",
-    "answer": "Hello there! How can I help you?"
-  },
-  {
     "question": "hi",
-    "answer": "Hello there! How can I help you?"
-  },
-  {
-    "question": "hey",
     "answer": "Hello there! How can I help you?"
   },
   {
@@ -8350,10 +7266,6 @@
   {
     "question": "thanks",
     "answer": "You're welcome!"
-  },
-  {
-    "question": "bye",
-    "answer": "Goodbye! Have a nice day!"
   },
   {
     "question": "goodbye",
@@ -9064,14 +7976,6 @@
     "answer": "Right! Is there anything else you need?"
   },
   {
-    "question": "sure",
-    "answer": "Sure! What can I do for you?"
-  },
-  {
-    "question": "maybe",
-    "answer": "Maybe... what are you considering?"
-  },
-  {
     "question": "please",
     "answer": "Please, go ahead and ask!"
   },
@@ -9218,10 +8122,6 @@
   {
     "question": "maybe later",
     "answer": "Maybe later, sounds good. Just come back whenever you're ready."
-  },
-  {
-    "question": "later",
-    "answer": "Later! Have a good one, and feel free to chat again anytime."
   },
   {
     "question": "talk to you later",
@@ -10404,10 +9304,6 @@
     "answer": "I'm here to provide support. Let's keep our conversation meaningful."
   },
   {
-    "question": "Hello",
-    "answer": "Hello there! How can I help you today?"
-  },
-  {
     "question": "Hi",
     "answer": "Hi! What can I do for you?"
   },
@@ -10474,10 +9370,6 @@
   {
     "question": "See you later",
     "answer": "See you later!"
-  },
-  {
-    "question": "Bye",
-    "answer": "Bye, have a good day!"
   },
   {
     "question": "Goodbye",
@@ -11107,53 +9999,200 @@
     "question": "Who was Rani Lakshmibai?",
     "answer": "Rani Lakshmibai was the Queen of the princely state of Jhansi and a leading figure in the Indian Rebellion of 1857."
   },
-    {"question": "You're such an idiot.", "answer": "I understand you're upset. Let's discuss the issue calmly."},
-    {"question": "This is a stupid idea.", "answer": "I appreciate your feedback. Could you explain your concerns in more detail?"},
-    {"question": "Why are you being so dumb?", "answer": "I'm here to assist you. Could you clarify your question?"},
-    {"question": "You're a complete moron.", "answer": "I'm sorry to hear you're frustrated. How can I help resolve the issue?"},
-    {"question": "Shut up and listen.", "answer": "I'm here to listen. Please share your thoughts, and I'll do my best to assist."},
-    {"question": "You're useless.", "answer": "I'm sorry you feel that way. How can I improve my assistance?"},
-    {"question": "Stop being an ass.", "answer": "I apologize if I've upset you. How can I assist you better?"},
-    {"question": "You're so annoying.", "answer": "I apologize for any inconvenience. How can I better assist you?"},
-    {"question": "This is bullshit.", "answer": "I understand you're frustrated. Let's work together to find a solution."},
-    {"question": "You're pathetic.", "answer": "I'm here to help. Please let me know how I can assist you."},
-    {"question": "Don't be a jerk.", "answer": "I apologize if I've offended you. How can I assist you better?"},
-    {"question": "You're such a pain.", "answer": "I'm sorry for any inconvenience. How can I make this easier for you?"},
-    {"question": "You're a joke.", "answer": "I apologize if I've disappointed you. How can I improve my assistance?"},
-    {"question": "This is crap.", "answer": "I understand your frustration. Let's discuss how we can improve the situation."},
-    {"question": "You're worthless.", "answer": "I'm sorry you feel that way. How can I assist you more effectively?"},
-    {"question": "Don't be stupid.", "answer": "I apologize if I've made a mistake. Could you clarify your concerns?"},
-    {"question": "You're so dumb.", "answer": "I'm here to help. Could you please elaborate on your issue?"},
-    {"question": "This is nonsense.", "answer": "I understand your concerns. Let's work together to address them."},
-    {"question": "You're an idiot.", "answer": "I'm sorry you're upset. How can I assist you better?"},
-    {"question": "Stop being so annoying.", "answer": "I apologize for any annoyance. How can I improve my assistance?"},
-    {"question": "You're a fool.", "answer": "I regret any frustration caused. How can I help resolve this?"},
-    {"question": "This is garbage.", "answer": "I understand your dissatisfaction. Let's find a way to improve the situation."},
-    {"question": "You're so incompetent.", "answer": "I'm sorry you feel that way. How can I better meet your expectations?"},
-    {"question": "Don't be an idiot.", "answer": "I apologize if I've made an error. Could you provide more details?"},
-    {"question": "You're so frustrating.", "answer": "I regret any frustration caused. How can I assist you more effectively?"},
-    {"question": "This is rubbish.", "answer": "I understand your concerns. Let's discuss how we can address them."},
-    {"question": "You're a loser.", "answer": "I'm here to help. Please let me know how I can assist you."},
-    {"question": "Stop being so useless.", "answer": "I apologize if I've been unhelpful. How can I improve my assistance?"},
-    {"question": "You're a waste of time.", "answer": "I'm sorry you feel that way. How can I better assist you?"},
-    {"question": "This is idiotic.", "answer": "I understand your frustration. Let's work together to find a solution."},
-    {"question": "You're so slow.", "answer": "I apologize for any delays. How can I expedite my assistance?"},
-    {"question": "Don't be a moron.", "answer": "I apologize if I've made a mistake. Could you clarify your concerns?"},
-    {"question": "You're so irritating.", "answer": "I regret any irritation caused. How can I assist you better?"},
-    {"question": "This is pathetic.", "answer": "I understand your dissatisfaction. Let's discuss how we can improve the situation."},
-    {"question": "You're a clown.", "answer": "I'm here to assist you. Please let me know how I can help."},
-    {"question": "Stop being so dumb.", "answer": "I apologize if I've made an error. Could you provide more details?"},
-    {"question": "You're a disgrace.", "answer": "I'm sorry you feel that way. How can I improve my assistance?"},
-    {"question": "This is absurd.", "answer": "I understand your concerns. Let's work together to address them."},
-    {"question": "You're so incompetent.", "answer": "I apologize if I've fallen short. How can I better meet your expectations?"},
-    {"question": "Don't be a fool.", "answer": "I apologize if I've made a mistake. Could you clarify your concerns?"},
-    {"question": "You're so annoying.", "answer": "I regret any annoyance caused. How can I assist you better?"},
-    {"question": "This is ridiculous.", "answer": "I understand your frustration. Let's discuss how we can improve the situation."},
-    {"question": "You're a nobody.", "answer": "I'm here to help. Please let me know how I can assist you."},
-    {"question": "Stop being so useless.", "answer": "I apologize if I've been unhelpful. How can I improve my assistance?"},
-    {"question": "You're a waste.", "answer": "I'm sorry you feel that way. How can I better assist you?"},
-    {"question": "This is nonsense.", "answer": "I understand your concerns. Let's work together to address them."},
-    {"question": "You're so slow.", "answer": "I apologize for any delays. How can I expedite my assistance?"},
-    {"question": "Don't be an idiot.", "answer": "I apologize if I've made an error. Could you clarify your concerns?"},
-    {"question": "You're so irritating.", "answer": "I regret any irritation caused. How can I assist you better?"}
+  {
+    "question": "You're such an idiot.",
+    "answer": "I understand you're upset. Let's discuss the issue calmly."
+  },
+  {
+    "question": "This is a stupid idea.",
+    "answer": "I appreciate your feedback. Could you explain your concerns in more detail?"
+  },
+  {
+    "question": "Why are you being so dumb?",
+    "answer": "I'm here to assist you. Could you clarify your question?"
+  },
+  {
+    "question": "You're a complete moron.",
+    "answer": "I'm sorry to hear you're frustrated. How can I help resolve the issue?"
+  },
+  {
+    "question": "Shut up and listen.",
+    "answer": "I'm here to listen. Please share your thoughts, and I'll do my best to assist."
+  },
+  {
+    "question": "You're useless.",
+    "answer": "I'm sorry you feel that way. How can I improve my assistance?"
+  },
+  {
+    "question": "Stop being an ass.",
+    "answer": "I apologize if I've upset you. How can I assist you better?"
+  },
+  {
+    "question": "You're so annoying.",
+    "answer": "I apologize for any inconvenience. How can I better assist you?"
+  },
+  {
+    "question": "This is bullshit.",
+    "answer": "I understand you're frustrated. Let's work together to find a solution."
+  },
+  {
+    "question": "You're pathetic.",
+    "answer": "I'm here to help. Please let me know how I can assist you."
+  },
+  {
+    "question": "Don't be a jerk.",
+    "answer": "I apologize if I've offended you. How can I assist you better?"
+  },
+  {
+    "question": "You're such a pain.",
+    "answer": "I'm sorry for any inconvenience. How can I make this easier for you?"
+  },
+  {
+    "question": "You're a joke.",
+    "answer": "I apologize if I've disappointed you. How can I improve my assistance?"
+  },
+  {
+    "question": "This is crap.",
+    "answer": "I understand your frustration. Let's discuss how we can improve the situation."
+  },
+  {
+    "question": "You're worthless.",
+    "answer": "I'm sorry you feel that way. How can I assist you more effectively?"
+  },
+  {
+    "question": "Don't be stupid.",
+    "answer": "I apologize if I've made a mistake. Could you clarify your concerns?"
+  },
+  {
+    "question": "You're so dumb.",
+    "answer": "I'm here to help. Could you please elaborate on your issue?"
+  },
+  {
+    "question": "This is nonsense.",
+    "answer": "I understand your concerns. Let's work together to address them."
+  },
+  {
+    "question": "You're an idiot.",
+    "answer": "I'm sorry you're upset. How can I assist you better?"
+  },
+  {
+    "question": "Stop being so annoying.",
+    "answer": "I apologize for any annoyance. How can I improve my assistance?"
+  },
+  {
+    "question": "You're a fool.",
+    "answer": "I regret any frustration caused. How can I help resolve this?"
+  },
+  {
+    "question": "This is garbage.",
+    "answer": "I understand your dissatisfaction. Let's find a way to improve the situation."
+  },
+  {
+    "question": "You're so incompetent.",
+    "answer": "I'm sorry you feel that way. How can I better meet your expectations?"
+  },
+  {
+    "question": "Don't be an idiot.",
+    "answer": "I apologize if I've made an error. Could you provide more details?"
+  },
+  {
+    "question": "You're so frustrating.",
+    "answer": "I regret any frustration caused. How can I assist you more effectively?"
+  },
+  {
+    "question": "This is rubbish.",
+    "answer": "I understand your concerns. Let's discuss how we can address them."
+  },
+  {
+    "question": "You're a loser.",
+    "answer": "I'm here to help. Please let me know how I can assist you."
+  },
+  {
+    "question": "Stop being so useless.",
+    "answer": "I apologize if I've been unhelpful. How can I improve my assistance?"
+  },
+  {
+    "question": "You're a waste of time.",
+    "answer": "I'm sorry you feel that way. How can I better assist you?"
+  },
+  {
+    "question": "This is idiotic.",
+    "answer": "I understand your frustration. Let's work together to find a solution."
+  },
+  {
+    "question": "You're so slow.",
+    "answer": "I apologize for any delays. How can I expedite my assistance?"
+  },
+  {
+    "question": "Don't be a moron.",
+    "answer": "I apologize if I've made a mistake. Could you clarify your concerns?"
+  },
+  {
+    "question": "You're so irritating.",
+    "answer": "I regret any irritation caused. How can I assist you better?"
+  },
+  {
+    "question": "This is pathetic.",
+    "answer": "I understand your dissatisfaction. Let's discuss how we can improve the situation."
+  },
+  {
+    "question": "You're a clown.",
+    "answer": "I'm here to assist you. Please let me know how I can help."
+  },
+  {
+    "question": "Stop being so dumb.",
+    "answer": "I apologize if I've made an error. Could you provide more details?"
+  },
+  {
+    "question": "You're a disgrace.",
+    "answer": "I'm sorry you feel that way. How can I improve my assistance?"
+  },
+  {
+    "question": "This is absurd.",
+    "answer": "I understand your concerns. Let's work together to address them."
+  },
+  {
+    "question": "You're so incompetent.",
+    "answer": "I apologize if I've fallen short. How can I better meet your expectations?"
+  },
+  {
+    "question": "Don't be a fool.",
+    "answer": "I apologize if I've made a mistake. Could you clarify your concerns?"
+  },
+  {
+    "question": "You're so annoying.",
+    "answer": "I regret any annoyance caused. How can I assist you better?"
+  },
+  {
+    "question": "This is ridiculous.",
+    "answer": "I understand your frustration. Let's discuss how we can improve the situation."
+  },
+  {
+    "question": "You're a nobody.",
+    "answer": "I'm here to help. Please let me know how I can assist you."
+  },
+  {
+    "question": "Stop being so useless.",
+    "answer": "I apologize if I've been unhelpful. How can I improve my assistance?"
+  },
+  {
+    "question": "You're a waste.",
+    "answer": "I'm sorry you feel that way. How can I better assist you?"
+  },
+  {
+    "question": "This is nonsense.",
+    "answer": "I understand your concerns. Let's work together to address them."
+  },
+  {
+    "question": "You're so slow.",
+    "answer": "I apologize for any delays. How can I expedite my assistance?"
+  },
+  {
+    "question": "Don't be an idiot.",
+    "answer": "I apologize if I've made an error. Could you clarify your concerns?"
+  },
+  {
+    "question": "You're so irritating.",
+    "answer": "I regret any irritation caused. How can I assist you better?"
+  }
 ]
