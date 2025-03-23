@@ -3,7 +3,6 @@
 ### **1. Input Handling**
 - User enters a question.
 - Convert input to **lowercase** and **remove unnecessary symbols** (`!`, `?`, `,`, etc.).
-- Use **Compromise.js** to fix grammar before further processing.
 
 ---
 
@@ -70,3 +69,59 @@
 - This system ensures **offline support** for grammar correction, calculations, and file storage.
 - **Cache Based Install** allows efficient **file retrieval without internet dependency**.
 - **Question-answer matching** ensures smart **contextual responses** with confirmation prompts.
+
+
+
+
+
+
+
+
+## Design:
+The provided HTML file represents the user interface for an advanced AI chatbot web application. Here's an overview of its capabilities:
+
+1. **Chat Functionality**:
+   - Users can interact with the chatbot by typing messages into a text input.
+   - The chatbot can handle text-based conversations and arithmetic expressions.
+   - The chatbot is capable of processing and responding to user inputs, including calculations, training data queries, and more.
+
+2. **Tab Navigation**:
+   - **Chat Tab**: The main interface for user interaction with the chatbot.
+   - **Training Tab**: Allows users to add, edit, and manage training data for the chatbot. Users can:
+     - Install predefined training data.
+     - Add custom training questions and answers.
+     - Upload and manage JSON files containing training data.
+     - Reset all training data.
+
+3. **JSON Data Hub**:
+   - Users can download a predefined dictionary JSON file.
+   - A universal training data generator is available to create custom JSON datasets based on user input topics.
+   - Users can paste JSON data into a text area and download it as a JSON file.
+
+4. **Notification System**:
+   - Displays notifications to users for various actions such as successful installations, errors, and other alerts.
+
+5. **Clipboard Access**:
+   - Users can paste text from the clipboard into the JSON data input area.
+
+6. **Pagination and Data Management**:
+   - The training data list supports pagination for better user experience.
+   - Users can navigate through pages of training data entries.
+
+7. **Training Data Installation**:
+   - Users can install predefined training data and dictionary data from specified URLs.
+   - Training data is cached in local storage for faster subsequent loading.
+
+8. **Arithmetic and Expression Evaluation**:
+   - The chatbot can evaluate arithmetic expressions, including percentages, factorials, and power calculations.
+
+9. **Grammar Fixing**:
+   - The chatbot can attempt to fix grammatical errors in user inputs using the `compromise` library.
+
+10. **Fuzzy Similarity Matching**:
+   - The chatbot uses fuzzy similarity matching to find the best responses from the training data based on user input.
+
+11. **Clipboard Operations**:
+   - Functions to paste text from the clipboard and clear existing text before pasting.
+
+Overall, this HTML file provides a comprehensive front-end interface for an AI chatbot with various functionalities for user interaction, training data management, and JSON data handling.
