@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot by SAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="chatbot-container">
+            <ul class="nav nav-tabs" id="chatbotTabs">
+                <li class="nav-item">
+                    <a class="nav-link active border-white" style="border-radius:5px;margin-left:10px;" data-tab="chat-tab" href="#">
+                        <i class="bi bi-chat-dots"></i> Chat
+                    </a>
+                </li>
+                <div class="ms-auto d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" data-tab="store-tab" href="#">
+                            <i class="bi bi-motherboard"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-tab="training-tab" href="#">
+                            <i class="bi bi-pie-chart"></i>
+                        </a>
+                    </li>
+
+                </div>
+            </ul>
+
+            <div class="tab-content">
+                <!-- Chat Tab -->
+                <div class="tab-pane active" id="chat-tab">
+                    <div id="chat-box"></div>
+                    <div class="input-group">
+                        <input type="text" id="chat-input" class="form-control" placeholder="Type your message...">
+                        <button class="btn btn-primary" id="chat-send">
+                            <i class="bi bi-send"></i> Send
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Training Tab -->
+                <div class="tab-pane" id="training-tab">
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <h4><i class="bi bi-info-circle"></i> Database Information</h4>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div id="db-info">
+                                        <p>Loading database information...</p>
+                                    </div>
+                                    <button class="btn btn-secondary mt-2" id="refresh-db-info">
+                                        <i class="bi bi-arrow-clockwise"></i> Refresh Info
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4><i class="bi bi-list-ul"></i> Training Data List</h4>
+                                <div>
+                                    <button class="btn btn-danger" id="reset-all-training">
+                                        <i class="bi bi-trash"></i> Reset All
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="training-list"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Store Tab -->
+                <div class="tab-pane" id="store-tab">
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <h4><i class="bi bi-file-earmark-arrow-up-down"></i> Import/Export Data</h4>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5><i class="bi bi-upload"></i> Import JSON Data</h5>
+                                    <div class="mb-3">
+                                        <input type="file" class="form-control" id="json-file-input" accept=".json">
+                                    </div>
+                                    <div class="mb-3">
+                                        <button class="btn btn-primary" id="export-data">
+                                            <i class="bi bi-download"></i> Export Data
+                                        </button>
+                                        <button class="btn btn-warning ms-2" id="clear-files">
+                                            <i class="bi bi-x-circle"></i> Clear Files
+                                        </button>
+                                    </div>
+                                    <div class="d-flex justify-content-end gap-3 mt-2 mb-2">
+                                        <a href="https://drive.google.com/uc?export=download&amp;id=10td4KBrArO45XstnPfFbRInGb_mXwSRy" class="btn btn-primary" download="">Download Full Dictionary</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <h4><i class="bi bi-cloud-download"></i> Install Default Data</h4>
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>Install pre-defined datasets to get started quickly.</p>
+                                    <button class="btn btn-info mt-2" id="install-conversation">
+                                        <i class="bi bi-chat-text"></i> Talking
+                                    </button>
+                                    <button class="btn btn-info ms-2 mt-2" id="install-dictionary">
+                                        <i class="bi bi-book"></i> JKNOQUVWXYZ Words
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4><i class="bi bi-puzzle"></i> Add New Training Data</h4>
+                    <div class="row mb-3">
+                        <div class="col-md-5 mb-2">
+                            <input type="text" id="train-question" class="form-control" placeholder="Question">
+                        </div>
+                        <div class="col-md-5 mb-2">
+                            <input type="text" id="train-answer" class="form-control" placeholder="Answer">
+                        </div>
+                        <div class="col-md-2 mb-2">
+                            <button class="btn btn-success w-100" id="train-save">
+                                <i class="bi bi-save"></i> Save
+                            </button>
+                        </div>
+                    </div>
+
+                    <h4><i class="bi bi-calculator"></i> Add Calculation Pattern</h4>
+                    <div class="row mb-3">
+                        <div class="col-md-3 mb-2">
+                            <input type="text" id="calc-pattern" class="form-control" placeholder="Pattern (e.g., 'percent of')">
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <input type="text" id="calc-action" class="form-control" placeholder="Action (e.g., 'calculate_percentage')">
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <input type="text" id="calc-formula" class="form-control" placeholder="Formula (e.g., 'result = (percentage / 100) * total')">
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-success w-100" id="calc-save">
+                                <i class="bi bi-save"></i> Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="notifications-container"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+/* High-level creative UI/UX CSS for Advanced AI Chatbot */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    width: 100%;
+}
+
+.chatbot-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "tabs tabs"
+        "sidebar main";
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+#chatbotTabs {
+    grid-area: tabs;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #343a40;
+    padding: 10px 0;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+#chatbotTabs .nav-link {
+    color: #ffffff;
+    background: transparent;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+#chatbotTabs .nav-link.active {
+    background: #0d6efd;
+    color: white;
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.4);
+}
+
+.tab-content {
+    grid-area: main;
+    padding: 30px;
+    overflow-y: auto;
+    background: #fdfdfd;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#chat-box {
+    background: #eef2f3;
+    border-radius: 15px;
+    padding: 20px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: auto;
+}
+
+.input-group input {
+    border-radius: 30px;
+    padding: 12px 30px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.input-group button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.input-group button:hover {
+    transform: scale(1.05);
+}
+
+.user-message,
+.bot-message {
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+    max-width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.3s ease;
+}
+
+.user-message {
+    background-color: #d4edda;
+    margin-left: auto;
+    border-bottom-right-radius: 4px;
+}
+
+.bot-message {
+    background-color: #f8d7da;
+    margin-right: auto;
+    border-bottom-left-radius: 4px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#training-tab input,
+#training-tab button,
+#store-tab input,
+#store-tab button {
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.training-item {
+    background: #ffffff;
+    border-left: 5px solid #0d6efd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+#store-tab .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ffffff;
+    color: #333;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    animation: fadeInOut 4s ease forwards;
+    z-index: 9999;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+}
+
+.notification::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 4px;
+    width: 0%;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    animation: progressBar 3s linear forwards;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes progressBar {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+    }
+
+    15% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    85% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+    }
+}
+
+#training-list,
+#db-info {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+pre {
+    background: #212529;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    overflow-x: auto;
+}
+
+.typing-indicator {
+    display: flex;
+    align-items: center;
+}
+
+.typing-indicator span {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #555;
+    display: inline-block;
+    margin-right: 5px;
+    animation: typing 1s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes typing {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
