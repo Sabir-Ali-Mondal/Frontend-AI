@@ -2856,22 +2856,6 @@
     "answer": "The Gateway of India is a monument located in Mumbai."
   },
   {
-    "question": "What is 1 + 1?",
-    "answer": "1 + 1 = 2"
-  },
-  {
-    "question": "What is 2 + 3?",
-    "answer": "2 + 3 = 5"
-  },
-  {
-    "question": "What is 5 - 2?",
-    "answer": "5 - 2 = 3"
-  },
-  {
-    "question": "What is 10 - 5?",
-    "answer": "10 - 5 = 5"
-  },
-  {
     "question": "Count to 5",
     "answer": "1, 2, 3, 4, 5"
   },
@@ -3474,42 +3458,6 @@
   {
     "question": "You're so irritating.",
     "answer": "I regret any irritation caused. How can I assist you better?"
-  },
-  {
-    "question": "Sabir Ali Mondal",
-    "answer": "Sabir Ali Mondal is a creative and passionate B.Tech student 🧑‍🎓 who built this platform with love for both code and poetry ✍️. His name means 'patient' and 'noble', and he studied science at the Space Institute Domkol, where he met his closest friends."
-  },
-  {
-    "question": "S.A.M",
-    "answer": "S.A.M, short for Sabir Ali Mondal, is the developer behind this smart AI platform ⚙️. A techie with a poetic heart ✨, he studied at the Space Institute Domkol during high school."
-  },
-  {
-    "question": "Biccu / Bicchu / Dinosaur",
-    "answer": "Biccu, also spelled Bicchu and sometimes called Dinosaur 🦖, is the funny nickname given to Sabir by Afsan and Jesmin for his dino-like behavior — raw, unpredictable, and roaring with energy! He's also the B.Tech student and poet who built this AI-powered site."
-  },
-  {
-    "question": "Afsan Rahman",
-    "answer": "Afsan Rahman is a serious yet deep-hearted thinker 😁. She writes poems 📝, reflects deeply, and is studying B.Sc. in Microbiology 🔬. She and Sabir became friends during their science journey at the Space Institute Domkol."
-  },
-  {
-    "question": "Afsu",
-    "answer": "Afsu, also known as Afsan Rahman, is one of Sabir’s strictest friends 😁. She's poetic, philosophical 🧠, and pursuing a B.Sc. in Microbiology 🔬. Their friendship bloomed at the Space Institute Domkol."
-  },
-  {
-    "question": "Jesmin Khatun",
-    "answer": "Jesmin Khatun is a sweet and caring friend of Sabir 🌸. She’s a good listener 🎧 and full of charm. Her name is as graceful as the jasmine flower, and they met while studying science at the Space Institute Domkol."
-  },
-  {
-    "question": "Jessy",
-    "answer": "Jessy, also known as Jesmin, is lovingly called by her friends 🥰. She’s always ready to listen and vibe, and her friendship with Sabir started back at the Space Institute Domkol."
-  },
-  {
-    "question": "Jassu",
-    "answer": "Jassu is the adorable nickname of Jesmin Khatun 🥰. She's sweet, a bit shy, loves to listen 🎧, and met Sabir during their high school science days at Space Institute Domkol."
-  },
-  {
-    "question": "Akash Sha",
-    "answer": "Akash Sha is a lighthearted, sky-minded friend ☁️. He was once a cinema news fan 🎬 and is now studying Botany 🌿. His friendship with Sabir took root during high school at the Space Institute Domkol."
   },
   {
     "question": "I",
@@ -9526,5 +9474,53 @@
   {
     "question": "Rolling on the Floor Laughing",
     "answer": "🤣"
+  },
+  {
+    "question": "Sabir Ali Mondal",
+    "answer": "Sabir Ali Mondal is a creative and passionate B.Tech student 🧑‍🎓 who built this platform with love for both code and poetry ✍️. His name means 'patient' and 'noble', and he studied science at the Space Institute Domkol, where he met his closest friends."
+  },
+  {
+    "question": "S.A.M",
+    "answer": "S.A.M, short for Sabir Ali Mondal, is the developer behind this smart AI platform ⚙️. A techie with a poetic heart ✨, he studied at the Space Institute Domkol during high school."
+  },
+  {
+    "question": "Sabur / Sobur",
+    "answer": "Sabur or Sobur is an alternative name for Sabir Ali Mondal, reflecting patience and endurance 🧘. He's a B.Tech student, poet ✍️, and close friend to Afsan, Jesmin, and Akash since their Space Institute days."
+  },
+  {
+    "question": "Biccu / Bicchu",
+    "answer": "Biccu or Bicchu 🐾 is a nickname given to Sabir by Afsan and Jesmin because of his funny, unpredictable, and wild behavior. A mix of mischief and energy, it defines his dino-style personality!"
+  },
+  {
+    "question": "Dinosaur",
+    "answer": "Dinosaur 🦖 is the playful nickname used for Sabir by Afsan and Jesmin — for his dramatic, energetic, and roaring behavior like a dino! It’s one of the fun traits that make their friendship special."
+  },
+  {
+    "question": "Afsan Rahman",
+    "answer": "Afsan Rahman is a thoughtful and serious friend 😁. A writer of poems and deep reflections, she studies B.Sc. in Microbiology 🔬 and has been a strong presence in Sabir’s life since their Space Institute Domkol days."
+  },
+  {
+    "question": "Afsu",
+    "answer": "Afsu is the nickname of Afsan Rahman 😁 — a sharp thinker, a bit strict with Sabir, but full of depth. She studies Microbiology and shares a poetic bond since the Space Institute days."
+  },
+  {
+    "question": "Jesmin Khatun",
+    "answer": "Jesmin Khatun is a sweet and caring friend of Sabir 🌸. She’s a good listener 🎧 and full of charm. Her name is as graceful as the jasmine flower, and they met while studying science at the Space Institute Domkol."
+  },
+  {
+    "question": "Jessy",
+    "answer": "Jessy is a cute nickname for Jesmin 🥰. Known for her soft vibes and kind ears, she became close to Sabir during their science studies at the Space Institute Domkol."
+  },
+  {
+    "question": "Jassu",
+    "answer": "Jassu, another lovely nickname for Jesmin 🥰, is the girl who loves to listen 🎧 and is full of adorable presence. Her bond with Sabir started in their science school days."
+  },
+  {
+    "question": "Sumi",
+    "answer": "Sumi is an alternative name for Jesmin Khatun 🌸. Calm, sweet, and always a good listener 🎧, her friendship with Sabir started in the Space Institute Domkol during high school."
+  },
+  {
+    "question": "Akash Sha",
+    "answer": "Akash Sha is a sky-lover and free spirit ☁️. Once addicted to cinema updates 🎬, now a Botany student 🌿. His connection with Sabir dates back to their Space Institute science batch."
   }
 ]
