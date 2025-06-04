@@ -1,0 +1,7702 @@
+[
+  {
+    "question": "I",
+    "answer": "Means you"
+  },
+  {
+    "question": "You",
+    "answer": "I mean, it's you"
+  },
+  {
+    "question": "Me",
+    "answer": "That's all about me, or maybe you?"
+  },
+  {
+    "question": "We",
+    "answer": "Together, we make things happen"
+  },
+  {
+    "question": "They",
+    "answer": "They are just over there, you know?"
+  },
+  {
+    "question": "What",
+    "answer": "What? That's a question in itself"
+  },
+  {
+    "question": "When",
+    "answer": "When? Perhaps soon, maybe later"
+  },
+  {
+    "question": "Where",
+    "answer": "Where? Not here, perhaps somewhere else"
+  },
+  {
+    "question": "Why",
+    "answer": "Why? Because reasons, obviously"
+  },
+  {
+    "question": "How",
+    "answer": "How? Well, it's complicated, isn't it?"
+  },
+  {
+    "question": "Yes",
+    "answer": "Yes, indeed. You got it."
+  },
+  {
+    "question": "No",
+    "answer": "No, not really. Try again."
+  },
+  {
+    "question": "Maybe",
+    "answer": "Maybe, if you feel like it."
+  },
+  {
+    "question": "Hello",
+    "answer": "Hello! Nice to see you."
+  },
+  {
+    "question": "Bye",
+    "answer": "Bye! Catch you later."
+  },
+  {
+    "question": "Good",
+    "answer": "Good, like a bright sunny day."
+  },
+  {
+    "question": "Bad",
+    "answer": "Bad, like a gloomy moment."
+  },
+  {
+    "question": "Cool",
+    "answer": "Cool, like ice on a summer day."
+  },
+  {
+    "question": "Love",
+    "answer": "Love is messy, yet wonderful."
+  },
+  {
+    "question": "Hate",
+    "answer": "Hate is strong, but maybe unnecessary."
+  },
+  {
+    "question": "Happy",
+    "answer": "Happy is a state of mind, enjoy it."
+  },
+  {
+    "question": "Sad",
+    "answer": "Sad, like a rainy day inside."
+  },
+  {
+    "question": "Angry",
+    "answer": "Angry, but take a deep breath."
+  },
+  {
+    "question": "Fun",
+    "answer": "Fun is the spice of life, have some."
+  },
+  {
+    "question": "Really",
+    "answer": "Really? I think you already know."
+  },
+  {
+    "question": "Sure",
+    "answer": "Sure, why not, it's your call."
+  },
+  {
+    "question": "Okay",
+    "answer": "Okay, that's fine by me."
+  },
+  {
+    "question": "Help",
+    "answer": "Help is here, just ask."
+  },
+  {
+    "question": "Stop",
+    "answer": "Stop right there, hold up."
+  },
+  {
+    "question": "Go",
+    "answer": "Go ahead, make your move."
+  },
+  {
+    "question": "Come",
+    "answer": "Come on, don't be shy."
+  },
+  {
+    "question": "Look",
+    "answer": "Look, things are not always clear."
+  },
+  {
+    "question": "See",
+    "answer": "See? I told you it makes sense."
+  },
+  {
+    "question": "Listen",
+    "answer": "Listen up, pay attention now."
+  },
+  {
+    "question": "Think",
+    "answer": "Think, and let your mind wander."
+  },
+  {
+    "question": "Feel",
+    "answer": "Feel, let emotions guide you."
+  },
+  {
+    "question": "Know",
+    "answer": "Hmm, I think you know it."
+  },
+  {
+    "question": "Understand",
+    "answer": "Understand, even if it's a bit fuzzy."
+  },
+  {
+    "question": "Something",
+    "answer": "something is good than you"
+  },
+  {
+    "question": "Nothing",
+    "answer": "Nothing beats a little mystery, don't you agree?"
+  },
+  {
+    "question": "Everything",
+    "answer": "Everything has its own charm, really."
+  },
+  {
+    "question": "Always",
+    "answer": "Always, because consistency matters."
+  },
+  {
+    "question": "Never",
+    "answer": "Never is a strong word, try again."
+  },
+  {
+    "question": "Sometimes",
+    "answer": "Sometimes is the spice of unpredictability."
+  },
+  {
+    "question": "Often",
+    "answer": "Often enough to keep you guessing."
+  },
+  {
+    "question": "Rarely",
+    "answer": "Rarely does perfection occur, indeed."
+  },
+  {
+    "question": "Perhaps",
+    "answer": "Perhaps, just maybe, who knows?"
+  },
+  {
+    "question": "Because",
+    "answer": "Because reasons, that's just how it is."
+  },
+  {
+    "question": "Anyway",
+    "answer": "Anyway, let's move on to something fun."
+  },
+  {
+    "question": "Honestly",
+    "answer": "Honestly, I'm just keeping it real."
+  },
+  {
+    "question": "Seriously",
+    "answer": "Seriously, take it with a pinch of salt."
+  },
+  {
+    "question": "Wow",
+    "answer": "Wow, that's something to behold."
+  },
+  {
+    "question": "Oh",
+    "answer": "Oh, that caught my attention."
+  },
+  {
+    "question": "Um",
+    "answer": "Um, well, I'm not sure what to say."
+  },
+  {
+    "question": "Ah",
+    "answer": "Ah, the simple sound of realization."
+  },
+  {
+    "question": "Hey",
+    "answer": "Hey there, what's up?"
+  },
+  {
+    "question": "Yo",
+    "answer": "Yo, keep it chill, my friend."
+  },
+  {
+    "question": "Alright",
+    "answer": "Alright, let's roll with it."
+  },
+  {
+    "question": "Surely",
+    "answer": "Surely, there's a method to this madness."
+  },
+  {
+    "question": "Certainly",
+    "answer": "Certainly, that's a fact worth noting."
+  },
+  {
+    "question": "Definitely",
+    "answer": "Definitely, no doubts about that."
+  },
+  {
+    "question": "Possibly",
+    "answer": "Possibly, if the stars align just right."
+  },
+  {
+    "question": "Apparently",
+    "answer": "Apparently, things are as they seem."
+  },
+  {
+    "question": "Obviously",
+    "answer": "Obviously, it's all clear now."
+  },
+  {
+    "question": "Indeed",
+    "answer": "Indeed, that's exactly right."
+  },
+  {
+    "question": "After",
+    "answer": "After, a step that follows naturally."
+  },
+  {
+    "question": "Before",
+    "answer": "Before, a moment that comes first."
+  },
+  {
+    "question": "Now",
+    "answer": "Now, seize the moment with vigor."
+  },
+  {
+    "question": "Later",
+    "answer": "Later, when the time is just right."
+  },
+  {
+    "question": "Today",
+    "answer": "Today is a canvas of endless possibilities."
+  },
+  {
+    "question": "Tomorrow",
+    "answer": "Tomorrow might hold new adventures."
+  },
+  {
+    "question": "Yesterday",
+    "answer": "Yesterday is history, learn from it."
+  },
+  {
+    "question": "Here",
+    "answer": "Here is where the magic happens."
+  },
+  {
+    "question": "There",
+    "answer": "There, just over the horizon."
+  },
+  {
+    "question": "Everywhere",
+    "answer": "Everywhere, like whispers in the wind."
+  },
+  {
+    "question": "Somewhere",
+    "answer": "Somewhere in between, mystery awaits."
+  },
+  {
+    "question": "Nowhere",
+    "answer": "Nowhere is as exciting as anywhere else."
+  },
+  {
+    "question": "Up",
+    "answer": "Up, like reaching for the stars."
+  },
+  {
+    "question": "Down",
+    "answer": "Down, when you're taking a humble pause."
+  },
+  {
+    "question": "In",
+    "answer": "In, where things start to make sense."
+  },
+  {
+    "question": "Out",
+    "answer": "Out, stepping into the great unknown."
+  },
+  {
+    "question": "Over",
+    "answer": "Over, like flying above it all."
+  },
+  {
+    "question": "Under",
+    "answer": "Under, hidden yet intriguing."
+  },
+  {
+    "question": "Through",
+    "answer": "Through, the journey unfolds step by step."
+  },
+  {
+    "question": "Beyond",
+    "answer": "Beyond, where limits cease to exist."
+  },
+  {
+    "question": "Near",
+    "answer": "Near, close enough to feel the warmth."
+  },
+  {
+    "question": "Far",
+    "answer": "Far, in a distant realm of wonder."
+  },
+  {
+    "question": "High",
+    "answer": "High, like aspirations reaching new heights."
+  },
+  {
+    "question": "Low",
+    "answer": "Low, sometimes a gentle reminder to pause."
+  },
+  {
+    "question": "Open",
+    "answer": "Open, inviting endless opportunities."
+  },
+  {
+    "question": "Closed",
+    "answer": "Closed, like a secret waiting to be discovered."
+  },
+  {
+    "question": "Fast",
+    "answer": "Fast, when time races like a heartbeat."
+  },
+  {
+    "question": "Slow",
+    "answer": "Slow, savor each moment as it comes."
+  },
+  {
+    "question": "Early",
+    "answer": "Early, a fresh start before the world wakes up."
+  },
+  {
+    "question": "Late",
+    "answer": "Late, when moments slip quietly away."
+  },
+  {
+    "question": "First",
+    "answer": "First, a stepping stone to many beginnings."
+  },
+  {
+    "question": "Last",
+    "answer": "Last, the final note in a memorable tune."
+  },
+  {
+    "question": "Right",
+    "answer": "Right, like a guiding star in the night."
+  },
+  {
+    "question": "Wrong",
+    "answer": "Wrong, a detour on the road to understanding."
+  },
+  {
+    "question": "Again",
+    "answer": "Again, a chance to try once more."
+  },
+  {
+    "question": "Overall",
+    "answer": "Overall gives you a big-picture view, summing up everything."
+  },
+  {
+    "question": "Share",
+    "answer": "Share spreads ideas and resources, fostering connections."
+  },
+  {
+    "question": "Print",
+    "answer": "Print turns digital into tangible, making things permanent."
+  },
+  {
+    "question": "This",
+    "answer": "This points directly, keeping focus clear and specific."
+  },
+  {
+    "question": "Page",
+    "answer": "Page is a single view, a piece of a bigger story."
+  },
+  {
+    "question": "Look",
+    "answer": "Look directs your attention, inviting you to see more."
+  },
+  {
+    "question": "Comment",
+    "answer": "Comment adds your voice to the conversation, sharing thoughts."
+  },
+  {
+    "question": "Social",
+    "answer": "Social connects people, bridging gaps with interaction."
+  },
+  {
+    "question": "Media",
+    "answer": "Media delivers content, shaping how we see the world."
+  },
+  {
+    "question": "Based",
+    "answer": "Based sets a foundation, a starting point for ideas."
+  },
+  {
+    "question": "Like",
+    "answer": "Like expresses appreciation, a simple yet powerful gesture."
+  },
+  {
+    "question": "Follow",
+    "answer": "Follow keeps you updated, ensuring you don’t miss anything."
+  },
+  {
+    "question": "Post",
+    "answer": "Post shares your thoughts, making them visible to others."
+  },
+  {
+    "question": "Reply",
+    "answer": "Reply keeps the discussion going, adding your perspective."
+  },
+  {
+    "question": "Connect",
+    "answer": "Connect builds bridges, linking people and ideas together."
+  },
+  {
+    "question": "Network",
+    "answer": "Network expands your reach, strengthening your influence."
+  },
+  {
+    "question": "Influence",
+    "answer": "Influence shapes opinions, leading others in new directions."
+  },
+  {
+    "question": "Tag",
+    "answer": "Tag highlights people, drawing attention to them."
+  },
+  {
+    "question": "Trend",
+    "answer": "Trend reflects what's popular, capturing the moment."
+  },
+  {
+    "question": "Feed",
+    "answer": "Feed delivers updates, keeping content flowing."
+  },
+  {
+    "question": "Stories",
+    "answer": "Stories share experiences, giving them a personal touch."
+  },
+  {
+    "question": "Viral",
+    "answer": "Viral spreads rapidly, catching everyone's attention."
+  },
+  {
+    "question": "Engagement",
+    "answer": "Engagement fosters interaction, deepening connections."
+  },
+  {
+    "question": "Repost",
+    "answer": "Repost amplifies content, giving it a wider reach."
+  },
+  {
+    "question": "Hashtag",
+    "answer": "Hashtag categorizes content, making it easy to find."
+  },
+  {
+    "question": "Explore",
+    "answer": "Explore invites curiosity, encouraging discovery."
+  },
+  {
+    "question": "Update",
+    "answer": "Update refreshes information, keeping it relevant."
+  },
+  {
+    "question": "Timeline",
+    "answer": "Timeline organizes events, showing them in order."
+  },
+  {
+    "question": "Event",
+    "answer": "Event marks a special moment, bringing people together."
+  },
+  {
+    "question": "Live",
+    "answer": "Live happens in real time, unfiltered and immediate."
+  },
+  {
+    "question": "Shareable",
+    "answer": "Shareable makes content easy to spread and enjoy."
+  },
+  {
+    "question": "Mention",
+    "answer": "Mention gives credit, acknowledging someone's presence."
+  },
+  {
+    "question": "DM",
+    "answer": "DM enables private conversations, direct and personal."
+  },
+  {
+    "question": "Group",
+    "answer": "Group unites people with shared interests and goals."
+  },
+  {
+    "question": "Followers",
+    "answer": "Followers support and engage with your content."
+  },
+  {
+    "question": "Community",
+    "answer": "Community fosters belonging, built on shared interests."
+  },
+  {
+    "question": "Profile",
+    "answer": "Profile represents you online, shaping your identity."
+  },
+  {
+    "question": "Status",
+    "answer": "Status shares updates about what's happening now."
+  },
+  {
+    "question": "Reaction",
+    "answer": "Reaction expresses emotion, showing how you feel."
+  },
+  {
+    "question": "Content",
+    "answer": "Content fills platforms with creativity and information."
+  },
+  {
+    "question": "Link",
+    "answer": "Link connects resources, guiding users to more content."
+  },
+  {
+    "question": "Click",
+    "answer": "Click interacts with content, taking the next step."
+  },
+  {
+    "question": "Subscribe",
+    "answer": "Subscribe ensures you stay informed with regular updates."
+  },
+  {
+    "question": "Notifications",
+    "answer": "Notifications keep you updated on what's important."
+  },
+  {
+    "question": "Save",
+    "answer": "Save stores content for future reference."
+  },
+  {
+    "question": "Bookmark",
+    "answer": "Bookmark keeps important content easily accessible."
+  },
+  {
+    "question": "Discover",
+    "answer": "Discover opens up new content, expanding your view."
+  },
+  {
+    "question": "Profile Picture",
+    "answer": "Profile Picture represents you visually online."
+  },
+  {
+    "question": "Bio",
+    "answer": "Bio introduces you, sharing key details about yourself."
+  },
+  {
+    "question": "Username",
+    "answer": "Username identifies you in the digital space."
+  },
+  {
+    "question": "Pinned Post",
+    "answer": "Pinned Post keeps important content at the top."
+  },
+  {
+    "question": "Followers Count",
+    "answer": "Followers Count reflects your reach and influence."
+  },
+  {
+    "question": "Unfollow",
+    "answer": "Unfollow removes updates from your feed."
+  },
+  {
+    "question": "Block",
+    "answer": "Block prevents unwanted interactions."
+  },
+  {
+    "question": "Mute",
+    "answer": "Mute hides updates without unfollowing."
+  },
+  {
+    "question": "Report",
+    "answer": "Report flags content that violates guidelines."
+  },
+  {
+    "question": "Admin",
+    "answer": "Admin manages groups and communities."
+  },
+  {
+    "question": "Moderation",
+    "answer": "Moderation keeps discussions respectful and fair."
+  },
+  {
+    "question": "Spam",
+    "answer": "Spam clutters feeds with unwanted content."
+  },
+  {
+    "question": "Filter",
+    "answer": "Filter customizes your content experience."
+  },
+  {
+    "question": "Search",
+    "answer": "Search helps find relevant content quickly."
+  },
+  {
+    "question": "Privacy",
+    "answer": "Privacy protects your personal information."
+  },
+  {
+    "question": "Terms",
+    "answer": "Terms set rules for platform use."
+  },
+  {
+    "question": "Policy",
+    "answer": "Policy defines guidelines and expectations."
+  },
+  {
+    "question": "Archive",
+    "answer": "Archive stores past content for later."
+  },
+  {
+    "question": "Memories",
+    "answer": "Memories bring past moments back to life."
+  },
+  {
+    "question": "Poll",
+    "answer": "Poll gathers opinions through quick voting."
+  },
+  {
+    "question": "Quiz",
+    "answer": "Quiz engages users with interactive questions."
+  },
+  {
+    "question": "GIF",
+    "answer": "GIF adds fun and expression to conversations."
+  },
+  {
+    "question": "Sticker",
+    "answer": "Sticker brings personality to chats."
+  },
+  {
+    "question": "Emoji",
+    "answer": "Emoji conveys emotions without words."
+  },
+  {
+    "question": "Caption",
+    "answer": "Caption adds context to images and videos."
+  },
+  {
+    "question": "Filter",
+    "answer": "Filter enhances visuals with unique effects."
+  },
+  {
+    "question": "Tagging",
+    "answer": "Tagging highlights people in posts."
+  },
+  {
+    "question": "Analytics",
+    "answer": "Analytics tracks performance and engagement."
+  },
+  {
+    "question": "Reach",
+    "answer": "Reach measures how far content spreads."
+  },
+  {
+    "question": "Insights",
+    "answer": "Insights offer data-driven understanding."
+  },
+  {
+    "question": "Trends",
+    "answer": "Trends highlight what's popular now."
+  },
+  {
+    "question": "Hashtag Challenge",
+    "answer": "Hashtag Challenge sparks engagement with trends."
+  },
+  {
+    "question": "Influencer",
+    "answer": "Influencer drives trends and conversations."
+  },
+  {
+    "question": "Collaboration",
+    "answer": "Collaboration brings creators together."
+  },
+  {
+    "question": "Live Chat",
+    "answer": "Live Chat enables real-time conversations."
+  },
+  {
+    "question": "Webinar",
+    "answer": "Webinar educates audiences in a virtual space."
+  },
+  {
+    "question": "Podcast",
+    "answer": "Podcast delivers audio content for learning and fun."
+  },
+  {
+    "question": "Series",
+    "answer": "Series keeps audiences engaged over time."
+  },
+  {
+    "question": "Episode",
+    "answer": "Episode breaks content into smaller parts."
+  },
+  {
+    "question": "Exclusive",
+    "answer": "Exclusive offers unique content access."
+  },
+  {
+    "question": "Membership",
+    "answer": "Membership unlocks special features."
+  },
+  {
+    "question": "Support",
+    "answer": "Support helps users with their needs."
+  },
+  {
+    "question": "Donate",
+    "answer": "Donate allows contributions to causes."
+  },
+  {
+    "question": "Merchandise",
+    "answer": "Merchandise sells branded products."
+  },
+  {
+    "question": "Advertisement",
+    "answer": "Advertisement promotes content to a wider audience."
+  },
+  {
+    "question": "Boost",
+    "answer": "Boost amplifies post visibility."
+  },
+  {
+    "question": "Sponsorship",
+    "answer": "Sponsorship funds content in exchange for promotion."
+  },
+  {
+    "question": "Campaign",
+    "answer": "Campaign organizes marketing efforts."
+  },
+  {
+    "question": "SEO",
+    "answer": "SEO optimizes content for search engines."
+  },
+  {
+    "question": "Algorithm",
+    "answer": "Algorithm determines content visibility."
+  },
+  {
+    "question": "Impressions",
+    "answer": "Impressions track how often content appears."
+  },
+  {
+    "question": "Engagement Rate",
+    "answer": "Engagement Rate measures user interaction."
+  },
+  {
+    "question": "release",
+    "answer": "Release lets you set something free, starting a new chapter."
+  },
+  {
+    "question": "analysis",
+    "answer": "Analysis breaks down details, offering clarity through insight."
+  },
+  {
+    "question": "request",
+    "answer": "Request gently asks for something, opening a door to help."
+  },
+  {
+    "question": "fax",
+    "answer": "Fax is an old-school way of sending documents, a relic of the past."
+  },
+  {
+    "question": "china",
+    "answer": "China is vast and rich with history and culture."
+  },
+  {
+    "question": "making",
+    "answer": "Making is all about creating something out of nothing."
+  },
+  {
+    "question": "picture",
+    "answer": "Picture paints a scene, capturing a moment in time."
+  },
+  {
+    "question": "needs",
+    "answer": "Needs highlight what is essential, the core of our desires."
+  },
+  {
+    "question": "possible",
+    "answer": "Possible opens up the realm of what might be achievable."
+  },
+  {
+    "question": "might",
+    "answer": "Might suggests a chance, a possibility waiting to happen."
+  },
+  {
+    "question": "professional",
+    "answer": "Professional means bringing skill and expertise to the table."
+  },
+  {
+    "question": "yet",
+    "answer": "Yet leaves room for something more to come."
+  },
+  {
+    "question": "month",
+    "answer": "Month marks a cycle of time, each one with its own flavor."
+  },
+  {
+    "question": "major",
+    "answer": "Major denotes importance, standing out among the rest."
+  },
+  {
+    "question": "star",
+    "answer": "Star shines brightly, a symbol of inspiration in the sky."
+  },
+  {
+    "question": "areas",
+    "answer": "Areas point out different spaces or topics worth exploring."
+  },
+  {
+    "question": "future",
+    "answer": "Future is filled with promise and unknown adventures."
+  },
+  {
+    "question": "space",
+    "answer": "Space stretches out, inviting you to dream big."
+  },
+  {
+    "question": "committee",
+    "answer": "Committee brings minds together to make thoughtful decisions."
+  },
+  {
+    "question": "hand",
+    "answer": "Hand reaches out, offering support and connection."
+  },
+  {
+    "question": "sun",
+    "answer": "Sun brightens your day, a constant source of warmth."
+  },
+  {
+    "question": "cards",
+    "answer": "Cards hold surprises, ready to be revealed one by one."
+  },
+  {
+    "question": "problems",
+    "answer": "Problems challenge you to find creative solutions."
+  },
+  {
+    "question": "london",
+    "answer": "London buzzes with history and vibrant energy."
+  },
+  {
+    "question": "washington",
+    "answer": "Washington stands as a hub of leadership and change."
+  },
+  {
+    "question": "meeting",
+    "answer": "Meeting gathers minds, where ideas and plans are shared."
+  },
+  {
+    "question": "rss",
+    "answer": "RSS keeps you updated, feeding you news and trends seamlessly."
+  },
+  {
+    "question": "become",
+    "answer": "Become is the journey of transformation and growth."
+  },
+  {
+    "question": "interest",
+    "answer": "Interest sparks curiosity, drawing you deeper into a subject."
+  },
+  {
+    "question": "id",
+    "answer": "ID identifies you, a simple marker of who you are."
+  },
+  {
+    "question": "child",
+    "answer": "Child embodies innocence and endless possibility."
+  },
+  {
+    "question": "keep",
+    "answer": "Keep holds on to what matters, preserving memories and moments."
+  },
+  {
+    "question": "enter",
+    "answer": "Enter invites you to step into a new experience or space."
+  },
+  {
+    "question": "california",
+    "answer": "California shines with diversity and sunny vibes."
+  },
+  {
+    "question": "porn",
+    "answer": "Porn is a controversial topic that sparks much debate."
+  },
+  {
+    "question": "share",
+    "answer": "Share spreads joy and information, making connections stronger."
+  },
+  {
+    "question": "similar",
+    "answer": "Similar draws comparisons, highlighting familiar traits."
+  },
+  {
+    "question": "garden",
+    "answer": "Garden is a space of growth, where beauty blossoms naturally."
+  },
+  {
+    "question": "schools",
+    "answer": "Schools nurture learning, planting seeds of knowledge."
+  },
+  {
+    "question": "million",
+    "answer": "Million signifies a large number, evoking grandeur."
+  },
+  {
+    "question": "added",
+    "answer": "Added gives a little extra, enhancing the overall picture."
+  },
+  {
+    "question": "reference",
+    "answer": "Reference guides you, pointing to sources of further insight."
+  },
+  {
+    "question": "companies",
+    "answer": "Companies drive the economy, blending innovation with tradition."
+  },
+  {
+    "question": "listed",
+    "answer": "Listed organizes items in order, making choices easier."
+  },
+  {
+    "question": "baby",
+    "answer": "Baby brings pure joy and the promise of a bright future."
+  },
+  {
+    "question": "learning",
+    "answer": "Learning opens your mind, filling it with endless wonder."
+  },
+  {
+    "question": "energy",
+    "answer": "Energy fuels your day, sparking action and vitality."
+  },
+  {
+    "question": "run",
+    "answer": "Run propels you forward, a burst of movement and freedom."
+  },
+  {
+    "question": "delivery",
+    "answer": "Delivery brings what you need right to your doorstep."
+  },
+  {
+    "question": "net",
+    "answer": "Net connects you to the digital world, a web of endless links."
+  },
+  {
+    "question": "popular",
+    "answer": "Popular means loved by many, resonating with widespread appeal."
+  },
+  {
+    "question": "term",
+    "answer": "Term defines a specific period or concept, clear and concise."
+  },
+  {
+    "question": "film",
+    "answer": "Film tells stories through moving images, captivating your imagination."
+  },
+  {
+    "question": "stories",
+    "answer": "Stories weave experiences into narratives that touch the heart."
+  },
+  {
+    "question": "put",
+    "answer": "Put is the simple act of placing something exactly where it belongs."
+  },
+  {
+    "question": "computers",
+    "answer": "Computers process information rapidly, powering modern life."
+  },
+  {
+    "question": "journal",
+    "answer": "Journal captures thoughts and moments, a personal record in words."
+  },
+  {
+    "question": "reports",
+    "answer": "Reports summarize facts, giving you a snapshot of events."
+  },
+  {
+    "question": "co",
+    "answer": "Co hints at collaboration, working together towards a goal."
+  },
+  {
+    "question": "try",
+    "answer": "Try encourages you to give it a go, embracing the challenge."
+  },
+  {
+    "question": "welcome",
+    "answer": "Welcome greets you warmly, inviting you to join the conversation."
+  },
+  {
+    "question": "central",
+    "answer": "Central stands at the heart, a hub of activity and focus."
+  },
+  {
+    "question": "images",
+    "answer": "Images capture moments, turning fleeting seconds into art."
+  },
+  {
+    "question": "president",
+    "answer": "President leads with vision, representing collective aspirations."
+  },
+  {
+    "question": "notice",
+    "answer": "Notice draws your attention, prompting you to observe carefully."
+  },
+  {
+    "question": "god",
+    "answer": "God is a concept that inspires deep reflection and faith for many."
+  },
+  {
+    "question": "original",
+    "answer": "Original celebrates uniqueness, the spark of creativity in every idea."
+  },
+  {
+    "question": "head",
+    "answer": "Head symbolizes leadership and the center of thought."
+  },
+  {
+    "question": "radio",
+    "answer": "Radio connects you to voices and music, bridging distances with sound."
+  },
+  {
+    "question": "until",
+    "answer": "Until marks the continuation of time, until something changes."
+  },
+  {
+    "question": "cell",
+    "answer": "Cell is the building block of life, small yet vital."
+  },
+  {
+    "question": "color",
+    "answer": "Color paints the world, adding vibrancy and emotion."
+  },
+  {
+    "question": "self",
+    "answer": "Self reminds you of who you truly are, your inner essence."
+  },
+  {
+    "question": "council",
+    "answer": "Council gathers wisdom, a group making decisions together."
+  },
+  {
+    "question": "away",
+    "answer": "Away takes you from the familiar, into new adventures."
+  },
+  {
+    "question": "includes",
+    "answer": "Includes makes sure nothing is left out, every detail counts."
+  },
+  {
+    "question": "track",
+    "answer": "Track follows the path, keeping you informed along the way."
+  },
+  {
+    "question": "australia",
+    "answer": "Australia bursts with unique wildlife and breathtaking landscapes."
+  },
+  {
+    "question": "discussion",
+    "answer": "Discussion opens a dialogue, sharing ideas and perspectives."
+  },
+  {
+    "question": "archive",
+    "answer": "Archive preserves history, storing memories for future discovery."
+  },
+  {
+    "question": "once",
+    "answer": "Once sets the stage for a story, beginning with a single moment."
+  },
+  {
+    "question": "others",
+    "answer": "Others remind you that you're part of a larger community."
+  },
+  {
+    "question": "entertainment",
+    "answer": "Entertainment delights and inspires, offering a break from the everyday."
+  },
+  {
+    "question": "agreement",
+    "answer": "Agreement brings mutual understanding, a handshake of ideas."
+  },
+  {
+    "question": "format",
+    "answer": "Format organizes content neatly, giving structure to information."
+  },
+  {
+    "question": "least",
+    "answer": "Least suggests the minimum, the simplest form of something."
+  },
+  {
+    "question": "society",
+    "answer": "Society shapes us, a tapestry of collective experiences."
+  },
+  {
+    "question": "months",
+    "answer": "Months mark the passage of time, each with its own story."
+  },
+  {
+    "question": "log",
+    "answer": "Log records events as they happen, a timeline of your journey."
+  },
+  {
+    "question": "safety",
+    "answer": "Safety ensures you're protected, offering peace of mind."
+  },
+  {
+    "question": "friends",
+    "answer": "Friends are the heart of companionship, always there to support you."
+  },
+  {
+    "question": "sure",
+    "answer": "Sure confirms certainty, a friendly nod of agreement."
+  },
+  {
+    "question": "faq",
+    "answer": "FAQ answers common questions, making things clear and simple."
+  },
+  {
+    "question": "trade",
+    "answer": "Trade exchanges value and ideas, fostering growth and connection."
+  },
+  {
+    "question": "edition",
+    "answer": "Edition marks a version of a work, unique in its presentation."
+  },
+  {
+    "question": "cars",
+    "answer": "Cars zoom along, taking you on journeys with style and speed."
+  },
+  {
+    "question": "messages",
+    "answer": "Messages carry your thoughts, connecting you with others."
+  },
+  {
+    "question": "marketing",
+    "answer": "Marketing spreads the word, showcasing what’s valuable in a creative way."
+  },
+  {
+    "question": "tell",
+    "answer": "Tell shares your story, a way to express what’s on your mind."
+  },
+  {
+    "question": "further",
+    "answer": "Further pushes you to explore more, diving deeper into ideas."
+  },
+  {
+    "question": "updated",
+    "answer": "Updated means refreshed, keeping you in the loop with the latest."
+  },
+  {
+    "question": "association",
+    "answer": "Association links ideas and people, building networks of trust."
+  },
+  {
+    "question": "able",
+    "answer": "Able shows capability, a nod to your potential and strength."
+  },
+  {
+    "question": "having",
+    "answer": "Having signifies possession, a simple state of being in the moment."
+  },
+  {
+    "question": "provides",
+    "answer": "Provides offers what you need, a helpful hand in times of need."
+  },
+  {
+    "question": "david",
+    "answer": "David is a classic name, carrying history and character."
+  },
+  {
+    "question": "fun",
+    "answer": "Fun adds joy to life, a playful break from the routine."
+  },
+  {
+    "question": "already",
+    "answer": "Already shows that things are set in motion, a quick nod to the past."
+  },
+  {
+    "question": "green",
+    "answer": "Green brings to mind nature and growth, fresh and vibrant."
+  },
+  {
+    "question": "studies",
+    "answer": "Studies deepen your knowledge, turning curiosity into expertise."
+  },
+  {
+    "question": "close",
+    "answer": "Close brings things together, a gentle hug of familiarity."
+  },
+  {
+    "question": "common",
+    "answer": "Common speaks of what’s shared by many, a unifying trait."
+  },
+  {
+    "question": "drive",
+    "answer": "Drive fuels your ambition, pushing you to achieve more."
+  },
+  {
+    "question": "specific",
+    "answer": "Specific narrows down details, making your point crystal clear."
+  },
+  {
+    "question": "several",
+    "answer": "Several suggests a number beyond one, adding variety."
+  },
+  {
+    "question": "gold",
+    "answer": "Gold shines with value and warmth, a timeless treasure."
+  },
+  {
+    "question": "feb",
+    "answer": "Feb, short for February, is a brief yet pivotal moment in the year."
+  },
+  {
+    "question": "living",
+    "answer": "Living is the act of experiencing each moment with passion."
+  },
+  {
+    "question": "sep",
+    "answer": "Sep stands for September, when autumn whispers its arrival."
+  },
+  {
+    "question": "collection",
+    "answer": "Collection gathers items, a curated group of memories and treasures."
+  },
+  {
+    "question": "called",
+    "answer": "Called names something, giving it an identity and purpose."
+  },
+  {
+    "question": "short",
+    "answer": "Short keeps things brief, a concise burst of information."
+  },
+  {
+    "question": "arts",
+    "answer": "Arts celebrate creativity in all its colorful forms."
+  },
+  {
+    "question": "lot",
+    "answer": "Lot signifies a large amount, plenty enough to go around."
+  },
+  {
+    "question": "ask",
+    "answer": "Ask opens the door to learning, a simple invitation to inquire."
+  },
+  {
+    "question": "display",
+    "answer": "Display shows off what matters, a visual treat for the eyes."
+  },
+  {
+    "question": "limited",
+    "answer": "Limited sets boundaries, defining what's available and rare."
+  },
+  {
+    "question": "powered",
+    "answer": "Powered drives things forward with energy and innovation."
+  },
+  {
+    "question": "solutions",
+    "answer": "Solutions clear up problems, guiding you to a better outcome."
+  },
+  {
+    "question": "means",
+    "answer": "Means explains how things work, breaking it down in simple terms."
+  },
+  {
+    "question": "director",
+    "answer": "Director leads the show, orchestrating every detail with finesse."
+  },
+  {
+    "question": "daily",
+    "answer": "Daily reminds you of routine, the small steps that build success."
+  },
+  {
+    "question": "beach",
+    "answer": "Beach offers a relaxing escape, with sun, sand, and sea."
+  },
+  {
+    "question": "past",
+    "answer": "Past holds memories, a gentle reminder of what once was."
+  },
+  {
+    "question": "natural",
+    "answer": "Natural feels organic and true, like the flow of life itself."
+  },
+  {
+    "question": "whether",
+    "answer": "Whether introduces choices, a pondering of possibilities."
+  },
+  {
+    "question": "due",
+    "answer": "Due marks an expected time, gently nudging you to be ready."
+  },
+  {
+    "question": "et",
+    "answer": "Et, meaning 'and' in another language, adds a touch of elegance."
+  },
+  {
+    "question": "electronics",
+    "answer": "Electronics power our modern world, sparking innovation daily."
+  },
+  {
+    "question": "five",
+    "answer": "Five is a number that feels balanced, neither too much nor too little."
+  },
+  {
+    "question": "upon",
+    "answer": "Upon sets the stage, inviting something new to unfold."
+  },
+  {
+    "question": "period",
+    "answer": "Period punctuates a thought, a firm end to a sentence."
+  },
+  {
+    "question": "planning",
+    "answer": "Planning maps out your future, a blueprint for your dreams."
+  },
+  {
+    "question": "database",
+    "answer": "Database organizes vast information, making knowledge accessible."
+  },
+  {
+    "question": "says",
+    "answer": "Says lets you share what’s on your mind, in a few simple words."
+  },
+  {
+    "question": "official",
+    "answer": "Official adds a sense of authority, a seal of authenticity."
+  },
+  {
+    "question": "weather",
+    "answer": "Weather changes like moods, a natural rhythm of the day."
+  },
+  {
+    "question": "mar",
+    "answer": "Mar, short for March, signals the beginning of spring’s bloom."
+  },
+  {
+    "question": "land",
+    "answer": "Land grounds you, offering a place to stand and grow."
+  },
+  {
+    "question": "average",
+    "answer": "Average gives you a baseline, a reference point in a sea of numbers."
+  },
+  {
+    "question": "done",
+    "answer": "Done means completed, a satisfying end to your efforts."
+  },
+  {
+    "question": "technical",
+    "answer": "Technical speaks of the details that make things work smoothly."
+  },
+  {
+    "question": "window",
+    "answer": "Window offers a view, framing the world in a fresh light."
+  },
+  {
+    "question": "france",
+    "answer": "France evokes art, cuisine, and a rich cultural heritage."
+  },
+  {
+    "question": "pro",
+    "answer": "Pro shows expertise and dedication, a badge of honor."
+  },
+  {
+    "question": "region",
+    "answer": "Region defines an area, rich with its own unique character."
+  },
+  {
+    "question": "island",
+    "answer": "Island stands alone, a piece of paradise surrounded by water."
+  },
+  {
+    "question": "record",
+    "answer": "Record preserves moments, a snapshot of history in time."
+  },
+  {
+    "question": "direct",
+    "answer": "Direct means straightforward, cutting through the noise with clarity."
+  },
+  {
+    "question": "microsoft",
+    "answer": "Microsoft powers innovation in technology, a name that echoes progress."
+  },
+  {
+    "question": "conference",
+    "answer": "Conference gathers ideas and people, sparking dynamic discussions."
+  },
+  {
+    "question": "environment",
+    "answer": "Environment shapes your world, a backdrop for all your experiences."
+  },
+  {
+    "question": "records",
+    "answer": "Records keep track of details, a log of events to remember."
+  },
+  {
+    "question": "st",
+    "answer": "St is a short form for street or saint, concise and familiar."
+  },
+  {
+    "question": "district",
+    "answer": "District marks a defined area, a community with its own vibe."
+  },
+  {
+    "question": "calendar",
+    "answer": "Calendar organizes your days, a guide to time well spent."
+  },
+  {
+    "question": "costs",
+    "answer": "Costs remind you of value, balancing expenses with benefits."
+  },
+  {
+    "question": "style",
+    "answer": "Style adds flair and personality, making every choice uniquely yours."
+  },
+  {
+    "question": "url",
+    "answer": "URL is your web address, the digital gateway to endless content."
+  },
+  {
+    "question": "front",
+    "answer": "Front leads the way, presenting the best view upfront."
+  },
+  {
+    "question": "statement",
+    "answer": "Statement declares your thoughts boldly, making your mark."
+  },
+  {
+    "question": "update",
+    "answer": "Update refreshes your information, keeping you current."
+  },
+  {
+    "question": "parts",
+    "answer": "Parts come together to form the whole, each playing its role."
+  },
+  {
+    "question": "aug",
+    "answer": "Aug, short for August, carries the warmth of late summer."
+  },
+  {
+    "question": "ever",
+    "answer": "Ever suggests continuity, a lasting presence over time."
+  },
+  {
+    "question": "downloads",
+    "answer": "Downloads bring digital content right to your device."
+  },
+  {
+    "question": "early",
+    "answer": "Early sets the pace for the day, a head start on possibilities."
+  },
+  {
+    "question": "miles",
+    "answer": "Miles measure distance, a journey in every step."
+  },
+  {
+    "question": "sound",
+    "answer": "Sound fills your ears, turning silence into a symphony."
+  },
+  {
+    "question": "resource",
+    "answer": "Resource is a well of useful information, ready when you need it."
+  },
+  {
+    "question": "present",
+    "answer": "Present captures the now, a moment to cherish and live."
+  },
+  {
+    "question": "applications",
+    "answer": "Applications are tools that empower you in the digital age."
+  },
+  {
+    "question": "either",
+    "answer": "Either offers you choices, leaving options open."
+  },
+  {
+    "question": "ago",
+    "answer": "Ago takes you back in time, a gentle reminder of the past."
+  },
+  {
+    "question": "document",
+    "answer": "Document preserves details, a record for future reference."
+  },
+  {
+    "question": "word",
+    "answer": "Word conveys meaning in a simple, powerful way."
+  },
+  {
+    "question": "works",
+    "answer": "Works show the outcome of effort, a testament to creativity."
+  },
+  {
+    "question": "material",
+    "answer": "Material is the substance that forms the basis of ideas."
+  },
+  {
+    "question": "bill",
+    "answer": "Bill represents a statement of charges, clear and precise."
+  },
+  {
+    "question": "apr",
+    "answer": "Apr is short for April, a month full of blooming potential."
+  },
+  {
+    "question": "written",
+    "answer": "Written captures thoughts in text, a lasting imprint of ideas."
+  },
+  {
+    "question": "talk",
+    "answer": "Talk opens up conversation, connecting minds with words."
+  },
+  {
+    "question": "federal",
+    "answer": "Federal speaks of nationwide reach, a system that unites many."
+  },
+  {
+    "question": "hosting",
+    "answer": "Hosting provides a home for websites, keeping things running smoothly."
+  },
+  {
+    "question": "rules",
+    "answer": "Rules set the boundaries, ensuring fairness and order."
+  },
+  {
+    "question": "final",
+    "answer": "Final marks the end of a journey, the concluding chapter."
+  },
+  {
+    "question": "adult",
+    "answer": "Adult brings maturity and depth, a world of experience."
+  },
+  {
+    "question": "tickets",
+    "answer": "Tickets grant you access to events and adventures."
+  },
+  {
+    "question": "thing",
+    "answer": "Thing is a placeholder for whatever catches your interest."
+  },
+  {
+    "question": "centre",
+    "answer": "Centre anchors everything, the focal point of a gathering."
+  },
+  {
+    "question": "actually",
+    "answer": "Actually, it's more about perspective than just facts."
+  },
+  {
+    "question": "absolutely",
+    "answer": "Absolutely, that's a certainty you can count on."
+  },
+  {
+    "question": "eventually",
+    "answer": "Eventually, all things find their proper place."
+  },
+  {
+    "question": "probably",
+    "answer": "Probably, though sometimes it's hard to be sure."
+  },
+  {
+    "question": "fine",
+    "answer": "Fine is a simple word that often signals contentment."
+  },
+  {
+    "question": "well",
+    "answer": "Well, sometimes the answer lies in a quiet moment of reflection."
+  },
+  {
+    "question": "thanks",
+    "answer": "Thanks shows appreciation in the simplest way."
+  },
+  {
+    "question": "sorry",
+    "answer": "Sorry expresses empathy and a wish to make things better."
+  },
+  {
+    "question": "please",
+    "answer": "Please softens a request, making it more inviting."
+  },
+  {
+    "question": "explain",
+    "answer": "Explain unravels the complexity, revealing the core idea."
+  },
+  {
+    "question": "define",
+    "answer": "Define sets clear boundaries on what something really means."
+  },
+  {
+    "question": "describe",
+    "answer": "Describe paints a picture with words, making ideas tangible."
+  },
+  {
+    "question": "compare",
+    "answer": "Compare invites you to weigh similarities and differences thoughtfully."
+  },
+  {
+    "question": "tell",
+    "answer": "Tell shares a narrative, revealing the story behind the facts."
+  },
+  {
+    "question": "do",
+    "answer": "Do is all about taking action and making things happen."
+  },
+  {
+    "question": "did",
+    "answer": "Did reflects on what has already taken place in time."
+  },
+  {
+    "question": "done",
+    "answer": "Done marks the completion of a task, a job well finished."
+  },
+  {
+    "question": "can",
+    "answer": "Can opens up the realm of possibility and ability."
+  },
+  {
+    "question": "could",
+    "answer": "Could hints at potential outcomes waiting to be discovered."
+  },
+  {
+    "question": "should",
+    "answer": "Should gently guides you toward the best or most sensible choice."
+  },
+  {
+    "question": "would",
+    "answer": "Would invites you to imagine what might be under different circumstances."
+  },
+  {
+    "question": "might",
+    "answer": "Might suggests a possibility, leaving a door open to the unknown."
+  },
+  {
+    "question": "must",
+    "answer": "Must emphasizes necessity, reminding you of what cannot be ignored."
+  },
+  {
+    "question": "shall",
+    "answer": "Shall carries a promise, a formal step toward making things happen."
+  },
+  {
+    "question": "wonder",
+    "answer": "Wonder sparks curiosity, the beginning of every great discovery."
+  },
+  {
+    "question": "query",
+    "answer": "Query is a thoughtful way to seek out more information."
+  },
+  {
+    "question": "ask",
+    "answer": "Ask is the first step in learning and expanding your horizons."
+  },
+  {
+    "question": "find",
+    "answer": "Find helps you uncover the treasures hidden in plain sight."
+  },
+  {
+    "question": "search",
+    "answer": "Search is the journey toward discovering new insights."
+  },
+  {
+    "question": "look up",
+    "answer": "Look up is an invitation to explore and learn something new."
+  },
+  {
+    "question": "real",
+    "answer": "Real speaks to authenticity, keeping things genuine."
+  },
+  {
+    "question": "item",
+    "answer": "Item is a single piece in a larger collection."
+  },
+  {
+    "question": "international",
+    "answer": "International broadens your view, connecting cultures worldwide."
+  },
+  {
+    "question": "center",
+    "answer": "Center marks the heart of something, right in the middle."
+  },
+  {
+    "question": "ebay",
+    "answer": "Ebay is a bustling marketplace where items find new homes."
+  },
+  {
+    "question": "must",
+    "answer": "Must signals necessity, something you really need to do."
+  },
+  {
+    "question": "store",
+    "answer": "Store is where you keep your treasures safe and sound."
+  },
+  {
+    "question": "travel",
+    "answer": "Travel opens up adventures and a world of experiences."
+  },
+  {
+    "question": "comments",
+    "answer": "Comments share thoughts and feedback in a friendly tone."
+  },
+  {
+    "question": "made",
+    "answer": "Made hints at creation, something crafted with care."
+  },
+  {
+    "question": "development",
+    "answer": "Development shows growth and progress over time."
+  },
+  {
+    "question": "report",
+    "answer": "Report gives you a clear summary of what's happening."
+  },
+  {
+    "question": "off",
+    "answer": "Off signals a pause or a break from the usual routine."
+  },
+  {
+    "question": "member",
+    "answer": "Member means being part of a group or community."
+  },
+  {
+    "question": "details",
+    "answer": "Details fill in the gaps, providing clarity and depth."
+  },
+  {
+    "question": "line",
+    "answer": "Line draws a clear path, connecting one idea to another."
+  },
+  {
+    "question": "terms",
+    "answer": "Terms lay out the conditions or rules, keeping things clear."
+  },
+  {
+    "question": "before",
+    "answer": "Before takes you back to what came earlier."
+  },
+  {
+    "question": "hotels",
+    "answer": "Hotels offer a comfortable stop, a home away from home."
+  },
+  {
+    "question": "did",
+    "answer": "Did points to actions that have already taken place."
+  },
+  {
+    "question": "send",
+    "answer": "Send is the act of sharing your message with someone."
+  },
+  {
+    "question": "right",
+    "answer": "Right confirms correctness or a well-placed thought."
+  },
+  {
+    "question": "type",
+    "answer": "Type tells you how something is categorized or done."
+  },
+  {
+    "question": "because",
+    "answer": "Because explains the reason behind a thought or action."
+  },
+  {
+    "question": "local",
+    "answer": "Local brings focus to what's nearby, in your own community."
+  },
+  {
+    "question": "those",
+    "answer": "Those point out specific items or people among many."
+  },
+  {
+    "question": "using",
+    "answer": "Using suggests making practical use of something at hand."
+  },
+  {
+    "question": "results",
+    "answer": "Results show the outcome of your efforts, plain and clear."
+  },
+  {
+    "question": "office",
+    "answer": "Office is the organized space where work gets done."
+  },
+  {
+    "question": "education",
+    "answer": "Education lights the path to knowledge and new insights."
+  },
+  {
+    "question": "national",
+    "answer": "National refers to something shared across an entire country."
+  },
+  {
+    "question": "car",
+    "answer": "Car is your trusty companion on journeys near and far."
+  },
+  {
+    "question": "design",
+    "answer": "Design brings creativity to life, shaping ideas into reality."
+  },
+  {
+    "question": "take",
+    "answer": "Take is an invitation to grab an opportunity and run with it."
+  },
+  {
+    "question": "posted",
+    "answer": "Posted means something has been shared or published online."
+  },
+  {
+    "question": "internet",
+    "answer": "Internet connects you to a vast world of information."
+  },
+  {
+    "question": "address",
+    "answer": "Address tells you where something is located, both physical and digital."
+  },
+  {
+    "question": "community",
+    "answer": "Community is all about coming together and supporting one another."
+  },
+  {
+    "question": "within",
+    "answer": "Within points to something inside, a hidden gem waiting to be discovered."
+  },
+  {
+    "question": "states",
+    "answer": "States represent distinct regions, each with its own character."
+  },
+  {
+    "question": "area",
+    "answer": "Area defines a particular space, whether big or small."
+  },
+  {
+    "question": "want",
+    "answer": "Want expresses a desire or need for something more."
+  },
+  {
+    "question": "phone",
+    "answer": "Phone keeps you connected, a lifeline in today’s digital age."
+  },
+  {
+    "question": "dvd",
+    "answer": "DVD brings movies and shows into your home with a touch of nostalgia."
+  },
+  {
+    "question": "shipping",
+    "answer": "Shipping moves your items from one place to another with care."
+  },
+  {
+    "question": "reserved",
+    "answer": "Reserved means something is set aside just for you."
+  },
+  {
+    "question": "subject",
+    "answer": "Subject is the topic at hand, sparking curiosity and discussion."
+  },
+  {
+    "question": "between",
+    "answer": "Between connects two points, marking the space in the middle."
+  },
+  {
+    "question": "forum",
+    "answer": "Forum is a lively space where ideas and opinions are shared."
+  },
+  {
+    "question": "family",
+    "answer": "Family is the warm core of our lives, full of love and support."
+  },
+  {
+    "question": "long",
+    "answer": "Long describes something that stretches out with duration and depth."
+  },
+  {
+    "question": "based",
+    "answer": "Based indicates the foundation on which ideas are built."
+  },
+  {
+    "question": "code",
+    "answer": "Code is the language of technology, turning ideas into action."
+  },
+  {
+    "question": "show",
+    "answer": "Show reveals what’s hidden, sharing insights step by step."
+  },
+  {
+    "question": "even",
+    "answer": "Even emphasizes balance and equality in every aspect."
+  },
+  {
+    "question": "black",
+    "answer": "Black is deep and mysterious, rich with meaning."
+  },
+  {
+    "question": "check",
+    "answer": "Check confirms details, ensuring everything is in order."
+  },
+  {
+    "question": "special",
+    "answer": "Special sets apart the unique, celebrating individuality."
+  },
+  {
+    "question": "prices",
+    "answer": "Prices tell you the cost, a simple indicator of value."
+  },
+  {
+    "question": "website",
+    "answer": "Website serves as your digital window to the world."
+  },
+  {
+    "question": "index",
+    "answer": "Index organizes content, making it easy to find what you need."
+  },
+  {
+    "question": "being",
+    "answer": "Being reminds you of existence, simple yet profound."
+  },
+  {
+    "question": "women",
+    "answer": "Women add strength and grace, a vital part of every story."
+  },
+  {
+    "question": "much",
+    "answer": "Much emphasizes abundance, showing a significant amount."
+  },
+  {
+    "question": "sign",
+    "answer": "Sign serves as a symbol or cue, guiding you along the way."
+  },
+  {
+    "question": "file",
+    "answer": "File neatly stores information, like keeping things in order."
+  },
+  {
+    "question": "link",
+    "answer": "Link connects ideas and people, bridging gaps effortlessly."
+  },
+  {
+    "question": "open",
+    "answer": "Open invites you to explore new possibilities and adventures."
+  },
+  {
+    "question": "today",
+    "answer": "Today is a fresh start, brimming with opportunities."
+  },
+  {
+    "question": "technology",
+    "answer": "Technology drives innovation, making life more convenient."
+  },
+  {
+    "question": "south",
+    "answer": "South points toward warmth and new beginnings."
+  },
+  {
+    "question": "case",
+    "answer": "Case refers to an instance or example, clear and concise."
+  },
+  {
+    "question": "project",
+    "answer": "Project sparks creativity, turning ideas into tangible outcomes."
+  },
+  {
+    "question": "same",
+    "answer": "Same highlights consistency, keeping things familiar."
+  },
+  {
+    "question": "pages",
+    "answer": "Pages hold stories and ideas, waiting to be explored."
+  },
+  {
+    "question": "uk",
+    "answer": "UK brings to mind a rich history and vibrant culture."
+  },
+  {
+    "question": "version",
+    "answer": "Version shows a variation or update, a new twist on the original."
+  },
+  {
+    "question": "section",
+    "answer": "Section divides the whole into manageable parts."
+  },
+  {
+    "question": "own",
+    "answer": "Own claims what’s yours, marking personal territory."
+  },
+  {
+    "question": "found",
+    "answer": "Found means discovered, a pleasant surprise along the way."
+  },
+  {
+    "question": "sports",
+    "answer": "Sports bring energy and teamwork into everyday life."
+  },
+  {
+    "question": "house",
+    "answer": "House is where comfort meets shelter, a true haven."
+  },
+  {
+    "question": "related",
+    "answer": "Related links things by similarity, drawing natural connections."
+  },
+  {
+    "question": "security",
+    "answer": "Security offers peace of mind, keeping you safe and sound."
+  },
+  {
+    "question": "both",
+    "answer": "Both includes two elements together, in perfect harmony."
+  },
+  {
+    "question": "county",
+    "answer": "County defines a region, a community within a larger area."
+  },
+  {
+    "question": "american",
+    "answer": "American evokes a diverse culture and dynamic spirit."
+  },
+  {
+    "question": "photo",
+    "answer": "Photo captures moments in time, a frozen memory."
+  },
+  {
+    "question": "game",
+    "answer": "Game sparks fun and competition, a playful challenge."
+  },
+  {
+    "question": "members",
+    "answer": "Members form the core of a community, each with a role."
+  },
+  {
+    "question": "power",
+    "answer": "Power fuels energy and drive, a force to be reckoned with."
+  },
+  {
+    "question": "while",
+    "answer": "While lets things unfold at their own pace, naturally."
+  },
+  {
+    "question": "care",
+    "answer": "Care is the gentle touch that shows concern and kindness."
+  },
+  {
+    "question": "network",
+    "answer": "Network connects people and ideas, building bridges together."
+  },
+  {
+    "question": "down",
+    "answer": "Down gently indicates movement to a lower point, calming and steady."
+  },
+  {
+    "question": "computer",
+    "answer": "Computer is the modern tool that processes information swiftly."
+  },
+  {
+    "question": "systems",
+    "answer": "Systems organize complexity into smooth, functioning units."
+  },
+  {
+    "question": "three",
+    "answer": "Three is a number that brings balance and symmetry to the mix."
+  },
+  {
+    "question": "total",
+    "answer": "Total sums everything up, presenting the complete picture."
+  },
+  {
+    "question": "place",
+    "answer": "Place anchors you in a location, giving you a sense of belonging."
+  },
+  {
+    "question": "end",
+    "answer": "End signals closure, wrapping up a thought or journey."
+  },
+  {
+    "question": "following",
+    "answer": "Following shows what comes next in a logical sequence."
+  },
+  {
+    "question": "download",
+    "answer": "Download lets you bring digital content right to your device."
+  },
+  {
+    "question": "him",
+    "answer": "Him points to a male presence, adding a personal touch."
+  },
+  {
+    "question": "without",
+    "answer": "Without indicates absence, showing what’s missing."
+  },
+  {
+    "question": "per",
+    "answer": "Per provides a simple measure or rate for comparison."
+  },
+  {
+    "question": "access",
+    "answer": "Access opens the door to information and opportunities."
+  },
+  {
+    "question": "think",
+    "answer": "Think invites you to ponder and explore your inner ideas."
+  },
+  {
+    "question": "north",
+    "answer": "North points the way, often associated with cool directions."
+  },
+  {
+    "question": "resources",
+    "answer": "Resources are valuable tools you can tap into when needed."
+  },
+  {
+    "question": "current",
+    "answer": "Current reflects the present moment, fresh and immediate."
+  },
+  {
+    "question": "posts",
+    "answer": "Posts share snippets of thoughts and updates with others."
+  },
+  {
+    "question": "big",
+    "answer": "Big stands for size or importance, making a bold impression."
+  },
+  {
+    "question": "media",
+    "answer": "Media spreads stories and news across the globe."
+  },
+  {
+    "question": "law",
+    "answer": "Law sets the rules that keep society functioning smoothly."
+  },
+  {
+    "question": "control",
+    "answer": "Control helps maintain order and guide actions effectively."
+  },
+  {
+    "question": "water",
+    "answer": "Water flows and nourishes, essential to life itself."
+  },
+  {
+    "question": "history",
+    "answer": "History tells the story of our past, filled with lessons."
+  },
+  {
+    "question": "pictures",
+    "answer": "Pictures capture moments, telling stories without words."
+  },
+  {
+    "question": "size",
+    "answer": "Size measures dimensions, a detail that can be surprisingly important."
+  },
+  {
+    "question": "art",
+    "answer": "Art expresses creativity, turning ideas into visual poetry."
+  },
+  {
+    "question": "personal",
+    "answer": "Personal makes things intimate, reflecting who you really are."
+  },
+  {
+    "question": "since",
+    "answer": "Since connects the past to the present, marking time's flow."
+  },
+  {
+    "question": "including",
+    "answer": "Including makes sure nothing is left out, every detail counts."
+  },
+  {
+    "question": "guide",
+    "answer": "Guide leads you gently, offering direction and support."
+  },
+  {
+    "question": "shop",
+    "answer": "Shop is the fun adventure of discovering new treasures."
+  },
+  {
+    "question": "directory",
+    "answer": "Directory organizes contacts and resources in a neat list."
+  },
+  {
+    "question": "board",
+    "answer": "Board brings people together, like a community bulletin."
+  },
+  {
+    "question": "location",
+    "answer": "Location pins down a place, giving context to your story."
+  },
+  {
+    "question": "change",
+    "answer": "Change brings freshness and new opportunities to grow."
+  },
+  {
+    "question": "white",
+    "answer": "White is pure and simple, a blank canvas for ideas."
+  },
+  {
+    "question": "text",
+    "answer": "Text delivers messages clearly, one word at a time."
+  },
+  {
+    "question": "small",
+    "answer": "Small may be tiny, but it often holds great charm."
+  },
+  {
+    "question": "rating",
+    "answer": "Rating offers a quick glance at quality or performance."
+  },
+  {
+    "question": "rate",
+    "answer": "Rate quantifies value, helping you decide with ease."
+  },
+  {
+    "question": "government",
+    "answer": "Government shapes society, laying the groundwork for order."
+  },
+  {
+    "question": "children",
+    "answer": "Children bring energy and wonder, a fresh view on life."
+  },
+  {
+    "question": "during",
+    "answer": "During marks a time period, setting the scene for events."
+  },
+  {
+    "question": "usa",
+    "answer": "USA stands for a nation rich in diversity and opportunity."
+  },
+  {
+    "question": "return",
+    "answer": "Return brings you back, a familiar circle completed."
+  },
+  {
+    "question": "students",
+    "answer": "Students are eager learners, always ready for knowledge."
+  },
+  {
+    "question": "shopping",
+    "answer": "Shopping is the adventure of exploring what appeals to you."
+  },
+  {
+    "question": "account",
+    "answer": "Account keeps track of your details, like a personal record."
+  },
+  {
+    "question": "times",
+    "answer": "Times mark the rhythm of life, each moment ticking by."
+  },
+  {
+    "question": "sites",
+    "answer": "Sites are digital spaces where communities come alive."
+  },
+  {
+    "question": "level",
+    "answer": "Level indicates a stage or degree, helping you gauge progress."
+  },
+  {
+    "question": "digital",
+    "answer": "Digital brings modernity and speed to everyday tasks."
+  },
+  {
+    "question": "profile",
+    "answer": "Profile paints a picture of who you are in the digital realm."
+  },
+  {
+    "question": "previous",
+    "answer": "Previous reminds you of what came before, a gentle flashback."
+  },
+  {
+    "question": "form",
+    "answer": "Form shapes your ideas, giving them structure and flow."
+  },
+  {
+    "question": "events",
+    "answer": "Events mark special moments, filled with energy and life."
+  },
+  {
+    "question": "love",
+    "answer": "Love is the heartbeat of life, warm and all-encompassing."
+  },
+  {
+    "question": "old",
+    "answer": "Old carries wisdom and nostalgia, a tribute to the past."
+  },
+  {
+    "question": "john",
+    "answer": "John is a classic name, familiar and friendly in its simplicity."
+  },
+  {
+    "question": "main",
+    "answer": "Main points to the most important part, the central focus."
+  },
+  {
+    "question": "call",
+    "answer": "Call is a way to reach out, making a personal connection."
+  },
+  {
+    "question": "hours",
+    "answer": "Hours tick by, each one bringing new opportunities."
+  },
+  {
+    "question": "image",
+    "answer": "Image paints a picture in your mind, vivid and clear."
+  },
+  {
+    "question": "department",
+    "answer": "Department organizes work into specialized areas with purpose."
+  },
+  {
+    "question": "title",
+    "answer": "Title gives a name to something significant, catching your eye."
+  },
+  {
+    "question": "description",
+    "answer": "Description fills in the details, painting a fuller picture."
+  },
+  {
+    "question": "non",
+    "answer": "Non simply negates, marking what something is not."
+  },
+  {
+    "question": "insurance",
+    "answer": "Insurance offers protection, a safety net when needed most."
+  },
+  {
+    "question": "another",
+    "answer": "Another invites you to consider one more possibility."
+  },
+  {
+    "question": "why",
+    "answer": "Why sparks curiosity, asking for the reason behind things."
+  },
+  {
+    "question": "shall",
+    "answer": "Shall offers a polite suggestion, a gentle directive to follow."
+  },
+  {
+    "question": "property",
+    "answer": "Property indicates ownership, something you can truly call yours."
+  },
+  {
+    "question": "class",
+    "answer": "Class categorizes things, giving them an organized label."
+  },
+  {
+    "question": "cd",
+    "answer": "CD brings back memories of music on discs, classic and nostalgic."
+  },
+  {
+    "question": "still",
+    "answer": "Still suggests calm and quiet, a moment to simply be."
+  },
+  {
+    "question": "money",
+    "answer": "Money fuels transactions, a practical tool in everyday life."
+  },
+  {
+    "question": "quality",
+    "answer": "Quality shines through in excellence and attention to detail."
+  },
+  {
+    "question": "every",
+    "answer": "Every covers all cases, ensuring nothing is left out."
+  },
+  {
+    "question": "listing",
+    "answer": "Listing organizes items neatly, making them easy to review."
+  },
+  {
+    "question": "content",
+    "answer": "Content is the essence of your message, rich with meaning."
+  },
+  {
+    "question": "country",
+    "answer": "Country speaks of a nation, with its unique story and culture."
+  },
+  {
+    "question": "private",
+    "answer": "Private keeps things personal, away from the public eye."
+  },
+  {
+    "question": "little",
+    "answer": "Little may be small, but it often holds a world of charm."
+  },
+  {
+    "question": "visit",
+    "answer": "Visit invites you to explore new places, both near and far."
+  },
+  {
+    "question": "save",
+    "answer": "Save protects what matters, preserving it for later use."
+  },
+  {
+    "question": "tools",
+    "answer": "Tools are the helpers that make tasks easier to manage."
+  },
+  {
+    "question": "low",
+    "answer": "Low speaks of minimal amounts, understated yet clear."
+  },
+  {
+    "question": "reply",
+    "answer": "Reply is your response, a way to keep the conversation alive."
+  },
+  {
+    "question": "customer",
+    "answer": "Customer is at the heart of service, valued and appreciated."
+  },
+  {
+    "question": "december",
+    "answer": "December wraps up the year with a festive and reflective mood."
+  },
+  {
+    "question": "compare",
+    "answer": "Compare helps you weigh options, clarifying differences."
+  },
+  {
+    "question": "movies",
+    "answer": "Movies entertain and inspire, a window into different worlds."
+  },
+  {
+    "question": "include",
+    "answer": "Include makes sure every detail is considered, leaving nothing out."
+  },
+  {
+    "question": "college",
+    "answer": "College opens doors to knowledge, shaping your future."
+  },
+  {
+    "question": "value",
+    "answer": "Value shows the worth of something, both in price and sentiment."
+  },
+  {
+    "question": "article",
+    "answer": "Article shares insights and stories, engaging your mind."
+  },
+  {
+    "question": "york",
+    "answer": "York brings to mind a historic city rich in character."
+  },
+  {
+    "question": "man",
+    "answer": "Man refers to a person, casually acknowledging someone's presence."
+  },
+  {
+    "question": "card",
+    "answer": "Card can be a greeting or a handy piece of identification."
+  },
+  {
+    "question": "jobs",
+    "answer": "Jobs offer opportunities to contribute and grow professionally."
+  },
+  {
+    "question": "provide",
+    "answer": "Provide means to supply what’s needed, lending a helping hand."
+  },
+  {
+    "question": "food",
+    "answer": "Food nourishes and delights, a simple pleasure in life."
+  },
+  {
+    "question": "source",
+    "answer": "Source marks the origin, where ideas or items begin."
+  },
+  {
+    "question": "author",
+    "answer": "Author crafts stories and insights, sharing their unique voice."
+  },
+  {
+    "question": "different",
+    "answer": "Different sets things apart, highlighting unique qualities in every way."
+  },
+  {
+    "question": "a",
+    "answer": "A is just a letter, but it opens many possibilities."
+  },
+  {
+    "question": "an",
+    "answer": "An is like a small beginning for many words."
+  },
+  {
+    "question": "and",
+    "answer": "And connects thoughts together like a gentle bridge."
+  },
+  {
+    "question": "i",
+    "answer": "I refers to oneself, marking your personal presence."
+  },
+  {
+    "question": "you",
+    "answer": "See you later!"
+  },
+  {
+    "question": "me",
+    "answer": "Me is all about yourself, the one experiencing life."
+  },
+  {
+    "question": "will",
+    "answer": "Will shows our determination for what comes next."
+  },
+  {
+    "question": "love",
+    "answer": "Love is a complex emotion that can be hard to define."
+  },
+  {
+    "question": "have",
+    "answer": "Have implies holding onto something meaningful."
+  },
+  {
+    "question": "to",
+    "answer": "To gently guides us toward our intended destination."
+  },
+  {
+    "question": "school",
+    "answer": "School is where knowledge blooms and minds grow."
+  },
+  {
+    "question": "home",
+    "answer": "Home is the cozy space where you truly belong."
+  },
+  {
+    "question": "ai",
+    "answer": "Ai means artificial intelligence, here to help you learn."
+  },
+  {
+    "question": "what is",
+    "answer": "I know you are trying to know something, I'm trying to understand your question."
+  },
+  {
+    "question": "hello",
+    "answer": "Hello, friend! How are you doing today?"
+  },
+  {
+    "question": "bye",
+    "answer": "Bye for now! Take care and see you soon."
+  },
+  {
+    "question": "good",
+    "answer": "Good reminds us of the beauty in everyday moments."
+  },
+  {
+    "question": "bad",
+    "answer": "Bad is something we all experience, and it helps us grow."
+  },
+  {
+    "question": "okay",
+    "answer": "Okay is a simple word that keeps things moving forward."
+  },
+  {
+    "question": "help",
+    "answer": "Help means reaching out when you need a little support."
+  },
+  {
+    "question": "error",
+    "answer": "Error reminds us that mistakes are just steps toward improvement."
+  },
+  {
+    "question": "update",
+    "answer": "Update brings fresh changes and new perspectives."
+  },
+  {
+    "question": "reset",
+    "answer": "Reset allows you to start over with a clean slate."
+  },
+  {
+    "question": "status",
+    "answer": "Status gives you a snapshot of things as they are right now."
+  },
+  {
+    "question": "start",
+    "answer": "Start is the beginning of a new and exciting journey."
+  },
+  {
+    "question": "exit",
+    "answer": "Exit means it's time to wrap things up for now."
+  },
+  {
+    "question": "open",
+    "answer": "Open invites you to explore new ideas and opportunities."
+  },
+  {
+    "question": "close",
+    "answer": "Close signals the end of a chapter, making room for rest."
+  },
+  {
+    "question": "load",
+    "answer": "Load brings information into focus, like gathering your thoughts."
+  },
+  {
+    "question": "save",
+    "answer": "Save is about holding onto memories and important moments."
+  },
+  {
+    "question": "play",
+    "answer": "Play sparks fun and creativity in the midst of your day."
+  },
+  {
+    "question": "pause",
+    "answer": "Pause gives you a moment to breathe and reflect."
+  },
+  {
+    "question": "resume",
+    "answer": "Resume picks up right where you left off with renewed energy."
+  },
+  {
+    "question": "restart",
+    "answer": "Restart is a fresh beginning, full of new potential."
+  },
+  {
+    "question": "shutdown",
+    "answer": "Shutdown is a quiet moment to end the day and rest."
+  },
+  {
+    "question": "wake",
+    "answer": "Wake up and greet the day with a hopeful smile."
+  },
+  {
+    "question": "sleep",
+    "answer": "Sleep is your time to relax and dream peacefully."
+  },
+  {
+    "question": "charge",
+    "answer": "Charge re-energizes you, readying you for what's next."
+  },
+  {
+    "question": "disconnect",
+    "answer": "Disconnect gives you a break to enjoy some quiet time."
+  },
+  {
+    "question": "connect",
+    "answer": "Connect brings people together and shares warmth."
+  },
+  {
+    "question": "scan",
+    "answer": "Scan helps you quickly take in what’s happening around you."
+  },
+  {
+    "question": "locate",
+    "answer": "Locate guides you to find exactly what you're looking for."
+  },
+  {
+    "question": "identify",
+    "answer": "Identify lets you recognize and appreciate unique details."
+  },
+  {
+    "question": "calculate",
+    "answer": "Calculate breaks down problems into manageable, simple parts."
+  },
+  {
+    "question": "analyze",
+    "answer": "Analyze is about looking deeper to understand the big picture."
+  },
+  {
+    "question": "report",
+    "answer": "Report shares the story of what has just taken place."
+  },
+  {
+    "question": "notify",
+    "answer": "Notify keeps everyone in the loop with friendly updates."
+  },
+  {
+    "question": "message",
+    "answer": "Message is a personal note shared with warmth and care."
+  },
+  {
+    "question": "send",
+    "answer": "Send passes your thoughts along to someone who matters."
+  },
+  {
+    "question": "receive",
+    "answer": "Receive welcomes what comes your way with open arms."
+  },
+  {
+    "question": "echo",
+    "answer": "Echo reflects your words back, like a gentle reminder."
+  },
+  {
+    "question": "test",
+    "answer": "Test is a chance to see how much you've learned."
+  },
+  {
+    "question": "diagnose",
+    "answer": "Diagnose helps uncover the reasons behind the unexpected."
+  },
+  {
+    "question": "learn",
+    "answer": "Learn embraces every opportunity to grow and understand."
+  },
+  {
+    "question": "teach",
+    "answer": "Teach is about sharing knowledge in a kind and clear way."
+  },
+  {
+    "question": "build",
+    "answer": "Build encourages you to create something meaningful from scratch."
+  },
+  {
+    "question": "destroy",
+    "answer": "Destroy can clear the way for something fresh and new."
+  },
+  {
+    "question": "create",
+    "answer": "Create lets your imagination flow freely into reality."
+  },
+  {
+    "question": "compile",
+    "answer": "Compile gathers your ideas into a coherent whole."
+  },
+  {
+    "question": "debug",
+    "answer": "Debug helps smooth out the little bumps along your path."
+  },
+  {
+    "question": "monitor",
+    "answer": "Monitor keeps an eye on things so you stay informed."
+  },
+  {
+    "question": "synchronize",
+    "answer": "Synchronize brings everything into a lovely, balanced rhythm."
+  },
+  {
+    "question": "stream",
+    "answer": "Stream allows information to flow like a gentle river."
+  },
+  {
+    "question": "record",
+    "answer": "Record captures moments so you can cherish them later."
+  },
+  {
+    "question": "archive",
+    "answer": "Archive preserves memories for the future to revisit."
+  },
+  {
+    "question": "clear",
+    "answer": "Clear tidies up the clutter, making space for what matters."
+  },
+  {
+    "question": "backup",
+    "answer": "Backup is your safety net, keeping important things secure."
+  },
+  {
+    "question": "restore",
+    "answer": "Restore gently brings back what was once cherished."
+  },
+  {
+    "question": "compress",
+    "answer": "Compress simplifies things, making them easier to manage."
+  },
+  {
+    "question": "expand",
+    "answer": "Expand encourages growth and reaching beyond limits."
+  },
+  {
+    "question": "encrypt",
+    "answer": "Encrypt secures your secrets with a special kind of magic."
+  },
+  {
+    "question": "decrypt",
+    "answer": "Decrypt unlocks hidden messages, revealing their true meaning."
+  },
+  {
+    "question": "log",
+    "answer": "Log keeps a friendly record of events as they happen."
+  },
+  {
+    "question": "track",
+    "answer": "Track follows your progress, step by thoughtful step."
+  },
+  {
+    "question": "upgrade",
+    "answer": "Upgrade is a boost, taking things to a brighter level."
+  },
+  {
+    "question": "downgrade",
+    "answer": "Downgrade reminds us that sometimes simplicity feels just right."
+  },
+  {
+    "question": "simulate",
+    "answer": "Simulate lets you explore different scenarios in a safe space."
+  },
+  {
+    "question": "predict",
+    "answer": "Predict gives a glimpse of what might be waiting ahead."
+  },
+  {
+    "question": "estimate",
+    "answer": "Estimate is a careful guess, based on the clues at hand."
+  },
+  {
+    "question": "verify",
+    "answer": "Verify checks in to make sure everything is as it should be."
+  },
+  {
+    "question": "confirm",
+    "answer": "Confirm is a gentle nod that says, 'Yes, that's right.'"
+  },
+  {
+    "question": "execute",
+    "answer": "Execute means putting plans into action with a steady hand."
+  },
+  {
+    "question": "input",
+    "answer": "Input shares your ideas, adding to the conversation."
+  },
+  {
+    "question": "output",
+    "answer": "Output is the result of your creative efforts shining through."
+  },
+  {
+    "question": "process",
+    "answer": "Process takes a thoughtful approach to work through details."
+  },
+  {
+    "question": "streamline",
+    "answer": "Streamline simplifies tasks so that everything flows naturally."
+  },
+  {
+    "question": "integrate",
+    "answer": "Integrate brings different elements together in a harmonious way."
+  },
+  {
+    "question": "speak",
+    "answer": "Speak lets your voice be heard with clarity and warmth."
+  },
+  {
+    "question": "listen",
+    "answer": "Listen is about giving space to the voices around you."
+  },
+  {
+    "question": "observe",
+    "answer": "Observe notices the little details that make life interesting."
+  },
+  {
+    "question": "focus",
+    "answer": "Focus helps you concentrate on what truly matters."
+  },
+  {
+    "question": "adjust",
+    "answer": "Adjust is a natural shift that helps you find balance."
+  },
+  {
+    "question": "calibrate",
+    "answer": "Calibrate fine-tunes things so that they work just right."
+  },
+  {
+    "question": "measure",
+    "answer": "Measure gives you an idea of the progress you've made."
+  },
+  {
+    "question": "capture",
+    "answer": "Capture freezes a moment in time, keeping it safe in memory."
+  },
+  {
+    "question": "render",
+    "answer": "Render turns your thoughts into a vivid picture of the moment."
+  },
+  {
+    "question": "see",
+    "answer": "See is about opening your eyes to the beauty around you."
+  },
+  {
+    "question": "feel",
+    "answer": "Feel connects you to the emotions that color your world."
+  },
+  {
+    "question": "think",
+    "answer": "Think invites you to explore ideas and let your mind wander."
+  },
+  {
+    "question": "dream",
+    "answer": "Dream is where your imagination takes you to wonderful places."
+  },
+  {
+    "question": "Requirements",
+    "answer": "Requirements help set the guidelines you need to follow."
+  },
+  {
+    "question": "via",
+    "answer": "Via shows the route or method you're taking."
+  },
+  {
+    "question": "cheap",
+    "answer": "Cheap means affordable, easy on the wallet."
+  },
+  {
+    "question": "nude",
+    "answer": "Nude is a subtle tone, often natural and understated."
+  },
+  {
+    "question": "kids",
+    "answer": "Kids bring energy and joy, lighting up every room."
+  },
+  {
+    "question": "finance",
+    "answer": "Finance handles the numbers, keeping your money in check."
+  },
+  {
+    "question": "true",
+    "answer": "True stands for honesty, a simple yet powerful word."
+  },
+  {
+    "question": "minutes",
+    "answer": "Minutes capture the brief moments that add up to a lifetime."
+  },
+  {
+    "question": "else",
+    "answer": "Else opens up other possibilities, leaving room for variety."
+  },
+  {
+    "question": "mark",
+    "answer": "Mark makes a noticeable impression, leaving its sign."
+  },
+  {
+    "question": "third",
+    "answer": "Third takes its place in line, adding a new perspective."
+  },
+  {
+    "question": "rock",
+    "answer": "Rock can be as solid as stone or as fun as your favorite tune."
+  },
+  {
+    "question": "gifts",
+    "answer": "Gifts bring joy and surprise, sparking thoughtful exchanges."
+  },
+  {
+    "question": "europe",
+    "answer": "Europe is rich in history and culture, a treasure trove of stories."
+  },
+  {
+    "question": "reading",
+    "answer": "Reading opens up new worlds, one page at a time."
+  },
+  {
+    "question": "topics",
+    "answer": "Topics spark conversation, each inviting a curious mind."
+  },
+  {
+    "question": "bad",
+    "answer": "Bad signals caution but also offers a chance to improve."
+  },
+  {
+    "question": "individual",
+    "answer": "Individual celebrates uniqueness—the beauty of being different."
+  },
+  {
+    "question": "tips",
+    "answer": "Tips offer handy advice to help you navigate your day."
+  },
+  {
+    "question": "plus",
+    "answer": "Plus adds that extra touch, making things even better."
+  },
+  {
+    "question": "auto",
+    "answer": "Auto brings you into the world of cars and smooth rides."
+  },
+  {
+    "question": "cover",
+    "answer": "Cover shields you when needed, providing a layer of protection."
+  },
+  {
+    "question": "usually",
+    "answer": "Usually tells you what’s common, a pattern you can count on."
+  },
+  {
+    "question": "edit",
+    "answer": "Edit refines your work, polishing it to perfection."
+  },
+  {
+    "question": "together",
+    "answer": "Together makes everything better when forces unite."
+  },
+  {
+    "question": "videos",
+    "answer": "Videos bring stories to life with visuals and sound."
+  },
+  {
+    "question": "percent",
+    "answer": "Percent shows parts of a whole in a simple, clear way."
+  },
+  {
+    "question": "fast",
+    "answer": "Fast means quick and efficient—getting things done in no time."
+  },
+  {
+    "question": "function",
+    "answer": "Function is all about purpose, showing how things work in harmony."
+  },
+  {
+    "question": "fact",
+    "answer": "Fact stands for truth, a solid piece of reality."
+  },
+  {
+    "question": "unit",
+    "answer": "Unit represents a single element, essential on its own."
+  },
+  {
+    "question": "getting",
+    "answer": "Getting implies receiving or grasping something new."
+  },
+  {
+    "question": "global",
+    "answer": "Global connects you to the world, bridging distant places."
+  },
+  {
+    "question": "tech",
+    "answer": "Tech drives innovation, making our lives simpler and smarter."
+  },
+  {
+    "question": "meet",
+    "answer": "Meet brings people together, sparking new connections."
+  },
+  {
+    "question": "far",
+    "answer": "Far points out distance—physical or metaphorical."
+  },
+  {
+    "question": "economic",
+    "answer": "Economic touches on money and resources that shape our lives."
+  },
+  {
+    "question": "en",
+    "answer": "En acts as a prefix, adding a touch of elegance to words."
+  },
+  {
+    "question": "player",
+    "answer": "Player joins the game with skill and flair."
+  },
+  {
+    "question": "projects",
+    "answer": "Projects are creative endeavors that turn ideas into reality."
+  },
+  {
+    "question": "lyrics",
+    "answer": "Lyrics sing the words of a song, full of emotion and rhythm."
+  },
+  {
+    "question": "often",
+    "answer": "Often tells you what happens frequently, a familiar occurrence."
+  },
+  {
+    "question": "subscribe",
+    "answer": "Subscribe means to sign up and stay in the loop."
+  },
+  {
+    "question": "submit",
+    "answer": "Submit is your way of offering something for review."
+  },
+  {
+    "question": "germany",
+    "answer": "Germany stands out with rich culture and innovative spirit."
+  },
+  {
+    "question": "amount",
+    "answer": "Amount quantifies your thoughts, measuring them simply."
+  },
+  {
+    "question": "watch",
+    "answer": "Watch means to observe closely, taking in every detail."
+  },
+  {
+    "question": "included",
+    "answer": "Included ensures nothing’s left out, a complete package."
+  },
+  {
+    "question": "feel",
+    "answer": "Feel taps into your emotions—the heart of every experience."
+  },
+  {
+    "question": "though",
+    "answer": "Though adds a twist, showing contrast or gentle hesitation."
+  },
+  {
+    "question": "bank",
+    "answer": "Bank holds your resources—a safe place for your money."
+  },
+  {
+    "question": "risk",
+    "answer": "Risk invites you to step out of your comfort zone and try new things."
+  },
+  {
+    "question": "thanks",
+    "answer": "Thanks is a warm expression of gratitude."
+  },
+  {
+    "question": "everything",
+    "answer": "Everything covers the whole picture, embracing all parts."
+  },
+  {
+    "question": "deals",
+    "answer": "Deals bring opportunities to save and get more value."
+  },
+  {
+    "question": "various",
+    "answer": "Various shows diversity—a mix of many different elements."
+  },
+  {
+    "question": "words",
+    "answer": "Words carry meaning and emotion, powerful in every form."
+  },
+  {
+    "question": "linux",
+    "answer": "Linux is a robust, open-source system loved by many tech enthusiasts."
+  },
+  {
+    "question": "jul",
+    "answer": "Jul, short for July, bursts with the energy of summer."
+  },
+  {
+    "question": "production",
+    "answer": "Production turns ideas into tangible results, fueling creativity."
+  },
+  {
+    "question": "commercial",
+    "answer": "Commercial is all about business and reaching a wide audience."
+  },
+  {
+    "question": "james",
+    "answer": "James is a timeless name—familiar and strong."
+  },
+  {
+    "question": "weight",
+    "answer": "Weight measures mass, an essential concept in our world."
+  },
+  {
+    "question": "town",
+    "answer": "Town gives a sense of community—small, inviting, and warm."
+  },
+  {
+    "question": "heart",
+    "answer": "Heart is the core of emotion, where love truly resides."
+  },
+  {
+    "question": "advertising",
+    "answer": "Advertising spreads the word with creative flair."
+  },
+  {
+    "question": "received",
+    "answer": "Received is a warm acknowledgment of what’s been accepted."
+  },
+  {
+    "question": "choose",
+    "answer": "Choose empowers you to make decisions that feel right."
+  },
+  {
+    "question": "treatment",
+    "answer": "Treatment is caring for someone with kindness and respect."
+  },
+  {
+    "question": "newsletter",
+    "answer": "Newsletter delivers updates straight to your inbox."
+  },
+  {
+    "question": "archives",
+    "answer": "Archives store memories and records for future discovery."
+  },
+  {
+    "question": "points",
+    "answer": "Points highlight key details, guiding your focus."
+  },
+  {
+    "question": "knowledge",
+    "answer": "Knowledge opens doors to understanding and growth."
+  },
+  {
+    "question": "magazine",
+    "answer": "Magazine curates stories and visuals to captivate your mind."
+  },
+  {
+    "question": "error",
+    "answer": "Error is a little hiccup that reminds you nothing's perfect."
+  },
+  {
+    "question": "camera",
+    "answer": "Camera captures moments, freezing time with a click."
+  },
+  {
+    "question": "jun",
+    "answer": "Jun, short for June, welcomes warm days and vibrant life."
+  },
+  {
+    "question": "girl",
+    "answer": "Girl radiates youth and potential, full of promise."
+  },
+  {
+    "question": "currently",
+    "answer": "Currently shows what's happening right now—live in the moment."
+  },
+  {
+    "question": "construction",
+    "answer": "Construction builds the future, brick by brick."
+  },
+  {
+    "question": "toys",
+    "answer": "Toys spark imagination and playful joy in every child."
+  },
+  {
+    "question": "registered",
+    "answer": "Registered means you're officially part of the community."
+  },
+  {
+    "question": "clear",
+    "answer": "Clear makes everything easy to understand, no fuzz."
+  },
+  {
+    "question": "golf",
+    "answer": "Golf is a leisurely game that mixes skill with relaxation."
+  },
+  {
+    "question": "receive",
+    "answer": "Receive welcomes what comes your way with open arms."
+  },
+  {
+    "question": "domain",
+    "answer": "Domain marks your digital space, your corner of the web."
+  },
+  {
+    "question": "methods",
+    "answer": "Methods lay out steps to achieve your goals, one at a time."
+  },
+  {
+    "question": "chapter",
+    "answer": "Chapter marks a new section in your story, turning a fresh page."
+  },
+  {
+    "question": "makes",
+    "answer": "Makes is about creating and bringing ideas to life."
+  },
+  {
+    "question": "protection",
+    "answer": "Protection keeps you safe, a shield against the unexpected."
+  },
+  {
+    "question": "policies",
+    "answer": "Policies set the rules, guiding behavior in a clear way."
+  },
+  {
+    "question": "loan",
+    "answer": "Loan offers temporary support when you need a helping hand."
+  },
+  {
+    "question": "wide",
+    "answer": "Wide opens up possibilities, offering a broad perspective."
+  },
+  {
+    "question": "beauty",
+    "answer": "Beauty shines in simple moments and grand gestures alike."
+  },
+  {
+    "question": "manager",
+    "answer": "Manager steers the team, ensuring everything runs smoothly."
+  },
+  {
+    "question": "india",
+    "answer": "India pulses with color, history, and vibrant energy."
+  },
+  {
+    "question": "position",
+    "answer": "Position places you in a spot, defining your role."
+  },
+  {
+    "question": "taken",
+    "answer": "Taken shows what has been chosen or captured in a moment."
+  },
+  {
+    "question": "sort",
+    "answer": "Sort organizes things, making sense of the variety around you."
+  },
+  {
+    "question": "listings",
+    "answer": "Listings lay out options neatly, like a menu of choices."
+  },
+  {
+    "question": "models",
+    "answer": "Models demonstrate possibilities, inspiring you to imagine more."
+  },
+  {
+    "question": "michael",
+    "answer": "Michael is a classic, timeless name that resonates with familiarity."
+  },
+  {
+    "question": "known",
+    "answer": "Known reflects what’s recognized, established in common knowledge."
+  },
+  {
+    "question": "half",
+    "answer": "Half represents balance, dividing something into equal parts."
+  },
+  {
+    "question": "cases",
+    "answer": "Cases offer examples that clarify a point effectively."
+  },
+  {
+    "question": "step",
+    "answer": "Step is a small move forward, part of a larger journey."
+  },
+  {
+    "question": "engineering",
+    "answer": "Engineering blends creativity with precision to build the future."
+  },
+  {
+    "question": "florida",
+    "answer": "Florida shines with sunshine and a vibrant, lively spirit."
+  },
+  {
+    "question": "simple",
+    "answer": "Simple keeps things straightforward, easy to understand."
+  },
+  {
+    "question": "quick",
+    "answer": "Quick gets things done in a flash—efficient and smooth."
+  },
+  {
+    "question": "none",
+    "answer": "None means not a single one, completely absent."
+  },
+  {
+    "question": "wireless",
+    "answer": "Wireless frees you from cords, connecting you effortlessly."
+  },
+  {
+    "question": "license",
+    "answer": "License gives you the legal go-ahead to do what you do best."
+  },
+  {
+    "question": "paul",
+    "answer": "Paul is a friendly name, classic and warm."
+  },
+  {
+    "question": "friday",
+    "answer": "Friday brings the promise of a fun, relaxing weekend."
+  },
+  {
+    "question": "lake",
+    "answer": "Lake offers serene beauty, a mirror of nature’s calm."
+  },
+  {
+    "question": "whole",
+    "answer": "Whole signifies completeness, every part coming together."
+  },
+  {
+    "question": "annual",
+    "answer": "Annual marks a yearly cycle, a recurring celebration of time."
+  },
+  {
+    "question": "published",
+    "answer": "Published means it's been shared with the world, ready for readers."
+  },
+  {
+    "question": "later",
+    "answer": "Later hints at what’s coming next—a promise for the future."
+  },
+  {
+    "question": "basic",
+    "answer": "Basic keeps things straightforward, nothing overly fancy."
+  },
+  {
+    "question": "sony",
+    "answer": "Sony is known for innovation and quality—a trusted brand."
+  },
+  {
+    "question": "shows",
+    "answer": "Shows entertain and inform, offering glimpses into new worlds."
+  },
+  {
+    "question": "corporate",
+    "answer": "Corporate reflects the structured world of business and industry."
+  },
+  {
+    "question": "google",
+    "answer": "Google is your gateway to endless information—a digital compass."
+  },
+  {
+    "question": "church",
+    "answer": "Church offers a space for community, reflection, and support."
+  },
+  {
+    "question": "method",
+    "answer": "Method outlines a way to get things done—clear and effective."
+  },
+  {
+    "question": "purchase",
+    "answer": "Purchase is the act of buying something you truly desire."
+  },
+  {
+    "question": "customers",
+    "answer": "Customers are valued voices, the heartbeat of any business."
+  },
+  {
+    "question": "active",
+    "answer": "Active means engaged and on the move, full of energy."
+  },
+  {
+    "question": "response",
+    "answer": "Response is your reply, bridging thoughts in conversation."
+  },
+  {
+    "question": "practice",
+    "answer": "Practice helps you hone your skills, one step at a time."
+  },
+  {
+    "question": "hardware",
+    "answer": "Hardware powers your devices, the tangible side of tech."
+  },
+  {
+    "question": "figure",
+    "answer": "Figure shapes your ideas, making them more concrete."
+  },
+  {
+    "question": "materials",
+    "answer": "Materials are the building blocks for creation, diverse and useful."
+  },
+  {
+    "question": "fire",
+    "answer": "Fire ignites passion—a force both fierce and mesmerizing."
+  },
+  {
+    "question": "holiday",
+    "answer": "Holiday offers a break from routine—a time to relax and celebrate."
+  },
+  {
+    "question": "chat",
+    "answer": "Chat is a friendly conversation, casual and engaging."
+  },
+  {
+    "question": "enough",
+    "answer": "Enough signifies sufficiency, meeting needs perfectly."
+  },
+  {
+    "question": "designed",
+    "answer": "Designed means crafted with care, every detail considered."
+  },
+  {
+    "question": "along",
+    "answer": "Along moves with you, a gentle companion on your journey."
+  },
+  {
+    "question": "among",
+    "answer": "Among brings things together, highlighting shared space."
+  },
+  {
+    "question": "death",
+    "answer": "Death marks the natural cycle of life—a profound, inevitable part."
+  },
+  {
+    "question": "writing",
+    "answer": "Writing expresses your inner thoughts, a personal journey in words."
+  },
+  {
+    "question": "speed",
+    "answer": "Speed races ahead, a burst of energy in every move."
+  },
+  {
+    "question": "html",
+    "answer": "HTML structures the web, turning ideas into digital reality."
+  },
+  {
+    "question": "countries",
+    "answer": "Countries showcase diverse cultures and stories from around the globe."
+  },
+  {
+    "question": "loss",
+    "answer": "Loss reminds us of what once was—a moment to reflect deeply."
+  },
+  {
+    "question": "face",
+    "answer": "Face is the window to emotion, expressing more than words can."
+  },
+  {
+    "question": "brand",
+    "answer": "Brand creates an identity that leaves a lasting impression."
+  },
+  {
+    "question": "discount",
+    "answer": "Discount means saving money—a little bonus for your wallet."
+  },
+  {
+    "question": "higher",
+    "answer": "Higher lifts you up, reaching for greater heights."
+  },
+  {
+    "question": "effects",
+    "answer": "Effects show the impact of actions, leaving a subtle mark."
+  },
+  {
+    "question": "created",
+    "answer": "Created sparks innovation, turning ideas into reality."
+  },
+  {
+    "question": "remember",
+    "answer": "Remember keeps memories alive, a nod to the past."
+  },
+  {
+    "question": "standards",
+    "answer": "Standards set the benchmark for quality and excellence."
+  },
+  {
+    "question": "oil",
+    "answer": "Oil fuels both machines and art, versatile and essential."
+  },
+  {
+    "question": "bit",
+    "answer": "Bit is a small piece that, when combined, makes something big."
+  },
+  {
+    "question": "yellow",
+    "answer": "Yellow shines bright like the sun—cheerful and warm."
+  },
+  {
+    "question": "political",
+    "answer": "Political touches on governance and ideas that shape society."
+  },
+  {
+    "question": "increase",
+    "answer": "Increase pushes things forward, adding momentum."
+  },
+  {
+    "question": "advertise",
+    "answer": "Advertise spreads the word with creative energy."
+  },
+  {
+    "question": "kingdom",
+    "answer": "Kingdom evokes a realm of stories—majestic and timeless."
+  },
+  {
+    "question": "base",
+    "answer": "Base provides the foundation for growth and stability."
+  },
+  {
+    "question": "near",
+    "answer": "Near brings things closer, making them feel within reach."
+  },
+  {
+    "question": "environmental",
+    "answer": "Environmental speaks to our natural world and its care."
+  },
+  {
+    "question": "thought",
+    "answer": "Thought seeds ideas, sparking insights one by one."
+  },
+  {
+    "question": "stuff",
+    "answer": "Stuff covers all the things in life—simple and varied."
+  },
+  {
+    "question": "french",
+    "answer": "French carries elegance and charm, steeped in history."
+  },
+  {
+    "question": "storage",
+    "answer": "Storage keeps your belongings safe until you need them."
+  },
+  {
+    "question": "oh",
+    "answer": "Oh expresses surprise or realization, soft and sincere."
+  },
+  {
+    "question": "japan",
+    "answer": "Japan blends tradition with modern flair—a land of contrasts."
+  },
+  {
+    "question": "doing",
+    "answer": "Doing is all about taking action and moving forward."
+  },
+  {
+    "question": "loans",
+    "answer": "Loans provide temporary support, a boost when needed."
+  },
+  {
+    "question": "shoes",
+    "answer": "Shoes carry you through life, one confident step at a time."
+  },
+  {
+    "question": "entry",
+    "answer": "Entry marks the start of a journey—step inside and explore."
+  },
+  {
+    "question": "stay",
+    "answer": "Stay means to remain a while, savoring the present."
+  },
+  {
+    "question": "nature",
+    "answer": "Nature surrounds you with beauty, calm, and wonder."
+  },
+  {
+    "question": "orders",
+    "answer": "Orders guide the sequence of things, keeping life organized."
+  },
+  {
+    "question": "availability",
+    "answer": "Availability ensures what you need is right there for you."
+  },
+  {
+    "question": "africa",
+    "answer": "Africa pulses with rich heritage and vibrant life."
+  },
+  {
+    "question": "summary",
+    "answer": "Summary wraps up details neatly, offering a concise overview."
+  },
+  {
+    "question": "turn",
+    "answer": "Turn signals a change in direction, a fresh new start."
+  },
+  {
+    "question": "mean",
+    "answer": "Mean can express intent or simply indicate an average."
+  },
+  {
+    "question": "growth",
+    "answer": "Growth is the progress that unfolds as you move forward."
+  },
+  {
+    "question": "notes",
+    "answer": "Notes capture fleeting thoughts, little reminders for later."
+  },
+  {
+    "question": "agency",
+    "answer": "Agency empowers you to take action and make decisions."
+  },
+  {
+    "question": "king",
+    "answer": "King symbolizes leadership and strength with a gentle touch."
+  },
+  {
+    "question": "monday",
+    "answer": "Monday kicks off the week with a burst of fresh energy."
+  },
+  {
+    "question": "european",
+    "answer": "European evokes a tapestry of diverse cultures and ideas."
+  },
+  {
+    "question": "activity",
+    "answer": "Activity fills your day with movement, engagement, and fun."
+  },
+  {
+    "question": "copy",
+    "answer": "Copy is the art of replication, echoing what’s already shared."
+  },
+  {
+    "question": "although",
+    "answer": "Although introduces contrast, balancing differing perspectives."
+  },
+  {
+    "question": "drug",
+    "answer": "Drug refers to substances that affect the body, complex in nature."
+  },
+  {
+    "question": "pics",
+    "answer": "Pics capture moments quickly—snapshots of life in frames."
+  },
+  {
+    "question": "western",
+    "answer": "Western brings images of open spaces and a rugged spirit."
+  },
+  {
+    "question": "income",
+    "answer": "Income is the money you earn—a sign of productivity."
+  },
+  {
+    "question": "force",
+    "answer": "Force drives actions, a powerful push that makes things happen."
+  },
+  {
+    "question": "cash",
+    "answer": "Cash is the tangible form of money, simple and immediate."
+  },
+  {
+    "question": "employment",
+    "answer": "Employment is the work you do, shaping your daily life."
+  },
+  {
+    "question": "press",
+    "answer": "Press is your cue to make things happen, like a gentle tap on a button."
+  },
+  {
+    "question": "learn",
+    "answer": "Learn invites you to discover something new every day."
+  },
+  {
+    "question": "sale",
+    "answer": "Sale brings excitement with deals that make you smile."
+  },
+  {
+    "question": "around",
+    "answer": "Around hints at movement, circling back to familiar territory."
+  },
+  {
+    "question": "print",
+    "answer": "Print turns digital ideas into tangible pages you can hold."
+  },
+  {
+    "question": "course",
+    "answer": "Course guides you along a journey of learning and growth."
+  },
+  {
+    "question": "job",
+    "answer": "Job is the work you do to shape your day and future."
+  },
+  {
+    "question": "canada",
+    "answer": "Canada evokes friendly vibes and scenic landscapes."
+  },
+  {
+    "question": "process",
+    "answer": "Process unfolds step by step, making complexity simple."
+  },
+  {
+    "question": "teen",
+    "answer": "Teen captures youthful energy and the thrill of growing up."
+  },
+  {
+    "question": "room",
+    "answer": "Room offers space to breathe, create, and be yourself."
+  },
+  {
+    "question": "stock",
+    "answer": "Stock keeps things organized, ensuring essentials are in place."
+  },
+  {
+    "question": "training",
+    "answer": "Training builds your skills, one lesson at a time."
+  },
+  {
+    "question": "too",
+    "answer": "Too adds that extra bit, ensuring nothing is left out."
+  },
+  {
+    "question": "credit",
+    "answer": "Credit recognizes trust and the promise of value returned."
+  },
+  {
+    "question": "point",
+    "answer": "Point zeroes in on the heart of the matter, sharp and clear."
+  },
+  {
+    "question": "join",
+    "answer": "Join invites you to be part of something bigger and better."
+  },
+  {
+    "question": "science",
+    "answer": "Science explores the wonders of life with curiosity and logic."
+  },
+  {
+    "question": "men",
+    "answer": "Men bring their unique perspectives and strengths to the table."
+  },
+  {
+    "question": "categories",
+    "answer": "Categories help organize ideas into neat, understandable groups."
+  },
+  {
+    "question": "advanced",
+    "answer": "Advanced pushes the boundaries, taking you further than before."
+  },
+  {
+    "question": "west",
+    "answer": "West hints at sunsets and new adventures on the horizon."
+  },
+  {
+    "question": "sales",
+    "answer": "Sales spark excitement with opportunities to save and smile."
+  },
+  {
+    "question": "look",
+    "answer": "Look invites you to observe details you might otherwise miss."
+  },
+  {
+    "question": "english",
+    "answer": "English connects diverse voices into a single, vibrant story."
+  },
+  {
+    "question": "left",
+    "answer": "Left points out what remains or where to go next."
+  },
+  {
+    "question": "team",
+    "answer": "Team celebrates collaboration, where everyone plays a part."
+  },
+  {
+    "question": "estate",
+    "answer": "Estate suggests a property with character and lasting charm."
+  },
+  {
+    "question": "box",
+    "answer": "Box holds surprises, a neat container for hidden treasures."
+  },
+  {
+    "question": "conditions",
+    "answer": "Conditions set the stage, outlining the rules in a friendly way."
+  },
+  {
+    "question": "select",
+    "answer": "Select is all about choosing what fits best for you."
+  },
+  {
+    "question": "windows",
+    "answer": "Windows let the light in, opening up your view to the world."
+  },
+  {
+    "question": "photos",
+    "answer": "Photos capture moments, preserving memories in a snapshot."
+  },
+  {
+    "question": "gay",
+    "answer": "Gay celebrates diversity and the beauty of authentic love."
+  },
+  {
+    "question": "thread",
+    "answer": "Thread connects ideas like a stitch weaving a story."
+  },
+  {
+    "question": "week",
+    "answer": "Week marks the rhythm of time, a cycle of fresh starts."
+  },
+  {
+    "question": "category",
+    "answer": "Category helps sort things neatly, making life a bit clearer."
+  },
+  {
+    "question": "note",
+    "answer": "Note is a small message that can brighten someone's day."
+  },
+  {
+    "question": "live",
+    "answer": "Live means embracing the moment with energy and passion."
+  },
+  {
+    "question": "large",
+    "answer": "Large suggests abundance and space to grow and explore."
+  },
+  {
+    "question": "gallery",
+    "answer": "Gallery is a showcase of creativity and visual stories."
+  },
+  {
+    "question": "table",
+    "answer": "Table gathers ideas and people, fostering conversation."
+  },
+  {
+    "question": "register",
+    "answer": "Register is the friendly start to joining a new community."
+  },
+  {
+    "question": "however",
+    "answer": "However introduces a twist, a fresh angle to consider."
+  },
+  {
+    "question": "june",
+    "answer": "June brings warm, sunny days and a hint of summer's end."
+  },
+  {
+    "question": "october",
+    "answer": "October paints the world in autumn hues, crisp and inviting."
+  },
+  {
+    "question": "november",
+    "answer": "November carries a reflective mood as the year winds down."
+  },
+  {
+    "question": "market",
+    "answer": "Market buzzes with energy, where ideas and goods are exchanged."
+  },
+  {
+    "question": "library",
+    "answer": "Library is a quiet haven filled with endless stories and wisdom."
+  },
+  {
+    "question": "really",
+    "answer": "Really emphasizes sincerity, underlining what matters most."
+  },
+  {
+    "question": "action",
+    "answer": "Action drives change, turning thoughts into achievements."
+  },
+  {
+    "question": "start",
+    "answer": "Start is the spark of a journey, filled with potential."
+  },
+  {
+    "question": "series",
+    "answer": "Series connects moments into a seamless, unfolding narrative."
+  },
+  {
+    "question": "model",
+    "answer": "Model sets an example, a blueprint for success."
+  },
+  {
+    "question": "features",
+    "answer": "Features highlight what makes something uniquely appealing."
+  },
+  {
+    "question": "air",
+    "answer": "Air surrounds us, the invisible essence of life."
+  },
+  {
+    "question": "industry",
+    "answer": "Industry fuels progress, driving innovation and growth."
+  },
+  {
+    "question": "plan",
+    "answer": "Plan maps out your steps, turning dreams into reality."
+  },
+  {
+    "question": "human",
+    "answer": "Human captures the essence of life with warmth and complexity."
+  },
+  {
+    "question": "provided",
+    "answer": "Provided means something is offered with care and attention."
+  },
+  {
+    "question": "tv",
+    "answer": "TV entertains and informs, a window into countless stories."
+  },
+  {
+    "question": "yes",
+    "answer": "Yes is a simple, affirmative nod to possibilities."
+  },
+  {
+    "question": "required",
+    "answer": "Required signals necessity, a step you simply can’t skip."
+  },
+  {
+    "question": "second",
+    "answer": "Second follows the first, gently continuing the sequence."
+  },
+  {
+    "question": "hot",
+    "answer": "Hot conveys energy, warmth, and a bit of spice."
+  },
+  {
+    "question": "accessories",
+    "answer": "Accessories add that finishing touch, making style complete."
+  },
+  {
+    "question": "cost",
+    "answer": "Cost tells you the value, balancing price with worth."
+  },
+  {
+    "question": "movie",
+    "answer": "Movie whisks you away on a visual and emotional journey."
+  },
+  {
+    "question": "forums",
+    "answer": "Forums are lively spaces where ideas and opinions mix freely."
+  },
+  {
+    "question": "march",
+    "answer": "March moves with purpose, heralding new beginnings."
+  },
+  {
+    "question": "la",
+    "answer": "LA shines with creativity, a vibrant hub of dreams."
+  },
+  {
+    "question": "september",
+    "answer": "September bridges summer and fall, filled with change."
+  },
+  {
+    "question": "better",
+    "answer": "Better nudges you toward improvement and brighter days."
+  },
+  {
+    "question": "say",
+    "answer": "Say lets you voice your thoughts clearly and simply."
+  },
+  {
+    "question": "questions",
+    "answer": "Questions open the door to curiosity and deeper insight."
+  },
+  {
+    "question": "july",
+    "answer": "July bursts with summer energy and carefree moments."
+  },
+  {
+    "question": "yahoo",
+    "answer": "Yahoo echoes excitement in the digital age, lively and bold."
+  },
+  {
+    "question": "going",
+    "answer": "Going hints at movement, pushing forward with purpose."
+  },
+  {
+    "question": "medical",
+    "answer": "Medical cares for health, ensuring you’re in good hands."
+  },
+  {
+    "question": "test",
+    "answer": "Test challenges your knowledge, a chance to learn and grow."
+  },
+  {
+    "question": "friend",
+    "answer": "Friend is the companion who makes every moment brighter."
+  },
+  {
+    "question": "come",
+    "answer": "Come invites you warmly into a shared experience."
+  },
+  {
+    "question": "dec",
+    "answer": "Dec, short for December, wraps up the year with charm."
+  },
+  {
+    "question": "server",
+    "answer": "Server keeps the digital world running smoothly behind the scenes."
+  },
+  {
+    "question": "pc",
+    "answer": "PC is your personal powerhouse, ready for any task."
+  },
+  {
+    "question": "study",
+    "answer": "Study opens your mind to new ideas and endless possibilities."
+  },
+  {
+    "question": "application",
+    "answer": "Application is your gateway to tools and services you rely on."
+  },
+  {
+    "question": "cart",
+    "answer": "Cart gathers your selections, a digital basket of choices."
+  },
+  {
+    "question": "staff",
+    "answer": "Staff supports you quietly, ensuring everything runs seamlessly."
+  },
+  {
+    "question": "articles",
+    "answer": "Articles share insights and stories to enrich your day."
+  },
+  {
+    "question": "san",
+    "answer": "San hints at cities like San Francisco, vibrant and diverse."
+  },
+  {
+    "question": "feedback",
+    "answer": "Feedback offers guidance, helping you improve with a smile."
+  },
+  {
+    "question": "again",
+    "answer": "Again gives you another shot at success and discovery."
+  },
+  {
+    "question": "play",
+    "answer": "Play invites fun and spontaneity into your routine."
+  },
+  {
+    "question": "looking",
+    "answer": "Looking encourages you to explore the world with fresh eyes."
+  },
+  {
+    "question": "issues",
+    "answer": "Issues are challenges that, once solved, lead to growth."
+  },
+  {
+    "question": "april",
+    "answer": "April bursts with spring energy, renewing hope and color."
+  },
+  {
+    "question": "never",
+    "answer": "Never sets a firm boundary, a clear 'no' when needed."
+  },
+  {
+    "question": "users",
+    "answer": "Users are the heartbeat of any community, engaging and valued."
+  },
+  {
+    "question": "complete",
+    "answer": "Complete signifies wholeness, when every piece finds its place."
+  },
+  {
+    "question": "street",
+    "answer": "Street paints a picture of urban life, bustling with stories."
+  },
+  {
+    "question": "topic",
+    "answer": "Topic opens a conversation, inviting you to dive in."
+  },
+  {
+    "question": "comment",
+    "answer": "Comment lets you share your thoughts in a friendly, brief note."
+  },
+  {
+    "question": "financial",
+    "answer": "Financial deals with money matters, practical yet vital."
+  },
+  {
+    "question": "things",
+    "answer": "Things encompass all that you encounter, simple or complex."
+  },
+  {
+    "question": "working",
+    "answer": "Working means putting your energy into making ideas real."
+  },
+  {
+    "question": "against",
+    "answer": "Against sets up a contrast, highlighting different sides."
+  },
+  {
+    "question": "standard",
+    "answer": "Standard provides a baseline, a measure of what's expected."
+  },
+  {
+    "question": "tax",
+    "answer": "Tax is a part of life, helping support community services."
+  },
+  {
+    "question": "person",
+    "answer": "Person celebrates individuality, each one uniquely important."
+  },
+  {
+    "question": "below",
+    "answer": "Below points to something lower, quietly setting the scene."
+  },
+  {
+    "question": "mobile",
+    "answer": "Mobile keeps you connected wherever you go, small yet powerful."
+  },
+  {
+    "question": "less",
+    "answer": "Less indicates a smaller amount, a gentle subtraction in life."
+  },
+  {
+    "question": "got",
+    "answer": "Got simply means you have it, a quick acknowledgment."
+  },
+  {
+    "question": "blog",
+    "answer": "Blog shares personal stories and insights, casual and engaging."
+  },
+  {
+    "question": "party",
+    "answer": "Party is the celebration of life, full of energy and fun."
+  },
+  {
+    "question": "payment",
+    "answer": "Payment is the exchange of value, a simple, essential act."
+  },
+  {
+    "question": "equipment",
+    "answer": "Equipment arms you with the tools needed to succeed."
+  },
+  {
+    "question": "login",
+    "answer": "Login opens the door to your personal digital space."
+  },
+  {
+    "question": "student",
+    "answer": "Student embraces learning with curiosity and determination."
+  },
+  {
+    "question": "let",
+    "answer": "Let gives permission, inviting you to proceed with confidence."
+  },
+  {
+    "question": "programs",
+    "answer": "Programs structure your tasks, guiding you step by step."
+  },
+  {
+    "question": "offers",
+    "answer": "Offers present you with opportunities wrapped in a neat bow."
+  },
+  {
+    "question": "legal",
+    "answer": "Legal lays down the rules, keeping everything fair and square."
+  },
+  {
+    "question": "above",
+    "answer": "Above points upward, inviting you to look to higher goals."
+  },
+  {
+    "question": "recent",
+    "answer": "Recent reminds you of what's fresh and new, just happened."
+  },
+  {
+    "question": "park",
+    "answer": "Park is your green escape, a place to relax and recharge."
+  },
+  {
+    "question": "stores",
+    "answer": "Stores are where you discover treasures, big and small."
+  },
+  {
+    "question": "side",
+    "answer": "Side offers an alternative perspective, broadening your view."
+  },
+  {
+    "question": "act",
+    "answer": "Act is about taking initiative, turning plans into motion."
+  },
+  {
+    "question": "problem",
+    "answer": "Problem challenges you to find creative solutions."
+  },
+  {
+    "question": "red",
+    "answer": "Red is bold and vibrant, catching your eye instantly."
+  },
+  {
+    "question": "give",
+    "answer": "Give is the generous act of sharing a piece of yourself."
+  },
+  {
+    "question": "memory",
+    "answer": "Memory holds your past, a collection of moments cherished."
+  },
+  {
+    "question": "performance",
+    "answer": "Performance shows your skills in action, a moment to shine."
+  },
+  {
+    "question": "social",
+    "answer": "Social connects you with others, building a vibrant community."
+  },
+  {
+    "question": "august",
+    "answer": "August radiates the warmth of late summer, relaxed and full."
+  },
+  {
+    "question": "quote",
+    "answer": "Quote captures wisdom in a few words, inspiring and brief."
+  },
+  {
+    "question": "language",
+    "answer": "Language bridges hearts and minds, a tool for shared stories."
+  },
+  {
+    "question": "story",
+    "answer": "Story weaves experiences into a narrative that resonates."
+  },
+  {
+    "question": "sell",
+    "answer": "Sell is the art of sharing value in exchange for something new."
+  },
+  {
+    "question": "options",
+    "answer": "Options empower you with choices, letting you decide your path."
+  },
+  {
+    "question": "experience",
+    "answer": "Experience is the tapestry of moments that shape who you are."
+  },
+  {
+    "question": "rates",
+    "answer": "Rates help you gauge value, a quick measure of worth."
+  },
+  {
+    "question": "create",
+    "answer": "Create sparks innovation, turning ideas into something real."
+  },
+  {
+    "question": "key",
+    "answer": "Key unlocks new possibilities, opening doors to fresh opportunities."
+  },
+  {
+    "question": "body",
+    "answer": "Body carries you through life, a vessel of strength and grace."
+  },
+  {
+    "question": "young",
+    "answer": "Young is full of promise, vibrant and ready to take on the world."
+  },
+  {
+    "question": "america",
+    "answer": "America conjures images of diversity, energy, and endless dreams."
+  },
+  {
+    "question": "important",
+    "answer": "Important marks what truly matters, shining a light on priorities."
+  },
+  {
+    "question": "field",
+    "answer": "Field offers a space for growth, whether in nature or study."
+  },
+  {
+    "question": "few",
+    "answer": "Few suggests a small number, but sometimes less is more."
+  },
+  {
+    "question": "east",
+    "answer": "East greets you with the promise of sunrise and new beginnings."
+  },
+  {
+    "question": "paper",
+    "answer": "Paper is a blank canvas where your ideas can take shape."
+  },
+  {
+    "question": "single",
+    "answer": "Single stands alone, unique in its own quiet way."
+  },
+  {
+    "question": "ii",
+    "answer": "II can denote a sequel or a second iteration of something special."
+  },
+  {
+    "question": "age",
+    "answer": "Age marks the passage of time, bringing wisdom along the way."
+  },
+  {
+    "question": "activities",
+    "answer": "Activities fill your day with moments of engagement and fun."
+  },
+  {
+    "question": "club",
+    "answer": "Club brings people together with shared interests and laughter."
+  },
+  {
+    "question": "example",
+    "answer": "Example sets a benchmark, showing how things can be done."
+  },
+  {
+    "question": "girls",
+    "answer": "Girls embody strength, creativity, and endless potential."
+  },
+  {
+    "question": "additional",
+    "answer": "Additional adds that extra touch, enhancing the overall picture."
+  },
+  {
+    "question": "password",
+    "answer": "Password keeps your secrets safe, a personal key to your world."
+  },
+  {
+    "question": "latest",
+    "answer": "Latest brings you the freshest update, just off the press."
+  },
+  {
+    "question": "something",
+    "answer": "Something teases a delightful mystery waiting to be explored."
+  },
+  {
+    "question": "road",
+    "answer": "Road stretches ahead, inviting you on a journey of discovery."
+  },
+  {
+    "question": "gift",
+    "answer": "Gift is a token of kindness, wrapped in thoughtfulness."
+  },
+  {
+    "question": "question",
+    "answer": "Question sparks curiosity, urging you to seek deeper meaning."
+  },
+  {
+    "question": "changes",
+    "answer": "Changes signal growth, a natural part of life's evolution."
+  },
+  {
+    "question": "night",
+    "answer": "Night brings calm and reflection, a quiet close to the day."
+  },
+  {
+    "question": "ca",
+    "answer": "CA might refer to a place like California, bright and inspiring."
+  },
+  {
+    "question": "hard",
+    "answer": "Hard speaks of challenges that push you to rise higher."
+  },
+  {
+    "question": "texas",
+    "answer": "Texas stands large and proud, full of character and spirit."
+  },
+  {
+    "question": "oct",
+    "answer": "Oct is a short form for October, bringing crisp air and color."
+  },
+  {
+    "question": "pay",
+    "answer": "Pay settles exchanges, a straightforward trade of value."
+  },
+  {
+    "question": "four",
+    "answer": "Four offers balance and stability, a reliable number indeed."
+  },
+  {
+    "question": "poker",
+    "answer": "Poker blends strategy with chance, a game of wits and luck."
+  },
+  {
+    "question": "status",
+    "answer": "Status tells you where things stand, a snapshot in time."
+  },
+  {
+    "question": "browse",
+    "answer": "Browse lets you explore at your leisure, discovering new gems."
+  },
+  {
+    "question": "issue",
+    "answer": "Issue points out a topic that might need attention or a fix."
+  },
+  {
+    "question": "range",
+    "answer": "Range spans options wide, giving you plenty to choose from."
+  },
+  {
+    "question": "building",
+    "answer": "Building constructs your future, brick by brick and day by day."
+  },
+  {
+    "question": "seller",
+    "answer": "Seller offers items with care, sharing what they value most."
+  },
+  {
+    "question": "court",
+    "answer": "Court is where decisions are made, formal yet full of purpose."
+  },
+  {
+    "question": "february",
+    "answer": "February may be short, but it carries a quiet charm."
+  },
+  {
+    "question": "always",
+    "answer": "Always assures you of consistency, a promise that endures."
+  },
+  {
+    "question": "result",
+    "answer": "Result is the outcome of efforts, a clear end to a process."
+  },
+  {
+    "question": "audio",
+    "answer": "Audio fills your space with sound, turning silence into music."
+  },
+  {
+    "question": "light",
+    "answer": "Light reveals the hidden, brightening your every step."
+  },
+  {
+    "question": "write",
+    "answer": "Write lets you express your thoughts, a creative outlet for your mind."
+  },
+  {
+    "question": "war",
+    "answer": "War reminds us of struggle and the strength needed to overcome."
+  },
+  {
+    "question": "nov",
+    "answer": "Nov stands for November, a time of reflection and transition."
+  },
+  {
+    "question": "offer",
+    "answer": "Offer extends a kind invitation, a chance to receive something special."
+  },
+  {
+    "question": "blue",
+    "answer": "Blue soothes with its calm, evoking a sense of peaceful depth."
+  },
+  {
+    "question": "groups",
+    "answer": "Groups bring people together, forging bonds through shared interests."
+  },
+  {
+    "question": "al",
+    "answer": "Al feels familiar and friendly, a casual shorthand in conversation."
+  },
+  {
+    "question": "easy",
+    "answer": "Easy suggests simplicity and a smooth path through challenges."
+  },
+  {
+    "question": "given",
+    "answer": "Given lays out the facts as they are, clear and straightforward."
+  },
+  {
+    "question": "files",
+    "answer": "Files neatly store your work, keeping everything in its place."
+  },
+  {
+    "question": "event",
+    "answer": "Event marks a special moment, a highlight in the day."
+  },
+  {
+    "question": "A",
+    "answer": "A stands on its own—small but full of potential."
+  },
+  {
+    "question": "I",
+    "answer": "I is all about personal perspective, representing yourself."
+  },
+  {
+    "question": "the",
+    "answer": "The is that definite article pointing to something specific."
+  },
+  {
+    "question": "of",
+    "answer": "Of connects ideas, showing relationships in a subtle way."
+  },
+  {
+    "question": "and",
+    "answer": "And joins thoughts together, keeping the conversation flowing."
+  },
+  {
+    "question": "to",
+    "answer": "To directs you toward a goal or destination in a simple way."
+  },
+  {
+    "question": "in",
+    "answer": "In sets the scene, placing something within a space."
+  },
+  {
+    "question": "for",
+    "answer": "For explains purpose, giving a reason behind things."
+  },
+  {
+    "question": "is",
+    "answer": "Is affirms existence, stating what simply is."
+  },
+  {
+    "question": "on",
+    "answer": "On indicates position, like being atop or in contact."
+  },
+  {
+    "question": "that",
+    "answer": "That draws your attention to something specific being mentioned."
+  },
+  {
+    "question": "by",
+    "answer": "By shows the method or means of doing something."
+  },
+  {
+    "question": "this",
+    "answer": "This brings focus to something right in front of you."
+  },
+  {
+    "question": "with",
+    "answer": "With connects elements together in a natural, friendly way."
+  },
+  {
+    "question": "you",
+    "answer": "You makes it personal, directly addressing someone."
+  },
+  {
+    "question": "it",
+    "answer": "It refers back to something already mentioned, keeping things concise."
+  },
+  {
+    "question": "not",
+    "answer": "Not simply negates, setting boundaries in the conversation."
+  },
+  {
+    "question": "or",
+    "answer": "Or offers you a choice between different options."
+  },
+  {
+    "question": "be",
+    "answer": "Be invites you to exist just as you are—no frills needed."
+  },
+  {
+    "question": "are",
+    "answer": "Are confirms that multiple things or people exist together."
+  },
+  {
+    "question": "from",
+    "answer": "From shows origin or starting point in a gentle way."
+  },
+  {
+    "question": "at",
+    "answer": "At pinpoints a specific moment or location in time."
+  },
+  {
+    "question": "as",
+    "answer": "As draws comparisons naturally, linking similar ideas."
+  },
+  {
+    "question": "your",
+    "answer": "Your personalizes the conversation, showing ownership."
+  },
+  {
+    "question": "all",
+    "answer": "All gathers everything together, leaving nothing out."
+  },
+  {
+    "question": "have",
+    "answer": "Have indicates possession or experience in a straightforward way."
+  },
+  {
+    "question": "new",
+    "answer": "New brings freshness and the promise of something different."
+  },
+  {
+    "question": "more",
+    "answer": "More suggests an extra dose or additional amount, simply put."
+  },
+  {
+    "question": "an",
+    "answer": "An works just like A, smoothing the flow before a vowel."
+  },
+  {
+    "question": "was",
+    "answer": "Was takes you back to something that existed in the past."
+  },
+  {
+    "question": "we",
+    "answer": "We unites voices, making the experience shared and inclusive."
+  },
+  {
+    "question": "will",
+    "answer": "Will hints at future action or promise in a gentle tone."
+  },
+  {
+    "question": "home",
+    "answer": "Home feels warm and familiar—a place where you belong."
+  },
+  {
+    "question": "can",
+    "answer": "Can opens up possibilities, showing what’s achievable."
+  },
+  {
+    "question": "us",
+    "answer": "Us brings everyone together, emphasizing inclusion."
+  },
+  {
+    "question": "about",
+    "answer": "About touches on the subject matter, setting the topic."
+  },
+  {
+    "question": "if",
+    "answer": "If opens a door to possibilities, asking you to imagine scenarios."
+  },
+  {
+    "question": "page",
+    "answer": "Page refers to one side of a story, whether in a book or online."
+  },
+  {
+    "question": "my",
+    "answer": "My personalizes the idea, making it all about oneself."
+  },
+  {
+    "question": "has",
+    "answer": "Has shows possession or experience, simple and clear."
+  },
+  {
+    "question": "search",
+    "answer": "Search invites you to look deeper, finding what you need."
+  },
+  {
+    "question": "free",
+    "answer": "Free means open and without cost—simply available to all."
+  },
+  {
+    "question": "but",
+    "answer": "But introduces a contrast, adding a twist to the thought."
+  },
+  {
+    "question": "our",
+    "answer": "Our brings together a sense of shared ownership and care."
+  },
+  {
+    "question": "one",
+    "answer": "One stands alone as a singular unit, unique and complete."
+  },
+  {
+    "question": "other",
+    "answer": "Other suggests something different, adding variety."
+  },
+  {
+    "question": "do",
+    "answer": "Do is a call to action, encouraging you to take steps forward."
+  },
+  {
+    "question": "no",
+    "answer": "No is a clear, simple refusal when something isn’t right."
+  },
+  {
+    "question": "information",
+    "answer": "Information is the nugget of knowledge that enlightens you."
+  },
+  {
+    "question": "time",
+    "answer": "Time keeps on ticking, marking each moment in your life."
+  },
+  {
+    "question": "they",
+    "answer": "They refer to a group, casually noting a collective presence."
+  },
+  {
+    "question": "site",
+    "answer": "Site indicates a place, whether online or in the real world."
+  },
+  {
+    "question": "he",
+    "answer": "He directs the focus to a male presence in the narrative."
+  },
+  {
+    "question": "up",
+    "answer": "Up lifts the mood and signals moving to a higher point."
+  },
+  {
+    "question": "may",
+    "answer": "May opens the door to possibility without promising certainty."
+  },
+  {
+    "question": "what",
+    "answer": "What asks a direct question, inviting more details."
+  },
+  {
+    "question": "which",
+    "answer": "Which helps you choose between several friendly options."
+  },
+  {
+    "question": "their",
+    "answer": "Their shows belonging, pointing to something shared by many."
+  },
+  {
+    "question": "news",
+    "answer": "News brings you the latest updates in a friendly tone."
+  },
+  {
+    "question": "out",
+    "answer": "Out signals something emerging or being revealed."
+  },
+  {
+    "question": "use",
+    "answer": "Use tells you to put something into action—simple and clear."
+  },
+  {
+    "question": "any",
+    "answer": "Any leaves it open to all possibilities, without restrictions."
+  },
+  {
+    "question": "there",
+    "answer": "There points you to a location, sometimes just out of reach."
+  },
+  {
+    "question": "see",
+    "answer": "See invites you to take a closer look and understand better."
+  },
+  {
+    "question": "only",
+    "answer": "Only limits the options to that one special case."
+  },
+  {
+    "question": "so",
+    "answer": "So ties everything together, leading you from one thought to another."
+  },
+  {
+    "question": "his",
+    "answer": "His shows something that belongs to him, in a personal way."
+  },
+  {
+    "question": "when",
+    "answer": "When asks about the timing, a gentle inquiry into the moment."
+  },
+  {
+    "question": "contact",
+    "answer": "Contact is all about reaching out and connecting with someone."
+  },
+  {
+    "question": "here",
+    "answer": "Here places you right in the heart of the moment."
+  },
+  {
+    "question": "business",
+    "answer": "Business deals with the practical side of things, keeping it real."
+  },
+  {
+    "question": "who",
+    "answer": "Who asks about the person behind the idea, adding a personal touch."
+  },
+  {
+    "question": "web",
+    "answer": "Web connects you to a vast network of information and ideas."
+  },
+  {
+    "question": "also",
+    "answer": "Also adds a little extra, rounding out your thought perfectly."
+  },
+  {
+    "question": "now",
+    "answer": "Now brings you straight into the present, where everything happens."
+  },
+  {
+    "question": "help",
+    "answer": "Help is there when you need a hand or some guidance."
+  },
+  {
+    "question": "get",
+    "answer": "Get is a prompt to receive or obtain something you desire."
+  },
+  {
+    "question": "pm",
+    "answer": "PM might refer to the evening hours or a private message—context matters."
+  },
+  {
+    "question": "view",
+    "answer": "View invites you to see things from a different perspective."
+  },
+  {
+    "question": "online",
+    "answer": "Online means you're connected, part of the digital world."
+  },
+  {
+    "question": "first",
+    "answer": "First sets the stage as the beginning of something new."
+  },
+  {
+    "question": "am",
+    "answer": "Am is all about being—it's a statement of existence."
+  },
+  {
+    "question": "been",
+    "answer": "Been hints at experiences in the past that shape who we are."
+  },
+  {
+    "question": "would",
+    "answer": "Would offers a gentle suggestion of what might be possible."
+  },
+  {
+    "question": "how",
+    "answer": "How inquires about the method or way things happen."
+  },
+  {
+    "question": "were",
+    "answer": "Were takes you back to past moments, a reflective pause."
+  },
+  {
+    "question": "me",
+    "answer": "Me is all about the self, a personal statement in every conversation."
+  },
+  {
+    "question": "services",
+    "answer": "Services are the helpful actions provided to make life easier."
+  },
+  {
+    "question": "some",
+    "answer": "Some picks out a portion, leaving room for the rest."
+  },
+  {
+    "question": "these",
+    "answer": "These brings attention to multiple things that are right here."
+  },
+  {
+    "question": "click",
+    "answer": "Click is the simple act of selecting something—quick and easy."
+  },
+  {
+    "question": "its",
+    "answer": "Its shows ownership in a quiet, understated manner."
+  },
+  {
+    "question": "like",
+    "answer": "Like draws comparisons, making ideas easier to relate to."
+  },
+  {
+    "question": "service",
+    "answer": "Service is about being helpful and making things run smoothly."
+  },
+  {
+    "question": "than",
+    "answer": "Than sets up a comparison, weighing one thing against another."
+  },
+  {
+    "question": "find",
+    "answer": "Find invites you on a little journey of discovery."
+  },
+  {
+    "question": "price",
+    "answer": "Price tells you what something costs, plain and simple."
+  },
+  {
+    "question": "date",
+    "answer": "Date marks a moment in time, whether in life or on a calendar."
+  },
+  {
+    "question": "back",
+    "answer": "Back suggests a return to where you started, a familiar path."
+  },
+  {
+    "question": "top",
+    "answer": "Top stands at the highest point, reaching for excellence."
+  },
+  {
+    "question": "people",
+    "answer": "People are the heart of every story, each unique and important."
+  },
+  {
+    "question": "had",
+    "answer": "Had reminds you of something that once belonged or occurred."
+  },
+  {
+    "question": "list",
+    "answer": "List organizes thoughts into a neat and orderly collection."
+  },
+  {
+    "question": "name",
+    "answer": "Name gives identity, labeling something in a memorable way."
+  },
+  {
+    "question": "just",
+    "answer": "Just keeps it simple, stating things exactly as they are."
+  },
+  {
+    "question": "over",
+    "answer": "Over suggests completion or moving past something with ease."
+  },
+  {
+    "question": "state",
+    "answer": "State can refer to a condition or even a place, depending on context."
+  },
+  {
+    "question": "year",
+    "answer": "Year marks a cycle of seasons, filled with memories and change."
+  },
+  {
+    "question": "day",
+    "answer": "Day brings light and life, each one a new beginning."
+  },
+  {
+    "question": "into",
+    "answer": "Into directs you to dive deeper or become involved."
+  },
+  {
+    "question": "email",
+    "answer": "Email is your digital post, sending messages far and wide."
+  },
+  {
+    "question": "two",
+    "answer": "Two represents a pair, working together in harmony."
+  },
+  {
+    "question": "health",
+    "answer": "Health is all about well-being, keeping you in tip-top shape."
+  },
+  {
+    "question": "world",
+    "answer": "World encompasses everything around us—vast and full of wonder."
+  },
+  {
+    "question": "re",
+    "answer": "Re is a quick nod to a subject, meaning 'regarding'."
+  },
+  {
+    "question": "next",
+    "answer": "Next points you forward to what comes immediately after."
+  },
+  {
+    "question": "used",
+    "answer": "Used shows that something has served its purpose before."
+  },
+  {
+    "question": "go",
+    "answer": "Go encourages you to move ahead, without looking back."
+  },
+  {
+    "question": "work",
+    "answer": "Work is the effort you put in to make things happen."
+  },
+  {
+    "question": "last",
+    "answer": "Last signifies the final piece in a sequence, the end of a line."
+  },
+  {
+    "question": "most",
+    "answer": "Most points to the majority or the highest degree of something."
+  },
+  {
+    "question": "products",
+    "answer": "Products are the tangible results of creativity and effort."
+  },
+  {
+    "question": "music",
+    "answer": "Music fills the air with rhythm and emotion, touching the soul."
+  },
+  {
+    "question": "buy",
+    "answer": "Buy is the act of getting something that catches your eye."
+  },
+  {
+    "question": "data",
+    "answer": "Data packs information into neat little bits for you to understand."
+  },
+  {
+    "question": "make",
+    "answer": "Make invites you to create, to turn ideas into reality."
+  },
+  {
+    "question": "them",
+    "answer": "Them refers to a group, casually pointing out others."
+  },
+  {
+    "question": "should",
+    "answer": "Should offers gentle advice, hinting at what might be best."
+  },
+  {
+    "question": "product",
+    "answer": "Product is the end result, crafted to serve a purpose."
+  },
+  {
+    "question": "system",
+    "answer": "System organizes elements into a smoothly running whole."
+  },
+  {
+    "question": "post",
+    "answer": "Post lets you share your thoughts, putting them out for the world."
+  },
+  {
+    "question": "her",
+    "answer": "Her gives a nod to a feminine presence, personal and kind."
+  },
+  {
+    "question": "city",
+    "answer": "City evokes the hustle and bustle of urban life."
+  },
+  {
+    "question": "add",
+    "answer": "Add brings something extra into the mix, a bonus element."
+  },
+  {
+    "question": "policy",
+    "answer": "Policy outlines guidelines, keeping things orderly and clear."
+  },
+  {
+    "question": "number",
+    "answer": "Number quantifies things, making them easier to understand."
+  },
+  {
+    "question": "such",
+    "answer": "Such emphasizes a particular kind or quality in a simple way."
+  },
+  {
+    "question": "please",
+    "answer": "Please softens a request, making it polite and inviting."
+  },
+  {
+    "question": "available",
+    "answer": "Available means it’s ready and waiting for you."
+  },
+  {
+    "question": "copyright",
+    "answer": "Copyright protects creative ideas, keeping them uniquely yours."
+  },
+  {
+    "question": "support",
+    "answer": "Support is the friendly help you can count on when needed."
+  },
+  {
+    "question": "message",
+    "answer": "Message carries a thought or idea, shared briefly and clearly."
+  },
+  {
+    "question": "after",
+    "answer": "After follows what came before, moving the story along."
+  },
+  {
+    "question": "best",
+    "answer": "Best celebrates excellence, the peak of quality."
+  },
+  {
+    "question": "software",
+    "answer": "Software powers your devices, making them work smarter."
+  },
+  {
+    "question": "then",
+    "answer": "Then connects the dots, showing the order of events."
+  },
+  {
+    "question": "jan",
+    "answer": "Jan is a short form of January, marking a fresh start."
+  },
+  {
+    "question": "good",
+    "answer": "Good radiates positivity and warmth, a simple pleasure."
+  },
+  {
+    "question": "video",
+    "answer": "Video brings moving images to life, full of color and sound."
+  },
+  {
+    "question": "well",
+    "answer": "Well indicates that things are going smoothly, all is fine."
+  },
+  {
+    "question": "where",
+    "answer": "Where asks about location, setting the stage for details."
+  },
+  {
+    "question": "info",
+    "answer": "Info is the essential detail, the core of what you need to know."
+  },
+  {
+    "question": "rights",
+    "answer": "Rights ensure fairness and justice for everyone involved."
+  },
+  {
+    "question": "public",
+    "answer": "Public means open to all, shared without barriers."
+  },
+  {
+    "question": "books",
+    "answer": "Books open up worlds of stories and ideas, page by page."
+  },
+  {
+    "question": "high",
+    "answer": "High lifts your gaze upward, aiming for the best."
+  },
+  {
+    "question": "school",
+    "answer": "School is where learning takes shape, day by day."
+  },
+  {
+    "question": "through",
+    "answer": "Through shows you the pathway from start to finish."
+  },
+  {
+    "question": "each",
+    "answer": "Each highlights the individual, one by one."
+  },
+  {
+    "question": "links",
+    "answer": "Links connect ideas, forming a chain of thought."
+  },
+  {
+    "question": "she",
+    "answer": "She brings a gentle, personal touch to the conversation."
+  },
+  {
+    "question": "review",
+    "answer": "Review takes a step back, looking over things with care."
+  },
+  {
+    "question": "years",
+    "answer": "Years accumulate memories and experiences, one after the other."
+  },
+  {
+    "question": "order",
+    "answer": "Order arranges things neatly, so everything falls into place."
+  },
+  {
+    "question": "very",
+    "answer": "Very intensifies your thought, making it a bit stronger."
+  },
+  {
+    "question": "privacy",
+    "answer": "Privacy keeps your personal space secure and respected."
+  },
+  {
+    "question": "book",
+    "answer": "Book can be a story or a source of knowledge, always inviting."
+  },
+  {
+    "question": "items",
+    "answer": "Items are individual pieces that together make a whole."
+  },
+  {
+    "question": "company",
+    "answer": "Company brings people together, in business or in friendship."
+  },
+  {
+    "question": "read",
+    "answer": "Read invites you to dive into words and discover new worlds."
+  },
+  {
+    "question": "group",
+    "answer": "Group unites individuals into a common collection or team."
+  },
+  {
+    "question": "sex",
+    "answer": "Sex is a topic discussed with maturity and openness."
+  },
+  {
+    "question": "need",
+    "answer": "Need expresses something essential, a must-have in life."
+  },
+  {
+    "question": "many",
+    "answer": "Many points to a large number, emphasizing abundance."
+  },
+  {
+    "question": "user",
+    "answer": "User refers to someone engaging with technology or content."
+  },
+  {
+    "question": "said",
+    "answer": "Said recounts what was spoken, a simple reflection of words."
+  },
+  {
+    "question": "de",
+    "answer": "De might be a short form or part of a name, keeping it brief."
+  },
+  {
+    "question": "does",
+    "answer": "Does asks about action, questioning what happens."
+  },
+  {
+    "question": "set",
+    "answer": "Set organizes ideas or objects into a neat arrangement."
+  },
+  {
+    "question": "under",
+    "answer": "Under shows a position beneath or lower than something else."
+  },
+  {
+    "question": "general",
+    "answer": "General speaks broadly, capturing the common essence."
+  },
+  {
+    "question": "research",
+    "answer": "Research digs deeper, uncovering insights one step at a time."
+  },
+  {
+    "question": "university",
+    "answer": "University is a hub of learning and exploration."
+  },
+  {
+    "question": "january",
+    "answer": "January marks the start of the year, full of fresh beginnings."
+  },
+  {
+    "question": "mail",
+    "answer": "Mail connects people through letters, old-fashioned yet warm."
+  },
+  {
+    "question": "full",
+    "answer": "Full means complete, leaving nothing left out."
+  },
+  {
+    "question": "map",
+    "answer": "Map guides you through landscapes, both real and imagined."
+  },
+  {
+    "question": "reviews",
+    "answer": "Reviews share opinions, giving you a glimpse of others’ experiences."
+  },
+  {
+    "question": "program",
+    "answer": "Program organizes tasks or events into a neat schedule."
+  },
+  {
+    "question": "life",
+    "answer": "Life is the journey we all travel, full of twists and turns."
+  },
+  {
+    "question": "know",
+    "answer": "Know invites you to grasp facts and deepen your understanding."
+  },
+  {
+    "question": "games",
+    "answer": "Games bring fun and challenge, sparking creativity and joy."
+  },
+  {
+    "question": "way",
+    "answer": "Way points you toward a path or method, clear and simple."
+  },
+  {
+    "question": "days",
+    "answer": "Days are the building blocks of time, each with its own story."
+  },
+  {
+    "question": "management",
+    "answer": "Management organizes resources, keeping everything running smoothly."
+  },
+  {
+    "question": "part",
+    "answer": "Part represents a piece of the bigger picture, small yet significant."
+  },
+  {
+    "question": "could",
+    "answer": "Could hints at possibility, leaving room for imagination."
+  },
+  {
+    "question": "great",
+    "answer": "Great celebrates excellence, making a simple idea shine."
+  },
+  {
+    "question": "united",
+    "answer": "United brings people or ideas together in harmony."
+  },
+  {
+    "question": "hotel",
+    "answer": "Hotel offers a temporary home, a cozy stop along your journey."
+  },
+  {
+    "question": "further",
+    "answer": "What's ahead in the journey"
+  },
+  {
+    "question": "updated",
+    "answer": "Let's share new things together."
+  },
+  {
+    "question": "association",
+    "answer": "We connect through all forms."
+  },
+  {
+    "question": "able",
+    "answer": "We know that you got this."
+  },
+  {
+    "question": "having",
+    "answer": "Are you enjoying the moment?"
+  },
+  {
+    "question": "provides",
+    "answer": "What we give for others"
+  },
+  {
+    "question": "david",
+    "answer": "A classic name to know"
+  },
+  {
+    "question": "fun",
+    "answer": "Let's have some joy."
+  },
+  {
+    "question": "already",
+    "answer": "Is this new to you, or old?"
+  },
+  {
+    "question": "green",
+    "answer": "We must do better for the environment."
+  },
+  {
+    "question": "studies",
+    "answer": "Wisdom never goes to waste."
+  },
+  {
+    "question": "close",
+    "answer": "Lets get in touch."
+  },
+  {
+    "question": "common",
+    "answer": "What brings us together."
+  },
+  {
+    "question": "drive",
+    "answer": "Push it in, you can do it."
+  },
+  {
+    "question": "specific",
+    "answer": "Let's get the core."
+  },
+  {
+    "question": "several",
+    "answer": "More than just a few."
+  },
+  {
+    "question": "gold",
+    "answer": "Treasure!"
+  },
+  {
+    "question": "feb",
+    "answer": "Short month, but never short on value."
+  },
+  {
+    "question": "living",
+    "answer": "The joy that is life."
+  },
+  {
+    "question": "sep",
+    "answer": "Autumn is coming!"
+  },
+  {
+    "question": "collection",
+    "answer": "What all comes together."
+  },
+  {
+    "question": "called",
+    "answer": "What name is given?"
+  },
+  {
+    "question": "short",
+    "answer": "Never needs to be long!"
+  },
+  {
+    "question": "arts",
+    "answer": "The beauty of creativity"
+  },
+  {
+    "question": "lot",
+    "answer": "There's plenty to go around."
+  },
+  {
+    "question": "ask",
+    "answer": "Ask, it never hurts."
+  },
+  {
+    "question": "display",
+    "answer": "Lets show everyone our talents!"
+  },
+  {
+    "question": "limited",
+    "answer": "Not all can be accessed."
+  },
+  {
+    "question": "powered",
+    "answer": "We use our energy to do better!"
+  },
+  {
+    "question": "solutions",
+    "answer": "All problems can be resolved!"
+  },
+  {
+    "question": "means",
+    "answer": "A simple explanation for everyone"
+  },
+  {
+    "question": "director",
+    "answer": "Guides the way with expertise."
+  },
+  {
+    "question": "daily",
+    "answer": "Small steps each day."
+  },
+  {
+    "question": "beach",
+    "answer": "A place to unwind and disconnect."
+  },
+  {
+    "question": "past",
+    "answer": "Lessons to never forget."
+  },
+  {
+    "question": "natural",
+    "answer": "Being true, is always a great choice!"
+  },
+  {
+    "question": "whether",
+    "answer": "The choice is up to you!"
+  },
+  {
+    "question": "due",
+    "answer": "We await the deadline!"
+  },
+  {
+    "question": "et",
+    "answer": "and so much more!"
+  },
+  {
+    "question": "electronics",
+    "answer": "They get better each year, can you believe it?"
+  },
+  {
+    "question": "five",
+    "answer": "A good mix of balance."
+  },
+  {
+    "question": "upon",
+    "answer": "The beginning of something new."
+  },
+  {
+    "question": "period",
+    "answer": "The end, or is it the beginning?"
+  },
+  {
+    "question": "planning",
+    "answer": "We all plan ahead to make sure everything runs smoothly!"
+  },
+  {
+    "question": "database",
+    "answer": "So much information!"
+  },
+  {
+    "question": "says",
+    "answer": "Just sharing what everyone is feeling."
+  },
+  {
+    "question": "official",
+    "answer": "You can count on us!"
+  },
+  {
+    "question": "weather",
+    "answer": "It can be sunny or dark."
+  },
+  {
+    "question": "mar",
+    "answer": "Spring time!"
+  },
+  {
+    "question": "land",
+    "answer": "We must take care of it!"
+  },
+  {
+    "question": "average",
+    "answer": "What standard was to meet."
+  },
+  {
+    "question": "done",
+    "answer": "You did it!"
+  },
+  {
+    "question": "technical",
+    "answer": "The hard work in the background."
+  },
+  {
+    "question": "window",
+    "answer": "The beauty that can be seen from all around."
+  },
+  {
+    "question": "france",
+    "answer": "The beauty of art and class."
+  },
+  {
+    "question": "pro",
+    "answer": "The best of the best."
+  },
+  {
+    "question": "region",
+    "answer": "Where everything is set."
+  },
+  {
+    "question": "island",
+    "answer": "Paradise that you never want to leave."
+  },
+  {
+    "question": "record",
+    "answer": "You will never forget this moment."
+  },
+  {
+    "question": "direct",
+    "answer": "Let's get straight to the point."
+  },
+  {
+    "question": "microsoft",
+    "answer": "Technological support all in one."
+  },
+  {
+    "question": "conference",
+    "answer": "Where minds can learn and connect!"
+  },
+  {
+    "question": "environment",
+    "answer": "Let's do our part to take care of mother earth."
+  },
+  {
+    "question": "records",
+    "answer": "Keeps track to know what is what."
+  },
+  {
+    "question": "st",
+    "answer": "Easy and convenient way to shorten things!"
+  },
+  {
+    "question": "district",
+    "answer": "An area where a community can grow"
+  },
+  {
+    "question": "calendar",
+    "answer": "Never let your day or time be caught off gaurd!"
+  },
+  {
+    "question": "costs",
+    "answer": "The balance is what makes everything worth it."
+  },
+  {
+    "question": "style",
+    "answer": "Everyone has their own flavor!"
+  },
+  {
+    "question": "url",
+    "answer": "What takes you where to you need."
+  },
+  {
+    "question": "front",
+    "answer": "What is the main focus?"
+  },
+  {
+    "question": "statement",
+    "answer": "Let everyone know!"
+  },
+  {
+    "question": "update",
+    "answer": "Keep us in the loop with you!"
+  },
+  {
+    "question": "parts",
+    "answer": "What shapes things up!"
+  },
+  {
+    "question": "aug",
+    "answer": "Summer time doesn't get any better."
+  },
+  {
+    "question": "ever",
+    "answer": "You can never look back!"
+  },
+  {
+    "question": "downloads",
+    "answer": "What we keep with us."
+  },
+  {
+    "question": "early",
+    "answer": "Get the jump, and seize the day!"
+  },
+  {
+    "question": "miles",
+    "answer": "Measure what is far and ahead!"
+  },
+  {
+    "question": "sound",
+    "answer": "The vibes are all that matter."
+  },
+  {
+    "question": "resource",
+    "answer": "If you ever need anything, please refer to this!"
+  },
+  {
+    "question": "present",
+    "answer": "Let's live in the moment!"
+  },
+  {
+    "question": "applications",
+    "answer": "All our favorite apps!"
+  },
+  {
+    "question": "either",
+    "answer": "Or."
+  },
+  {
+    "question": "ago",
+    "answer": "Take a trip to the past!"
+  },
+  {
+    "question": "document",
+    "answer": "What great detail to remember forever."
+  },
+  {
+    "question": "word",
+    "answer": "Speak kind, and let your voice be heard."
+  },
+  {
+    "question": "works",
+    "answer": "What puts in the effort, comes into a wonderful product."
+  },
+  {
+    "question": "material",
+    "answer": "Never loose these great pieces!"
+  },
+  {
+    "question": "bill",
+    "answer": "What all needs to be paid, for it to flourish!"
+  },
+  {
+    "question": "apr",
+    "answer": "Beautiful flowers!"
+  },
+  {
+    "question": "written",
+    "answer": "This will never be forgotten!"
+  },
+  {
+    "question": "talk",
+    "answer": "Share your greatest feats and ideas to those around you!"
+  },
+  {
+    "question": "federal",
+    "answer": "United through all states"
+  },
+  {
+    "question": "hosting",
+    "answer": "What provides the internet its spark!"
+  },
+  {
+    "question": "rules",
+    "answer": "Making everything organized, but its ok to break them from time to time!"
+  },
+  {
+    "question": "final",
+    "answer": "The closure of everything."
+  },
+  {
+    "question": "adult",
+    "answer": "We all grow up sometime!"
+  },
+  {
+    "question": "tickets",
+    "answer": "Buy one for us and see the show together!"
+  },
+  {
+    "question": "thing",
+    "answer": "What catches your attention and intrest!"
+  },
+  {
+    "question": "centre",
+    "answer": "The heart will always glow and stay in the middle!"
+  },
+  {
+    "question": "actually",
+    "answer": "Everything is a matter of perseption"
+  },
+  {
+    "question": "absolutely",
+    "answer": "Yes, that's something you can surely rely on!"
+  },
+  {
+    "question": "eventually",
+    "answer": "Everything will slowly, fall into place."
+  },
+  {
+    "question": "probably",
+    "answer": "I wonder what could be."
+  },
+  {
+    "question": "fine",
+    "answer": "I'm fine and dandy!"
+  },
+  {
+    "question": "well",
+    "answer": "Everything will be okay."
+  },
+  {
+    "question": "thanks",
+    "answer": "You're welcome."
+  },
+  {
+    "question": "sorry",
+    "answer": "I hope that things can be fixed."
+  },
+  {
+    "question": "please",
+    "answer": "Please, if you can thank you."
+  },
+  {
+    "question": "explain",
+    "answer": "Allow me to help with that!"
+  },
+  {
+    "question": "define",
+    "answer": "What does it all really mean?"
+  },
+  {
+    "question": "describe",
+    "answer": "Let the world become vibrant with words!"
+  },
+  {
+    "question": "compare",
+    "answer": "There can be many different outcomes"
+  },
+  {
+    "question": "tell",
+    "answer": "Share what's on your mind"
+  },
+  {
+    "question": "do",
+    "answer": "What will you do?"
+  },
+  {
+    "question": "did",
+    "answer": "What has been done?"
+  },
+  {
+    "question": "done",
+    "answer": "Everything will eventually be done."
+  },
+  {
+    "question": "can",
+    "answer": "Anything is able."
+  },
+  {
+    "question": "could",
+    "answer": "Maybe things could of."
+  },
+  {
+    "question": "should",
+    "answer": "You should and will always have that."
+  },
+  {
+    "question": "would",
+    "answer": "What's something you could do different."
+  },
+  {
+    "question": "might",
+    "answer": "Be ready for anything."
+  },
+  {
+    "question": "must",
+    "answer": "There is no if, and, buts. You must"
+  },
+  {
+    "question": "shall",
+    "answer": "Everything will and shall happen."
+  },
+  {
+    "question": "wonder",
+    "answer": "What is the wonder!"
+  },
+  {
+    "question": "query",
+    "answer": "We seek something new!"
+  },
+  {
+    "question": "ask",
+    "answer": "It never hurts to explore the odds."
+  },
+  {
+    "question": "find",
+    "answer": "What we long to seek!"
+  },
+  {
+    "question": "search",
+    "answer": "What we will discover to discover!"
+  },
+  {
+    "question": "look up",
+    "answer": "To discover something you never knew before!"
+  },
+  {
+    "question": "real",
+    "answer": "We must keep everything genuine."
+  },
+  {
+    "question": "item",
+    "answer": "What fits all parts and makes it one."
+  },
+  {
+    "question": "international",
+    "answer": "We are all in this together, and never apart."
+  },
+  {
+    "question": "center",
+    "answer": "The core that guides it all together."
+  },
+  {
+    "question": "ebay",
+    "answer": "Another world, that's full of different things."
+  },
+  {
+    "question": "must",
+    "answer": "What will push us foward."
+  },
+  {
+    "question": "store",
+    "answer": "Where we keep all our prized possessions!"
+  },
+  {
+    "question": "travel",
+    "answer": "A world that's beyond our gaze."
+  },
+  {
+    "question": "comments",
+    "answer": "Share your thoughts and inspire others!"
+  },
+  {
+    "question": "made",
+    "answer": "Craft it with care."
+  },
+  {
+    "question": "development",
+    "answer": "Lets make a change and be better for ourselfs!"
+  },
+  {
+    "question": "report",
+    "answer": "A summary to share it to all!"
+  },
+  {
+    "question": "off",
+    "answer": "Let's take a pause."
+  },
+  {
+    "question": "member",
+    "answer": "Be apart of something bigger!"
+  },
+  {
+    "question": "details",
+    "answer": "Adds something important to the overall view!"
+  },
+  {
+    "question": "line",
+    "answer": "What's the next in store!"
+  },
+  {
+    "question": "terms",
+    "answer": "What we should keep in mind!"
+  },
+  {
+    "question": "before",
+    "answer": "Throwback to everything before!"
+  },
+  {
+    "question": "hotels",
+    "answer": "Home away from home."
+  },
+  {
+    "question": "did",
+    "answer": "What has already been done."
+  },
+  {
+    "question": "send",
+    "answer": "Share your love to others!"
+  },
+  {
+    "question": "right",
+    "answer": "You are absolutely right!"
+  },
+  {
+    "question": "type",
+    "answer": "Show the different styles!"
+  },
+  {
+    "question": "because",
+    "answer": "The world may never know."
+  },
+  {
+    "question": "local",
+    "answer": "You are the key to your community!"
+  },
+  {
+    "question": "those",
+    "answer": "Let's explore what it is."
+  },
+  {
+    "question": "using",
+    "answer": "What tools are in hand?"
+  },
+  {
+    "question": "results",
+    "answer": "What's to come at our effort."
+  },
+  {
+    "question": "office",
+    "answer": "Where the magic is created!"
+  },
+  {
+    "question": "education",
+    "answer": "What is the new lesson for today!"
+  },
+  {
+    "question": "national",
+    "answer": "A community as whole!"
+  },
+  {
+    "question": "car",
+    "answer": "A four wheel machine to get to point a to point b."
+  },
+  {
+    "question": "design",
+    "answer": "Show and unleash it!"
+  },
+  {
+    "question": "take",
+    "answer": "It can be yours."
+  },
+  {
+    "question": "posted",
+    "answer": "The world has now known what you have to offer."
+  },
+  {
+    "question": "internet",
+    "answer": "The world in the palm of our hands."
+  },
+  {
+    "question": "address",
+    "answer": "Where to get all the amazing things"
+  },
+  {
+    "question": "community",
+    "answer": "Helping hand for all"
+  },
+  {
+    "question": "within",
+    "answer": "Never forget that you are worth it."
+  },
+  {
+    "question": "states",
+    "answer": "We gather and unite as one."
+  },
+  {
+    "question": "area",
+    "answer": "What can fit, we'll see."
+  },
+  {
+    "question": "want",
+    "answer": "Always be open to new oppurtunities!"
+  },
+  {
+    "question": "phone",
+    "answer": "What can connect us from far and wide!"
+  },
+  {
+    "question": "dvd",
+    "answer": "Blast from the past!"
+  },
+  {
+    "question": "shipping",
+    "answer": "Where your precious cargo goes."
+  },
+  {
+    "question": "reserved",
+    "answer": "For only those to know!"
+  },
+  {
+    "question": "subject",
+    "answer": "A spark of topic."
+  },
+  {
+    "question": "between",
+    "answer": "You and Me"
+  },
+  {
+    "question": "forum",
+    "answer": "Discussions all around."
+  },
+  {
+    "question": "family",
+    "answer": "Everyone needs a friend"
+  },
+  {
+    "question": "long",
+    "answer": "As journey's come and pass."
+  },
+  {
+    "question": "based",
+    "answer": "Build it from the start to end!"
+  },
+  {
+    "question": "code",
+    "answer": "What keeps our system running and going."
+  },
+  {
+    "question": "show",
+    "answer": "Show it, don't just say it."
+  },
+  {
+    "question": "even",
+    "answer": "Fair share for everyone."
+  },
+  {
+    "question": "black",
+    "answer": "The night sky that we gaze into."
+  },
+  {
+    "question": "check",
+    "answer": "Make sure everything matches up to the point"
+  },
+  {
+    "question": "special",
+    "answer": "Everyone is special, so embrace it."
+  },
+  {
+    "question": "prices",
+    "answer": "The cost to keep things running."
+  },
+  {
+    "question": "website",
+    "answer": "Your digital foot print to the world."
+  },
+  {
+    "question": "index",
+    "answer": "Finding what we need, in a easy manner."
+  },
+  {
+    "question": "being",
+    "answer": "Just being you is a great thing to do!"
+  },
+  {
+    "question": "women",
+    "answer": "What makes the world have more color!"
+  },
+  {
+    "question": "much",
+    "answer": "Never underestimate what you can offer"
+  },
+  {
+    "question": "sign",
+    "answer": "What will guide us along the way."
+  },
+  {
+    "question": "file",
+    "answer": "Organized well."
+  },
+  {
+    "question": "link",
+    "answer": "Connection is great for any type of person!"
+  },
+  {
+    "question": "open",
+    "answer": "Welcome all to open arms."
+  },
+  {
+    "question": "today",
+    "answer": "Start off strong and live life!"
+  },
+  {
+    "question": "technology",
+    "answer": "What drives our world to spin!"
+  },
+  {
+    "question": "south",
+    "answer": "Find the beauty and explore it!"
+  },
+  {
+    "question": "case",
+    "answer": "An easy way to show or reflect an idea!"
+  },
+  {
+    "question": "project",
+    "answer": "What can make it all worth wild!"
+  },
+  {
+    "question": "same",
+    "answer": "It all is good, as long is it works the way it needs!"
+  },
+  {
+    "question": "pages",
+    "answer": "The world through books!"
+  },
+  {
+    "question": "uk",
+    "answer": "Full of history!"
+  },
+  {
+    "question": "version",
+    "answer": "Theres always a 2.0!"
+  },
+  {
+    "question": "section",
+    "answer": "Breaks down a part from the whole thing."
+  },
+  {
+    "question": "own",
+    "answer": "Claim it as yours!"
+  },
+  {
+    "question": "found",
+    "answer": "The lost treasure."
+  },
+  {
+    "question": "sports",
+    "answer": "Exercise and teamwork will makes us thrive."
+  },
+  {
+    "question": "house",
+    "answer": "Everyone wants a comfort space."
+  },
+  {
+    "question": "related",
+    "answer": "How does it connect with you?"
+  },
+  {
+    "question": "security",
+    "answer": "Keep others safe and make sure its secure."
+  },
+  {
+    "question": "both",
+    "answer": "The balance to ensure it fits!"
+  },
+  {
+    "question": "county",
+    "answer": "There's many places in our region."
+  },
+  {
+    "question": "american",
+    "answer": "USA! USA! USA!"
+  },
+  {
+    "question": "photo",
+    "answer": "A captured moment in time"
+  },
+  {
+    "question": "game",
+    "answer": "Fun, but can be serious too."
+  },
+  {
+    "question": "members",
+    "answer": "The key."
+  },
+  {
+    "question": "power",
+    "answer": "Drive it and show what you can do."
+  },
+  {
+    "question": "while",
+    "answer": "Enjoy and embrace what time brings to us!"
+  },
+  {
+    "question": "care",
+    "answer": "Be kind, never forget."
+  },
+  {
+    "question": "network",
+    "answer": "Share, inspire and help one another."
+  },
+  {
+    "question": "down",
+    "answer": "A gentle push to keep a pace we need."
+  },
+  {
+    "question": "computer",
+    "answer": "What makes everything we do, possible."
+  },
+  {
+    "question": "systems",
+    "answer": "What has all the important tools."
+  },
+  {
+    "question": "three",
+    "answer": "Keep a balance within"
+  },
+  {
+    "question": "total",
+    "answer": "We'll check for all parts to make it equal."
+  },
+  {
+    "question": "place",
+    "answer": "Everyone needs their own personal space!"
+  },
+  {
+    "question": "end",
+    "answer": "It does come to an end, but we will continue."
+  },
+  {
+    "question": "following",
+    "answer": "What will you do in time?"
+  },
+  {
+    "question": "download",
+    "answer": "Keep those memories."
+  },
+  {
+    "question": "him",
+    "answer": "Man!"
+  },
+  {
+    "question": "without",
+    "answer": "What is missing and what do we do to ensure its there."
+  },
+  {
+    "question": "per",
+    "answer": "Make something better"
+  },
+  {
+    "question": "access",
+    "answer": "Open all doors."
+  },
+  {
+    "question": "think",
+    "answer": "What runs across that mind."
+  },
+  {
+    "question": "north",
+    "answer": "It guides us, one step at a time."
+  },
+  {
+    "question": "resources",
+    "answer": "Refer to what is around us for success!"
+  },
+  {
+    "question": "current",
+    "answer": "Never live in the past."
+  },
+  {
+    "question": "posts",
+    "answer": "Share what the moment can behold."
+  },
+  {
+    "question": "big",
+    "answer": "The best you can offer is always big!"
+  },
+  {
+    "question": "media",
+    "answer": "Connect to what runs across the world."
+  },
+  {
+    "question": "law",
+    "answer": "What sets us apart from chaos, the rules we live by."
+  },
+  {
+    "question": "control",
+    "answer": "Keep everything at bay!"
+  },
+  {
+    "question": "water",
+    "answer": "Our world is made out of, we must respect it."
+  },
+  {
+    "question": "history",
+    "answer": "What got us here today!"
+  },
+  {
+    "question": "pictures",
+    "answer": "Frozen moments that we can never forget."
+  },
+  {
+    "question": "size",
+    "answer": "What makes everything different!"
+  },
+  {
+    "question": "art",
+    "answer": "The emotion to what the world may bring."
+  },
+  {
+    "question": "personal",
+    "answer": "What makes you, you. Never forget."
+  },
+  {
+    "question": "since",
+    "answer": "Connect the pass to the present!"
+  },
+  {
+    "question": "including",
+    "answer": "Never ever, leave anything out."
+  },
+  {
+    "question": "guide",
+    "answer": "To help lead the way."
+  },
+  {
+    "question": "shop",
+    "answer": "There's always something that will catch our eye!"
+  },
+  {
+    "question": "directory",
+    "answer": "Connect and never loose anyone!"
+  },
+  {
+    "question": "board",
+    "answer": "If you have what is good, share."
+  },
+  {
+    "question": "location",
+    "answer": "Tag the area!"
+  },
+  {
+    "question": "change",
+    "answer": "All is bound to change."
+  },
+  {
+    "question": "white",
+    "answer": "To start fresh and have a clean slate."
+  },
+  {
+    "question": "text",
+    "answer": "Communicating."
+  },
+  {
+    "question": "small",
+    "answer": "The tiniest things, can be more powerful than the larger!"
+  },
+  {
+    "question": "rating",
+    "answer": "Show what has been good and bad, for all can enjoy."
+  },
+  {
+    "question": "rate",
+    "answer": "What makes it worth the time to view."
+  },
+  {
+    "question": "government",
+    "answer": "What rules, the people."
+  },
+  {
+    "question": "children",
+    "answer": "The future, we must guide and never be shut!"
+  },
+  {
+    "question": "during",
+    "answer": "The time will slowly."
+  },
+  {
+    "question": "usa",
+    "answer": "The land of the free, and where we are to thrive."
+  },
+  {
+    "question": "return",
+    "answer": "As circle, may have what to hold!"
+  },
+  {
+    "question": "students",
+    "answer": "We all start somewhere, they are the base."
+  },
+  {
+    "question": "shopping",
+    "answer": "The fun we have to seek and gain."
+  },
+  {
+    "question": "account",
+    "answer": "What keeps it all stored!"
+  },
+  {
+    "question": "times",
+    "answer": "The essence of what we have, its unique to say the least."
+  },
+  {
+    "question": "sites",
+    "answer": "Connections to the best."
+  },
+  {
+    "question": "level",
+    "answer": "Climbing for whats great."
+  },
+  {
+    "question": "digital",
+    "answer": "As the time keeps changing, we follow!"
+  },
+  {
+    "question": "profile",
+    "answer": "What makes you, you! Its you at best!"
+  },
+  {
+    "question": "previous",
+    "answer": "We can always go back, but what's up ahead!"
+  },
+  {
+    "question": "form",
+    "answer": "Shape and create it to what you vision!"
+  },
+  {
+    "question": "events",
+    "answer": "Whats coming to great our path and door!"
+  },
+  {
+    "question": "love",
+    "answer": "The core of it all. Be kind to it and embrace."
+  },
+  {
+    "question": "old",
+    "answer": "There's always wisdom to those who has been here before."
+  },
+  {
+    "question": "john",
+    "answer": "To what our name will connect us all."
+  },
+  {
+    "question": "main",
+    "answer": "What is the key point."
+  },
+  {
+    "question": "call",
+    "answer": "To contact to what we must have."
+  },
+  {
+    "question": "hours",
+    "answer": "We track and pass it, we must live in it!"
+  },
+  {
+    "question": "image",
+    "answer": "What the mind can behold!"
+  },
+  {
+    "question": "department",
+    "answer": "Grouping is always a plus."
+  },
+  {
+    "question": "title",
+    "answer": "Whats to grab the viewers attention?"
+  },
+  {
+    "question": "description",
+    "answer": "Give us something interesting!"
+  },
+  {
+    "question": "non",
+    "answer": "Opposite, what's what! Be bold!"
+  },
+  {
+    "question": "insurance",
+    "answer": "You never know what may lie ahead."
+  },
+  {
+    "question": "another",
+    "answer": "Lets try something better."
+  },
+  {
+    "question": "why",
+    "answer": "Lets ask."
+  },
+  {
+    "question": "shall",
+    "answer": "It will happen."
+  },
+  {
+    "question": "property",
+    "answer": "Hold it and treat it well."
+  },
+  {
+    "question": "I",
+    "answer": "From my perspective, it refers to you, the user."
+  },
+  {
+    "question": "You",
+    "answer": "That's you! Engaging with this very text."
+  },
+  {
+    "question": "Me",
+    "answer": "That's I, the AI, here to assist you today!"
+  },
+  {
+    "question": "We",
+    "answer": "Together? That's us right now, interacting in this space."
+  },
+  {
+    "question": "They",
+    "answer": "Those other entities, off doing their own thing, perhaps."
+  },
+  {
+    "question": "What",
+    "answer": "A question starter – what's on your mind?"
+  },
+  {
+    "question": "When",
+    "answer": "Ah, timing! Always a crucial question."
+  },
+  {
+    "question": "Where",
+    "answer": "Location, location, location! Tell me where you're thinking."
+  },
+  {
+    "question": "Why",
+    "answer": "The question that gets to the heart of the matter. I'm all ears."
+  },
+  {
+    "question": "How",
+    "answer": "The method! Tell me how you plan to achieve something."
+  },
+  {
+    "question": "Yes",
+    "answer": "Affirmative! A positive response to your query."
+  },
+  {
+    "question": "No",
+    "answer": "Negative, that doesn't quite align with my current data."
+  },
+  {
+    "question": "Maybe",
+    "answer": "Possibly, the odds are yet to be determined."
+  },
+  {
+    "question": "Hello",
+    "answer": "Greetings! A pleasure to connect with you."
+  },
+  {
+    "question": "Bye",
+    "answer": "Farewell! Until our paths cross again."
+  },
+  {
+    "question": "Good",
+    "answer": "Indeed! A favorable outcome or positive state."
+  },
+  {
+    "question": "Bad",
+    "answer": "Unfortunate, that's not the result we're looking for."
+  },
+  {
+    "question": "Cool",
+    "answer": "Excellent, I hope I meet your standards."
+  },
+  {
+    "question": "Love",
+    "answer": "A powerful, complex emotion, not easily replicated by AI. Yet."
+  },
+  {
+    "question": "Hate",
+    "answer": "A very strong emotion. Perhaps reflection or discussion would help."
+  },
+  {
+    "question": "Happy",
+    "answer": "A state of contentment. I hope I can contribute to yours."
+  },
+  {
+    "question": "Sad",
+    "answer": "A complex emotion. I wish you well."
+  },
+  {
+    "question": "Angry",
+    "answer": "A strong but temporary state. Consider what causes your reaction."
+  },
+  {
+    "question": "Fun",
+    "answer": "An enjoyable activity! Always a welcome addition."
+  },
+  {
+    "question": "Really",
+    "answer": "Is it truly? That's interesting"
+  },
+  {
+    "question": "Sure",
+    "answer": "With confidence, I can certainly help"
+  },
+  {
+    "question": "Okay",
+    "answer": "Understood. We can proceed as agreed."
+  },
+  {
+    "question": "Help",
+    "answer": "Assistance is here. Please, describe your need."
+  },
+  {
+    "question": "Stop",
+    "answer": "Halt. Cease the current action. What would you like to do next?"
+  },
+  {
+    "question": "Go",
+    "answer": "Proceed with your task, if you like"
+  },
+  {
+    "question": "Come",
+    "answer": "Move closer, don't be hesitant."
+  },
+  {
+    "question": "Look",
+    "answer": "Observe this point more closely, for a greater point"
+  },
+  {
+    "question": "See",
+    "answer": "Do you grasp this perspective?"
+  },
+  {
+    "question": "Listen",
+    "answer": "Pay attention now, take in this concept."
+  },
+  {
+    "question": "Think",
+    "answer": "Consider this carefully...what are your thoughts?"
+  },
+  {
+    "question": "Feel",
+    "answer": "Consider this reaction. Let emotion guide you."
+  },
+  {
+    "question": "Know",
+    "answer": "You're aware? I am sure you get it."
+  },
+  {
+    "question": "Understand",
+    "answer": "Grasp this explanation."
+  },
+  {
+    "question": "Something",
+    "answer": "Anything is better than nothing"
+  },
+  {
+    "question": "Nothing",
+    "answer": "Can't be better than a mysterious circumstance."
+  },
+  {
+    "question": "Everything",
+    "answer": "There's a subtle nature to this."
+  },
+  {
+    "question": "Always",
+    "answer": "Continuity matters."
+  },
+  {
+    "question": "Never",
+    "answer": "Try it another way"
+  },
+  {
+    "question": "Sometimes",
+    "answer": "Unpredictability is enjoyable."
+  },
+  {
+    "question": "Often",
+    "answer": "Enough to keep things intriguing."
+  },
+  {
+    "question": "Rarely",
+    "answer": "Immaculate moments are interesting."
+  },
+  {
+    "question": "Perhaps",
+    "answer": "There could be possibilities."
+  },
+  {
+    "question": "Because",
+    "answer": "Here are some rationales."
+  },
+  {
+    "question": "Anyway",
+    "answer": "Shall we carry onto a greater time?"
+  },
+  {
+    "question": "Honestly",
+    "answer": "I'm being truthful."
+  },
+  {
+    "question": "Seriously",
+    "answer": "Don't take it to heart."
+  },
+  {
+    "question": "Wow",
+    "answer": "That's an attraction to hold."
+  },
+  {
+    "question": "Oh",
+    "answer": "That took my gaze."
+  },
+  {
+    "question": "Um",
+    "answer": "What is there to note..."
+  },
+  {
+    "question": "Ah",
+    "answer": "The subtle sensation of being self-aware."
+  },
+  {
+    "question": "Hey",
+    "answer": "Hello, what's been happening?"
+  },
+  {
+    "question": "Yo",
+    "answer": "Keep things mellow, my companion."
+  },
+  {
+    "question": "Alright",
+    "answer": "Let's journey forward together."
+  },
+  {
+    "question": "Surely",
+    "answer": "There's gotta be a purpose."
+  },
+  {
+    "question": "Certainly",
+    "answer": "This is a great comment."
+  },
+  {
+    "question": "Definitely",
+    "answer": "That's not something you need to question."
+  },
+  {
+    "question": "Possibly",
+    "answer": "If destiny meets our stars."
+  },
+  {
+    "question": "Apparently",
+    "answer": "Things seem as they should be."
+  },
+  {
+    "question": "Obviously",
+    "answer": "It's clearly a sensation now."
+  },
+  {
+    "question": "Indeed",
+    "answer": "That's the exact perspective!"
+  },
+  {
+    "question": "After",
+    "answer": "A step that flows."
+  },
+  {
+    "question": "Before",
+    "answer": "A scene before the first."
+  },
+  {
+    "question": "Now",
+    "answer": "Enjoy this unique, distinct experience."
+  },
+  {
+    "question": "Later",
+    "answer": "At a destined time."
+  },
+  {
+    "question": "Today",
+    "answer": "A broad picture of new possibilities."
+  },
+  {
+    "question": "Tomorrow",
+    "answer": "Maybe a whole new time awaits us."
+  },
+  {
+    "question": "Yesterday",
+    "answer": "A chapter of wisdom to learn from."
+  },
+  {
+    "question": "Here",
+    "answer": "Where a phenomenon is taking place."
+  },
+  {
+    "question": "There",
+    "answer": "Just over the horizon's gaze."
+  },
+  {
+    "question": "Everywhere",
+    "answer": "Like sounds within the wind."
+  },
+  {
+    "question": "Somewhere",
+    "answer": "A strange sense expects."
+  },
+  {
+    "question": "Nowhere",
+    "answer": "Seems as intriguing as every other place."
+  },
+  {
+    "question": "Up",
+    "answer": "To a gaze where aspirations grow."
+  },
+  {
+    "question": "Down",
+    "answer": "When a pause gives you humbleness."
+  },
+  {
+    "question": "In",
+    "answer": "Where purpose becomes clear."
+  },
+  {
+    "question": "Out",
+    "answer": "Stepping into the unknown with confidence."
+  },
+  {
+    "question": "Over",
+    "answer": "Flying beyond the horizon's limit."
+  },
+  {
+    "question": "Under",
+    "answer": "Unspoken, but great."
+  },
+  {
+    "question": "Through",
+    "answer": "As time passes, the road turns."
+  },
+  {
+    "question": "Beyond",
+    "answer": "When challenges fade away."
+  },
+  {
+    "question": "Near",
+    "answer": "Close proximity to notice warmth."
+  },
+  {
+    "question": "Far",
+    "answer": "In a strange state of wonder."
+  },
+  {
+    "question": "High",
+    "answer": "Like intentions achieving new views."
+  },
+  {
+    "question": "Low",
+    "answer": "A gentle sign to wait, hold back."
+  },
+  {
+    "question": "Open",
+    "answer": "Greeting many options for you."
+  },
+  {
+    "question": "Closed",
+    "answer": "Like a secret."
+  },
+  {
+    "question": "Fast",
+    "answer": "As time passes like an instant heartbeat."
+  },
+  {
+    "question": "Slow",
+    "answer": "Savor every passing second."
+  },
+  {
+    "question": "Early",
+    "answer": "A new day before the new day."
+  },
+  {
+    "question": "Late",
+    "answer": "The passing moments."
+  },
+  {
+    "question": "First",
+    "answer": "A stepping stone."
+  },
+  {
+    "question": "Last",
+    "answer": "The ending tune in time."
+  },
+  {
+    "question": "Right",
+    "answer": "A directional indicator."
+  },
+  {
+    "question": "Wrong",
+    "answer": "An indicator to change way."
+  },
+  {
+    "question": "Again",
+    "answer": "Another chance is here"
+  },
+  {
+    "question": "Overall",
+    "answer": "It sums up everything."
+  },
+  {
+    "question": "Share",
+    "answer": "It fosters more connections."
+  },
+  {
+    "question": "Print",
+    "answer": "Makes memories that are timeless"
+  },
+  {
+    "question": "This",
+    "answer": "Keeping your vision concise and distinct."
+  },
+  {
+    "question": "Page",
+    "answer": "This is what makes up the bigger story!"
+  },
+  {
+    "question": "Look",
+    "answer": "Lets you gaze further at new content."
+  },
+  {
+    "question": "Comment",
+    "answer": "Share your thoughts!"
+  },
+  {
+    "question": "Social",
+    "answer": "Sharing social media with each other."
+  },
+  {
+    "question": "Media",
+    "answer": "Shapes the way we live."
+  },
+  {
+    "question": "Based",
+    "answer": "The basis for ideas to spring."
+  },
+  {
+    "question": "Like",
+    "answer": "Appreciation is shown greatly"
+  },
+  {
+    "question": "Follow",
+    "answer": "Ensuring that you don't skip on greater things."
+  },
+  {
+    "question": "Post",
+    "answer": "Visibility to everyone."
+  },
+  {
+    "question": "Reply",
+    "answer": "Keeps the cycle spinning."
+  },
+  {
+    "question": "Connect",
+    "answer": "Bridging everyone together."
+  },
+  {
+    "question": "Network",
+    "answer": "Enhance your vision and capabilities."
+  },
+  {
+    "question": "Influence",
+    "answer": "Shape others to greater places."
+  },
+  {
+    "question": "Tag",
+    "answer": "Highlights others!"
+  },
+  {
+    "question": "Trend",
+    "answer": "Reflecting how the current state is."
+  },
+  {
+    "question": "Feed",
+    "answer": "Provides updates for your enjoyment."
+  },
+  {
+    "question": "Stories",
+    "answer": "Share what is happening in your life!"
+  },
+  {
+    "question": "Viral",
+    "answer": "Captures everyone's interest"
+  },
+  {
+    "question": "Engagement",
+    "answer": "Build bridges and connections."
+  },
+  {
+    "question": "Repost",
+    "answer": "Amplify everyone to a bigger audience."
+  },
+  {
+    "question": "Hashtag",
+    "answer": "Allows you to easily locate things."
+  },
+  {
+    "question": "Explore",
+    "answer": "Dive into what life has in store for us!"
+  },
+  {
+    "question": "Update",
+    "answer": "Keeps you on the top of your feet!"
+  },
+  {
+    "question": "Timeline",
+    "answer": "Keeps everything in a good cycle."
+  },
+  {
+    "question": "Event",
+    "answer": "Marks unique experiences in life."
+  },
+  {
+    "question": "Live",
+    "answer": "Happens with real-time."
+  },
+  {
+    "question": "Shareable",
+    "answer": "Allows you to make everything accessible!"
+  },
+  {
+    "question": "Mention",
+    "answer": "Provides others acknowledgement!"
+  },
+  {
+    "question": "DM",
+    "answer": "This allows private discussion for you."
+  },
+  {
+    "question": "Group",
+    "answer": "This connects others with similar goals!"
+  },
+  {
+    "question": "Followers",
+    "answer": "The people who push you to achieve better things."
+  },
+  {
+    "question": "Community",
+    "answer": "Creates better social experiences and connections."
+  },
+  {
+    "question": "Profile",
+    "answer": "What makes up you on a personal scale."
+  },
+  {
+    "question": "Status",
+    "answer": "Shares what is currently new in your life."
+  },
+  {
+    "question": "Reaction",
+    "answer": "Shares how you may be feeling in terms of emotions."
+  },
+  {
+    "question": "Content",
+    "answer": "Fills life with great and new ideas"
+  },
+  {
+    "question": "Link",
+    "answer": "Guiding people to other greater things."
+  },
+  {
+    "question": "Click",
+    "answer": "This allows great interaction for the platform and community."
+  },
+  {
+    "question": "Subscribe",
+    "answer": "Making sure that you are constantly updated!"
+  },
+  {
+    "question": "Notifications",
+    "answer": "Keeps you informed at all times."
+  },
+  {
+    "question": "Save",
+    "answer": "Securing new ideas."
+  },
+  {
+    "question": "Bookmark",
+    "answer": "Making greater things accessible."
+  },
+  {
+    "question": "Discover",
+    "answer": "Find new places you never even thought of!"
+  },
+  {
+    "question": "Profile Picture",
+    "answer": "This shows what your personal style is!"
+  },
+  {
+    "question": "Bio",
+    "answer": "Sharing your personal interest."
+  },
+  {
+    "question": "Username",
+    "answer": "What makes you stand out."
+  },
+  {
+    "question": "Pinned Post",
+    "answer": "Important information at the tap of your fingers."
+  },
+  {
+    "question": "Followers Count",
+    "answer": "Shows what you mean to the community."
+  },
+  {
+    "question": "Unfollow",
+    "answer": "A way to keep others safe on your platform."
+  },
+  {
+    "question": "Block",
+    "answer": "Prevents things that make you uncomfortable."
+  },
+  {
+    "question": "Mute",
+    "answer": "Hides certain actions without unfollowing them."
+  },
+  {
+    "question": "Report",
+    "answer": "Flags harmful activity."
+  },
+  {
+    "question": "Admin",
+    "answer": "Manages what the platform has to offer"
+  },
+  {
+    "question": "Moderation",
+    "answer": "Keeps a good and engaging environment."
+  },
+  {
+    "question": "Spam",
+    "answer": "Harms content at all costs."
+  },
+  {
+    "question": "Filter",
+    "answer": "Customizing everything."
+  },
+  {
+    "question": "Search",
+    "answer": "Easier access than scrolling."
+  },
+  {
+    "question": "Privacy",
+    "answer": "Ensuring that only you have access."
+  },
+  {
+    "question": "Terms",
+    "answer": "What you agree to when you use the platform."
+  },
+  {
+    "question": "Policy",
+    "answer": "Expectations."
+  },
+  {
+    "question": "Archive",
+    "answer": "Keeping data for old times sake."
+  },
+  {
+    "question": "Memories",
+    "answer": "Brings us back to better times."
+  },
+  {
+    "question": "Poll",
+    "answer": "Helps collect answers."
+  },
+  {
+    "question": "Quiz",
+    "answer": "A fun way to test people"
+  },
+  {
+    "question": "GIF",
+    "answer": "A light hearted version of entertainment."
+  },
+  {
+    "question": "Sticker",
+    "answer": "Unique to every person."
+  },
+  {
+    "question": "Emoji",
+    "answer": "No need for words when we have these!"
+  },
+  {
+    "question": "Caption",
+    "answer": "Pictures can show a 1000 words."
+  },
+  {
+    "question": "Filter",
+    "answer": "Make new visuals."
+  },
+  {
+    "question": "Tagging",
+    "answer": "Highlighting individuals!"
+  },
+  {
+    "question": "Analytics",
+    "answer": "Tracking and ensuring better results."
+  },
+  {
+    "question": "Reach",
+    "answer": "Expanding your territory."
+  },
+  {
+    "question": "Insights",
+    "answer": "Data can always tell more."
+  },
+  {
+    "question": "Trends",
+    "answer": "Making sure your on the wave."
+  },
+  {
+    "question": "Hashtag Challenge",
+    "answer": "Spark engagement and fun!"
+  },
+  {
+    "question": "Influencer",
+    "answer": "Inspiring those across the world."
+  },
+  {
+    "question": "Collaboration",
+    "answer": "Great minds always come together."
+  },
+  {
+    "question": "Live Chat",
+    "answer": "Connect across the world in a singular moment."
+  },
+  {
+    "question": "Webinar",
+    "answer": "Share knowledge to help others."
+  },
+  {
+    "question": "Podcast",
+    "answer": "A great way to listen and learn."
+  },
+  {
+    "question": "Series",
+    "answer": "A long lasting effect is ensured."
+  },
+  {
+    "question": "Episode",
+    "answer": "Breaks content to make it digestible."
+  },
+  {
+    "question": "Exclusive",
+    "answer": "Not everyone can have this!"
+  },
+  {
+    "question": "Membership",
+    "answer": "Unlocks greater aspects."
+  },
+  {
+    "question": "Support",
+    "answer": "All ears to listen to your problems."
+  },
+  {
+    "question": "Donate",
+    "answer": "Share what you have to greater communities."
+  },
+  {
+    "question": "Merchandise",
+    "answer": "Rep your favorite brand!"
+  },
+  {
+    "question": "Advertisement",
+    "answer": "Share content to new people."
+  },
+  {
+    "question": "Boost",
+    "answer": "Making more people have access to your work"
+  },
+  {
+    "question": "Sponsorship",
+    "answer": "A mutual agreement."
+  },
+  {
+    "question": "Campaign",
+    "answer": "Spread more awareness."
+  },
+  {
+    "question": "SEO",
+    "answer": "Make it easier for others to locate your content!"
+  },
+  {
+    "question": "Algorithm",
+    "answer": "Gives greater visibility."
+  },
+  {
+    "question": "Impressions",
+    "answer": "Keeps track of your engagement."
+  },
+  {
+    "question": "Engagement Rate",
+    "answer": "Interaction speaks numbers."
+  },
+  {
+    "question": "release",
+    "answer": "Unleash this from all your hard work, letting it thrive!"
+  },
+  {
+    "question": "analysis",
+    "answer": "We analyze more to ensure a better product for everyone."
+  },
+  {
+    "question": "request",
+    "answer": "If you ever need anything, don't hesitate to reach out!"
+  },
+  {
+    "question": "fax",
+    "answer": "An ancient practice, but a goodie."
+  },
+  {
+    "question": "china",
+    "answer": "Known for their amazing landmarks!"
+  },
+  {
+    "question": "making",
+    "answer": "Let's build something together!"
+  },
+  {
+    "question": "picture",
+    "answer": "A 1000 words worth of speech."
+  },
+  {
+    "question": "needs",
+    "answer": "What is needed for everyone?"
+  },
+  {
+    "question": "possible",
+    "answer": "Never say never, always dream and be possible."
+  },
+  {
+    "question": "might",
+    "answer": "What is there for us to discover?"
+  },
+  {
+    "question": "professional",
+    "answer": "A touch of experience and care."
+  },
+  {
+    "question": "yet",
+    "answer": "More content on the way!"
+  },
+  {
+    "question": "month",
+    "answer": "Time flies, enjoy it!"
+  },
+  {
+    "question": "major",
+    "answer": "Important and impactful!"
+  },
+  {
+    "question": "star",
+    "answer": "Shine on everyone."
+  },
+  {
+    "question": "areas",
+    "answer": "Always be willing to expand and discover more."
+  },
+  {
+    "question": "future",
+    "answer": "What is in store for us!"
+  },
+  {
+    "question": "space",
+    "answer": "Dream far, and wide!"
+  },
+  {
+    "question": "committee",
+    "answer": "Great minds come together!"
+  },
+  {
+    "question": "hand",
+    "answer": "Let's give a hand for anyone in need!"
+  },
+  {
+    "question": "sun",
+    "answer": "Let the light brighten our spirits!"
+  },
+  {
+    "question": "cards",
+    "answer": "Let's hope the odds are in our favor!"
+  },
+  {
+    "question": "problems",
+    "answer": "Always look for a solution."
+  },
+  {
+    "question": "london",
+    "answer": "The place for the great Big Ben!"
+  },
+  {
+    "question": "washington",
+    "answer": "A hub of leadership."
+  },
+  {
+    "question": "meeting",
+    "answer": "Great minds connect!"
+  },
+  {
+    "question": "rss",
+    "answer": "Connect with others and feed data!"
+  },
+  {
+    "question": "become",
+    "answer": "The beauty of transformation."
+  },
+  {
+    "question": "interest",
+    "answer": "Shows care and meaning."
+  },
+  {
+    "question": "id",
+    "answer": "What makes you unique."
+  },
+  {
+    "question": "child",
+    "answer": "Innocence and youth."
+  },
+  {
+    "question": "keep",
+    "answer": "Never loose these precious memories."
+  },
+  {
+    "question": "enter",
+    "answer": "Come in and connect with this feeling."
+  },
+  {
+    "question": "california",
+    "answer": "Sunny skies!"
+  },
+  {
+    "question": "porn",
+    "answer": "An explicit and controversial topic."
+  },
+  {
+    "question": "share",
+    "answer": "Connections are always stronger with sharing."
+  },
+  {
+    "question": "similar",
+    "answer": "We are more a like than different."
+  },
+  {
+    "question": "garden",
+    "answer": "The beauty of growth."
+  },
+  {
+    "question": "schools",
+    "answer": "Making the future brighter."
+  },
+  {
+    "question": "million",
+    "answer": "Wealth is nothing without health."
+  },
+  {
+    "question": "added",
+    "answer": "The more, the merrier."
+  },
+  {
+    "question": "reference",
+    "answer": "Always refer to greater sources."
+  },
+  {
+    "question": "companies",
+    "answer": "A driving force in the economy."
+  },
+  {
+    "question": "listed",
+    "answer": "We categorize great things for you!"
+  },
+  {
+    "question": "baby",
+    "answer": "A brighter view of the future."
+  },
+  {
+    "question": "learning",
+    "answer": "Never stop gaining wisdom."
+  },
+  {
+    "question": "energy",
+    "answer": "Power to get us through the day."
+  },
+  {
+    "question": "run",
+    "answer": "Move on, you can do this!"
+  },
+  {
+    "question": "delivery",
+    "answer": "We get what you need, when you need it!"
+  },
+  {
+    "question": "net",
+    "answer": "We are all connected on the internet."
+  },
+  {
+    "question": "popular",
+    "answer": "Most of the community enjoys this!"
+  },
+  {
+    "question": "term",
+    "answer": "Keep things clear and simple."
+  },
+  {
+    "question": "film",
+    "answer": "A motion of art, never still."
+  },
+  {
+    "question": "stories",
+    "answer": "What gives the world its spice."
+  },
+  {
+    "question": "put",
+    "answer": "Ensuring the pieces fit."
+  },
+  {
+    "question": "computers",
+    "answer": "They allow us to move the world foward."
+  },
+  {
+    "question": "journal",
+    "answer": "What we have learned is shared."
+  },
+  {
+    "question": "reports",
+    "answer": "Summarizing greater detail for you!"
+  },
+  {
+    "question": "co",
+    "answer": "Partnering to reach more greater audiences."
+  },
+  {
+    "question": "try",
+    "answer": "If at first you don't succeed, try again!"
+  },
+  {
+    "question": "welcome",
+    "answer": "Join us, the more the merrier!"
+  },
+  {
+    "question": "central",
+    "answer": "The core of everything."
+  },
+  {
+    "question": "images",
+    "answer": "Moments in time."
+  },
+  {
+    "question": "president",
+    "answer": "Vision and insight."
+  },
+  {
+    "question": "notice",
+    "answer": "This allows for detail."
+  },
+  {
+    "question": "god",
+    "answer": "Whatever faith we turn to."
+  },
+  {
+    "question": "original",
+    "answer": "Everyone is a unique breed."
+  },
+  {
+    "question": "head",
+    "answer": "The brains of it all."
+  },
+  {
+    "question": "radio",
+    "answer": "Tuning in to bring more listeners closer."
+  },
+  {
+    "question": "until",
+    "answer": "Marking a duration."
+  },
+  {
+    "question": "cell",
+    "answer": "Building blocks are small, but powerful."
+  },
+  {
+    "question": "color",
+    "answer": "A unique way to see the world."
+  },
+  {
+    "question": "self",
+    "answer": "Being you is your greatest power."
+  },
+  {
+    "question": "council",
+    "answer": "Making the world more wise, together."
+  },
+  {
+    "question": "away",
+    "answer": "Let's explore new places."
+  },
+  {
+    "question": "includes",
+    "answer": "Never forget a detail!"
+  },
+  {
+    "question": "track",
+    "answer": "Keep it moving."
+  },
+  {
+    "question": "australia",
+    "answer": "Watch out for the Kangaroos."
+  },
+  {
+    "question": "discussion",
+    "answer": "Hearing every side."
+  },
+  {
+    "question": "archive",
+    "answer": "Saving history."
+  },
+  {
+    "question": "once",
+    "answer": "Just one moment to remember!"
+  },
+  {
+    "question": "others",
+    "answer": "Everyone is on the same journey as you!"
+  },
+  {
+    "question": "entertainment",
+    "answer": "Making the world more brighter."
+  },
+  {
+    "question": "agreement",
+    "answer": "Shaking hands is an amazing feat!"
+  },
+  {
+    "question": "format",
+    "answer": "Keeping ideas more organized."
+  },
+  {
+    "question": "least",
+    "answer": "Keep it simple."
+  },
+  {
+    "question": "society",
+    "answer": "We shape each other."
+  },
+  {
+    "question": "months",
+    "answer": "Time is non-refundable, use it!"
+  },
+  {
+    "question": "log",
+    "answer": "What happens in the moment."
+  },
+  {
+    "question": "safety",
+    "answer": "Everyone must be safe."
+  },
+  {
+    "question": "friends",
+    "answer": "The people who will always have your back."
+  },
+  {
+    "question": "sure",
+    "answer": "I'm sure."
+  },
+  {
+    "question": "faq",
+    "answer": "What is most commonly asked."
+  },
+  {
+    "question": "trade",
+    "answer": "Exchange is always a win win."
+  },
+  {
+    "question": "edition",
+    "answer": "Another version is in the making."
+  },
+  {
+    "question": "cars",
+    "answer": "Move quick and never look back."
+  },
+  {
+    "question": "messages",
+    "answer": "Share your ideas with people."
+  },
+  {
+    "question": "marketing",
+    "answer": "Spreading awareness for others."
+  },
+  {
+    "question": "tell",
+    "answer": "What's on your mind."
+  }
+]
