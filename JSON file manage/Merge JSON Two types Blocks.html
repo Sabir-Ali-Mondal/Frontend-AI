@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Merge JSON Two types Blocks</title>
+  <style>
+    body{font-family:sans-serif;padding:20px;background:#f7f7f7}
+    textarea{width:100%;height:300px;font-family:monospace;padding:10px;border:1px solid #ccc;border-radius:6px}
+    button{padding:10px 20px;font-size:16px;margin-top:10px;background:#2563eb;color:#fff;border:0;border-radius:6px;cursor:pointer}
+    button:hover{background:#1946b3}
+  </style>
+</head>
+<body>
+  <h2>Merge QA Pairs & Calculation Patterns</h2>
+  <textarea id="in" placeholder="Paste full objects and/or arrays here…"></textarea>
+  <button onclick="merge()">Merge & Download</button>
+
+  <script>
+    function merge(){
+      const raw=document.getElementById('in').value.trim();
+      const qa=[], cp=[];
+      try{handle(JSON.parse(raw))}catch{
+        const parts=raw.match(/(\{[^]*?\})|(\[[^]*?\])/g)||[];
+        for(const p of parts){try{handle(JSON.parse(p))}catch{}}
+      }
+      function handle(v){
+        if(Array.isArray(v)){
+          qa.push(...v.filter(o=>o?.question!==undefined));
+          cp.push(...v.filter(o=>o?.pattern!==undefined));
+        }else if(v&&typeof v==='object'){
+          if(Array.isArray(v.qa_pairs)) qa.push(...v.qa_pairs);
+          if(Array.isArray(v.calculation_patterns)) cp.push(...v.calculation_patterns);
+        }
+      }
+      const out={qa_pairs:qa,calculation_patterns:cp};
+      const blob=new Blob([JSON.stringify(out,null,2)],{type:'application/json'});
+      const link=document.createElement('a');
+      link.href=URL.createObjectURL(blob);
+      link.download='merged_training_data.json';
+      link.click();
+    }
+  </script>
+</body>
+</html>
