@@ -1779,6 +1779,78 @@
       "action": "calculate_gravitational_force",
       "formula": "F = G * (m₁ * m₂) / r²",
       "code_snippet": "function gravitationalForce(mass1, mass2, distance, G = 6.67430e-11) { if (distance === 0) return 'Distance cannot be zero'; return (G * mass1 * mass2) / (distance * distance); }"
+    },
+    {
+      "pattern": "joke",
+      "action": "fetch_joke",
+      "formula": "result = GET https://official-joke-api.appspot.com/random_joke",
+      "code_snippet": "async function joke() {\n  const res = await fetch('https://official-joke-api.appspot.com/random_joke');\n  const data = await res.json();\n  return `${data.setup} ${data.punchline}`;\n}"
+    },
+    {
+      "pattern": "advice",
+      "action": "fetch_advice",
+      "formula": "result = GET https://api.adviceslip.com/advice",
+      "code_snippet": "async function advice() {\n  const res = await fetch('https://api.adviceslip.com/advice');\n  const data = await res.json();\n  return data.slip.advice;\n}"
+    },
+    {
+      "pattern": "time",
+      "action": "local_time",
+      "formula": "result = new Date().toLocaleTimeString()",
+      "code_snippet": "function time() {\n  return `Current time: ${new Date().toLocaleTimeString()}`;\n}"
+    },
+    {
+      "pattern": "date",
+      "action": "local_date",
+      "formula": "result = new Date().toLocaleDateString()",
+      "code_snippet": "function date() {\n  return `Current date: ${new Date().toLocaleDateString()}`;\n}"
+    },
+    {
+      "pattern": "ip",
+      "action": "fetch_ip",
+      "formula": "result = GET https://api.ipify.org?format=json",
+      "code_snippet": "async function ip() {\n  const res = await fetch('https://api.ipify.org?format=json');\n  const data = await res.json();\n  return `Your IP is ${data.ip}`;\n}"
+    },
+    {
+      "pattern": "space",
+      "action": "fetch_random_space_image",
+      "formula": "result = GET https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=random",
+      "code_snippet": "async function space() {\n  const randomDate = () => {\n    const start = new Date(1996, 5, 16).getTime();\n    const end = new Date().getTime();\n    const rand = new Date(start + Math.random() * (end - start));\n    return rand.toISOString().slice(0, 10);\n  };\n  const date = randomDate();\n  const res = await fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${date}`);\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"NASA Space\\\" /><br/>${data.title}`;\n}"
+    },
+    {
+      "pattern": "image",
+      "action": "fetch_picsum_image",
+      "formula": "result = GET https://picsum.photos/400/300?random",
+      "code_snippet": "async function image() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Image\\\" />`;\n}"
+    },
+    {
+      "pattern": "pic",
+      "action": "fetch_picsum_image",
+      "formula": "result = GET https://picsum.photos/400/300?random",
+      "code_snippet": "async function pic() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Pic\\\" />`;\n}"
+    },
+    {
+      "pattern": "picture",
+      "action": "fetch_picsum_image",
+      "formula": "result = GET https://picsum.photos/400/300?random",
+      "code_snippet": "async function picture() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Picture\\\" />`;\n}"
+    },
+    {
+      "pattern": "img",
+      "action": "fetch_picsum_image",
+      "formula": "result = GET https://picsum.photos/400/300?random",
+      "code_snippet": "async function img() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Img\\\" />`;\n}"
+    },
+    {
+      "pattern": "food",
+      "action": "fetch_random_food",
+      "formula": "result = GET https://www.themealdb.com/api/json/v1/1/random.php",
+      "code_snippet": "async function food() {\n  const res = await fetch('https://www.themealdb.com/api/json/v1/1/random.php');\n  const data = await res.json();\n  const meal = data.meals[0];\n  return `<b>${meal.strMeal}</b><br/><img src=\\\"${meal.strMealThumb}\\\" alt=\\\"Food\\\" /><br/>${meal.strInstructions.substring(0,200)}...`;\n}"
+    },
+    {
+      "pattern": "meme",
+      "action": "fetch_random_meme",
+      "formula": "result = GET https://meme-api.com/gimme",
+      "code_snippet": "async function meme() {\n  const res = await fetch('https://meme-api.com/gimme');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Meme\\\" /><br/>${data.title}`;\n}"
     }
   ]
 }
