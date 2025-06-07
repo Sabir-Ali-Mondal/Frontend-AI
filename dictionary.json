@@ -1877,13 +1877,13 @@
       "code_snippet": "async function location() {\n  const res = await fetch('https://ipapi.co/json/');\n  const data = await res.json();\n  return `📍 You are in ${data.city}, ${data.region}, ${data.country_name}`;\n}"
     },
     {
-      "pattern": "new to learn",
+      "pattern": "new to know",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Learn something new by fetching a summary of a random Wikipedia article.",
       "code_snippet": "async function learn() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" style=\\\"max-width:150px;height:auto;float:left;margin-right:10px;\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a><div style=\\\"clear:both;\\\"></div>`;\n}"
     },
     {
-      "pattern": "wiki",
+      "pattern": "learn new",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Get a random Wikipedia summary.",
       "code_snippet": "async function wiki() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" style=\\\"max-width:150px;height:auto;float:left;margin-right:10px;\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a><div style=\\\"clear:both;\\\"></div>`;\n}"
@@ -1913,10 +1913,10 @@
       "code_snippet": "async function animepic() {\n  const res = await fetch('https://api.waifu.pics/sfw/waifu');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Anime Character\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
     },
     {
-      "pattern": "bird",
-      "action": "fetch_bird_image",
-      "formula": "Show a random image of a bird.",
-      "code_snippet": "async function bird() {\n  const res = await fetch('https://shibe.online/api/birds');\n  const data = await res.json();\n  return `<img src=\\\"${data[0]}\\\" alt=\\\"Random Bird\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "pattern": "dice",
+      "action": "roll_dice",
+      "formula": "Roll a six-sided die.",
+      "code_snippet": "function dice() {\n  const roll = Math.floor(Math.random() * 6) + 1;\n  const symbols = ['⚀', '⚁', '⚂', '⚃', '⚄', '⚅'];\n  return `You rolled a ${roll} ${symbols[roll-1]}`;\n}"
     },
     {
       "pattern": "random country",
