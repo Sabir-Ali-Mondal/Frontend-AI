@@ -11,43 +11,43 @@
   ],
   "calculation_patterns": [
     {
-      "pattern": "double of",
+      "pattern": "double",
       "action": "calculate_double",
       "formula": "result = 2 * number",
       "code_snippet": "function double(number) { return 2 * number; }"
     },
     {
-      "pattern": "square of",
+      "pattern": "square",
       "action": "calculate_square",
       "formula": "result = number * number",
       "code_snippet": "function square(number) { return number * number; }"
     },
     {
-      "pattern": "percent of",
+      "pattern": "percent",
       "action": "calculate_percentage",
       "formula": "result = (percentage / 100) * total",
       "code_snippet": "function percentage(percentage, total) { return (percentage / 100) * total; }"
     },
     {
-      "pattern": "triple of",
+      "pattern": "triple",
       "action": "calculate_triple",
       "formula": "result = 3 * number",
       "code_snippet": "function triple(number) { return 3 * number; }"
     },
     {
-      "pattern": "cube of",
+      "pattern": "cube",
       "action": "calculate_cube",
       "formula": "result = number * number * number",
       "code_snippet": "function cube(number) { return number * number * number; }"
     },
     {
-      "pattern": "half of",
+      "pattern": "half",
       "action": "calculate_half",
       "formula": "result = number / 2",
       "code_snippet": "function half(number) { return number / 2; }"
     },
     {
-      "pattern": "quarter of",
+      "pattern": "quarter",
       "action": "calculate_quarter",
       "formula": "result = number / 4",
       "code_snippet": "function quarter(number) { return number / 4; }"
@@ -77,31 +77,31 @@
       "code_snippet": "function divide(a, b) { return b !== 0 ? a / b : 'Cannot divide by zero'; }"
     },
     {
-      "pattern": "power of",
+      "pattern": "power",
       "action": "calculate_power",
       "formula": "result = base ^ exponent",
       "code_snippet": "function power(base, exponent) { return Math.pow(base, exponent); }"
     },
     {
-      "pattern": "square root of",
+      "pattern": "square root",
       "action": "calculate_square_root",
       "formula": "result = √number",
       "code_snippet": "function squareRoot(number) { return Math.sqrt(number); }"
     },
     {
-      "pattern": "cube root of",
+      "pattern": "cube root",
       "action": "calculate_cube_root",
       "formula": "result = ∛number",
       "code_snippet": "function cubeRoot(number) { return Math.cbrt(number); }"
     },
     {
-      "pattern": "factorial of",
+      "pattern": "factorial",
       "action": "calculate_factorial",
       "formula": "result = n!",
-      "code_snippet": "function factorial(n) { if (n <= 1) return 1; return n * factorial(n - 1); }"
+      "code_snippet": "function factorial(n) { if (n < 0) return 'Invalid input'; if (n <= 1) return 1; let result = 1; for (let i = 2; i <= n; i++) result *= i; return result; }"
     },
     {
-      "pattern": "absolute value of",
+      "pattern": "absolute value",
       "action": "calculate_absolute",
       "formula": "result = |number|",
       "code_snippet": "function absolute(number) { return Math.abs(number); }"
@@ -113,211 +113,211 @@
       "code_snippet": "function round(number) { return Math.round(number); }"
     },
     {
-      "pattern": "ceiling of",
+      "pattern": "ceiling",
       "action": "calculate_ceiling",
       "formula": "result = ceil(number)",
       "code_snippet": "function ceiling(number) { return Math.ceil(number); }"
     },
     {
-      "pattern": "floor of",
+      "pattern": "floor",
       "action": "calculate_floor",
       "formula": "result = floor(number)",
       "code_snippet": "function floor(number) { return Math.floor(number); }"
     },
     {
-      "pattern": "sine of",
+      "pattern": "sine",
       "action": "calculate_sine",
-      "formula": "result = sin(angle)",
-      "code_snippet": "function sine(angle) { return Math.sin(angle); }"
+      "formula": "result = sin(angle_in_radians)",
+      "code_snippet": "function sine(angle_in_radians) { return Math.sin(angle_in_radians); }"
     },
     {
-      "pattern": "cosine of",
+      "pattern": "cosine",
       "action": "calculate_cosine",
-      "formula": "result = cos(angle)",
-      "code_snippet": "function cosine(angle) { return Math.cos(angle); }"
+      "formula": "result = cos(angle_in_radians)",
+      "code_snippet": "function cosine(angle_in_radians) { return Math.cos(angle_in_radians); }"
     },
     {
-      "pattern": "tangent of",
+      "pattern": "tangent",
       "action": "calculate_tangent",
-      "formula": "result = tan(angle)",
-      "code_snippet": "function tangent(angle) { return Math.tan(angle); }"
+      "formula": "result = tan(angle_in_radians)",
+      "code_snippet": "function tangent(angle_in_radians) { return Math.tan(angle_in_radians); }"
     },
     {
-      "pattern": "natural log of",
+      "pattern": "natural log",
       "action": "calculate_natural_log",
       "formula": "result = ln(number)",
       "code_snippet": "function naturalLog(number) { return Math.log(number); }"
     },
     {
-      "pattern": "log base 10 of",
+      "pattern": "log base 10",
       "action": "calculate_log10",
       "formula": "result = log₁₀(number)",
       "code_snippet": "function log10(number) { return Math.log10(number); }"
     },
     {
-      "pattern": "exponential of",
+      "pattern": "exponential",
       "action": "calculate_exponential",
       "formula": "result = e^number",
       "code_snippet": "function exponential(number) { return Math.exp(number); }"
     },
     {
-      "pattern": "average of",
+      "pattern": "average",
       "action": "calculate_average",
       "formula": "result = sum / count",
-      "code_snippet": "function average(...numbers) { return numbers.reduce((a, b) => a + b, 0) / numbers.length; }"
+      "code_snippet": "function average(...numbers) { if (numbers.length === 0) return 0; return numbers.reduce((a, b) => a + b, 0) / numbers.length; }"
     },
     {
-      "pattern": "sum of",
+      "pattern": "sum",
       "action": "calculate_sum",
       "formula": "result = a + b + c + ...",
       "code_snippet": "function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }"
     },
     {
-      "pattern": "product of",
+      "pattern": "product",
       "action": "calculate_product",
       "formula": "result = a * b * c * ...",
-      "code_snippet": "function product(...numbers) { return numbers.reduce((a, b) => a * b, 1); }"
+      "code_snippet": "function product(...numbers) { if (numbers.length === 0) return 1; return numbers.reduce((a, b) => a * b, 1); }"
     },
     {
-      "pattern": "maximum of",
+      "pattern": "maximum",
       "action": "calculate_maximum",
       "formula": "result = max(a, b, c, ...)",
       "code_snippet": "function maximum(...numbers) { return Math.max(...numbers); }"
     },
     {
-      "pattern": "minimum of",
+      "pattern": "minimum",
       "action": "calculate_minimum",
       "formula": "result = min(a, b, c, ...)",
       "code_snippet": "function minimum(...numbers) { return Math.min(...numbers); }"
     },
     {
-      "pattern": "median of",
+      "pattern": "median",
       "action": "calculate_median",
       "formula": "result = middle value",
-      "code_snippet": "function median(...numbers) { const sorted = numbers.sort((a, b) => a - b); const mid = Math.floor(sorted.length / 2); return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2; }"
+      "code_snippet": "function median(...numbers) { if (numbers.length === 0) return 0; const sorted = numbers.slice().sort((a, b) => a - b); const mid = Math.floor(sorted.length / 2); return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2; }"
     },
     {
-      "pattern": "mode of",
+      "pattern": "mode",
       "action": "calculate_mode",
-      "formula": "result = most frequent value",
-      "code_snippet": "function mode(...numbers) { const freq = {}; numbers.forEach(n => freq[n] = (freq[n] || 0) + 1); return Object.keys(freq).reduce((a, b) => freq[a] > freq[b] ? a : b); }"
+      "formula": "result = most frequent value(s)",
+      "code_snippet": "function mode(...numbers) { if (numbers.length === 0) return []; const freq = {}; let maxFreq = 0; numbers.forEach(n => { freq[n] = (freq[n] || 0) + 1; if (freq[n] > maxFreq) maxFreq = freq[n]; }); const modes = []; for (const n in freq) { if (freq[n] === maxFreq) modes.push(Number(n)); } return modes; }"
     },
     {
-      "pattern": "range of",
+      "pattern": "range",
       "action": "calculate_range",
       "formula": "result = max - min",
-      "code_snippet": "function range(...numbers) { return Math.max(...numbers) - Math.min(...numbers); }"
+      "code_snippet": "function range(...numbers) { if (numbers.length === 0) return 0; return Math.max(...numbers) - Math.min(...numbers); }"
     },
     {
-      "pattern": "variance of",
+      "pattern": "variance",
       "action": "calculate_variance",
-      "formula": "result = Σ(x - μ)² / n",
-      "code_snippet": "function variance(...numbers) { const mean = numbers.reduce((a, b) => a + b, 0) / numbers.length; return numbers.reduce((sum, x) => sum + Math.pow(x - mean, 2), 0) / numbers.length; }"
+      "formula": "result = Σ(x - μ)² / n (for population), Σ(x - μ)² / (n-1) (for sample)",
+      "code_snippet": "function variance(isSample, ...numbers) { if (numbers.length === 0) return 0; const mean = numbers.reduce((a, b) => a + b, 0) / numbers.length; const denominator = isSample ? numbers.length - 1 : numbers.length; if (denominator === 0) return 0; return numbers.reduce((sum, x) => sum + Math.pow(x - mean, 2), 0) / denominator; }"
     },
     {
-      "pattern": "standard deviation of",
+      "pattern": "standard deviation",
       "action": "calculate_standard_deviation",
       "formula": "result = √variance",
-      "code_snippet": "function standardDeviation(...numbers) { const mean = numbers.reduce((a, b) => a + b, 0) / numbers.length; const variance = numbers.reduce((sum, x) => sum + Math.pow(x - mean, 2), 0) / numbers.length; return Math.sqrt(variance); }"
+      "code_snippet": "function standardDeviation(isSample, ...numbers) { if (numbers.length === 0) return 0; const mean = numbers.reduce((a, b) => a + b, 0) / numbers.length; const denominator = isSample ? numbers.length - 1 : numbers.length; if (denominator === 0) return 0; const variance = numbers.reduce((sum, x) => sum + Math.pow(x - mean, 2), 0) / denominator; return Math.sqrt(variance); }"
     },
     {
       "pattern": "fibonacci",
       "action": "calculate_fibonacci",
-      "formula": "result = F(n-1) + F(n-2)",
-      "code_snippet": "function fibonacci(n) { if (n <= 1) return n; return fibonacci(n - 1) + fibonacci(n - 2); }"
+      "formula": "F(n) = F(n-1) + F(n-2)",
+      "code_snippet": "function fibonacci(n) { if (n < 0) return 'Invalid input'; if (n <= 1) return n; let a = 0, b = 1; for (let i = 2; i <= n; i++) { const temp = a + b; a = b; b = temp; } return b; }"
     },
     {
       "pattern": "prime check",
       "action": "check_prime",
       "formula": "result = is number prime?",
-      "code_snippet": "function isPrime(n) { if (n < 2) return false; for (let i = 2; i <= Math.sqrt(n); i++) { if (n % i === 0) return false; } return true; }"
+      "code_snippet": "function isPrime(n) { if (n <= 1) return false; if (n <= 3) return true; if (n % 2 === 0 || n % 3 === 0) return false; for (let i = 5; i * i <= n; i = i + 6) { if (n % i === 0 || n % (i + 2) === 0) return false; } return true; }"
     },
     {
-      "pattern": "gcd of",
+      "pattern": "gcd",
       "action": "calculate_gcd",
       "formula": "result = greatest common divisor",
-      "code_snippet": "function gcd(a, b) { return b === 0 ? a : gcd(b, a % b); }"
+      "code_snippet": "function gcd(a, b) { a = Math.abs(a); b = Math.abs(b); while(b) { let t = b; b = a % b; a = t; } return a; }"
     },
     {
-      "pattern": "lcm of",
+      "pattern": "lcm",
       "action": "calculate_lcm",
       "formula": "result = least common multiple",
-      "code_snippet": "function lcm(a, b) { return Math.abs(a * b) / gcd(a, b); }"
+      "code_snippet": "function lcm(a, b) { if (a === 0 || b === 0) return 0; const absA = Math.abs(a); const absB = Math.abs(b); const calculateGcd = (x, y) => { while(y) { let t = y; y = x % y; x = t; } return x; }; return (absA * absB) / calculateGcd(absA, absB); }"
     },
     {
-      "pattern": "area of circle",
+      "pattern": "area circle",
       "action": "calculate_circle_area",
       "formula": "result = π * r²",
       "code_snippet": "function circleArea(radius) { return Math.PI * radius * radius; }"
     },
     {
-      "pattern": "circumference of circle",
+      "pattern": "circumference circle",
       "action": "calculate_circle_circumference",
       "formula": "result = 2 * π * r",
       "code_snippet": "function circleCircumference(radius) { return 2 * Math.PI * radius; }"
     },
     {
-      "pattern": "area of rectangle",
+      "pattern": "area rectangle",
       "action": "calculate_rectangle_area",
       "formula": "result = length * width",
       "code_snippet": "function rectangleArea(length, width) { return length * width; }"
     },
     {
-      "pattern": "perimeter of rectangle",
+      "pattern": "perimeter rectangle",
       "action": "calculate_rectangle_perimeter",
       "formula": "result = 2 * (length + width)",
       "code_snippet": "function rectanglePerimeter(length, width) { return 2 * (length + width); }"
     },
     {
-      "pattern": "area of triangle",
+      "pattern": "area triangle",
       "action": "calculate_triangle_area",
       "formula": "result = 0.5 * base * height",
       "code_snippet": "function triangleArea(base, height) { return 0.5 * base * height; }"
     },
     {
-      "pattern": "area of square",
+      "pattern": "area square",
       "action": "calculate_square_area",
       "formula": "result = side²",
       "code_snippet": "function squareArea(side) { return side * side; }"
     },
     {
-      "pattern": "perimeter of square",
+      "pattern": "perimeter square",
       "action": "calculate_square_perimeter",
       "formula": "result = 4 * side",
       "code_snippet": "function squarePerimeter(side) { return 4 * side; }"
     },
     {
-      "pattern": "volume of cube",
+      "pattern": "volume cube",
       "action": "calculate_cube_volume",
       "formula": "result = side³",
       "code_snippet": "function cubeVolume(side) { return side * side * side; }"
     },
     {
-      "pattern": "volume of sphere",
+      "pattern": "volume sphere",
       "action": "calculate_sphere_volume",
       "formula": "result = (4/3) * π * r³",
-      "code_snippet": "function sphereVolume(radius) { return (4/3) * Math.PI * radius * radius * radius; }"
+      "code_snippet": "function sphereVolume(radius) { return (4/3) * Math.PI * Math.pow(radius, 3); }"
     },
     {
-      "pattern": "surface area of sphere",
+      "pattern": "surface area sphere",
       "action": "calculate_sphere_surface_area",
       "formula": "result = 4 * π * r²",
       "code_snippet": "function sphereSurfaceArea(radius) { return 4 * Math.PI * radius * radius; }"
     },
     {
-      "pattern": "volume of cylinder",
+      "pattern": "volume cylinder",
       "action": "calculate_cylinder_volume",
       "formula": "result = π * r² * h",
       "code_snippet": "function cylinderVolume(radius, height) { return Math.PI * radius * radius * height; }"
     },
     {
-      "pattern": "surface area of cylinder",
+      "pattern": "surface area cylinder",
       "action": "calculate_cylinder_surface_area",
-      "formula": "result = 2 * π * r * (r + h)",
-      "code_snippet": "function cylinderSurfaceArea(radius, height) { return 2 * Math.PI * radius * (radius + height); }"
+      "formula": "result = 2πrh + 2πr² (total), 2πrh (lateral)",
+      "code_snippet": "function cylinderSurfaceArea(radius, height, type = 'total') { const lateral = 2 * Math.PI * radius * height; if (type === 'lateral') return lateral; const topBottom = 2 * Math.PI * radius * radius; return lateral + topBottom; }"
     },
     {
-      "pattern": "volume of cone",
+      "pattern": "volume cone",
       "action": "calculate_cone_volume",
       "formula": "result = (1/3) * π * r² * h",
       "code_snippet": "function coneVolume(radius, height) { return (1/3) * Math.PI * radius * radius * height; }"
@@ -325,1370 +325,1460 @@
     {
       "pattern": "hypotenuse",
       "action": "calculate_hypotenuse",
-      "formula": "result = √(a² + b²)",
-      "code_snippet": "function hypotenuse(a, b) { return Math.sqrt(a * a + b * b); }"
+      "formula": "c = √(a² + b²)",
+      "code_snippet": "function hypotenuse(a, b) { return Math.sqrt(a*a + b*b); }"
     },
     {
       "pattern": "distance between points",
       "action": "calculate_distance",
-      "formula": "result = √((x₂-x₁)² + (y₂-y₁)²)",
+      "formula": "d = √((x₂-x₁)² + (y₂-y₁)²)",
       "code_snippet": "function distance(x1, y1, x2, y2) { return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2)); }"
     },
     {
       "pattern": "slope",
       "action": "calculate_slope",
-      "formula": "result = (y₂ - y₁) / (x₂ - x₁)",
-      "code_snippet": "function slope(x1, y1, x2, y2) { return (y2 - y1) / (x2 - x1); }"
+      "formula": "m = (y₂ - y₁) / (x₂ - x₁)",
+      "code_snippet": "function slope(x1, y1, x2, y2) { if (x2 - x1 === 0) return 'undefined (vertical line)'; return (y2 - y1) / (x2 - x1); }"
     },
     {
       "pattern": "midpoint",
       "action": "calculate_midpoint",
-      "formula": "result = ((x₁+x₂)/2, (y₁+y₂)/2)",
-      "code_snippet": "function midpoint(x1, y1, x2, y2) { return [(x1 + x2) / 2, (y1 + y2) / 2]; }"
+      "formula": "M = ((x₁+x₂)/2, (y₁+y₂)/2)",
+      "code_snippet": "function midpoint(x1, y1, x2, y2) { return { x: (x1 + x2) / 2, y: (y1 + y2) / 2 }; }"
     },
     {
       "pattern": "quadratic formula",
       "action": "solve_quadratic",
-      "formula": "result = (-b ± √(b² - 4ac)) / 2a",
-      "code_snippet": "function quadratic(a, b, c) { const discriminant = b * b - 4 * a * c; if (discriminant < 0) return 'No real solutions'; const sqrt = Math.sqrt(discriminant); return [(-b + sqrt) / (2 * a), (-b - sqrt) / (2 * a)]; }"
+      "formula": "x = (-b ± √(b² - 4ac)) / 2a",
+      "code_snippet": "function quadratic(a, b, c) { const discriminant = b*b - 4*a*c; if (discriminant < 0) return 'No real solutions'; if (discriminant === 0) return [-b / (2*a)]; const sqrtD = Math.sqrt(discriminant); return [(-b + sqrtD) / (2*a), (-b - sqrtD) / (2*a)]; }"
     },
     {
       "pattern": "compound interest",
       "action": "calculate_compound_interest",
-      "formula": "result = P(1 + r/n)^(nt)",
-      "code_snippet": "function compoundInterest(principal, rate, compoundsPerYear, years) { return principal * Math.pow(1 + rate / compoundsPerYear, compoundsPerYear * years); }"
+      "formula": "A = P(1 + r/n)^(nt)",
+      "code_snippet": "function compoundInterest(principal, rate, compoundsPerYear, years) { return principal * Math.pow(1 + (rate / compoundsPerYear), compoundsPerYear * years); }"
     },
     {
       "pattern": "simple interest",
       "action": "calculate_simple_interest",
-      "formula": "result = P * r * t",
-      "code_snippet": "function simpleInterest(principal, rate, time) { return principal * rate * time; }"
+      "formula": "I = P * r * t",
+      "code_snippet": "function simpleInterest(principal, rate, timeInYears) { return principal * rate * timeInYears; }"
     },
     {
       "pattern": "loan payment",
       "action": "calculate_loan_payment",
-      "formula": "result = P * [r(1+r)^n] / [(1+r)^n - 1]",
-      "code_snippet": "function loanPayment(principal, rate, periods) { const r = rate / 100; return principal * (r * Math.pow(1 + r, periods)) / (Math.pow(1 + r, periods) - 1); }"
+      "formula": "M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1]",
+      "code_snippet": "function loanPayment(principal, annualInterestRate, numberOfPayments) { const monthlyInterestRate = annualInterestRate / 12; if (monthlyInterestRate === 0) return principal / numberOfPayments; return principal * (monthlyInterestRate * Math.pow(1 + monthlyInterestRate, numberOfPayments)) / (Math.pow(1 + monthlyInterestRate, numberOfPayments) - 1); }"
     },
     {
       "pattern": "present value",
       "action": "calculate_present_value",
-      "formula": "result = FV / (1 + r)^n",
-      "code_snippet": "function presentValue(futureValue, rate, periods) { return futureValue / Math.pow(1 + rate, periods); }"
+      "formula": "PV = FV / (1 + r)^n",
+      "code_snippet": "function presentValue(futureValue, discountRate, periods) { return futureValue / Math.pow(1 + discountRate, periods); }"
     },
     {
       "pattern": "future value",
       "action": "calculate_future_value",
-      "formula": "result = PV * (1 + r)^n",
-      "code_snippet": "function futureValue(presentValue, rate, periods) { return presentValue * Math.pow(1 + rate, periods); }"
+      "formula": "FV = PV * (1 + r)^n",
+      "code_snippet": "function futureValue(presentValue, interestRate, periods) { return presentValue * Math.pow(1 + interestRate, periods); }"
     },
     {
       "pattern": "annuity payment",
       "action": "calculate_annuity_payment",
-      "formula": "result = PV * r / [1 - (1 + r)^(-n)]",
-      "code_snippet": "function annuityPayment(presentValue, rate, periods) { return presentValue * rate / (1 - Math.pow(1 + rate, -periods)); }"
+      "formula": "PMT = PV * r / [1 - (1 + r)^(-n)] (Ordinary Annuity)",
+      "code_snippet": "function annuityPayment(presentValue, interestRatePerPeriod, numberOfPeriods) { if (interestRatePerPeriod === 0) return presentValue / numberOfPeriods; return presentValue * interestRatePerPeriod / (1 - Math.pow(1 + interestRatePerPeriod, -numberOfPeriods)); }"
     },
     {
       "pattern": "celsius to fahrenheit",
       "action": "convert_celsius_fahrenheit",
-      "formula": "result = (C * 9/5) + 32",
+      "formula": "F = (C * 9/5) + 32",
       "code_snippet": "function celsiusToFahrenheit(celsius) { return (celsius * 9/5) + 32; }"
     },
     {
       "pattern": "fahrenheit to celsius",
       "action": "convert_fahrenheit_celsius",
-      "formula": "result = (F - 32) * 5/9",
+      "formula": "C = (F - 32) * 5/9",
       "code_snippet": "function fahrenheitToCelsius(fahrenheit) { return (fahrenheit - 32) * 5/9; }"
     },
     {
       "pattern": "kelvin to celsius",
       "action": "convert_kelvin_celsius",
-      "formula": "result = K - 273.15",
+      "formula": "C = K - 273.15",
       "code_snippet": "function kelvinToCelsius(kelvin) { return kelvin - 273.15; }"
     },
     {
       "pattern": "celsius to kelvin",
       "action": "convert_celsius_kelvin",
-      "formula": "result = C + 273.15",
+      "formula": "K = C + 273.15",
       "code_snippet": "function celsiusToKelvin(celsius) { return celsius + 273.15; }"
     },
     {
       "pattern": "meters to feet",
       "action": "convert_meters_feet",
-      "formula": "result = meters * 3.28084",
+      "formula": "ft = m * 3.28084",
       "code_snippet": "function metersToFeet(meters) { return meters * 3.28084; }"
     },
     {
       "pattern": "feet to meters",
       "action": "convert_feet_meters",
-      "formula": "result = feet / 3.28084",
+      "formula": "m = ft / 3.28084",
       "code_snippet": "function feetToMeters(feet) { return feet / 3.28084; }"
     },
     {
       "pattern": "kilometers to miles",
       "action": "convert_kilometers_miles",
-      "formula": "result = km * 0.621371",
+      "formula": "mi = km * 0.621371",
       "code_snippet": "function kilometersToMiles(kilometers) { return kilometers * 0.621371; }"
     },
     {
       "pattern": "miles to kilometers",
       "action": "convert_miles_kilometers",
-      "formula": "result = miles / 0.621371",
+      "formula": "km = mi / 0.621371",
       "code_snippet": "function milesToKilometers(miles) { return miles / 0.621371; }"
     },
     {
       "pattern": "inches to centimeters",
       "action": "convert_inches_centimeters",
-      "formula": "result = inches * 2.54",
+      "formula": "cm = in * 2.54",
       "code_snippet": "function inchesToCentimeters(inches) { return inches * 2.54; }"
     },
     {
       "pattern": "centimeters to inches",
       "action": "convert_centimeters_inches",
-      "formula": "result = cm / 2.54",
+      "formula": "in = cm / 2.54",
       "code_snippet": "function centimetersToInches(centimeters) { return centimeters / 2.54; }"
     },
     {
       "pattern": "pounds to kilograms",
       "action": "convert_pounds_kilograms",
-      "formula": "result = pounds / 2.20462",
+      "formula": "kg = lbs / 2.20462",
       "code_snippet": "function poundsToKilograms(pounds) { return pounds / 2.20462; }"
     },
     {
       "pattern": "kilograms to pounds",
       "action": "convert_kilograms_pounds",
-      "formula": "result = kg * 2.20462",
+      "formula": "lbs = kg * 2.20462",
       "code_snippet": "function kilogramsToPounds(kilograms) { return kilograms * 2.20462; }"
     },
     {
       "pattern": "ounces to grams",
       "action": "convert_ounces_grams",
-      "formula": "result = ounces * 28.3495",
+      "formula": "g = oz * 28.3495",
       "code_snippet": "function ouncesToGrams(ounces) { return ounces * 28.3495; }"
     },
     {
       "pattern": "grams to ounces",
       "action": "convert_grams_ounces",
-      "formula": "result = grams / 28.3495",
+      "formula": "oz = g / 28.3495",
       "code_snippet": "function gramsToOunces(grams) { return grams / 28.3495; }"
     },
     {
       "pattern": "gallons to liters",
       "action": "convert_gallons_liters",
-      "formula": "result = gallons * 3.78541",
+      "formula": "L = gal * 3.78541 (US)",
       "code_snippet": "function gallonsToLiters(gallons) { return gallons * 3.78541; }"
     },
     {
       "pattern": "liters to gallons",
       "action": "convert_liters_gallons",
-      "formula": "result = liters / 3.78541",
+      "formula": "gal = L / 3.78541 (US)",
       "code_snippet": "function litersToGallons(liters) { return liters / 3.78541; }"
     },
     {
       "pattern": "cups to milliliters",
       "action": "convert_cups_milliliters",
-      "formula": "result = cups * 236.588",
+      "formula": "mL = cups * 236.588 (US custom)",
       "code_snippet": "function cupsToMilliliters(cups) { return cups * 236.588; }"
     },
     {
       "pattern": "milliliters to cups",
       "action": "convert_milliliters_cups",
-      "formula": "result = ml / 236.588",
+      "formula": "cups = mL / 236.588 (US custom)",
       "code_snippet": "function millilitersToCups(milliliters) { return milliliters / 236.588; }"
     },
     {
       "pattern": "square feet to square meters",
       "action": "convert_sqft_sqm",
-      "formula": "result = sqft / 10.764",
-      "code_snippet": "function squareFeetToSquareMeters(sqft) { return sqft / 10.764; }"
+      "formula": "m² = ft² / 10.7639",
+      "code_snippet": "function squareFeetToSquareMeters(sqft) { return sqft / 10.7639; }"
     },
     {
       "pattern": "square meters to square feet",
       "action": "convert_sqm_sqft",
-      "formula": "result = sqm * 10.764",
-      "code_snippet": "function squareMetersToSquareFeet(sqm) { return sqm * 10.764; }"
+      "formula": "ft² = m² * 10.7639",
+      "code_snippet": "function squareMetersToSquareFeet(sqm) { return sqm * 10.7639; }"
     },
     {
       "pattern": "acres to hectares",
       "action": "convert_acres_hectares",
-      "formula": "result = acres / 2.471",
-      "code_snippet": "function acresToHectares(acres) { return acres / 2.471; }"
+      "formula": "ha = acres * 0.404686",
+      "code_snippet": "function acresToHectares(acres) { return acres * 0.404686; }"
     },
     {
       "pattern": "hectares to acres",
       "action": "convert_hectares_acres",
-      "formula": "result = hectares * 2.471",
-      "code_snippet": "function hectaresToAcres(hectares) { return hectares * 2.471; }"
+      "formula": "acres = ha / 0.404686",
+      "code_snippet": "function hectaresToAcres(hectares) { return hectares / 0.404686; }"
     },
     {
       "pattern": "mph to kph",
       "action": "convert_mph_kph",
-      "formula": "result = mph * 1.60934",
+      "formula": "kph = mph * 1.60934",
       "code_snippet": "function mphToKph(mph) { return mph * 1.60934; }"
     },
     {
       "pattern": "kph to mph",
       "action": "convert_kph_mph",
-      "formula": "result = kph / 1.60934",
+      "formula": "mph = kph / 1.60934",
       "code_snippet": "function kphToMph(kph) { return kph / 1.60934; }"
     },
     {
       "pattern": "horsepower to watts",
       "action": "convert_hp_watts",
-      "formula": "result = hp * 745.7",
+      "formula": "W = hp * 745.7 (mechanical)",
       "code_snippet": "function horsepowerToWatts(hp) { return hp * 745.7; }"
     },
     {
       "pattern": "watts to horsepower",
       "action": "convert_watts_hp",
-      "formula": "result = watts / 745.7",
+      "formula": "hp = W / 745.7 (mechanical)",
       "code_snippet": "function wattsToHorsepower(watts) { return watts / 745.7; }"
     },
     {
       "pattern": "psi to bar",
       "action": "convert_psi_bar",
-      "formula": "result = psi / 14.504",
-      "code_snippet": "function psiToBar(psi) { return psi / 14.504; }"
+      "formula": "bar = psi / 14.5038",
+      "code_snippet": "function psiToBar(psi) { return psi / 14.5038; }"
     },
     {
       "pattern": "bar to psi",
       "action": "convert_bar_psi",
-      "formula": "result = bar * 14.504",
-      "code_snippet": "function barToPsi(bar) { return bar * 14.504; }"
+      "formula": "psi = bar * 14.5038",
+      "code_snippet": "function barToPsi(bar) { return bar * 14.5038; }"
     },
     {
       "pattern": "bmi calculation",
       "action": "calculate_bmi",
-      "formula": "result = weight / (height²)",
-      "code_snippet": "function calculateBMI(weight, height) { return weight / (height * height); }"
+      "formula": "BMI = weight (kg) / (height (m))²",
+      "code_snippet": "function calculateBMI(weightInKg, heightInMeters) { if (heightInMeters <= 0) return 'Invalid height'; return weightInKg / (heightInMeters * heightInMeters); }"
     },
     {
       "pattern": "body fat percentage",
       "action": "calculate_body_fat",
-      "formula": "result = (1.20 * BMI) + (0.23 * age) - (10.8 * gender) - 5.4",
-      "code_snippet": "function bodyFatPercentage(bmi, age, gender) { return (1.20 * bmi) + (0.23 * age) - (10.8 * gender) - 5.4; }"
+      "formula": "Deurenberg: (1.20 * BMI) + (0.23 * age) - (10.8 * gender_code) - 5.4 (gender_code: male=1, female=0)",
+      "code_snippet": "function bodyFatPercentage(bmi, age, genderCode) { return (1.20 * bmi) + (0.23 * age) - (10.8 * genderCode) - 5.4; }"
     },
     {
       "pattern": "calories burned walking",
       "action": "calculate_walking_calories",
-      "formula": "result = weight * distance * 0.57",
-      "code_snippet": "function walkingCalories(weight, distance) { return weight * distance * 0.57; }"
+      "formula": "Calories ≈ METs * weight(kg) * time(hours). MET for walking ≈ 2.8-3.5",
+      "code_snippet": "function walkingCalories(weightInKg, timeInHours, METs = 3.5) { return METs * weightInKg * timeInHours; }"
     },
     {
       "pattern": "calories burned running",
       "action": "calculate_running_calories",
-      "formula": "result = weight * distance * 0.75",
-      "code_snippet": "function runningCalories(weight, distance) { return weight * distance * 0.75; }"
+      "formula": "Calories ≈ METs * weight(kg) * time(hours). MET for running ≈ 7-12",
+      "code_snippet": "function runningCalories(weightInKg, timeInHours, METs = 10) { return METs * weightInKg * timeInHours; }"
     },
     {
       "pattern": "heart rate zones",
       "action": "calculate_heart_rate_zones",
-      "formula": "result = (220 - age) * intensity",
-      "code_snippet": "function heartRateZones(age, intensity) { return (220 - age) * intensity; }"
+      "formula": "MaxHR ≈ 220 - age. Zone % * MaxHR.",
+      "code_snippet": "function heartRateZones(age, lowerPercent, upperPercent) { const maxHR = 220 - age; return { lower: maxHR * lowerPercent, upper: maxHR * upperPercent }; }"
     },
     {
       "pattern": "water intake",
       "action": "calculate_water_intake",
-      "formula": "result = weight * 35 ml",
-      "code_snippet": "function waterIntake(weight) { return weight * 35; }"
+      "formula": "General: weight(kg) * 30-35 mL",
+      "code_snippet": "function waterIntake(weightInKg, mLPerKg = 33) { return weightInKg * mLPerKg; }"
     },
     {
       "pattern": "protein requirement",
       "action": "calculate_protein_requirement",
-      "formula": "result = weight * 0.8g",
-      "code_snippet": "function proteinRequirement(weight) { return weight * 0.8; }"
+      "formula": "General: weight(kg) * 0.8-1g (sedentary)",
+      "code_snippet": "function proteinRequirement(weightInKg, gramsPerKg = 0.8) { return weightInKg * gramsPerKg; }"
     },
     {
       "pattern": "tip calculation",
       "action": "calculate_tip",
-      "formula": "result = bill * (tip_percentage / 100)",
-      "code_snippet": "function calculateTip(bill, tipPercentage) { return bill * (tipPercentage / 100); }"
+      "formula": "Tip = bill * (tip_percentage / 100)",
+      "code_snippet": "function calculateTip(billAmount, tipPercentage) { return billAmount * (tipPercentage / 100); }"
     },
     {
       "pattern": "total with tip",
       "action": "calculate_total_with_tip",
-      "formula": "result = bill + (bill * tip_percentage / 100)",
-      "code_snippet": "function totalWithTip(bill, tipPercentage) { return bill + (bill * tipPercentage / 100); }"
+      "formula": "Total = bill + (bill * tip_percentage / 100)",
+      "code_snippet": "function totalWithTip(billAmount, tipPercentage) { const tip = billAmount * (tipPercentage / 100); return billAmount + tip; }"
     },
     {
       "pattern": "split bill",
       "action": "calculate_split_bill",
-      "formula": "result = total / number_of_people",
-      "code_snippet": "function splitBill(total, numberOfPeople) { return total / numberOfPeople; }"
+      "formula": "Amount_per_person = total_bill / number_of_people",
+      "code_snippet": "function splitBill(totalBill, numberOfPeople) { if (numberOfPeople <= 0) return 'Invalid number of people'; return totalBill / numberOfPeople; }"
     },
     {
       "pattern": "discount amount",
       "action": "calculate_discount_amount",
-      "formula": "result = price * (discount / 100)",
-      "code_snippet": "function discountAmount(price, discount) { return price * (discount / 100); }"
+      "formula": "Discount = original_price * (discount_percentage / 100)",
+      "code_snippet": "function discountAmount(originalPrice, discountPercentage) { return originalPrice * (discountPercentage / 100); }"
     },
     {
       "pattern": "final price after discount",
       "action": "calculate_final_price",
-      "formula": "result = price - (price * discount / 100)",
-      "code_snippet": "function finalPrice(price, discount) { return price - (price * discount / 100); }"
+      "formula": "Final_price = original_price - (original_price * discount_percentage / 100)",
+      "code_snippet": "function finalPrice(originalPrice, discountPercentage) { const discount = originalPrice * (discountPercentage / 100); return originalPrice - discount; }"
     },
     {
       "pattern": "sales tax",
       "action": "calculate_sales_tax",
-      "formula": "result = price * (tax_rate / 100)",
-      "code_snippet": "function salesTax(price, taxRate) { return price * (taxRate / 100); }"
+      "formula": "Tax = price * (tax_rate_percentage / 100)",
+      "code_snippet": "function salesTax(price, taxRatePercentage) { return price * (taxRatePercentage / 100); }"
     },
     {
       "pattern": "total with tax",
       "action": "calculate_total_with_tax",
-      "formula": "result = price + (price * tax_rate / 100)",
-      "code_snippet": "function totalWithTax(price, taxRate) { return price + (price * taxRate / 100); }"
+      "formula": "Total = price + (price * tax_rate_percentage / 100)",
+      "code_snippet": "function totalWithTax(price, taxRatePercentage) { const tax = price * (taxRatePercentage / 100); return price + tax; }"
     },
     {
       "pattern": "markup price",
       "action": "calculate_markup_price",
-      "formula": "result = cost + (cost * markup / 100)",
-      "code_snippet": "function markupPrice(cost, markup) { return cost + (cost * markup / 100); }"
+      "formula": "Selling_Price = Cost + (Cost * Markup_Percentage / 100)",
+      "code_snippet": "function markupPrice(cost, markupPercentage) { const markupAmount = cost * (markupPercentage / 100); return cost + markupAmount; }"
     },
     {
       "pattern": "profit margin",
       "action": "calculate_profit_margin",
-      "formula": "result = (selling_price - cost) / selling_price * 100",
-      "code_snippet": "function profitMargin(sellingPrice, cost) { return (sellingPrice - cost) / sellingPrice * 100; }"
+      "formula": "Margin (%) = ((Selling_Price - Cost) / Selling_Price) * 100",
+      "code_snippet": "function profitMargin(sellingPrice, cost) { if (sellingPrice === 0) return 'Selling price cannot be zero'; return ((sellingPrice - cost) / sellingPrice) * 100; }"
     },
     {
       "pattern": "break even point",
       "action": "calculate_break_even",
-      "formula": "result = fixed_costs / (price - variable_cost)",
-      "code_snippet": "function breakEvenPoint(fixedCosts, price, variableCost) { return fixedCosts / (price - variableCost); }"
+      "formula": "Units = Fixed_Costs / (Selling_Price_Per_Unit - Variable_Cost_Per_Unit)",
+      "code_snippet": "function breakEvenPointUnits(fixedCosts, sellingPricePerUnit, variableCostPerUnit) { const contributionMargin = sellingPricePerUnit - variableCostPerUnit; if (contributionMargin <= 0) return 'Contribution margin must be positive'; return fixedCosts / contributionMargin; }"
     },
     {
       "pattern": "return on investment",
       "action": "calculate_roi",
-      "formula": "result = (gain - cost) / cost * 100",
-      "code_snippet": "function returnOnInvestment(gain, cost) { return (gain - cost) / cost * 100; }"
+      "formula": "ROI (%) = ((Net_Profit - Cost_of_Investment) / Cost_of_Investment) * 100",
+      "code_snippet": "function returnOnInvestment(netProfit, costOfInvestment) { if (costOfInvestment === 0) return 'Cost of investment cannot be zero'; return ((netProfit - costOfInvestment) / costOfInvestment) * 100; }"
     },
     {
       "pattern": "depreciation",
       "action": "calculate_depreciation",
-      "formula": "result = (cost - salvage_value) / useful_life",
-      "code_snippet": "function depreciation(cost, salvageValue, usefulLife) { return (cost - salvageValue) / usefulLife; }"
+      "formula": "Straight-line: (Cost - Salvage_Value) / Useful_Life",
+      "code_snippet": "function depreciationStraightLine(cost, salvageValue, usefulLifeInYears) { if (usefulLifeInYears <= 0) return 'Useful life must be positive'; return (cost - salvageValue) / usefulLifeInYears; }"
     },
     {
       "pattern": "currency conversion",
       "action": "convert_currency",
-      "formula": "result = amount * exchange_rate",
-      "code_snippet": "function convertCurrency(amount, exchangeRate) { return amount * exchangeRate; }"
+      "formula": "Converted_Amount = Amount_to_Convert * Exchange_Rate",
+      "code_snippet": "function convertCurrency(amountToConvert, exchangeRate) { return amountToConvert * exchangeRate; }"
     },
     {
       "pattern": "age calculation",
       "action": "calculate_age",
-      "formula": "result = current_year - birth_year",
-      "code_snippet": "function calculateAge(birthYear) { return new Date().getFullYear() - birthYear; }"
+      "formula": "Age = Current_Year - Birth_Year (simplified)",
+      "code_snippet": "function calculateAge(birthYear, birthMonth, birthDay) { const today = new Date(); const birthDate = new Date(birthYear, birthMonth - 1, birthDay); let age = today.getFullYear() - birthDate.getFullYear(); const m = today.getMonth() - birthDate.getMonth(); if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) { age--; } return age; }"
     },
     {
       "pattern": "days between dates",
       "action": "calculate_days_between",
-      "formula": "result = (date2 - date1) / (1000 * 60 * 60 * 24)",
-      "code_snippet": "function daysBetween(date1, date2) { return Math.abs(date2 - date1) / (1000 * 60 * 60 * 24); }"
+      "formula": "Days = |Date2 - Date1| / (1000 * 60 * 60 * 24)",
+      "code_snippet": "function daysBetween(date1String, date2String) { const date1 = new Date(date1String); const date2 = new Date(date2String); const diffTime = Math.abs(date2 - date1); return Math.ceil(diffTime / (1000 * 60 * 60 * 24)); }"
     },
     {
       "pattern": "hours to minutes",
       "action": "convert_hours_minutes",
-      "formula": "result = hours * 60",
+      "formula": "Minutes = Hours * 60",
       "code_snippet": "function hoursToMinutes(hours) { return hours * 60; }"
     },
     {
       "pattern": "minutes to hours",
       "action": "convert_minutes_hours",
-      "formula": "result = minutes / 60",
+      "formula": "Hours = Minutes / 60",
       "code_snippet": "function minutesToHours(minutes) { return minutes / 60; }"
     },
     {
       "pattern": "seconds to minutes",
       "action": "convert_seconds_minutes",
-      "formula": "result = seconds / 60",
+      "formula": "Minutes = Seconds / 60",
       "code_snippet": "function secondsToMinutes(seconds) { return seconds / 60; }"
     },
     {
       "pattern": "minutes to seconds",
       "action": "convert_minutes_seconds",
-      "formula": "result = minutes * 60",
+      "formula": "Seconds = Minutes * 60",
       "code_snippet": "function minutesToSeconds(minutes) { return minutes * 60; }"
     },
     {
       "pattern": "days to hours",
       "action": "convert_days_hours",
-      "formula": "result = days * 24",
+      "formula": "Hours = Days * 24",
       "code_snippet": "function daysToHours(days) { return days * 24; }"
     },
     {
       "pattern": "hours to days",
       "action": "convert_hours_days",
-      "formula": "result = hours / 24",
+      "formula": "Days = Hours / 24",
       "code_snippet": "function hoursToDays(hours) { return hours / 24; }"
     },
     {
       "pattern": "weeks to days",
       "action": "convert_weeks_days",
-      "formula": "result = weeks * 7",
+      "formula": "Days = Weeks * 7",
       "code_snippet": "function weeksToDays(weeks) { return weeks * 7; }"
     },
     {
       "pattern": "days to weeks",
       "action": "convert_days_weeks",
-      "formula": "result = days / 7",
+      "formula": "Weeks = Days / 7",
       "code_snippet": "function daysToWeeks(days) { return days / 7; }"
     },
     {
       "pattern": "months to days",
       "action": "convert_months_days",
-      "formula": "result = months * 30.44",
-      "code_snippet": "function monthsToDays(months) { return months * 30.44; }"
+      "formula": "Days ≈ Months * 30.4375 (average)",
+      "code_snippet": "function monthsToDays(months) { return months * 30.4375; }"
     },
     {
       "pattern": "days to months",
       "action": "convert_days_months",
-      "formula": "result = days / 30.44",
-      "code_snippet": "function daysToMonths(days) { return days / 30.44; }"
+      "formula": "Months ≈ Days / 30.4375 (average)",
+      "code_snippet": "function daysToMonths(days) { return days / 30.4375; }"
     },
     {
       "pattern": "years to days",
       "action": "convert_years_days",
-      "formula": "result = years * 365.25",
+      "formula": "Days ≈ Years * 365.25 (accounts for leap year avg)",
       "code_snippet": "function yearsToDays(years) { return years * 365.25; }"
     },
     {
       "pattern": "days to years",
       "action": "convert_days_years",
-      "formula": "result = days / 365.25",
+      "formula": "Years ≈ Days / 365.25 (accounts for leap year avg)",
       "code_snippet": "function daysToYears(days) { return days / 365.25; }"
     },
     {
       "pattern": "binary to decimal",
       "action": "convert_binary_decimal",
-      "formula": "result = parseInt(binary, 2)",
-      "code_snippet": "function binaryToDecimal(binary) { return parseInt(binary, 2); }"
+      "formula": "Decimal = Σ (bit * 2^position)",
+      "code_snippet": "function binaryToDecimal(binaryString) { return parseInt(binaryString, 2); }"
     },
     {
       "pattern": "decimal to binary",
       "action": "convert_decimal_binary",
-      "formula": "result = decimal.toString(2)",
-      "code_snippet": "function decimalToBinary(decimal) { return decimal.toString(2); }"
+      "formula": "Repeatedly divide by 2, collect remainders",
+      "code_snippet": "function decimalToBinary(decimalNumber) { return decimalNumber.toString(2); }"
     },
     {
       "pattern": "decimal to hexadecimal",
       "action": "convert_decimal_hex",
-      "formula": "result = decimal.toString(16)",
-      "code_snippet": "function decimalToHex(decimal) { return decimal.toString(16).toUpperCase(); }"
+      "formula": "Repeatedly divide by 16, collect remainders",
+      "code_snippet": "function decimalToHex(decimalNumber) { return decimalNumber.toString(16).toUpperCase(); }"
     },
     {
       "pattern": "hexadecimal to decimal",
       "action": "convert_hex_decimal",
-      "formula": "result = parseInt(hex, 16)",
-      "code_snippet": "function hexToDecimal(hex) { return parseInt(hex, 16); }"
+      "formula": "Decimal = Σ (digit * 16^position)",
+      "code_snippet": "function hexToDecimal(hexString) { return parseInt(hexString, 16); }"
     },
     {
       "pattern": "octal to decimal",
       "action": "convert_octal_decimal",
-      "formula": "result = parseInt(octal, 8)",
-      "code_snippet": "function octalToDecimal(octal) { return parseInt(octal, 8); }"
+      "formula": "Decimal = Σ (digit * 8^position)",
+      "code_snippet": "function octalToDecimal(octalString) { return parseInt(octalString, 8); }"
     },
     {
       "pattern": "decimal to octal",
       "action": "convert_decimal_octal",
-      "formula": "result = decimal.toString(8)",
-      "code_snippet": "function decimalToOctal(decimal) { return decimal.toString(8); }"
+      "formula": "Repeatedly divide by 8, collect remainders",
+      "code_snippet": "function decimalToOctal(decimalNumber) { return decimalNumber.toString(8); }"
     },
     {
       "pattern": "ascii to character",
       "action": "convert_ascii_char",
-      "formula": "result = String.fromCharCode(ascii)",
-      "code_snippet": "function asciiToChar(ascii) { return String.fromCharCode(ascii); }"
+      "formula": "Convert ASCII code to character",
+      "code_snippet": "function asciiToChar(asciiCode) { return String.fromCharCode(asciiCode); }"
     },
     {
       "pattern": "character to ascii",
       "action": "convert_char_ascii",
-      "formula": "result = char.charCodeAt(0)",
-      "code_snippet": "function charToAscii(char) { return char.charCodeAt(0); }"
+      "formula": "Convert character to ASCII code",
+      "code_snippet": "function charToAscii(character) { return character.charCodeAt(0); }"
     },
     {
       "pattern": "rgb to hex",
       "action": "convert_rgb_hex",
-      "formula": "result = #RRGGBB",
-      "code_snippet": "function rgbToHex(r, g, b) { return '#' + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join(''); }"
+      "formula": "Hex = #RRGGBB",
+      "code_snippet": "function rgbToHex(r, g, b) { const toHex = c => c.toString(16).padStart(2, '0'); return `#${toHex(r)}${toHex(g)}${toHex(b)}`; }"
     },
     {
       "pattern": "hex to rgb",
       "action": "convert_hex_rgb",
-      "formula": "result = [R, G, B]",
-      "code_snippet": "function hexToRgb(hex) { const result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hex); return result ? [parseInt(result[1], 16), parseInt(result[2], 16), parseInt(result[3], 16)] : null; }"
+      "formula": "RGB = (R, G, B) from #RRGGBB",
+      "code_snippet": "function hexToRgb(hexString) { const shorthandRegex = /^#?([a-f\\d])([a-f\\d])([a-f\\d])$/i; hexString = hexString.replace(shorthandRegex, (m, r, g, b) => r + r + g + g + b + b); const result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hexString); return result ? { r: parseInt(result[1], 16), g: parseInt(result[2], 16), b: parseInt(result[3], 16) } : null; }"
     },
     {
       "pattern": "percentage change",
       "action": "calculate_percentage_change",
-      "formula": "result = ((new_value - old_value) / old_value) * 100",
-      "code_snippet": "function percentageChange(oldValue, newValue) { return ((newValue - oldValue) / oldValue) * 100; }"
+      "formula": "Change (%) = ((New_Value - Old_Value) / |Old_Value|) * 100",
+      "code_snippet": "function percentageChange(oldValue, newValue) { if (oldValue === 0) return 'Old value cannot be zero for percentage change'; return ((newValue - oldValue) / Math.abs(oldValue)) * 100; }"
     },
     {
       "pattern": "percentage increase",
       "action": "calculate_percentage_increase",
-      "formula": "result = ((new_value - old_value) / old_value) * 100",
-      "code_snippet": "function percentageIncrease(oldValue, newValue) { return ((newValue - oldValue) / oldValue) * 100; }"
+      "formula": "Increase (%) = ((New_Value - Old_Value) / Old_Value) * 100 (for New > Old)",
+      "code_snippet": "function percentageIncrease(oldValue, newValue) { if (oldValue === 0) return 'Old value cannot be zero'; if (newValue < oldValue) return 'New value is less than old value, use percentage decrease'; return ((newValue - oldValue) / oldValue) * 100; }"
     },
     {
       "pattern": "percentage decrease",
       "action": "calculate_percentage_decrease",
-      "formula": "result = ((old_value - new_value) / old_value) * 100",
-      "code_snippet": "function percentageDecrease(oldValue, newValue) { return ((oldValue - newValue) / oldValue) * 100; }"
+      "formula": "Decrease (%) = ((Old_Value - New_Value) / Old_Value) * 100 (for Old > New)",
+      "code_snippet": "function percentageDecrease(oldValue, newValue) { if (oldValue === 0) return 'Old value cannot be zero'; if (newValue > oldValue) return 'New value is greater than old value, use percentage increase'; return ((oldValue - newValue) / oldValue) * 100; }"
     },
     {
       "pattern": "ratio calculation",
       "action": "calculate_ratio",
-      "formula": "result = a : b",
-      "code_snippet": "function calculateRatio(a, b) { const gcd = (x, y) => y === 0 ? x : gcd(y, x % y); const divisor = gcd(a, b); return [a / divisor, b / divisor]; }"
+      "formula": "Ratio a:b simplified by dividing by GCD(a,b)",
+      "code_snippet": "function calculateRatio(a, b) { const calculateGcd = (x, y) => { x = Math.abs(x); y = Math.abs(y); while(y) { let t = y; y = x % y; x = t; } return x; }; const divisor = calculateGcd(a,b); return { a_simplified: a / divisor, b_simplified: b / divisor, string: `${a / divisor}:${b / divisor}` }; }"
     },
     {
       "pattern": "proportion calculation",
       "action": "calculate_proportion",
-      "formula": "result = (a / b) = (c / x)",
-      "code_snippet": "function calculateProportion(a, b, c) { return (b * c) / a; }"
+      "formula": "If a/b = c/x, then x = (b*c)/a",
+      "code_snippet": "function calculateProportion(a, b, c) { if (a === 0) return 'a cannot be zero in a/b = c/x for solving x'; return (b * c) / a; }"
     },
     {
       "pattern": "scale factor",
       "action": "calculate_scale_factor",
-      "formula": "result = new_size / original_size",
-      "code_snippet": "function scaleFactor(originalSize, newSize) { return newSize / originalSize; }"
+      "formula": "Factor = New_Dimension / Original_Dimension",
+      "code_snippet": "function scaleFactor(originalDimension, newDimension) { if (originalDimension === 0) return 'Original dimension cannot be zero'; return newDimension / originalDimension; }"
     },
     {
       "pattern": "unit rate",
       "action": "calculate_unit_rate",
-      "formula": "result = quantity / units",
-      "code_snippet": "function unitRate(quantity, units) { return quantity / units; }"
+      "formula": "Rate = Quantity / Units (e.g., miles per hour)",
+      "code_snippet": "function unitRate(quantity, units) { if (units === 0) return 'Units cannot be zero'; return quantity / units; }"
     },
     {
       "pattern": "density calculation",
       "action": "calculate_density",
-      "formula": "result = mass / volume",
-      "code_snippet": "function calculateDensity(mass, volume) { return mass / volume; }"
+      "formula": "ρ = mass / volume",
+      "code_snippet": "function calculateDensity(mass, volume) { if (volume === 0) return 'Volume cannot be zero'; return mass / volume; }"
     },
     {
       "pattern": "speed calculation",
       "action": "calculate_speed",
-      "formula": "result = distance / time",
-      "code_snippet": "function calculateSpeed(distance, time) { return distance / time; }"
+      "formula": "Speed = distance / time",
+      "code_snippet": "function calculateSpeed(distance, time) { if (time === 0) return 'Time cannot be zero'; return distance / time; }"
     },
     {
       "pattern": "acceleration calculation",
       "action": "calculate_acceleration",
-      "formula": "result = (final_velocity - initial_velocity) / time",
-      "code_snippet": "function calculateAcceleration(initialVelocity, finalVelocity, time) { return (finalVelocity - initialVelocity) / time; }"
+      "formula": "a = (final_velocity - initial_velocity) / time",
+      "code_snippet": "function calculateAcceleration(initialVelocity, finalVelocity, time) { if (time === 0) return 'Time cannot be zero'; return (finalVelocity - initialVelocity) / time; }"
     },
     {
       "pattern": "force calculation",
       "action": "calculate_force",
-      "formula": "result = mass * acceleration",
+      "formula": "F = mass * acceleration (Newton's 2nd Law)",
       "code_snippet": "function calculateForce(mass, acceleration) { return mass * acceleration; }"
     },
     {
       "pattern": "work calculation",
       "action": "calculate_work",
-      "formula": "result = force * distance",
-      "code_snippet": "function calculateWork(force, distance) { return force * distance; }"
+      "formula": "W = force * distance * cos(θ)",
+      "code_snippet": "function calculateWork(force, distance, angleInRadians = 0) { return force * distance * Math.cos(angleInRadians); }"
     },
     {
       "pattern": "power calculation",
       "action": "calculate_power",
-      "formula": "result = work / time",
-      "code_snippet": "function calculatePower(work, time) { return work / time; }"
+      "formula": "P = work / time",
+      "code_snippet": "function calculatePower(work, time) { if (time === 0) return 'Time cannot be zero'; return work / time; }"
     },
     {
       "pattern": "kinetic energy",
       "action": "calculate_kinetic_energy",
-      "formula": "result = 0.5 * mass * velocity²",
+      "formula": "KE = 0.5 * mass * velocity²",
       "code_snippet": "function kineticEnergy(mass, velocity) { return 0.5 * mass * velocity * velocity; }"
     },
     {
       "pattern": "potential energy",
       "action": "calculate_potential_energy",
-      "formula": "result = mass * gravity * height",
-      "code_snippet": "function potentialEnergy(mass, gravity, height) { return mass * gravity * height; }"
+      "formula": "PE = mass * gravity * height (gravitational)",
+      "code_snippet": "function potentialEnergyGravitational(mass, height, gravity = 9.80665) { return mass * gravity * height; }"
     },
     {
       "pattern": "momentum calculation",
       "action": "calculate_momentum",
-      "formula": "result = mass * velocity",
+      "formula": "p = mass * velocity",
       "code_snippet": "function calculateMomentum(mass, velocity) { return mass * velocity; }"
     },
     {
       "pattern": "pressure calculation",
       "action": "calculate_pressure",
-      "formula": "result = force / area",
-      "code_snippet": "function calculatePressure(force, area) { return force / area; }"
+      "formula": "P = force / area",
+      "code_snippet": "function calculatePressure(force, area) { if (area === 0) return 'Area cannot be zero'; return force / area; }"
     },
     {
       "pattern": "ohms law voltage",
       "action": "calculate_voltage",
-      "formula": "result = current * resistance",
+      "formula": "V = I * R",
       "code_snippet": "function calculateVoltage(current, resistance) { return current * resistance; }"
     },
     {
       "pattern": "ohms law current",
       "action": "calculate_current",
-      "formula": "result = voltage / resistance",
-      "code_snippet": "function calculateCurrent(voltage, resistance) { return voltage / resistance; }"
+      "formula": "I = V / R",
+      "code_snippet": "function calculateCurrent(voltage, resistance) { if (resistance === 0) return 'Resistance cannot be zero for V/R'; return voltage / resistance; }"
     },
     {
       "pattern": "ohms law resistance",
       "action": "calculate_resistance",
-      "formula": "result = voltage / current",
-      "code_snippet": "function calculateResistance(voltage, current) { return voltage / current; }"
+      "formula": "R = V / I",
+      "code_snippet": "function calculateResistance(voltage, current) { if (current === 0) return 'Current cannot be zero for V/I'; return voltage / current; }"
     },
     {
       "pattern": "electrical power",
       "action": "calculate_electrical_power",
-      "formula": "result = voltage * current",
+      "formula": "P = V * I = I² * R = V² / R",
       "code_snippet": "function electricalPower(voltage, current) { return voltage * current; }"
     },
     {
       "pattern": "electrical energy",
       "action": "calculate_electrical_energy",
-      "formula": "result = power * time",
+      "formula": "E = P * t (Energy = Power * time)",
       "code_snippet": "function electricalEnergy(power, time) { return power * time; }"
     },
     {
       "pattern": "frequency to wavelength",
       "action": "convert_frequency_wavelength",
-      "formula": "result = speed_of_light / frequency",
-      "code_snippet": "function frequencyToWavelength(frequency) { return 299792458 / frequency; }"
+      "formula": "λ = c / f (c = speed of light)",
+      "code_snippet": "function frequencyToWavelength(frequency, speedOfLight = 299792458) { if (frequency === 0) return 'Frequency cannot be zero'; return speedOfLight / frequency; }"
     },
     {
       "pattern": "wavelength to frequency",
       "action": "convert_wavelength_frequency",
-      "formula": "result = speed_of_light / wavelength",
-      "code_snippet": "function wavelengthToFrequency(wavelength) { return 299792458 / wavelength; }"
+      "formula": "f = c / λ (c = speed of light)",
+      "code_snippet": "function wavelengthToFrequency(wavelength, speedOfLight = 299792458) { if (wavelength === 0) return 'Wavelength cannot be zero'; return speedOfLight / wavelength; }"
     },
     {
       "pattern": "decibel calculation",
       "action": "calculate_decibels",
-      "formula": "result = 10 * log₁₀(power_ratio)",
-      "code_snippet": "function calculateDecibels(powerRatio) { return 10 * Math.log10(powerRatio); }"
+      "formula": "dB = 10 * log₁₀(P₂/P₁) or 20 * log₁₀(V₂/V₁)",
+      "code_snippet": "function calculateDecibelsPowerRatio(powerRatio) { if (powerRatio <= 0) return 'Power ratio must be positive'; return 10 * Math.log10(powerRatio); }"
     },
     {
       "pattern": "ph calculation",
       "action": "calculate_ph",
-      "formula": "result = -log₁₀(H⁺ concentration)",
-      "code_snippet": "function calculatePH(hydrogenConcentration) { return -Math.log10(hydrogenConcentration); }"
+      "formula": "pH = -log₁₀[H⁺]",
+      "code_snippet": "function calculatePH(hydrogenIonConcentration) { if (hydrogenIonConcentration <= 0) return 'Concentration must be positive'; return -Math.log10(hydrogenIonConcentration); }"
     },
     {
       "pattern": "molarity calculation",
       "action": "calculate_molarity",
-      "formula": "result = moles / volume_in_liters",
-      "code_snippet": "function calculateMolarity(moles, volumeInLiters) { return moles / volumeInLiters; }"
+      "formula": "M = moles_solute / volume_solution (L)",
+      "code_snippet": "function calculateMolarity(molesOfSolute, volumeOfSolutionInLiters) { if (volumeOfSolutionInLiters === 0) return 'Volume cannot be zero'; return molesOfSolute / volumeOfSolutionInLiters; }"
     },
     {
       "pattern": "molar mass",
       "action": "calculate_molar_mass",
-      "formula": "result = mass / moles",
-      "code_snippet": "function calculateMolarMass(mass, moles) { return mass / moles; }"
+      "formula": "Molar Mass (g/mol) = mass (g) / moles (mol)",
+      "code_snippet": "function calculateMolarMass(massInGrams, moles) { if (moles === 0) return 'Moles cannot be zero'; return massInGrams / moles; }"
     },
     {
       "pattern": "ideal gas law",
       "action": "calculate_ideal_gas",
-      "formula": "result = (pressure * volume) / (moles * gas_constant * temperature)",
-      "code_snippet": "function idealGasLaw(pressure, volume, moles, temperature) { const R = 8.314; return (pressure * volume) / (moles * R * temperature); }"
+      "formula": "PV = nRT (solve for one variable)",
+      "code_snippet": "function idealGasLawSolve({P, V, n, T, R = 0.0821}) { /* P in atm, V in L, n in mol, T in K */ if (P===undefined) return (n*R*T)/V; if (V===undefined) return (n*R*T)/P; if (n===undefined) return (P*V)/(R*T); if (T===undefined) return (P*V)/(n*R); return 'Specify one undefined variable (P,V,n,T) to solve for.';}"
     },
     {
       "pattern": "half life calculation",
       "action": "calculate_half_life",
-      "formula": "result = ln(2) / decay_constant",
-      "code_snippet": "function halfLife(decayConstant) { return Math.log(2) / decayConstant; }"
+      "formula": "t½ = ln(2) / λ (λ = decay constant)",
+      "code_snippet": "function halfLife(decayConstant) { if (decayConstant <= 0) return 'Decay constant must be positive'; return Math.log(2) / decayConstant; }"
     },
     {
       "pattern": "radioactive decay",
       "action": "calculate_radioactive_decay",
-      "formula": "result = initial_amount * e^(-decay_constant * time)",
+      "formula": "N(t) = N₀ * e^(-λt)",
       "code_snippet": "function radioactiveDecay(initialAmount, decayConstant, time) { return initialAmount * Math.exp(-decayConstant * time); }"
     },
     {
       "pattern": "escape velocity",
       "action": "calculate_escape_velocity",
-      "formula": "result = √(2 * G * M / r)",
-      "code_snippet": "function escapeVelocity(mass, radius) { const G = 6.674e-11; return Math.sqrt(2 * G * mass / radius); }"
+      "formula": "v_e = √(2GM/r)",
+      "code_snippet": "function escapeVelocity(massOfBody, radiusOfBody, G = 6.67430e-11) { if (radiusOfBody === 0) return 'Radius cannot be zero'; return Math.sqrt((2 * G * massOfBody) / radiusOfBody); }"
     },
     {
       "pattern": "orbital velocity",
       "action": "calculate_orbital_velocity",
-      "formula": "result = √(G * M / r)",
-      "code_snippet": "function orbitalVelocity(mass, radius) { const G = 6.674e-11; return Math.sqrt(G * mass / radius); }"
+      "formula": "v_o = √(GM/r) (for circular orbit)",
+      "code_snippet": "function orbitalVelocity(massOfCentralBody, orbitalRadius, G = 6.67430e-11) { if (orbitalRadius === 0) return 'Orbital radius cannot be zero'; return Math.sqrt((G * massOfCentralBody) / orbitalRadius); }"
     },
     {
       "pattern": "gravitational force",
       "action": "calculate_gravitational_force",
-      "formula": "result = G * m₁ * m₂ / r²",
-      "code_snippet": "function gravitationalForce(mass1, mass2, distance) { const G = 6.674e-11; return G * mass1 * mass2 / (distance * distance); }"
+      "formula": "F = G * (m₁ * m₂) / r²",
+      "code_snippet": "function gravitationalForce(mass1, mass2, distance, G = 6.67430e-11) { if (distance === 0) return 'Distance cannot be zero'; return (G * mass1 * mass2) / (distance * distance); }"
     },
     {
       "pattern": "centripetal force",
       "action": "calculate_centripetal_force",
-      "formula": "result = mass * velocity² / radius",
-      "code_snippet": "function centripetalForce(mass, velocity, radius) { return mass * velocity * velocity / radius; }"
+      "formula": "F_c = mv²/r = mω²r",
+      "code_snippet": "function centripetalForce(mass, velocity, radius) { if (radius === 0) return 'Radius cannot be zero'; return (mass * velocity * velocity) / radius; }"
     },
     {
       "pattern": "angular velocity",
       "action": "calculate_angular_velocity",
-      "formula": "result = 2π / period",
-      "code_snippet": "function angularVelocity(period) { return 2 * Math.PI / period; }"
+      "formula": "ω = Δθ/Δt = 2π/T = 2πf",
+      "code_snippet": "function angularVelocityFromPeriod(period) { if (period === 0) return 'Period cannot be zero'; return (2 * Math.PI) / period; }"
     },
     {
       "pattern": "angular acceleration",
       "action": "calculate_angular_acceleration",
-      "formula": "result = (final_angular_velocity - initial_angular_velocity) / time",
-      "code_snippet": "function angularAcceleration(initialAngularVelocity, finalAngularVelocity, time) { return (finalAngularVelocity - initialAngularVelocity) / time; }"
+      "formula": "α = (ω_f - ω_i) / Δt",
+      "code_snippet": "function angularAcceleration(initialAngularVelocity, finalAngularVelocity, time) { if (time === 0) return 'Time cannot be zero'; return (finalAngularVelocity - initialAngularVelocity) / time; }"
     },
     {
       "pattern": "torque calculation",
       "action": "calculate_torque",
-      "formula": "result = force * distance * sin(angle)",
-      "code_snippet": "function calculateTorque(force, distance, angle) { return force * distance * Math.sin(angle); }"
+      "formula": "τ = rFsin(θ) = Iα",
+      "code_snippet": "function calculateTorque(radiusArm, force, angleInRadians = Math.PI/2) { return radiusArm * force * Math.sin(angleInRadians); }"
     },
     {
-      "pattern": "moment of inertia",
+      "pattern": "moment inertia",
       "action": "calculate_moment_of_inertia",
-      "formula": "result = mass * radius²",
-      "code_snippet": "function momentOfInertia(mass, radius) { return mass * radius * radius; }"
+      "formula": "I = Σmr² (depends on shape)",
+      "code_snippet": "function momentOfInertiaPointMass(mass, radius) { return mass * radius * radius; }"
     },
     {
       "pattern": "rotational kinetic energy",
       "action": "calculate_rotational_kinetic_energy",
-      "formula": "result = 0.5 * moment_of_inertia * angular_velocity²",
+      "formula": "KE_rot = 0.5 * I * ω²",
       "code_snippet": "function rotationalKineticEnergy(momentOfInertia, angularVelocity) { return 0.5 * momentOfInertia * angularVelocity * angularVelocity; }"
     },
     {
       "pattern": "spring constant",
       "action": "calculate_spring_constant",
-      "formula": "result = force / displacement",
-      "code_snippet": "function springConstant(force, displacement) { return force / displacement; }"
+      "formula": "k = F/x (Hooke's Law: F = -kx)",
+      "code_snippet": "function springConstant(force, displacement) { if (displacement === 0) return 'Displacement cannot be zero'; return Math.abs(force / displacement); }"
     },
     {
       "pattern": "elastic potential energy",
       "action": "calculate_elastic_potential_energy",
-      "formula": "result = 0.5 * spring_constant * displacement²",
+      "formula": "PE_elastic = 0.5 * k * x²",
       "code_snippet": "function elasticPotentialEnergy(springConstant, displacement) { return 0.5 * springConstant * displacement * displacement; }"
     },
     {
       "pattern": "simple harmonic motion period",
       "action": "calculate_shm_period",
-      "formula": "result = 2π * √(mass / spring_constant)",
-      "code_snippet": "function shmPeriod(mass, springConstant) { return 2 * Math.PI * Math.sqrt(mass / springConstant); }"
+      "formula": "T = 2π√(m/k) (mass-spring), T = 2π√(L/g) (pendulum)",
+      "code_snippet": "function shmPeriodMassSpring(mass, springConstant) { if (springConstant === 0) return 'Spring constant cannot be zero'; return 2 * Math.PI * Math.sqrt(mass / springConstant); }"
     },
     {
       "pattern": "pendulum period",
       "action": "calculate_pendulum_period",
-      "formula": "result = 2π * √(length / gravity)",
-      "code_snippet": "function pendulumPeriod(length, gravity) { return 2 * Math.PI * Math.sqrt(length / gravity); }"
+      "formula": "T = 2π√(L/g) (simple pendulum, small angles)",
+      "code_snippet": "function pendulumPeriod(length, gravity = 9.80665) { if (gravity === 0) return 'Gravity cannot be zero'; return 2 * Math.PI * Math.sqrt(length / gravity); }"
     },
     {
       "pattern": "wave speed",
       "action": "calculate_wave_speed",
-      "formula": "result = frequency * wavelength",
+      "formula": "v = f * λ",
       "code_snippet": "function waveSpeed(frequency, wavelength) { return frequency * wavelength; }"
     },
     {
       "pattern": "doppler effect",
       "action": "calculate_doppler_effect",
-      "formula": "result = source_frequency * (wave_speed ± observer_speed) / (wave_speed ± source_speed)",
-      "code_snippet": "function dopplerEffect(sourceFrequency, waveSpeed, observerSpeed, sourceSpeed) { return sourceFrequency * (waveSpeed + observerSpeed) / (waveSpeed + sourceSpeed); }"
+      "formula": "f' = f * (v ± v_o) / (v ∓ v_s)",
+      "code_snippet": "function dopplerEffect(sourceFrequency, waveSpeed, observerSpeed, sourceSpeed, obsMovingTowards, srcMovingTowards) { let num = waveSpeed + (obsMovingTowards ? observerSpeed : -observerSpeed); let den = waveSpeed + (srcMovingTowards ? -sourceSpeed : sourceSpeed); if (den === 0) return 'Denominator cannot be zero (source speed equals wave speed away)'; return sourceFrequency * (num / den); }"
     },
     {
       "pattern": "snells law",
       "action": "calculate_snells_law",
-      "formula": "result = n₁ * sin(θ₁) = n₂ * sin(θ₂)",
-      "code_snippet": "function snellsLaw(n1, angle1, n2) { return Math.asin(n1 * Math.sin(angle1) / n2); }"
+      "formula": "n₁sin(θ₁) = n₂sin(θ₂) (solve for θ₂ or n₂)",
+      "code_snippet": "function snellsLawAngle2(n1, angle1_radians, n2) { const sinAngle2 = (n1 * Math.sin(angle1_radians)) / n2; if (sinAngle2 < -1 || sinAngle2 > 1) return 'Total internal reflection or invalid inputs'; return Math.asin(sinAngle2); }"
     },
     {
       "pattern": "lens equation",
       "action": "calculate_lens_equation",
-      "formula": "result = 1/f = 1/object_distance + 1/image_distance",
-      "code_snippet": "function lensEquation(objectDistance, imageDistance) { return 1 / (1/objectDistance + 1/imageDistance); }"
+      "formula": "1/f = 1/d_o + 1/d_i (solve for f, d_o, or d_i)",
+      "code_snippet": "function lensEquationSolve({f, d_o, d_i}) { if (f===undefined) { if (d_o === 0 || d_i === 0) return 'Distances cannot be zero for 1/f'; return 1 / (1/d_o + 1/d_i); } if (d_o===undefined) { if (f === 0 || d_i === f) return 'Invalid input for solving d_o'; return 1 / (1/f - 1/d_i); } if (d_i===undefined) { if (f === 0 || d_o === f) return 'Invalid input for solving d_i'; return 1 / (1/f - 1/d_o); } return 'Specify one undefined variable (f, d_o, d_i) to solve for.'; }"
     },
     {
       "pattern": "magnification",
       "action": "calculate_magnification",
-      "formula": "result = image_height / object_height",
-      "code_snippet": "function magnification(imageHeight, objectHeight) { return imageHeight / objectHeight; }"
+      "formula": "M = h_i/h_o = -d_i/d_o",
+      "code_snippet": "function magnificationLens(imageDistance, objectDistance) { if (objectDistance === 0) return 'Object distance cannot be zero'; return -imageDistance / objectDistance; }"
     },
     {
       "pattern": "capacitance",
       "action": "calculate_capacitance",
-      "formula": "result = charge / voltage",
-      "code_snippet": "function capacitance(charge, voltage) { return charge / voltage; }"
+      "formula": "C = Q/V",
+      "code_snippet": "function capacitance(charge, voltage) { if (voltage === 0) return 'Voltage cannot be zero for Q/V'; return charge / voltage; }"
     },
     {
       "pattern": "capacitor energy",
       "action": "calculate_capacitor_energy",
-      "formula": "result = 0.5 * capacitance * voltage²",
+      "formula": "U = 0.5 * C * V² = 0.5 * Q * V = 0.5 * Q²/C",
       "code_snippet": "function capacitorEnergy(capacitance, voltage) { return 0.5 * capacitance * voltage * voltage; }"
     },
     {
       "pattern": "inductance",
       "action": "calculate_inductance",
-      "formula": "result = magnetic_flux / current",
-      "code_snippet": "function inductance(magneticFlux, current) { return magneticFlux / current; }"
+      "formula": "L = NΦ/I = -ε / (dI/dt)",
+      "code_snippet": "function inductanceFromFlux(magneticFlux, current, numberOfTurns = 1) { if (current === 0) return 'Current cannot be zero'; return (numberOfTurns * magneticFlux) / current; }"
     },
     {
       "pattern": "inductor energy",
       "action": "calculate_inductor_energy",
-      "formula": "result = 0.5 * inductance * current²",
+      "formula": "U = 0.5 * L * I²",
       "code_snippet": "function inductorEnergy(inductance, current) { return 0.5 * inductance * current * current; }"
     },
     {
       "pattern": "rc time constant",
       "action": "calculate_rc_time_constant",
-      "formula": "result = resistance * capacitance",
+      "formula": "τ = R * C",
       "code_snippet": "function rcTimeConstant(resistance, capacitance) { return resistance * capacitance; }"
     },
     {
       "pattern": "rl time constant",
       "action": "calculate_rl_time_constant",
-      "formula": "result = inductance / resistance",
-      "code_snippet": "function rlTimeConstant(inductance, resistance) { return inductance / resistance; }"
+      "formula": "τ = L / R",
+      "code_snippet": "function rlTimeConstant(inductance, resistance) { if (resistance === 0) return 'Resistance cannot be zero'; return inductance / resistance; }"
     },
     {
       "pattern": "resonant frequency",
       "action": "calculate_resonant_frequency",
-      "formula": "result = 1 / (2π * √(inductance * capacitance))",
-      "code_snippet": "function resonantFrequency(inductance, capacitance) { return 1 / (2 * Math.PI * Math.sqrt(inductance * capacitance)); }"
+      "formula": "f₀ = 1 / (2π√(LC)) (for RLC circuit)",
+      "code_snippet": "function resonantFrequency(inductance, capacitance) { if (inductance * capacitance <= 0) return 'Product LC must be positive'; return 1 / (2 * Math.PI * Math.sqrt(inductance * capacitance)); }"
     },
     {
       "pattern": "impedance",
       "action": "calculate_impedance",
-      "formula": "result = √(resistance² + reactance²)",
-      "code_snippet": "function impedance(resistance, reactance) { return Math.sqrt(resistance * resistance + reactance * reactance); }"
+      "formula": "Z = √(R² + (X_L - X_C)²) (for series RLC)",
+      "code_snippet": "function impedanceSeriesRLC(resistance, inductiveReactance, capacitiveReactance) { return Math.sqrt(resistance * resistance + Math.pow(inductiveReactance - capacitiveReactance, 2)); }"
     },
     {
       "pattern": "reactance capacitive",
       "action": "calculate_capacitive_reactance",
-      "formula": "result = 1 / (2π * frequency * capacitance)",
-      "code_snippet": "function capacitiveReactance(frequency, capacitance) { return 1 / (2 * Math.PI * frequency * capacitance); }"
+      "formula": "X_C = 1 / (2πfC)",
+      "code_snippet": "function capacitiveReactance(frequency, capacitance) { if (frequency * capacitance === 0) return 'Frequency or Capacitance cannot be zero'; return 1 / (2 * Math.PI * frequency * capacitance); }"
     },
     {
       "pattern": "reactance inductive",
       "action": "calculate_inductive_reactance",
-      "formula": "result = 2π * frequency * inductance",
+      "formula": "X_L = 2πfL",
       "code_snippet": "function inductiveReactance(frequency, inductance) { return 2 * Math.PI * frequency * inductance; }"
     },
     {
       "pattern": "transformer ratio",
       "action": "calculate_transformer_ratio",
-      "formula": "result = primary_voltage / secondary_voltage",
-      "code_snippet": "function transformerRatio(primaryVoltage, secondaryVoltage) { return primaryVoltage / secondaryVoltage; }"
+      "formula": "Vp/Vs = Np/Ns = Is/Ip",
+      "code_snippet": "function transformerVoltageRatio(primaryVoltage, secondaryVoltage) { if (secondaryVoltage === 0) return 'Secondary voltage cannot be zero'; return primaryVoltage / secondaryVoltage; }"
     },
     {
       "pattern": "efficiency calculation",
       "action": "calculate_efficiency",
-      "formula": "result = (output / input) * 100",
-      "code_snippet": "function efficiency(output, input) { return (output / input) * 100; }"
+      "formula": "η (%) = (Useful_Output_Energy / Total_Input_Energy) * 100",
+      "code_snippet": "function efficiency(usefulOutput, totalInput) { if (totalInput === 0) return 'Total input cannot be zero'; return (usefulOutput / totalInput) * 100; }"
     },
     {
       "pattern": "heat capacity",
       "action": "calculate_heat_capacity",
-      "formula": "result = heat_energy / temperature_change",
-      "code_snippet": "function heatCapacity(heatEnergy, temperatureChange) { return heatEnergy / temperatureChange; }"
+      "formula": "C = q / ΔT (q=heat, ΔT=temp change)",
+      "code_snippet": "function heatCapacity(heatEnergy, temperatureChange) { if (temperatureChange === 0) return 'Temperature change cannot be zero'; return heatEnergy / temperatureChange; }"
     },
     {
       "pattern": "specific heat",
       "action": "calculate_specific_heat",
-      "formula": "result = heat_energy / (mass * temperature_change)",
-      "code_snippet": "function specificHeat(heatEnergy, mass, temperatureChange) { return heatEnergy / (mass * temperatureChange); }"
+      "formula": "c = q / (m * ΔT)",
+      "code_snippet": "function specificHeat(heatEnergy, mass, temperatureChange) { if (mass * temperatureChange === 0) return 'Mass or temperature change cannot be zero'; return heatEnergy / (mass * temperatureChange); }"
     },
     {
       "pattern": "thermal expansion",
       "action": "calculate_thermal_expansion",
-      "formula": "result = original_length * expansion_coefficient * temperature_change",
-      "code_snippet": "function thermalExpansion(originalLength, expansionCoefficient, temperatureChange) { return originalLength * expansionCoefficient * temporatureChange; }"
+      "formula": "ΔL = α * L₀ * ΔT (linear)",
+      "code_snippet": "function linearThermalExpansion(originalLength, coefficientOfLinearExpansion, temperatureChange) { return coefficientOfLinearExpansion * originalLength * temperatureChange; }"
     },
     {
       "pattern": "heat transfer rate",
       "action": "calculate_heat_transfer_rate",
-      "formula": "result = thermal_conductivity * area * temperature_difference / thickness",
-      "code_snippet": "function heatTransferRate(thermalConductivity, area, temperatureDifference, thickness) { return thermalConductivity * area * temperatureDifference / thickness; }"
+      "formula": "Q/t = kA(ΔT/d) (conduction)",
+      "code_snippet": "function heatTransferRateConduction(thermalConductivity, area, temperatureDifference, thickness) { if (thickness === 0) return 'Thickness cannot be zero'; return (thermalConductivity * area * temperatureDifference) / thickness; }"
     },
     {
       "pattern": "stefan boltzmann law",
       "action": "calculate_stefan_boltzmann",
-      "formula": "result = σ * area * temperature⁴",
-      "code_snippet": "function stefanBoltzmann(area, temperature) { const sigma = 5.67e-8; return sigma * area * Math.pow(temperature, 4); }"
+      "formula": "P = εσAT⁴ (P=power, ε=emissivity, σ=SB const, A=area, T=temp in K)",
+      "code_snippet": "function stefanBoltzmannLaw(emissivity, area, temperatureInKelvin) { const sigma = 5.670374419e-8; return emissivity * sigma * area * Math.pow(temperatureInKelvin, 4); }"
     },
     {
       "pattern": "entropy change",
       "action": "calculate_entropy_change",
-      "formula": "result = heat_energy / temperature",
-      "code_snippet": "function entropyChange(heatEnergy, temperature) { return heatEnergy / temperature; }"
+      "formula": "ΔS = q_rev / T (reversible process, constant T)",
+      "code_snippet": "function entropyChangeReversible(heatTransferredReversibly, temperatureInKelvin) { if (temperatureInKelvin === 0) return 'Temperature cannot be zero'; return heatTransferredReversibly / temperatureInKelvin; }"
     },
     {
       "pattern": "carnot efficiency",
       "action": "calculate_carnot_efficiency",
-      "formula": "result = 1 - (cold_temperature / hot_temperature)",
-      "code_snippet": "function carnotEfficiency(coldTemperature, hotTemperature) { return 1 - (coldTemperature / hotTemperature); }"
+      "formula": "η_carnot = 1 - (T_cold / T_hot) (T in Kelvin)",
+      "code_snippet": "function carnotEfficiency(tempColdInKelvin, tempHotInKelvin) { if (tempHotInKelvin === 0) return 'Hot temperature cannot be zero'; return 1 - (tempColdInKelvin / tempHotInKelvin); }"
     },
     {
       "pattern": "gas pressure",
       "action": "calculate_gas_pressure",
-      "formula": "result = force / area",
-      "code_snippet": "function gasPressure(force, area) { return force / area; }"
+      "formula": "P = F/A",
+      "code_snippet": "function gasPressure(force, area) { if (area === 0) return 'Area cannot be zero'; return force / area; }"
     },
     {
       "pattern": "boyles law",
       "action": "calculate_boyles_law",
-      "formula": "result = P₁ * V₁ = P₂ * V₂",
-      "code_snippet": "function boylesLaw(pressure1, volume1, pressure2) { return (pressure1 * volume1) / pressure2; }"
+      "formula": "P₁V₁ = P₂V₂ (solve for one, constant T, n)",
+      "code_snippet": "function boylesLawSolve({P1, V1, P2, V2}) { if (P1!==undefined && V1!==undefined && P2!==undefined && V2===undefined) return (P1*V1)/P2; if (P1!==undefined && V1!==undefined && V2!==undefined && P2===undefined) return (P1*V1)/V2; /* ... other cases ... */ return 'Provide three values to solve for the fourth.';}"
     },
     {
       "pattern": "charles law",
       "action": "calculate_charles_law",
-      "formula": "result = V₁ / T₁ = V₂ / T₂",
-      "code_snippet": "function charlesLaw(volume1, temperature1, temperature2) { return (volume1 * temperature2) / temperature1; }"
+      "formula": "V₁/T₁ = V₂/T₂ (solve for one, constant P, n; T in Kelvin)",
+      "code_snippet": "function charlesLawSolve({V1, T1_K, V2, T2_K}) { if (V1!==undefined && T1_K!==undefined && T2_K!==undefined && V2===undefined) return (V1*T2_K)/T1_K; /* ... */ return 'Provide three values (T in Kelvin) to solve for the fourth.';}"
     },
     {
       "pattern": "gay lussac law",
       "action": "calculate_gay_lussac_law",
-      "formula": "result = P₁ / T₁ = P₂ / T₂",
-      "code_snippet": "function gayLussacLaw(pressure1, temperature1, temperature2) { return (pressure1 * temperature2) / temperature1; }"
+      "formula": "P₁/T₁ = P₂/T₂ (solve for one, constant V, n; T in Kelvin)",
+      "code_snippet": "function gayLussacLawSolve({P1, T1_K, P2, T2_K}) { if (P1!==undefined && T1_K!==undefined && T2_K!==undefined && P2===undefined) return (P1*T2_K)/T1_K; /* ... */ return 'Provide three values (T in Kelvin) to solve for the fourth.';}"
     },
     {
       "pattern": "avogadro law",
       "action": "calculate_avogadro_law",
-      "formula": "result = V₁ / n₁ = V₂ / n₂",
-      "code_snippet": "function avogadroLaw(volume1, moles1, moles2) { return (volume1 * moles2) / moles1; }"
+      "formula": "V₁/n₁ = V₂/n₂ (solve for one, constant T, P)",
+      "code_snippet": "function avogadroLawSolve({V1, n1, V2, n2}) { if (V1!==undefined && n1!==undefined && n2!==undefined && V2===undefined) return (V1*n2)/n1; /* ... */ return 'Provide three values to solve for the fourth.';}"
     },
     {
       "pattern": "combined gas law",
       "action": "calculate_combined_gas_law",
-      "formula": "result = (P₁ * V₁) / T₁ = (P₂ * V₂) / T₂",
-      "code_snippet": "function combinedGasLaw(pressure1, volume1, temperature1, pressure2, volume2) { return (pressure1 * volume1 * temperature2) / (temperature1 * pressure2); }"
+      "formula": "(P₁V₁)/T₁ = (P₂V₂)/T₂ (solve for one, T in Kelvin)",
+      "code_snippet": "function combinedGasLawSolve({P1,V1,T1_K,P2,V2,T2_K}) { /* Example: solve for V2 */ if (P1 && V1 && T1_K && P2 && T2_K && V2===undefined) return (P1*V1*T2_K)/(T1_K*P2); return 'Provide five values (T in Kelvin) to solve for the sixth.';}"
     },
     {
       "pattern": "daltons law",
       "action": "calculate_daltons_law",
-      "formula": "result = P_total = P₁ + P₂ + P₃ + ...",
-      "code_snippet": "function daltonsLaw(...partialPressures) { return partialPressures.reduce((total, pressure) => total + pressure, 0); }"
+      "formula": "P_total = P₁ + P₂ + P₃ + ... (partial pressures)",
+      "code_snippet": "function daltonsLawTotalPressure(...partialPressures) { return partialPressures.reduce((total, pressure) => total + pressure, 0); }"
     },
     {
       "pattern": "henrys law",
       "action": "calculate_henrys_law",
-      "formula": "result = concentration = henry_constant * pressure",
-      "code_snippet": "function henrysLaw(henryConstant, pressure) { return henryConstant * pressure; }"
+      "formula": "C = kH * P_gas (C=concentration, kH=Henry's const, P=partial pressure)",
+      "code_snippet": "function henrysLawConcentration(henryConstant, partialPressureGas) { return henryConstant * partialPressureGas; }"
     },
     {
       "pattern": "raoults law",
       "action": "calculate_raoults_law",
-      "formula": "result = P_solution = X_solvent * P_pure",
-      "code_snippet": "function raoultsLaw(moleFractionSolvent, purePressure) { return moleFractionSolvent * purePressure; }"
+      "formula": "P_solution = X_solvent * P°_solvent (ideal solution)",
+      "code_snippet": "function raoultsLawVaporPressure(moleFractionSolvent, vaporPressurePureSolvent) { return moleFractionSolvent * vaporPressurePureSolvent; }"
     },
     {
       "pattern": "osmotic pressure",
       "action": "calculate_osmotic_pressure",
-      "formula": "result = molarity * gas_constant * temperature",
-      "code_snippet": "function osmoticPressure(molarity, temperature) { const R = 0.0821; return molarity * R * temperature; }"
+      "formula": "Π = iMRT (i=van't Hoff, M=molarity, R=gas const, T=temp K)",
+      "code_snippet": "function osmoticPressure(vanthoffFactor, molarity, temperatureInKelvin, R = 0.0821) { return vanthoffFactor * molarity * R * temperatureInKelvin; }"
     },
     {
       "pattern": "freezing point depression",
       "action": "calculate_freezing_point_depression",
-      "formula": "result = freezing_constant * molality",
-      "code_snippet": "function freezingPointDepression(freezingConstant, molality) { return freezingConstant * molality; }"
+      "formula": "ΔT_f = i * K_f * m (i=van't Hoff, K_f=cryoscopic const, m=molality)",
+      "code_snippet": "function freezingPointDepression(vanthoffFactor, cryoscopicConstant, molality) { return vanthoffFactor * cryoscopicConstant * molality; }"
     },
     {
       "pattern": "boiling point elevation",
       "action": "calculate_boiling_point_elevation",
-      "formula": "result = boiling_constant * molality",
-      "code_snippet": "function boilingPointElevation(boilingConstant, molality) { return boilingConstant * molality; }"
+      "formula": "ΔT_b = i * K_b * m (i=van't Hoff, K_b=ebullioscopic const, m=molality)",
+      "code_snippet": "function boilingPointElevation(vanthoffFactor, ebullioscopicConstant, molality) { return vanthoffFactor * ebullioscopicConstant * molality; }"
     },
     {
       "pattern": "arrhenius equation",
       "action": "calculate_arrhenius_equation",
-      "formula": "result = A * e^(-Ea / RT)",
-      "code_snippet": "function arrheniusEquation(preExponentialFactor, activationEnergy, gasConstant, temperature) { return preExponentialFactor * Math.exp(-activationEnergy / (gasConstant * temperature)); }"
+      "formula": "k = A * e^(-Ea / RT) (k=rate const, A=pre-exp factor, Ea=activation energy)",
+      "code_snippet": "function arrheniusEquationRateConstant(preExponentialFactor, activationEnergy, temperatureInKelvin, R = 8.314) { return preExponentialFactor * Math.exp(-activationEnergy / (R * temperatureInKelvin)); }"
     },
     {
       "pattern": "rate constant",
       "action": "calculate_rate_constant",
-      "formula": "result = rate / [concentration]^order",
-      "code_snippet": "function rateConstant(rate, concentration, order) { return rate / Math.pow(concentration, order); }"
+      "formula": "Depends on rate law, e.g., Rate = k[A]^m[B]^n",
+      "code_snippet": "function rateConstantFirstOrder(rate, concentrationA) { if (concentrationA === 0) return 'Concentration cannot be zero'; return rate / concentrationA; }"
     },
     {
       "pattern": "half life first order",
       "action": "calculate_first_order_half_life",
-      "formula": "result = ln(2) / rate_constant",
-      "code_snippet": "function firstOrderHalfLife(rateConstant) { return Math.log(2) / rateConstant; }"
+      "formula": "t½ = ln(2) / k (k=rate constant)",
+      "code_snippet": "function firstOrderHalfLife(rateConstant) { if (rateConstant <= 0) return 'Rate constant must be positive'; return Math.log(2) / rateConstant; }"
     },
     {
       "pattern": "integrated rate law",
       "action": "calculate_integrated_rate_law",
-      "formula": "result = [A] = [A₀] * e^(-kt)",
-      "code_snippet": "function integratedRateLaw(initialConcentration, rateConstant, time) { return initialConcentration * Math.exp(-rateConstant * time); }"
+      "formula": "ln[A]t = -kt + ln[A]₀ (first order)",
+      "code_snippet": "function integratedRateLawFirstOrder(initialConcentration, rateConstant, time) { return initialConcentration * Math.exp(-rateConstant * time); }"
     },
     {
       "pattern": "equilibrium constant",
       "action": "calculate_equilibrium_constant",
-      "formula": "result = [products] / [reactants]",
-      "code_snippet": "function equilibriumConstant(productConcentrations, reactantConcentrations) { return productConcentrations.reduce((a, b) => a * b, 1) / reactantConcentrations.reduce((a, b) => a * b, 1); }"
+      "formula": "K_c = [Products]^coeffs / [Reactants]^coeffs (concentrations)",
+      "code_snippet": "function equilibriumConstantKc(productConcentrations, productCoefficients, reactantConcentrations, reactantCoefficients) { let num = 1; productConcentrations.forEach((c, i) => num *= Math.pow(c, productCoefficients[i])); let den = 1; reactantConcentrations.forEach((c, i) => den *= Math.pow(c, reactantCoefficients[i])); if (den === 0) return 'Reactant concentration product cannot be zero'; return num / den; }"
     },
     {
       "pattern": "gibbs free energy",
       "action": "calculate_gibbs_free_energy",
-      "formula": "result = enthalpy - (temperature * entropy)",
-      "code_snippet": "function gibbsFreeEnergy(enthalpy, temperature, entropy) { return enthalpy - (temperature * entropy); }"
+      "formula": "ΔG = ΔH - TΔS (T in Kelvin)",
+      "code_snippet": "function gibbsFreeEnergy(enthalpyChange, temperatureInKelvin, entropyChange) { return enthalpyChange - (temperatureInKelvin * entropyChange); }"
     },
     {
       "pattern": "nernst equation",
       "action": "calculate_nernst_equation",
-      "formula": "result = standard_potential - (RT/nF) * ln(Q)",
-      "code_snippet": "function nernstEquation(standardPotential, temperature, electrons, reactionQuotient) { const R = 8.314; const F = 96485; return standardPotential - (R * temperature / (electrons * F)) * Math.log(reactionQuotient); }"
+      "formula": "E_cell = E°_cell - (RT/nF)lnQ (T in K, F=Faraday const)",
+      "code_snippet": "function nernstEquation(standardCellPotential, temperatureInKelvin, numberOfElectrons, reactionQuotientQ, R = 8.314, F = 96485) { if (numberOfElectrons === 0) return 'Number of electrons cannot be zero'; if (reactionQuotientQ <=0) return 'Reaction quotient must be positive'; return standardCellPotential - (R * temperatureInKelvin / (numberOfElectrons * F)) * Math.log(reactionQuotientQ); }"
     },
     {
       "pattern": "henderson hasselbalch",
       "action": "calculate_henderson_hasselbalch",
-      "formula": "result = pKa + log([A⁻] / [HA])",
-      "code_snippet": "function hendersonHasselbalch(pKa, conjugateBase, acid) { return pKa + Math.log10(conjugateBase / acid); }"
+      "formula": "pH = pKa + log₁₀([A⁻]/[HA])",
+      "code_snippet": "function hendersonHasselbalch(pKa, concentrationConjugateBase, concentrationAcid) { if (concentrationAcid === 0) return 'Acid concentration cannot be zero'; if (concentrationConjugateBase / concentrationAcid <= 0) return 'Ratio [A-]/[HA] must be positive'; return pKa + Math.log10(concentrationConjugateBase / concentrationAcid); }"
     },
     {
       "pattern": "buffer capacity",
       "action": "calculate_buffer_capacity",
-      "formula": "result = 2.3 * concentration * Ka * [H⁺] / (Ka + [H⁺])²",
-      "code_snippet": "function bufferCapacity(concentration, ka, hydrogenConcentration) { return 2.3 * concentration * ka * hydrogenConcentration / Math.pow(ka + hydrogenConcentration, 2); }"
+      "formula": "β ≈ 2.303 * C_total * (Ka[H⁺]) / (Ka + [H⁺])²",
+      "code_snippet": "function bufferCapacity(totalBufferConcentration, Ka, hydrogenIonConcentration) { const denominator = Math.pow(Ka + hydrogenIonConcentration, 2); if (denominator === 0) return 'Denominator Ka+[H+] cannot be zero'; return 2.303 * totalBufferConcentration * Ka * hydrogenIonConcentration / denominator; }"
     },
     {
       "pattern": "ionic strength",
       "action": "calculate_ionic_strength",
-      "formula": "result = 0.5 * Σ(concentration * charge²)",
-      "code_snippet": "function ionicStrength(concentrations, charges) { return 0.5 * concentrations.reduce((sum, conc, i) => sum + conc * charges[i] * charges[i], 0); }"
+      "formula": "I = 0.5 * Σ(cᵢ * zᵢ²)",
+      "code_snippet": "function ionicStrength(concentrationsArray, chargesArray) { if (concentrationsArray.length !== chargesArray.length) return 'Concentrations and charges arrays must have same length'; let sum = 0; for (let i = 0; i < concentrationsArray.length; i++) { sum += concentrationsArray[i] * Math.pow(chargesArray[i], 2); } return 0.5 * sum; }"
     },
     {
       "pattern": "debye huckel",
       "action": "calculate_debye_huckel",
-      "formula": "result = -A * charge² * √ionic_strength",
-      "code_snippet": "function debyeHuckel(charge, ionicStrength, temperature) { const A = 0.509; return -A * charge * charge * Math.sqrt(ionicStrength); }"
+      "formula": "log₁₀(γ) = -A |z⁺z⁻| √I (limiting law, γ=activity coeff.)",
+      "code_snippet": "function debyeHuckelLogGamma(chargeCation, chargeAnion, ionicStrength, A = 0.509) { if (ionicStrength < 0) return 'Ionic strength cannot be negative'; return -A * Math.abs(chargeCation * chargeAnion) * Math.sqrt(ionicStrength); }"
     },
     {
       "pattern": "activity coefficient",
       "action": "calculate_activity_coefficient",
-      "formula": "result = e^(-A * charge² * √ionic_strength)",
-      "code_snippet": "function activityCoefficient(charge, ionicStrength) { const A = 0.509; return Math.exp(-A * charge * charge * Math.sqrt(ionicStrength)); }"
+      "formula": "γ from Debye-Huckel or extended versions",
+      "code_snippet": "function activityCoefficientFromLogGamma(logGamma) { return Math.pow(10, logGamma); }"
     },
     {
       "pattern": "solubility product",
       "action": "calculate_solubility_product",
-      "formula": "result = [cation]^m * [anion]^n",
-      "code_snippet": "function solubilityProduct(cationConcentration, anionConcentration, cationCoeff, anionCoeff) { return Math.pow(cationConcentration, cationCoeff) * Math.pow(anionConcentration, anionCoeff); }"
+      "formula": "Ksp = [Cation]^m * [Anion]^n",
+      "code_snippet": "function solubilityProduct(cationConcentration, cationStoichiometry, anionConcentration, anionStoichiometry) { return Math.pow(cationConcentration, cationStoichiometry) * Math.pow(anionConcentration, anionStoichiometry); }"
     },
     {
       "pattern": "common ion effect",
       "action": "calculate_common_ion_effect",
-      "formula": "result = Ksp / [common_ion]^coefficient",
-      "code_snippet": "function commonIonEffect(ksp, commonIonConcentration, coefficient) { return ksp / Math.pow(commonIonConcentration, coefficient); }"
+      "formula": "Reduces solubility of a salt when a common ion is added",
+      "code_snippet": "function commonIonEffectSolubility(Ksp, commonIonConcentration, commonIonStoichiometryInSalt) { if (commonIonConcentration === 0) return 'Common ion concentration cannot be zero for this calculation'; return Ksp / Math.pow(commonIonConcentration, commonIonStoichiometryInSalt); /* This is simplified, usually requires solving polynomial */ }"
     },
     {
       "pattern": "complex formation",
       "action": "calculate_complex_formation",
-      "formula": "result = [complex] / ([metal] * [ligand]^n)",
-      "code_snippet": "function complexFormation(complexConcentration, metalConcentration, ligandConcentration, ligandNumber) { return complexConcentration / (metalConcentration * Math.pow(ligandConcentration, ligandNumber)); }"
+      "formula": "K_f = [Complex] / ([Metal] * [Ligand]^n)",
+      "code_snippet": "function complexFormationConstant(complexConcentration, metalConcentration, ligandConcentration, ligandStoichiometry) { if (metalConcentration === 0 || Math.pow(ligandConcentration, ligandStoichiometry) === 0) return 'Denominator cannot be zero'; return complexConcentration / (metalConcentration * Math.pow(ligandConcentration, ligandStoichiometry)); }"
     },
     {
       "pattern": "coordination number",
       "action": "calculate_coordination_number",
-      "formula": "result = number of ligands bonded to central atom",
-      "code_snippet": "function coordinationNumber(ligands) { return ligands.length; }"
+      "formula": "Number of ligand atoms directly bonded to central metal",
+      "code_snippet": "function coordinationNumber(numberOfLigandDonorAtoms) { return numberOfLigandDonorAtoms; /* Simplified, actual determination is complex */ }"
     },
     {
       "pattern": "crystal field splitting",
       "action": "calculate_crystal_field_splitting",
-      "formula": "result = energy difference between d orbitals",
-      "code_snippet": "function crystalFieldSplitting(ligandFieldStrength, metalOrbitalEnergy) { return ligandFieldStrength - metalOrbitalEnergy; }"
+      "formula": "Δ₀ or Δt = energy difference between d-orbital sets",
+      "code_snippet": "function crystalFieldSplittingEnergy(energyHigherSet, energyLowerSet) { return energyHigherSet - energyLowerSet; }"
     },
     {
       "pattern": "magnetic moment",
       "action": "calculate_magnetic_moment",
-      "formula": "result = √(n(n+2)) * Bohr_magneton",
-      "code_snippet": "function magneticMoment(unpairedElectrons) { const bohrMagneton = 9.274e-24; return Math.sqrt(unpairedElectrons * (unpairedElectrons + 2)) * bohrMagneton; }"
+      "formula": "μ_so = √[n(n+2)] Bohr magnetons (n=unpaired electrons)",
+      "code_snippet": "function magneticMomentSpinOnly(numberOfUnpairedElectrons) { return Math.sqrt(numberOfUnpairedElectrons * (numberOfUnpairedElectrons + 2)); }"
     },
     {
       "pattern": "electron configuration",
       "action": "determine_electron_configuration",
-      "formula": "result = orbital filling order",
-      "code_snippet": "function electronConfiguration(atomicNumber) { const orbitals = ['1s', '2s', '2p', '3s', '3p', '4s', '3d', '4p', '5s', '4d', '5p', '6s', '4f', '5d', '6p']; const maxElectrons = [2, 2, 6, 2, 6, 2, 10, 6, 2, 10, 6, 2, 14, 10, 6]; let config = ''; let electrons = atomicNumber; for (let i = 0; i < orbitals.length && electrons > 0; i++) { const electronsInOrbital = Math.min(electrons, maxElectrons[i]); config += orbitals[i] + electronsInOrbital + ' '; electrons -= electronsInOrbital; } return config.trim(); }"
+      "formula": "Based on Aufbau, Pauli, Hund's rule (e.g., 1s²2s²2p⁶...)",
+      "code_snippet": "function electronConfiguration(atomicNumber) { /* Simplified - this is a placeholder for a complex algorithm */ const orbitals = ['1s', '2s', '2p', '3s', '3p', '4s', '3d', '4p', '5s', '4d', '5p', '6s', '4f', '5d', '6p', '7s', '5f', '6d', '7p']; const maxElectrons = [2, 2, 6, 2, 6, 2, 10, 6, 2, 10, 6, 2, 14, 10, 6, 2, 14, 10, 6]; let config = ''; let electrons = atomicNumber; for (let i = 0; i < orbitals.length && electrons > 0; i++) { const fill = Math.min(electrons, maxElectrons[i]); config += orbitals[i] + fill + ' '; electrons -= fill; } return config.trim(); }"
     },
     {
       "pattern": "oxidation state",
       "action": "calculate_oxidation_state",
-      "formula": "result = formal charge - actual charge",
-      "code_snippet": "function oxidationState(formalCharge, actualCharge) { return formalCharge - actualCharge; }"
+      "formula": "Hypothetical charge if all bonds were 100% ionic",
+      "code_snippet": "function oxidationState(valenceElectrons, assignedElectronsInCompound) { return valenceElectrons - assignedElectronsInCompound; /* Highly simplified */ }"
     },
     {
       "pattern": "formal charge",
       "action": "calculate_formal_charge",
-      "formula": "result = valence_electrons - nonbonding_electrons - (bonding_electrons / 2)",
-      "code_snippet": "function formalCharge(valenceElectrons, nonbondingElectrons, bondingElectrons) { return valenceElectrons - nonbondingElectrons - (bondingElectrons / 2); }"
+      "formula": "FC = (Valence e⁻) - (Non-bonding e⁻) - 0.5*(Bonding e⁻)",
+      "code_snippet": "function formalCharge(valenceElectrons, nonBondingElectrons, bondingElectrons) { return valenceElectrons - nonBondingElectrons - (0.5 * bondingElectrons); }"
     },
     {
       "pattern": "bond order",
       "action": "calculate_bond_order",
-      "formula": "result = (bonding_electrons - antibonding_electrons) / 2",
-      "code_snippet": "function bondOrder(bondingElectrons, antibondingElectrons) { return (bondingElectrons - antibondingElectrons) / 2; }"
+      "formula": "BO = 0.5 * (e⁻ in bonding MOs - e⁻ in antibonding MOs)",
+      "code_snippet": "function bondOrder(electronsInBondingMOs, electronsInAntibondingMOs) { return 0.5 * (electronsInBondingMOs - electronsInAntibondingMOs); }"
     },
     {
       "pattern": "hybridization",
       "action": "determine_hybridization",
-      "formula": "result = based on electron geometry",
-      "code_snippet": "function hybridization(electronPairs) { const hybridizations = ['', 'sp', 'sp2', 'sp3', 'sp3d', 'sp3d2']; return hybridizations[electronPairs] || 'unknown'; }"
+      "formula": "sp, sp², sp³, etc. based on electron domains (VSEPR)",
+      "code_snippet": "function hybridization(numberOfSigmaBonds, numberOfLonePairs) { const totalDomains = numberOfSigmaBonds + numberOfLonePairs; if (totalDomains === 2) return 'sp'; if (totalDomains === 3) return 'sp2'; if (totalDomains === 4) return 'sp3'; if (totalDomains === 5) return 'sp3d'; if (totalDomains === 6) return 'sp3d2'; return 'Unknown'; }"
     },
     {
       "pattern": "molecular geometry",
       "action": "determine_molecular_geometry",
-      "formula": "result = based on VSEPR theory",
-      "code_snippet": "function molecularGeometry(bondingPairs, lonePairs) { const geometries = { '2,0': 'linear', '3,0': 'trigonal planar', '2,1': 'bent', '4,0': 'tetrahedral', '3,1': 'trigonal pyramidal', '2,2': 'bent', '5,0': 'trigonal bipyramidal', '4,1': 'seesaw', '3,2': 'T-shaped', '2,3': 'linear', '6,0': 'octahedral', '5,1': 'square pyramidal', '4,2': 'square planar' }; return geometries[bondingPairs + ',' + lonePairs] || 'unknown'; }"
+      "formula": "Based on VSEPR theory (e.g., linear, trigonal planar, tetrahedral)",
+      "code_snippet": "function molecularGeometry(bondingPairs, lonePairs) { const totalPairs = bondingPairs + lonePairs; if (totalPairs === 2 && lonePairs === 0) return 'Linear'; if (totalPairs === 3 && lonePairs === 0) return 'Trigonal Planar'; if (totalPairs === 3 && lonePairs === 1) return 'Bent'; /* Add more VSEPR cases */ return 'See VSEPR chart'; }"
     },
     {
       "pattern": "dipole moment",
       "action": "calculate_dipole_moment",
-      "formula": "result = charge * distance",
-      "code_snippet": "function dipoleMoment(charge, distance) { return charge * distance; }"
+      "formula": "μ = q * r (charge separation * distance)",
+      "code_snippet": "function dipoleMoment(chargeSeparation, distance) { return chargeSeparation * distance; }"
     },
     {
       "pattern": "electronegativity difference",
       "action": "calculate_electronegativity_difference",
-      "formula": "result = |electronegativity1 - electronegativity2|",
-      "code_snippet": "function electronegativityDifference(en1, en2) { return Math.abs(en1 - en2); }"
+      "formula": "ΔEN = |EN₁ - EN₂|",
+      "code_snippet": "function electronegativityDifference(electronegativity1, electronegativity2) { return Math.abs(electronegativity1 - electronegativity2); }"
     },
     {
       "pattern": "bond polarity",
       "action": "determine_bond_polarity",
-      "formula": "result = based on electronegativity difference",
-      "code_snippet": "function bondPolarity(enDifference) { if (enDifference < 0.4) return 'nonpolar covalent'; if (enDifference < 1.7) return 'polar covalent'; return 'ionic'; }"
+      "formula": "Based on ΔEN (Nonpolar, Polar Covalent, Ionic)",
+      "code_snippet": "function bondPolarity(deltaEN) { if (deltaEN < 0.4) return 'Nonpolar Covalent'; if (deltaEN < 1.7) return 'Polar Covalent'; return 'Ionic'; }"
     },
     {
       "pattern": "lattice energy",
       "action": "calculate_lattice_energy",
-      "formula": "result = k * (charge1 * charge2) / distance",
-      "code_snippet": "function latticeEnergy(charge1, charge2, distance) { const k = 2.31e-19; return k * charge1 * charge2 / distance; }"
+      "formula": "U = k * (Q₁Q₂/r) (Born-Landé equation simplified)",
+      "code_snippet": "function latticeEnergyBornLandeApprox(charge1, charge2, interionicDistance, k = 1.389e5 /* kJ*pm/mol */) { if (interionicDistance === 0) return 'Distance cannot be zero'; return k * (charge1 * charge2) / interionicDistance; }"
     },
     {
       "pattern": "born haber cycle",
       "action": "calculate_born_haber_cycle",
-      "formula": "result = sum of energy changes",
-      "code_snippet": "function bornHaberCycle(...energyChanges) { return energyChanges.reduce((sum, energy) => sum + energy, 0); }"
+      "formula": "ΔH_formation = Sum of enthalpy changes in cycle",
+      "code_snippet": "function bornHaberCycleFormationEnthalpy(enthalpyAtomisation, ionizationEnergy, bondDissociationEnergy, electronAffinity, latticeEnergy) { return enthalpyAtomisation + ionizationEnergy + 0.5*bondDissociationEnergy + electronAffinity + latticeEnergy; /* Example for MX(s) */ }"
     },
     {
       "pattern": "hess law",
       "action": "calculate_hess_law",
-      "formula": "result = sum of enthalpy changes",
-      "code_snippet": "function hessLaw(...enthalpyChanges) { return enthalpyChanges.reduce((sum, enthalpy) => sum + enthalpy, 0); }"
+      "formula": "ΔH_reaction = ΣΔH_steps",
+      "code_snippet": "function hessLawTotalEnthalpy(...enthalpyChangesOfSteps) { return enthalpyChangesOfSteps.reduce((sum, enthalpy) => sum + enthalpy, 0); }"
     },
     {
       "pattern": "calorimetry",
       "action": "calculate_calorimetry",
-      "formula": "result = mass * specific_heat * temperature_change",
-      "code_snippet": "function calorimetry(mass, specificHeat, temperatureChange) { return mass * specificHeat * temperatureChange; }"
+      "formula": "q = mcΔT (heat absorbed/released by substance)",
+      "code_snippet": "function calorimetryHeatTransfer(mass, specificHeatCapacity, temperatureChange) { return mass * specificHeatCapacity * temperatureChange; }"
     },
     {
       "pattern": "bomb calorimeter",
       "action": "calculate_bomb_calorimeter",
-      "formula": "result = calorimeter_constant * temperature_change",
-      "code_snippet": "function bombCalorimeter(calorimeterConstant, temperatureChange) { return calorimeterConstant * temperatureChange; }"
+      "formula": "q_cal = C_cal * ΔT (C_cal = calorimeter const.)",
+      "code_snippet": "function bombCalorimeterHeat(calorimeterConstant, temperatureChange) { return calorimeterConstant * temperatureChange; }"
     },
     {
       "pattern": "coffee cup calorimeter",
       "action": "calculate_coffee_cup_calorimeter",
-      "formula": "result = mass * specific_heat * temperature_change",
-      "code_snippet": "function coffeeCupCalorimeter(mass, specificHeat, temperatureChange) { return mass * specificHeat * temperatureChange; }"
+      "formula": "q_solution = m_solution * c_solution * ΔT_solution",
+      "code_snippet": "function coffeeCupCalorimeterHeatSolution(massSolution, specificHeatSolution, tempChangeSolution) { return massSolution * specificHeatSolution * tempChangeSolution; }"
     },
     {
-      "pattern": "enthalpy of formation",
+      "pattern": "enthalpy formation",
       "action": "calculate_enthalpy_formation",
-      "formula": "result = enthalpy of products - enthalpy of reactants",
-      "code_snippet": "function enthalpyFormation(productEnthalpies, reactantEnthalpies) { const productSum = productEnthalpies.reduce((sum, h) => sum + h, 0); const reactantSum = reactantEnthalpies.reduce((sum, h) => sum + h, 0); return productSum - reactantSum; }"
+      "formula": "ΔH°_rxn = ΣnΔH°_f(products) - ΣmΔH°_f(reactants)",
+      "code_snippet": "function enthalpyReactionFromFormation(sumProductsEnthalpies, sumReactantsEnthalpies) { return sumProductsEnthalpies - sumReactantsEnthalpies; }"
     },
     {
-      "pattern": "enthalpy of combustion",
+      "pattern": "enthalpy combustion",
       "action": "calculate_enthalpy_combustion",
-      "formula": "result = heat released / moles of fuel",
-      "code_snippet": "function enthalpyCombustion(heatReleased, molesOfFuel) { return heatReleased / molesOfFuel; }"
+      "formula": "ΔH°_comb = heat released / moles combusted (usually negative)",
+      "code_snippet": "function enthalpyCombustion(heatReleased, molesCombusted) { if (molesCombusted === 0) return 'Moles cannot be zero'; return heatReleased / molesCombusted; }"
     },
     {
-      "pattern": "enthalpy of fusion",
+      "pattern": "enthalpy fusion",
       "action": "calculate_enthalpy_fusion",
-      "formula": "result = heat required to melt / moles",
-      "code_snippet": "function enthalpyFusion(heatRequired, moles) { return heatRequired / moles; }"
+      "formula": "ΔH_fus = heat absorbed to melt / moles (solid to liquid)",
+      "code_snippet": "function enthalpyFusion(heatAbsorbedToMelt, moles) { if (moles === 0) return 'Moles cannot be zero'; return heatAbsorbedToMelt / moles; }"
     },
     {
-      "pattern": "enthalpy of vaporization",
+      "pattern": "enthalpy vaporization",
       "action": "calculate_enthalpy_vaporization",
-      "formula": "result = heat required to vaporize / moles",
-      "code_snippet": "function enthalpyVaporization(heatRequired, moles) { return heatRequired / moles; }"
+      "formula": "ΔH_vap = heat absorbed to vaporize / moles (liquid to gas)",
+      "code_snippet": "function enthalpyVaporization(heatAbsorbedToVaporize, moles) { if (moles === 0) return 'Moles cannot be zero'; return heatAbsorbedToVaporize / moles; }"
     },
     {
-      "pattern": "entropy of mixing",
+      "pattern": "entropy mixing",
       "action": "calculate_entropy_mixing",
-      "formula": "result = -R * Σ(xi * ln(xi))",
-      "code_snippet": "function entropyMixing(moleFractions) { const R = 8.314; return -R * moleFractions.reduce((sum, x) => sum + x * Math.log(x), 0); }"
+      "formula": "ΔS_mix = -R * Σ(nᵢ * ln(xᵢ)) (ideal gases/solutions)",
+      "code_snippet": "function entropyMixingIdealGases(molesArray, R = 8.314) { const totalMoles = molesArray.reduce((sum, n) => sum + n, 0); if (totalMoles === 0) return 0; let sum = 0; molesArray.forEach(n_i => { if (n_i > 0) sum += n_i * Math.log(n_i / totalMoles); }); return -R * sum; }"
     },
     {
       "pattern": "clausius clapeyron",
       "action": "calculate_clausius_clapeyron",
-      "formula": "result = ln(P2/P1) = -ΔHvap/R * (1/T2 - 1/T1)",
-      "code_snippet": "function clausiusClapeyron(pressure1, temperature1, temperature2, enthalpyVaporization) { const R = 8.314; return pressure1 * Math.exp(-enthalpyVaporization / R * (1/temperature2 - 1/temperature1)); }"
+      "formula": "ln(P₂/P₁) = (-ΔH_vap/R) * (1/T₂ - 1/T₁) (T in Kelvin)",
+      "code_snippet": "function clausiusClapeyronPressure2(P1, T1_K, T2_K, deltaHvap, R = 8.314) { if (T1_K === 0 || T2_K === 0) return 'Temperatures cannot be zero'; return P1 * Math.exp((-deltaHvap / R) * (1/T2_K - 1/T1_K)); }"
     },
     {
       "pattern": "van der waals",
       "action": "calculate_van_der_waals",
-      "formula": "result = (P + a/V²)(V - b) = RT",
-      "code_snippet": "function vanDerWaals(pressure, volume, temperature, a, b) { const R = 0.0821; return (pressure + a / (volume * volume)) * (volume - b) - R * temperature; }"
+      "formula": "(P + a(n/V)²)(V - nb) = nRT (solve for P, V, T, or n)",
+      "code_snippet": "function vanDerWaalsPressure(n, V, T_K, a, b, R = 0.0821) { if (V - n*b <= 0) return 'Volume too small for V-nb > 0'; return (n*R*T_K)/(V - n*b) - a*Math.pow(n/V, 2); }"
     },
     {
       "pattern": "virial equation",
       "action": "calculate_virial_equation",
-      "formula": "result = PV/RT = 1 + B/V + C/V² + ...",
-      "code_snippet": "function virialEquation(pressure, volume, temperature, virialCoefficients) { const R = 0.0821; let sum = 1; for (let i = 0; i < virialCoefficients.length; i++) { sum += virialCoefficients[i] / Math.pow(volume, i + 1); } return pressure * volume / (R * temperature) - sum; }"
+      "formula": "Z = PV/nRT = 1 + B(T)/V_m + C(T)/V_m² + ... (V_m = molar volume)",
+      "code_snippet": "function virialEquationZ(molarVolume, temperature, B_coeff, C_coeff = 0) { return 1 + B_coeff/molarVolume + C_coeff/Math.pow(molarVolume, 2); }"
     },
     {
       "pattern": "compressibility factor",
       "action": "calculate_compressibility_factor",
-      "formula": "result = PV / RT",
-      "code_snippet": "function compressibilityFactor(pressure, volume, temperature) { const R = 0.0821; return pressure * volume / (R * temperature); }"
+      "formula": "Z = PV_m / RT (V_m = molar volume)",
+      "code_snippet": "function compressibilityFactor(pressure, molarVolume, temperatureInKelvin, R = 0.0821 /* L*atm/mol*K */) { if (R * temperatureInKelvin === 0) return 'Denominator RT cannot be zero'; return (pressure * molarVolume) / (R * temperatureInKelvin); }"
     },
     {
       "pattern": "critical temperature",
       "action": "calculate_critical_temperature",
-      "formula": "result = 8a / (27Rb)",
-      "code_snippet": "function criticalTemperature(a, b) { const R = 0.0821; return 8 * a / (27 * R * b); }"
+      "formula": "T_c = 8a / (27Rb) (from van der Waals parameters)",
+      "code_snippet": "function criticalTemperature(a_vdw, b_vdw, R = 0.0821) { if (R * b_vdw === 0) return 'Denominator cannot be zero'; return (8 * a_vdw) / (27 * R * b_vdw); }"
     },
     {
       "pattern": "critical pressure",
       "action": "calculate_critical_pressure",
-      "formula": "result = a / (27b²)",
-      "code_snippet": "function criticalPressure(a, b) { return a / (27 * b * b); }"
+      "formula": "P_c = a / (27b²) (from van der Waals parameters)",
+      "code_snippet": "function criticalPressure(a_vdw, b_vdw) { if (b_vdw === 0) return 'b cannot be zero'; return a_vdw / (27 * b_vdw * b_vdw); }"
     },
     {
       "pattern": "critical volume",
       "action": "calculate_critical_volume",
-      "formula": "result = 3b",
-      "code_snippet": "function criticalVolume(b) { return 3 * b; }"
+      "formula": "V_c,m = 3b (molar critical volume from van der Waals 'b')",
+      "code_snippet": "function criticalMolarVolume(b_vdw) { return 3 * b_vdw; }"
     },
     {
       "pattern": "reduced temperature",
       "action": "calculate_reduced_temperature",
-      "formula": "result = T / Tc",
-      "code_snippet": "function reducedTemperature(temperature, criticalTemperature) { return temperature / criticalTemperature; }"
+      "formula": "T_r = T / T_c",
+      "code_snippet": "function reducedTemperature(temperature, criticalTemperature) { if (criticalTemperature === 0) return 'Critical temperature cannot be zero'; return temperature / criticalTemperature; }"
     },
     {
       "pattern": "reduced pressure",
       "action": "calculate_reduced_pressure",
-      "formula": "result = P / Pc",
-      "code_snippet": "function reducedPressure(pressure, criticalPressure) { return pressure / criticalPressure; }"
+      "formula": "P_r = P / P_c",
+      "code_snippet": "function reducedPressure(pressure, criticalPressure) { if (criticalPressure === 0) return 'Critical pressure cannot be zero'; return pressure / criticalPressure; }"
     },
     {
       "pattern": "reduced volume",
       "action": "calculate_reduced_volume",
-      "formula": "result = V / Vc",
-      "code_snippet": "function reducedVolume(volume, criticalVolume) { return volume / criticalVolume; }"
+      "formula": "V_r = V_m / V_c,m (molar volumes)",
+      "code_snippet": "function reducedMolarVolume(molarVolume, criticalMolarVolume) { if (criticalMolarVolume === 0) return 'Critical molar volume cannot be zero'; return molarVolume / criticalMolarVolume; }"
     },
     {
       "pattern": "acentric factor",
       "action": "calculate_acentric_factor",
-      "formula": "result = -log10(Pr) - 1",
-      "code_snippet": "function acentricFactor(reducedPressure) { return -Math.log10(reducedPressure) - 1; }"
+      "formula": "ω = -log₁₀(P_r,sat @ T_r=0.7) - 1.000",
+      "code_snippet": "function acentricFactor(reducedSatVaporPressureAtTr07) { if (reducedSatVaporPressureAtTr07 <= 0) return 'Pressure must be positive'; return -Math.log10(reducedSatVaporPressureAtTr07) - 1.000; }"
     },
     {
       "pattern": "fugacity coefficient",
       "action": "calculate_fugacity_coefficient",
-      "formula": "result = fugacity / pressure",
-      "code_snippet": "function fugacityCoefficient(fugacity, pressure) { return fugacity / pressure; }"
+      "formula": "φ = f/P (f=fugacity, P=pressure)",
+      "code_snippet": "function fugacityCoefficient(fugacity, pressure) { if (pressure === 0) return 'Pressure cannot be zero for f/P'; return fugacity / pressure; }"
     },
     {
       "pattern": "activity",
       "action": "calculate_activity",
-      "formula": "result = activity_coefficient * mole_fraction",
+      "formula": "aᵢ = γᵢ * xᵢ (γ=activity coeff, x=mole fraction)",
       "code_snippet": "function activity(activityCoefficient, moleFraction) { return activityCoefficient * moleFraction; }"
     },
     {
       "pattern": "chemical potential",
       "action": "calculate_chemical_potential",
-      "formula": "result = standard_potential + RT * ln(activity)",
-      "code_snippet": "function chemicalPotential(standardPotential, temperature, activity) { const R = 8.314; return standardPotential + R * temperature * Math.log(activity); }"
+      "formula": "μᵢ = μᵢ° + RTln(aᵢ) (T in K)",
+      "code_snippet": "function chemicalPotential(standardChemicalPotential, temperatureInKelvin, activity_i, R = 8.314) { if (activity_i <= 0) return 'Activity must be positive'; return standardChemicalPotential + R * temperatureInKelvin * Math.log(activity_i); }"
     },
     {
       "pattern": "partition function",
       "action": "calculate_partition_function",
-      "formula": "result = Σ e^(-Ei/kT)",
-      "code_snippet": "function partitionFunction(energyLevels, temperature) { const k = 1.381e-23; return energyLevels.reduce((sum, energy) => sum + Math.exp(-energy / (k * temperature)), 0); }"
+      "formula": "Q = Σgᵢ * e^(-Eᵢ/kT) (k=Boltzmann const, T in K)",
+      "code_snippet": "function partitionFunction(energyLevelsArray, degeneraciesArray, temperatureInKelvin, k_Boltzmann = 1.380649e-23) { if (temperatureInKelvin === 0) return 'Temperature cannot be zero'; let Q = 0; for (let i=0; i < energyLevelsArray.length; i++) { Q += (degeneraciesArray[i] || 1) * Math.exp(-energyLevelsArray[i] / (k_Boltzmann * temperatureInKelvin)); } return Q; }"
     },
     {
       "pattern": "boltzmann distribution",
       "action": "calculate_boltzmann_distribution",
-      "formula": "result = e^(-E/kT) / Z",
-      "code_snippet": "function boltzmannDistribution(energy, temperature, partitionFunction) { const k = 1.381e-23; return Math.exp(-energy / (k * temperature)) / partitionFunction; }"
+      "formula": "Nᵢ/N = gᵢ * e^(-Eᵢ/kT) / Q",
+      "code_snippet": "function boltzmannDistributionPopulationFraction(energyLevel_i, degeneracy_i, temperatureInKelvin, partitionFunction_Q, k_Boltzmann = 1.380649e-23) { if (partitionFunction_Q === 0 || temperatureInKelvin === 0) return 'Denominator cannot be zero'; return (degeneracy_i * Math.exp(-energyLevel_i / (k_Boltzmann * temperatureInKelvin))) / partitionFunction_Q; }"
     },
     {
       "pattern": "maxwell boltzmann",
       "action": "calculate_maxwell_boltzmann",
-      "formula": "result = 4π(m/2πkT)^(3/2) * v² * e^(-mv²/2kT)",
-      "code_snippet": "function maxwellBoltzmann(mass, velocity, temperature) { const k = 1.381e-23; const factor = 4 * Math.PI * Math.pow(mass / (2 * Math.PI * k * temperature), 1.5); return factor * velocity * velocity * Math.exp(-mass * velocity * velocity / (2 * k * temperature)); }"
+      "formula": "f(v) = 4π(m/(2πkT))^(3/2) * v² * e^(-mv²/2kT)",
+      "code_snippet": "function maxwellBoltzmannSpeedDistribution(massOfParticle_kg, speed_mps, temperatureInKelvin, k_Boltzmann = 1.380649e-23) { if (temperatureInKelvin === 0) return 'Temperature cannot be zero'; const factor1 = Math.pow(massOfParticle_kg / (2 * Math.PI * k_Boltzmann * temperatureInKelvin), 1.5); const factor2 = 4 * Math.PI * speed_mps * speed_mps; const exponent = - (massOfParticle_kg * speed_mps * speed_mps) / (2 * k_Boltzmann * temperatureInKelvin); return factor1 * factor2 * Math.exp(exponent); }"
     },
     {
       "pattern": "root mean square velocity",
       "action": "calculate_rms_velocity",
-      "formula": "result = √(3RT/M)",
-      "code_snippet": "function rmsVelocity(temperature, molarMass) { const R = 8.314; return Math.sqrt(3 * R * temperature / molarMass); }"
+      "formula": "v_rms = √(3RT/M) or √(3kT/m) (M=molar mass kg/mol, m=molecular mass kg)",
+      "code_snippet": "function rmsVelocity(temperatureInKelvin, molarMass_kg_per_mol, R_gas_const = 8.31446) { if (molarMass_kg_per_mol === 0) return 'Molar mass cannot be zero'; return Math.sqrt((3 * R_gas_const * temperatureInKelvin) / molarMass_kg_per_mol); }"
     },
     {
       "pattern": "average velocity",
       "action": "calculate_average_velocity",
-      "formula": "result = √(8RT/πM)",
-      "code_snippet": "function averageVelocity(temperature, molarMass) { const R = 8.314; return Math.sqrt(8 * R * temperature / (Math.PI * molarMass)); }"
+      "formula": "v_avg = √(8RT/πM) or √(8kT/πm)",
+      "code_snippet": "function averageMolecularSpeed(temperatureInKelvin, molarMass_kg_per_mol, R_gas_const = 8.31446) { if (molarMass_kg_per_mol === 0) return 'Molar mass cannot be zero'; return Math.sqrt((8 * R_gas_const * temperatureInKelvin) / (Math.PI * molarMass_kg_per_mol)); }"
     },
     {
       "pattern": "most probable velocity",
       "action": "calculate_most_probable_velocity",
-      "formula": "result = √(2RT/M)",
-      "code_snippet": "function mostProbableVelocity(temperature, molarMass) { const R = 8.314; return Math.sqrt(2 * R * temperature / molarMass); }"
+      "formula": "v_mp = √(2RT/M) or √(2kT/m)",
+      "code_snippet": "function mostProbableMolecularSpeed(temperatureInKelvin, molarMass_kg_per_mol, R_gas_const = 8.31446) { if (molarMass_kg_per_mol === 0) return 'Molar mass cannot be zero'; return Math.sqrt((2 * R_gas_const * temperatureInKelvin) / molarMass_kg_per_mol); }"
     },
     {
       "pattern": "mean free path",
       "action": "calculate_mean_free_path",
-      "formula": "result = 1 / (√2 * σ * n)",
-      "code_snippet": "function meanFreePath(crossSection, numberDensity) { return 1 / (Math.sqrt(2) * crossSection * numberDensity); }"
+      "formula": "λ = 1 / (√2 * π * d² * (N/V)) (d=molecular diameter, N/V=number density)",
+      "code_snippet": "function meanFreePath(molecularDiameter_m, numberDensity_per_m3) { if (numberDensity_per_m3 === 0 || molecularDiameter_m === 0) return 'Denominator cannot be zero'; return 1 / (Math.sqrt(2) * Math.PI * molecularDiameter_m * molecularDiameter_m * numberDensity_per_m3); }"
     },
     {
       "pattern": "collision frequency",
       "action": "calculate_collision_frequency",
-      "formula": "result = average_velocity / mean_free_path",
-      "code_snippet": "function collisionFrequency(averageVelocity, meanFreePath) { return averageVelocity / meanFreePath; }"
+      "formula": "Z = v_avg / λ (average speed / mean free path)",
+      "code_snippet": "function collisionFrequency(averageSpeed_mps, meanFreePath_m) { if (meanFreePath_m === 0) return 'Mean free path cannot be zero'; return averageSpeed_mps / meanFreePath_m; }"
     },
     {
       "pattern": "effusion rate",
       "action": "calculate_effusion_rate",
-      "formula": "result = (pressure * area) / √(2πmkT)",
-      "code_snippet": "function effusionRate(pressure, area, mass, temperature) { const k = 1.381e-23; return (pressure * area) / Math.sqrt(2 * Math.PI * mass * k * temperature); }"
+      "formula": "Rate ∝ P * Area / √(T * M) (Graham's Law extension)",
+      "code_snippet": "function effusionRateProportional(pressure, area, temperatureInKelvin, molarMass) { if (temperatureInKelvin * molarMass <= 0) return 'Denominator sqrt(TM) must be positive'; return (pressure * area) / Math.sqrt(temperatureInKelvin * molarMass); }"
     },
     {
       "pattern": "graham law",
       "action": "calculate_graham_law",
-      "formula": "result = rate1/rate2 = √(M2/M1)",
-      "code_snippet": "function grahamLaw(molarMass1, molarMass2) { return Math.sqrt(molarMass2 / molarMass1); }"
+      "formula": "Rate₁/Rate₂ = √(M₂/M₁)",
+      "code_snippet": "function grahamLawRateRatio(molarMass1, molarMass2) { if (molarMass1 <= 0 || molarMass2 <= 0) return 'Molar masses must be positive'; return Math.sqrt(molarMass2 / molarMass1); }"
     },
     {
       "pattern": "viscosity",
       "action": "calculate_viscosity",
-      "formula": "result = (5/16) * √(mkT/π) / σ²",
-      "code_snippet": "function viscosity(mass, temperature, crossSection) { const k = 1.381e-23; return (5/16) * Math.sqrt(mass * k * temperature / Math.PI) / (crossSection * crossSection); }"
+      "formula": "η ≈ (1/3) * ρ * v_avg * λ (simplified kinetic theory)",
+      "code_snippet": "function viscosityKineticTheory(density, averageSpeed, meanFreePath) { return (1/3) * density * averageSpeed * meanFreePath; }"
     },
     {
       "pattern": "thermal conductivity",
       "action": "calculate_thermal_conductivity",
-      "formula": "result = (25/32) * (k/σ²) * √(kT/πm)",
-      "code_snippet": "function thermalConductivity(temperature, mass, crossSection) { const k = 1.381e-23; return (25/32) * (k / (crossSection * crossSection)) * Math.sqrt(k * temperature / (Math.PI * mass)); }"
+      "formula": "κ ≈ (1/3) * (N/V) * C_v,m * v_avg * λ (simplified kinetic theory)",
+      "code_snippet": "function thermalConductivityKineticTheory(numberDensity, molarHeatCapacityCv, averageSpeed, meanFreePath) { return (1/3) * numberDensity * molarHeatCapacityCv * averageSpeed * meanFreePath; }"
     },
     {
       "pattern": "diffusion coefficient",
       "action": "calculate_diffusion_coefficient",
-      "formula": "result = (3/16) * √(kT/πm) / (n * σ²)",
-      "code_snippet": "function diffusionCoefficient(temperature, mass, numberDensity, crossSection) { const k = 1.381e-23; return (3/16) * Math.sqrt(k * temperature / (Math.PI * mass)) / (numberDensity * crossSection * crossSection); }"
+      "formula": "D ≈ (1/3) * v_avg * λ (simplified kinetic theory)",
+      "code_snippet": "function diffusionCoefficientKineticTheory(averageSpeed, meanFreePath) { return (1/3) * averageSpeed * meanFreePath; }"
+    },
+    {
+      "pattern": "mass energy equivalence",
+      "action": "calculate_mass_energy",
+      "formula": "E = mc²",
+      "code_snippet": "function massEnergyEquivalence(mass_kg) { const c = 299792458; /* speed of light in m/s */ return mass_kg * c * c; }"
+    },
+    {
+      "pattern": "parallelogram area",
+      "action": "calculate_parallelogram_area",
+      "formula": "Area = base * height",
+      "code_snippet": "function parallelogramArea(base, height) { return base * height; }"
+    },
+    {
+      "pattern": "trapezoid area",
+      "action": "calculate_trapezoid_area",
+      "formula": "Area = 0.5 * (base1 + base2) * height",
+      "code_snippet": "function trapezoidArea(base1, base2, height) { return 0.5 * (base1 + base2) * height; }"
+    },
+    {
+      "pattern": "pyramid volume",
+      "action": "calculate_pyramid_volume",
+      "formula": "Volume = (1/3) * base_area * height",
+      "code_snippet": "function pyramidVolume(baseArea, height) { return (1/3) * baseArea * height; }"
+    },
+    {
+      "pattern": "cube surface area",
+      "action": "calculate_cube_surface_area",
+      "formula": "Surface Area = 6 * side²",
+      "code_snippet": "function cubeSurfaceArea(side) { return 6 * side * side; }"
+    },
+    {
+      "pattern": "radians to degrees",
+      "action": "convert_radians_degrees",
+      "formula": "Degrees = Radians * (180 / π)",
+      "code_snippet": "function radiansToDegrees(radians) { return radians * (180 / Math.PI); }"
+    },
+    {
+      "pattern": "degrees to radians",
+      "action": "convert_degrees_radians",
+      "formula": "Radians = Degrees * (π / 180)",
+      "code_snippet": "function degreesToRadians(degrees) { return degrees * (Math.PI / 180); }"
+    },
+    {
+      "pattern": "rule 72",
+      "action": "calculate_rule_of_72",
+      "formula": "Years to double ≈ 72 / Annual_Interest_Rate (%)",
+      "code_snippet": "function ruleOf72(annualInterestRatePercent) { if (annualInterestRatePercent === 0) return 'Interest rate cannot be zero'; return 72 / annualInterestRatePercent; }"
+    },
+    {
+      "pattern": "z score",
+      "action": "calculate_z_score",
+      "formula": "Z = (X - μ) / σ (X=value, μ=mean, σ=standard deviation)",
+      "code_snippet": "function zScore(value, mean, standardDeviation) { if (standardDeviation === 0) return 'Standard deviation cannot be zero'; return (value - mean) / standardDeviation; }"
+    },
+    {
+      "pattern": "pearson correlation",
+      "action": "calculate_pearson_correlation",
+      "formula": "r = Cov(X,Y) / (σX * σY)",
+      "code_snippet": "function pearsonCorrelation(arrX, arrY) { let sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0, sumY2 = 0; const n = arrX.length; if (n !== arrY.length || n === 0) return NaN; for (let i = 0; i < n; i++) { sumX += arrX[i]; sumY += arrY[i]; sumXY += arrX[i] * arrY[i]; sumX2 += arrX[i] * arrX[i]; sumY2 += arrY[i] * arrY[i]; } const numerator = n * sumXY - sumX * sumY; const denominator = Math.sqrt((n * sumX2 - sumX * sumX) * (n * sumY2 - sumY * sumY)); if (denominator === 0) return 0; return numerator / denominator; }"
+    },
+    {
+      "pattern": "power rule derivative",
+      "action": "calculate_power_rule_derivative",
+      "formula": "d/dx (ax^n) = anx^(n-1)",
+      "code_snippet": "function powerRuleDerivative(coefficient, exponent) { if (exponent === 0) return { newCoefficient: 0, newExponent: -1, string: '0' }; if (exponent === 1) return { newCoefficient: coefficient, newExponent: 0, string: `${coefficient}` }; return { newCoefficient: coefficient * exponent, newExponent: exponent - 1, string: `${coefficient * exponent}x^${exponent - 1}` }; }"
+    },
+    {
+      "pattern": "power rule integral",
+      "action": "calculate_power_rule_integral",
+      "formula": "∫ax^n dx = (ax^(n+1))/(n+1) + C, (for n ≠ -1)",
+      "code_snippet": "function powerRuleIntegral(coefficient, exponent) { if (exponent === -1) return { term: `${coefficient}ln|x|`, constant: 'C', string: `${coefficient}ln|x| + C` }; const newExponent = exponent + 1; const newCoefficient = coefficient / newExponent; return { newCoefficient: newCoefficient, newExponent: newExponent, constant: 'C', string: `${newCoefficient}x^${newExponent} + C` }; }"
+    },
+    {
+      "pattern": "log change base",
+      "action": "calculate_log_change_base",
+      "formula": "log_b(x) = log_c(x) / log_c(b)",
+      "code_snippet": "function logBase(number, base) { if (number <= 0 || base <= 0 || base === 1) return NaN; /* Or throw error */ return Math.log(number) / Math.log(base); }"
+    },
+    {
+      "pattern": "newtons second law",
+      "action": "calculate_force",
+      "formula": "F = m * a",
+      "code_snippet": "function calculateForce(mass, acceleration) { return mass * acceleration; }"
+    },
+    {
+      "pattern": "newtons law gravitation",
+      "action": "calculate_gravitational_force",
+      "formula": "F = G * (m₁ * m₂) / r²",
+      "code_snippet": "function gravitationalForce(mass1, mass2, distance, G = 6.67430e-11) { if (distance === 0) return 'Distance cannot be zero'; return (G * mass1 * mass2) / (distance * distance); }"
     }
   ]
 }
