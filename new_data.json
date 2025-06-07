@@ -1,6 +1,3426 @@
 {
   "qa_pairs": [
     {
+      "question": "photosynthesis",
+      "answer": "Photosynthesis is the process by which green plants use sunlight to synthesize food from carbon dioxide and water."
+    },
+    {
+      "question": "respiration",
+      "answer": "Respiration is the process of breaking down glucose to release energy."
+    },
+    {
+      "question": "digestion",
+      "answer": "Digestion is the breakdown of complex food into simpler forms that the body can absorb."
+    },
+    {
+      "question": "transpiration",
+      "answer": "Transpiration is the process of water loss from the aerial parts of a plant, mainly through stomata."
+    },
+    {
+      "question": "excretion",
+      "answer": "Excretion is the removal of metabolic waste products from the body."
+    },
+    {
+      "question": "circulation",
+      "answer": "Circulation is the movement of blood throughout the body by the heart and blood vessels."
+    },
+    {
+      "question": "reproduction",
+      "answer": "Reproduction is the biological process by which new individual organisms are produced."
+    },
+    {
+      "question": "fertilization",
+      "answer": "Fertilization is the fusion of male and female gametes to form a zygote."
+    },
+    {
+      "question": "germination",
+      "answer": "Germination is the process by which a seed develops into a new plant."
+    },
+    {
+      "question": "hormones",
+      "answer": "Hormones are chemical messengers that regulate various functions in the body."
+    },
+    {
+      "question": "stomata",
+      "answer": "Stomata are small openings on the leaf surface that control gas exchange and water loss."
+    },
+    {
+      "question": "neuron",
+      "answer": "A neuron is a nerve cell that transmits electrical impulses in the body."
+    },
+    {
+      "question": "reflex",
+      "answer": "A reflex is an automatic and rapid response to a stimulus."
+    },
+    {
+      "question": "enzyme",
+      "answer": "An enzyme is a biological catalyst that speeds up chemical reactions in the body."
+    },
+    {
+      "question": "mitosis",
+      "answer": "Mitosis is a type of cell division where a cell divides to form two identical daughter cells."
+    },
+    {
+      "question": "meiosis",
+      "answer": "Meiosis is a type of cell division that reduces the chromosome number by half and forms gametes."
+    },
+    {
+      "question": "evolution",
+      "answer": "Evolution is the gradual development of organisms over generations."
+    },
+    {
+      "question": "chromosome",
+      "answer": "A chromosome is a thread-like structure that carries genetic information."
+    },
+    {
+      "question": "gene",
+      "answer": "A gene is a unit of heredity made of DNA."
+    },
+    {
+      "question": "allele",
+      "answer": "An allele is a variant form of a gene."
+    },
+    {
+      "question": "heredity",
+      "answer": "Heredity is the transmission of traits from parents to offspring."
+    },
+    {
+      "question": "variation",
+      "answer": "Variation refers to the differences in traits among individuals of the same species."
+    },
+    {
+      "question": "ecosystem",
+      "answer": "An ecosystem is a community of living organisms interacting with their non-living environment."
+    },
+    {
+      "question": "biosphere",
+      "answer": "The biosphere is the zone of life on Earth including land, water, and air."
+    },
+    {
+      "question": "pollination",
+      "answer": "Pollination is the transfer of pollen from the male part to the female part of a flower."
+    },
+    {
+      "question": "ovary",
+      "answer": "The ovary is the female reproductive part of a flower that contains ovules."
+    },
+    {
+      "question": "testes",
+      "answer": "Testes are male reproductive organs that produce sperm and hormones."
+    },
+    {
+      "question": "ovaryhuman",
+      "answer": "The human ovary produces eggs and female hormones."
+    },
+    {
+      "question": "zygote",
+      "answer": "A zygote is the fertilized egg formed by the fusion of male and female gametes."
+    },
+    {
+      "question": "placenta",
+      "answer": "The placenta is an organ that connects the developing fetus to the mother's uterus."
+    },
+    {
+      "question": "embryo",
+      "answer": "An embryo is the early developmental stage of a multicellular organism."
+    },
+    {
+      "question": "menstruation",
+      "answer": "Menstruation is the monthly shedding of the uterine lining in females."
+    },
+    {
+      "question": "asexual",
+      "answer": "Asexual reproduction involves a single parent and produces identical offspring."
+    },
+    {
+      "question": "sexual",
+      "answer": "Sexual reproduction involves two parents and produces genetically different offspring."
+    },
+    {
+      "question": "amoeba",
+      "answer": "Amoeba reproduces asexually by binary fission."
+    },
+    {
+      "question": "binaryfission",
+      "answer": "Binary fission is a type of asexual reproduction where one cell splits into two."
+    },
+    {
+      "question": "budding",
+      "answer": "Budding is a form of asexual reproduction where a new organism grows from the parent."
+    },
+    {
+      "question": "pollution",
+      "answer": "Pollution is the contamination of the environment with harmful substances."
+    },
+    {
+      "question": "deforestation",
+      "answer": "Deforestation is the large-scale removal of forests leading to ecological imbalance."
+    },
+    {
+      "question": "greenhouse",
+      "answer": "The greenhouse effect is the trapping of heat in the Earth’s atmosphere by gases."
+    },
+    {
+      "question": "globalwarming",
+      "answer": "Global warming is the increase in Earth’s average temperature due to human activities."
+    },
+    {
+      "question": "acidrain",
+      "answer": "Acid rain is rainwater mixed with acidic gases from factories and vehicles."
+    },
+    {
+      "question": "ozone",
+      "answer": "Ozone is a layer in the atmosphere that protects us from harmful ultraviolet rays."
+    },
+    {
+      "question": "nitrogencycle",
+      "answer": "The nitrogen cycle is the movement of nitrogen among the atmosphere, soil, and organisms."
+    },
+    {
+      "question": "carboncycle",
+      "answer": "The carbon cycle is the process through which carbon is exchanged among the biosphere, geosphere, and atmosphere."
+    },
+    {
+      "question": "xylem",
+      "answer": "Xylem is the plant tissue that transports water from roots to leaves."
+    },
+    {
+      "question": "phloem",
+      "answer": "Phloem is the plant tissue that transports food from leaves to other parts."
+    },
+    {
+      "question": "root",
+      "answer": "Roots anchor the plant and absorb water and minerals from the soil."
+    },
+    {
+      "question": "stem",
+      "answer": "The stem supports the plant and transports water and nutrients."
+    },
+    {
+      "question": "leaf",
+      "answer": "The leaf is the main site of photosynthesis in a plant."
+    },
+    {
+      "question": "flower",
+      "answer": "A flower is the reproductive part of a plant."
+    },
+    {
+      "question": "seed",
+      "answer": "A seed is the fertilized ovule that can grow into a new plant."
+    },
+    {
+      "question": "ovule",
+      "answer": "The ovule is the female reproductive cell in plants that becomes a seed after fertilization."
+    },
+    {
+      "question": "pollen",
+      "answer": "Pollen contains the male gametes of seed plants."
+    },
+    {
+      "question": "nucleus",
+      "answer": "The nucleus is the control center of the cell containing DNA."
+    },
+    {
+      "question": "cytoplasm",
+      "answer": "Cytoplasm is the jelly-like fluid inside the cell where organelles are suspended."
+    },
+    {
+      "question": "cellmembrane",
+      "answer": "The cell membrane controls the entry and exit of substances in the cell."
+    },
+    {
+      "question": "cellwall",
+      "answer": "The cell wall is a rigid layer that provides support to plant cells."
+    },
+    {
+      "question": "vacuole",
+      "answer": "A vacuole is a storage sac within the cell, mainly for water and waste."
+    },
+    {
+      "question": "chloroplast",
+      "answer": "Chloroplasts are organelles in plant cells where photosynthesis occurs."
+    },
+    {
+      "question": "ribosome",
+      "answer": "Ribosomes are organelles that make proteins."
+    },
+    {
+      "question": "mitochondria",
+      "answer": "Mitochondria are the powerhouse of the cell where respiration occurs."
+    },
+    {
+      "question": "tissue",
+      "answer": "Tissues are groups of similar cells that perform a specific function."
+    },
+    {
+      "question": "organ",
+      "answer": "An organ is a group of tissues working together to perform a function."
+    },
+    {
+      "question": "organism",
+      "answer": "An organism is an individual living being."
+    },
+    {
+      "question": "kingdom",
+      "answer": "Kingdom is the highest classification category in biological taxonomy."
+    },
+    {
+      "question": "monera",
+      "answer": "Monera includes unicellular organisms without a nucleus like bacteria."
+    },
+    {
+      "question": "protista",
+      "answer": "Protista includes mostly unicellular organisms with a nucleus."
+    },
+    {
+      "question": "fungi",
+      "answer": "Fungi include organisms like mushrooms and yeasts that feed on organic matter."
+    },
+    {
+      "question": "plantae",
+      "answer": "Plantae includes all green plants that perform photosynthesis."
+    },
+    {
+      "question": "animalia",
+      "answer": "Animalia includes all multicellular animals."
+    },
+    {
+      "question": "invertebrate",
+      "answer": "Invertebrates are animals without a backbone."
+    },
+    {
+      "question": "vertebrate",
+      "answer": "Vertebrates are animals with a backbone."
+    },
+    {
+      "question": "fish",
+      "answer": "Fish are cold-blooded vertebrates living in water with gills and fins."
+    },
+    {
+      "question": "amphibian",
+      "answer": "Amphibians are animals that can live both in water and on land."
+    },
+    {
+      "question": "reptile",
+      "answer": "Reptiles are cold-blooded vertebrates with dry scaly skin."
+    },
+    {
+      "question": "bird",
+      "answer": "Birds are warm-blooded animals with feathers and wings."
+    },
+    {
+      "question": "mammal",
+      "answer": "Mammals are warm-blooded animals with hair and mammary glands."
+    },
+    {
+      "question": "blood",
+      "answer": "Blood is a fluid that transports oxygen, nutrients, and waste in the body."
+    },
+    {
+      "question": "plasma",
+      "answer": "Plasma is the liquid component of blood."
+    },
+    {
+      "question": "rbc",
+      "answer": "RBCs or red blood cells carry oxygen using hemoglobin."
+    },
+    {
+      "question": "wbc",
+      "answer": "WBCs or white blood cells protect the body from infections."
+    },
+    {
+      "question": "platelet",
+      "answer": "Platelets help in blood clotting to stop bleeding."
+    },
+    {
+      "question": "heart",
+      "answer": "The heart is a muscular organ that pumps blood throughout the body."
+    },
+    {
+      "question": "lung",
+      "answer": "Lungs are respiratory organs that exchange oxygen and carbon dioxide."
+    },
+    {
+      "question": "kidney",
+      "answer": "Kidneys filter waste from the blood and form urine."
+    },
+    {
+      "question": "liver",
+      "answer": "The liver produces bile and helps in digestion and detoxification."
+    },
+    {
+      "question": "intestine",
+      "answer": "The intestine absorbs nutrients and water from digested food."
+    },
+    {
+      "question": "pancreas",
+      "answer": "The pancreas produces digestive enzymes and the hormone insulin."
+    },
+    {
+      "question": "salivary",
+      "answer": "Salivary glands secrete saliva which begins the digestion of starch."
+    },
+    {
+      "question": "esophagus",
+      "answer": "The esophagus is the food pipe that connects the throat to the stomach."
+    },
+    {
+      "question": "stomach",
+      "answer": "The stomach secretes acids and enzymes for digestion."
+    },
+    {
+      "question": "anus",
+      "answer": "The anus is the opening where the digestive tract ends and waste leaves the body."
+    },
+    {
+      "question": "brain",
+      "answer": "The brain controls body activities and processes sensory information."
+    },
+    {
+      "question": "spinalcord",
+      "answer": "The spinal cord is a long nerve bundle that transmits messages between the brain and body."
+    },
+    {
+      "question": "senses",
+      "answer": "The five senses are sight, hearing, taste, smell, and touch."
+    },
+    {
+      "question": "receptor",
+      "answer": "Receptors are cells that detect changes and send signals to the brain."
+    },
+    {
+      "question": "insulin",
+      "answer": "Insulin is a hormone that controls blood sugar levels."
+    },
+    {
+      "question": "adrenaline",
+      "answer": "Adrenaline is a hormone released during stress or danger."
+    },
+    {
+      "question": "thyroid",
+      "answer": "The thyroid gland controls metabolism through hormone secretion."
+    },
+    {
+      "question": "pituitary",
+      "answer": "The pituitary gland is the master gland that controls other glands."
+    },
+    {
+      "question": "metabolism",
+      "answer": "Metabolism is the sum of all chemical reactions in the body."
+    },
+    {
+      "question": "homeostasis",
+      "answer": "Homeostasis is the maintenance of a stable internal environment in the body."
+    },
+    {
+      "question": "dna",
+      "answer": "DNA or deoxyribonucleic acid is the molecule that carries genetic information in living organisms."
+    },
+    {
+      "question": "rna",
+      "answer": "RNA or ribonucleic acid helps in protein synthesis and carries genetic messages."
+    },
+    {
+      "question": "gene",
+      "answer": "A gene is a segment of DNA that codes for a specific protein."
+    },
+    {
+      "question": "genome",
+      "answer": "The genome is the complete set of DNA in an organism."
+    },
+    {
+      "question": "chromosome",
+      "answer": "Chromosomes are structures made of DNA and proteins that carry genetic information."
+    },
+    {
+      "question": "nucleotide",
+      "answer": "A nucleotide is the basic building block of DNA and RNA."
+    },
+    {
+      "question": "adenine",
+      "answer": "Adenine is one of the four nitrogen bases in DNA, pairing with thymine."
+    },
+    {
+      "question": "thymine",
+      "answer": "Thymine is a nitrogen base in DNA that pairs with adenine."
+    },
+    {
+      "question": "guanine",
+      "answer": "Guanine is a nitrogen base in DNA that pairs with cytosine."
+    },
+    {
+      "question": "cytosine",
+      "answer": "Cytosine is a nitrogen base in DNA that pairs with guanine."
+    },
+    {
+      "question": "uracil",
+      "answer": "Uracil replaces thymine in RNA and pairs with adenine."
+    },
+    {
+      "question": "replication",
+      "answer": "Replication is the process by which DNA makes an exact copy of itself."
+    },
+    {
+      "question": "transcription",
+      "answer": "Transcription is the process of copying DNA into RNA."
+    },
+    {
+      "question": "translation",
+      "answer": "Translation is the process of forming proteins from RNA on ribosomes."
+    },
+    {
+      "question": "helix",
+      "answer": "DNA is structured as a double helix made of two strands."
+    },
+    {
+      "question": "basepair",
+      "answer": "Base pairs in DNA include A-T and G-C combinations."
+    },
+    {
+      "question": "mutation",
+      "answer": "A mutation is a change in the DNA sequence."
+    },
+    {
+      "question": "codon",
+      "answer": "A codon is a sequence of three DNA or RNA nucleotides that code for an amino acid."
+    },
+    {
+      "question": "anticodon",
+      "answer": "An anticodon is a sequence of three bases in tRNA that pairs with a codon in mRNA."
+    },
+    {
+      "question": "geneticcode",
+      "answer": "The genetic code is the set of rules used by cells to translate information from DNA to proteins."
+    },
+    {
+      "question": "doublehelix",
+      "answer": "Double helix is the twisted ladder shape of the DNA molecule."
+    },
+    {
+      "question": "deoxyribose",
+      "answer": "Deoxyribose is the sugar present in DNA nucleotides."
+    },
+    {
+      "question": "ribose",
+      "answer": "Ribose is the sugar present in RNA nucleotides."
+    },
+    {
+      "question": "hydrogenbond",
+      "answer": "Hydrogen bonds hold the nitrogenous bases together in a DNA molecule."
+    },
+    {
+      "question": "histone",
+      "answer": "Histones are proteins around which DNA coils to form chromatin."
+    },
+    {
+      "question": "chromatin",
+      "answer": "Chromatin is the relaxed form of DNA in the nucleus before cell division."
+    },
+    {
+      "question": "geneticmaterial",
+      "answer": "Genetic material refers to DNA or RNA that carries genetic information."
+    },
+    {
+      "question": "nucleicacid",
+      "answer": "Nucleic acids are biomolecules like DNA and RNA that store genetic information."
+    },
+    {
+      "question": "template",
+      "answer": "A template is a DNA strand used to make a complementary RNA strand during transcription."
+    },
+    {
+      "question": "messengerrna",
+      "answer": "Messenger RNA or mRNA carries genetic code from DNA to ribosomes."
+    },
+    {
+      "question": "transferRNA",
+      "answer": "Transfer RNA or tRNA brings amino acids to the ribosome for protein synthesis."
+    },
+    {
+      "question": "ribosomalRNA",
+      "answer": "Ribosomal RNA or rRNA forms the core of ribosomes and helps in protein synthesis."
+    },
+    {
+      "question": "nucleosome",
+      "answer": "A nucleosome is a unit of DNA wrapped around histone proteins."
+    },
+    {
+      "question": "replicationfork",
+      "answer": "Replication fork is the Y-shaped region where DNA is split during replication."
+    },
+    {
+      "question": "leadingstrand",
+      "answer": "Leading strand is the DNA strand that is synthesized continuously."
+    },
+    {
+      "question": "laggingstrand",
+      "answer": "Lagging strand is synthesized in short fragments called Okazaki fragments."
+    },
+    {
+      "question": "okazakifragment",
+      "answer": "Okazaki fragments are short DNA sequences formed on the lagging strand during replication."
+    },
+    {
+      "question": "dnahelicase",
+      "answer": "DNA helicase is the enzyme that unwinds the DNA helix during replication."
+    },
+    {
+      "question": "dna polymerase",
+      "answer": "DNA polymerase is the enzyme that adds new nucleotides during DNA replication."
+    },
+    {
+      "question": "ligase",
+      "answer": "DNA ligase is the enzyme that joins Okazaki fragments together."
+    },
+    {
+      "question": "iit",
+      "answer": "IIT stands for Indian Institute of Technology, a group of premier engineering institutes in India."
+    },
+    {
+      "question": "jee",
+      "answer": "JEE stands for Joint Entrance Examination, a national-level entrance test for engineering colleges in India."
+    },
+    {
+      "question": "advanced",
+      "answer": "JEE Advanced is the second stage of JEE, required for admission to IITs."
+    },
+    {
+      "question": "mains",
+      "answer": "JEE Mains is the first level of JEE and required for NITs, IIITs, and eligibility for JEE Advanced."
+    },
+    {
+      "question": "nta",
+      "answer": "NTA or National Testing Agency conducts the JEE Mains examination."
+    },
+    {
+      "question": "rank",
+      "answer": "Rank in JEE determines the student's position relative to others and eligibility for colleges."
+    },
+    {
+      "question": "percentile",
+      "answer": "Percentile is the percentage of students who scored less than a candidate in JEE Mains."
+    },
+    {
+      "question": "cutoff",
+      "answer": "Cutoff is the minimum score required to qualify for JEE Advanced or get admission to a college."
+    },
+    {
+      "question": "counselling",
+      "answer": "Counselling is the process where students are allotted colleges based on their JEE ranks."
+    },
+    {
+      "question": "josaa",
+      "answer": "JoSAA or Joint Seat Allocation Authority conducts counselling for IITs, NITs, IIITs, and GFTIs."
+    },
+    {
+      "question": "seatmatrix",
+      "answer": "Seat matrix is the total number of seats available for each branch in every institute."
+    },
+    {
+      "question": "openingrank",
+      "answer": "Opening rank is the rank of the first student admitted to a branch in a college."
+    },
+    {
+      "question": "closingrank",
+      "answer": "Closing rank is the rank of the last student admitted to a branch in a college."
+    },
+    {
+      "question": "iitjee",
+      "answer": "IIT JEE is the entrance exam to get into Indian Institutes of Technology."
+    },
+    {
+      "question": "mocktest",
+      "answer": "Mock tests are practice exams designed to simulate the actual JEE exam pattern and difficulty."
+    },
+    {
+      "question": "syllabus",
+      "answer": "The JEE syllabus includes Physics, Chemistry, and Mathematics topics from Classes 11 and 12."
+    },
+    {
+      "question": "wbjee",
+      "answer": "WBJEE is the West Bengal Joint Entrance Examination for engineering colleges in West Bengal."
+    },
+    {
+      "question": "wbut",
+      "answer": "WBUT is the former name of MAKAUT, the university that affiliates most engineering colleges in West Bengal."
+    },
+    {
+      "question": "makaut",
+      "answer": "MAKAUT is the Maulana Abul Kalam Azad University of Technology in West Bengal."
+    },
+    {
+      "question": "jeeformat",
+      "answer": "JEE has multiple-choice and numerical-type questions in Physics, Chemistry, and Mathematics."
+    },
+    {
+      "question": "iitbombay",
+      "answer": "IIT Bombay is one of the top IITs located in Mumbai, Maharashtra."
+    },
+    {
+      "question": "iitdelhi",
+      "answer": "IIT Delhi is a premier institute for engineering and technology in India."
+    },
+    {
+      "question": "iitmadras",
+      "answer": "IIT Madras is known for excellence in engineering education and research."
+    },
+    {
+      "question": "iitkanpur",
+      "answer": "IIT Kanpur is one of the top IITs known for its research and academic standards."
+    },
+    {
+      "question": "iitkharagpur",
+      "answer": "IIT Kharagpur is the oldest IIT and known for a wide range of engineering courses."
+    },
+    {
+      "question": "iitr",
+      "answer": "IIT Roorkee is a leading engineering institution known for Civil and Mechanical engineering."
+    },
+    {
+      "question": "iiit",
+      "answer": "IIIT stands for Indian Institute of Information Technology."
+    },
+    {
+      "question": "nit",
+      "answer": "NITs are the National Institutes of Technology, among the top engineering colleges in India."
+    },
+    {
+      "question": "gfti",
+      "answer": "GFTIs are Government Funded Technical Institutes participating in JoSAA counselling."
+    },
+    {
+      "question": "pcm",
+      "answer": "PCM refers to the combination of Physics, Chemistry, and Mathematics subjects."
+    },
+    {
+      "question": "maths",
+      "answer": "Mathematics is one of the three subjects tested in engineering entrance exams."
+    },
+    {
+      "question": "physics",
+      "answer": "Physics covers topics like mechanics, electricity, optics, and thermodynamics for JEE."
+    },
+    {
+      "question": "chemistry",
+      "answer": "Chemistry includes Physical, Organic, and Inorganic chemistry in JEE syllabus."
+    },
+    {
+      "question": "integration",
+      "answer": "Integration is a calculus topic in mathematics for engineering entrance exams."
+    },
+    {
+      "question": "differentiation",
+      "answer": "Differentiation is a calculus method to find the rate of change in functions."
+    },
+    {
+      "question": "kinematics",
+      "answer": "Kinematics is the branch of mechanics that describes motion without its causes."
+    },
+    {
+      "question": "laws",
+      "answer": "Laws of motion describe the relationship between a body and the forces acting on it."
+    },
+    {
+      "question": "thermodynamics",
+      "answer": "Thermodynamics deals with heat and temperature and their relation to energy and work."
+    },
+    {
+      "question": "optics",
+      "answer": "Optics is the study of light and its behavior through lenses and mirrors."
+    },
+    {
+      "question": "electrostatics",
+      "answer": "Electrostatics is the branch of physics that deals with electric charges at rest."
+    },
+    {
+      "question": "magnetism",
+      "answer": "Magnetism involves the force of attraction or repulsion that acts at a distance due to magnetic materials."
+    },
+    {
+      "question": "organic",
+      "answer": "Organic chemistry is the study of carbon-containing compounds."
+    },
+    {
+      "question": "inorganic",
+      "answer": "Inorganic chemistry deals with compounds not covered by organic chemistry."
+    },
+    {
+      "question": "physical",
+      "answer": "Physical chemistry involves the physical properties and changes of matter."
+    },
+    {
+      "question": "mock",
+      "answer": "Mock exams help students practice and assess their preparation before the real exam."
+    },
+    {
+      "question": "strategy",
+      "answer": "Strategy in JEE prep refers to planning syllabus completion, revision, and test practice."
+    },
+    {
+      "question": "time",
+      "answer": "Time management is crucial for completing JEE within the 3-hour duration."
+    },
+    {
+      "question": "omr",
+      "answer": "OMR sheets are used to mark answers in JEE Mains exam offline mode."
+    },
+    {
+      "question": "session1",
+      "answer": "JEE Mains is conducted in multiple sessions, usually in January and April."
+    },
+    {
+      "question": "session2",
+      "answer": "Session 2 of JEE Mains gives students another chance to improve their score."
+    },
+    {
+      "question": "attempts",
+      "answer": "Students can appear for JEE Mains in multiple sessions in the same year."
+    },
+    {
+      "question": "droppers",
+      "answer": "Droppers are students who take a gap year to prepare for JEE after 12th."
+    },
+    {
+      "question": "repeaters",
+      "answer": "Repeaters are students who attempt the JEE exam more than once."
+    },
+    {
+      "question": "rankpredictor",
+      "answer": "Rank predictor tools estimate your JEE rank based on your score."
+    },
+    {
+      "question": "collegepredictor",
+      "answer": "College predictors help suggest possible colleges based on your JEE rank."
+    },
+    {
+      "question": "topper",
+      "answer": "A topper is the student who achieves the highest marks in JEE."
+    },
+    {
+      "question": "mockanalysis",
+      "answer": "Mock test analysis helps identify weak areas and improve performance."
+    },
+    {
+      "question": "coaching",
+      "answer": "Coaching centers help students prepare for JEE with structured classes and practice tests."
+    },
+    {
+      "question": "onlineprep",
+      "answer": "Online preparation includes video lectures, practice quizzes, and mock tests for JEE."
+    },
+    {
+      "question": "dpp",
+      "answer": "DPP stands for Daily Practice Problem sheets used in coaching for JEE preparation."
+    },
+    {
+      "question": "revision",
+      "answer": "Revision is reviewing topics again to strengthen understanding before the exam."
+    },
+    {
+      "question": "notes",
+      "answer": "Notes are short summaries of important concepts made during or after studying."
+    },
+    {
+      "question": "timetable",
+      "answer": "A timetable helps organize study hours effectively for all three subjects."
+    },
+    {
+      "question": "crashcourse",
+      "answer": "Crash courses are short-term intensive programs to revise and practice for JEE."
+    },
+    {
+      "question": "pyq",
+      "answer": "PYQ stands for Previous Year Questions, important for understanding exam patterns."
+    },
+    {
+      "question": "samplepaper",
+      "answer": "Sample papers are model question papers for practice before the real exam."
+    },
+    {
+      "question": "calculator",
+      "answer": "Calculators are not allowed in JEE, so mental calculation and practice are important."
+    },
+    {
+      "question": "admitcard",
+      "answer": "Admit card is the hall ticket required to enter the exam hall."
+    },
+    {
+      "question": "examcenter",
+      "answer": "Exam centers are designated places where students take the JEE exam."
+    },
+    {
+      "question": "answerkey",
+      "answer": "Answer keys are released after the exam to help students calculate their scores."
+    },
+    {
+      "question": "result",
+      "answer": "JEE result contains the candidate's scores, percentile, and All India Rank."
+    },
+    {
+      "question": "scorecard",
+      "answer": "The scorecard shows marks obtained and percentile in each subject."
+    },
+    {
+      "question": "allindiarank",
+      "answer": "AIR or All India Rank shows a student's position among all JEE participants."
+    },
+    {
+      "question": "reservation",
+      "answer": "Reservation in JEE provides category-based relaxation in cutoffs and seats."
+    },
+    {
+      "question": "obc",
+      "answer": "OBC is the Other Backward Class category with reservation benefits in JEE."
+    },
+    {
+      "question": "sc",
+      "answer": "SC stands for Scheduled Caste, eligible for reserved seats in engineering admissions."
+    },
+    {
+      "question": "st",
+      "answer": "ST stands for Scheduled Tribe, with reserved quotas in engineering colleges."
+    },
+    {
+      "question": "ews",
+      "answer": "EWS or Economically Weaker Section gets 10% reservation in JEE admissions."
+    },
+    {
+      "question": "pwd",
+      "answer": "PwD means Persons with Disabilities who receive special reservation benefits in JEE."
+    },
+    {
+      "question": "neet",
+      "answer": "NEET stands for National Eligibility cum Entrance Test for medical and dental courses in India."
+    },
+    {
+      "question": "jenpas",
+      "answer": "JENPAS is the Joint Entrance Test for Nursing, Paramedical, and Allied Sciences in West Bengal."
+    },
+    {
+      "question": "biology",
+      "answer": "Biology is the most important subject for NEET and JENPAS covering Zoology and Botany."
+    },
+    {
+      "question": "physics",
+      "answer": "Physics is one of the three subjects in NEET, focusing on concepts and numerical problems."
+    },
+    {
+      "question": "chemistry",
+      "answer": "Chemistry in NEET includes Physical, Organic, and Inorganic parts."
+    },
+    {
+      "question": "botany",
+      "answer": "Botany is a part of Biology and covers plant-related topics in NEET."
+    },
+    {
+      "question": "zoology",
+      "answer": "Zoology deals with animal biology and is a major part of NEET Biology."
+    },
+    {
+      "question": "aiims",
+      "answer": "AIIMS MBBS admissions are now through NEET only."
+    },
+    {
+      "question": "mbbs",
+      "answer": "MBBS is the undergraduate medical course, admission through NEET."
+    },
+    {
+      "question": "bds",
+      "answer": "BDS is Bachelor of Dental Surgery, admission through NEET."
+    },
+    {
+      "question": "bams",
+      "answer": "BAMS is Bachelor of Ayurvedic Medicine and Surgery, also through NEET."
+    },
+    {
+      "question": "bhms",
+      "answer": "BHMS is Bachelor of Homeopathic Medicine and Surgery through NEET."
+    },
+    {
+      "question": "bvsc",
+      "answer": "BVSc is Bachelor of Veterinary Science, admission through NEET."
+    },
+    {
+      "question": "rank",
+      "answer": "NEET rank is based on the score obtained and is used for admission."
+    },
+    {
+      "question": "cutoff",
+      "answer": "Cutoff is the minimum NEET score required for different categories and colleges."
+    },
+    {
+      "question": "percentile",
+      "answer": "NEET percentile shows your relative performance among all candidates."
+    },
+    {
+      "question": "scoring",
+      "answer": "NEET paper has 720 marks – 180 questions of 4 marks each with negative marking."
+    },
+    {
+      "question": "omr",
+      "answer": "OMR sheet is used to mark answers in NEET."
+    },
+    {
+      "question": "session",
+      "answer": "NEET is usually held once a year in offline mode."
+    },
+    {
+      "question": "ugc",
+      "answer": "UGC regulates higher education but NEET is conducted by NTA."
+    },
+    {
+      "question": "nta",
+      "answer": "NTA or National Testing Agency conducts NEET every year."
+    },
+    {
+      "question": "mocktest",
+      "answer": "Mock tests help NEET aspirants practice real exam patterns."
+    },
+    {
+      "question": "revision",
+      "answer": "Revision of NCERT Biology is crucial for NEET success."
+    },
+    {
+      "question": "syllabus",
+      "answer": "NEET syllabus includes Class 11 and 12 Physics, Chemistry, and Biology."
+    },
+    {
+      "question": "ncert",
+      "answer": "NCERT textbooks are most important for NEET preparation."
+    },
+    {
+      "question": "form",
+      "answer": "NEET application form is released online by NTA."
+    },
+    {
+      "question": "admitcard",
+      "answer": "NEET admit card is required to appear in the exam."
+    },
+    {
+      "question": "examcenter",
+      "answer": "NEET is conducted in offline mode at various centers across India."
+    },
+    {
+      "question": "result",
+      "answer": "NEET results are declared on the NTA website."
+    },
+    {
+      "question": "counselling",
+      "answer": "NEET counselling is done through MCC for All India Quota and by states for local colleges."
+    },
+    {
+      "question": "statequota",
+      "answer": "85% of NEET seats in state medical colleges are reserved for state candidates."
+    },
+    {
+      "question": "aiq",
+      "answer": "AIQ stands for All India Quota which covers 15% of total NEET seats."
+    },
+    {
+      "question": "privatecollege",
+      "answer": "Private medical colleges also accept NEET scores for admission."
+    },
+    {
+      "question": "governmentcollege",
+      "answer": "Government medical colleges offer MBBS/BDS seats at lower fees through NEET."
+    },
+    {
+      "question": "westbengal",
+      "answer": "WBJEEB conducts JENPAS for Nursing and Paramedical courses in West Bengal."
+    },
+    {
+      "question": "bscnursing",
+      "answer": "B.Sc. Nursing is one of the main courses under JENPAS."
+    },
+    {
+      "question": "paramedical",
+      "answer": "JENPAS includes paramedical courses like OTT, Physiotherapy, and others."
+    },
+    {
+      "question": "ott",
+      "answer": "OTT stands for Operation Theatre Technology course under JENPAS."
+    },
+    {
+      "question": "dietetics",
+      "answer": "JENPAS includes B.Sc. in Dietetics and Nutrition."
+    },
+    {
+      "question": "physiotherapy",
+      "answer": "Physiotherapy is a 4.5 year medical support course under JENPAS."
+    },
+    {
+      "question": "examtype",
+      "answer": "NEET is pen-paper based; JENPAS is also offline."
+    },
+    {
+      "question": "paperpattern",
+      "answer": "NEET paper has 3 sections: Physics, Chemistry, and Biology."
+    },
+    {
+      "question": "duration",
+      "answer": "NEET duration is 3 hours and 20 minutes."
+    },
+    {
+      "question": "negative",
+      "answer": "NEET has -1 mark for every wrong answer."
+    },
+    {
+      "question": "totalmarks",
+      "answer": "NEET has 720 total marks."
+    },
+    {
+      "question": "noquestions",
+      "answer": "NEET consists of 180 questions – 90 Biology, 45 Physics, 45 Chemistry."
+    },
+    {
+      "question": "topcolleges",
+      "answer": "Top NEET colleges include AIIMS Delhi, AFMC Pune, and MAMC Delhi."
+    },
+    {
+      "question": "allotment",
+      "answer": "Seats are allotted in NEET counselling based on rank and preference."
+    },
+    {
+      "question": "category",
+      "answer": "NEET has different cutoffs for General, OBC, SC, ST, and EWS categories."
+    },
+    {
+      "question": "obc",
+      "answer": "OBC students get relaxation in NEET cutoff and reservation."
+    },
+    {
+      "question": "ews",
+      "answer": "EWS category gets 10% reservation in NEET seat allotment."
+    },
+    {
+      "question": "sc",
+      "answer": "SC candidates have separate cutoff and reservation in NEET."
+    },
+    {
+      "question": "st",
+      "answer": "ST students benefit from reservation in NEET counselling."
+    },
+    {
+      "question": "pwd",
+      "answer": "PWD category students are given special reservation in NEET."
+    },
+    {
+      "question": "topper",
+      "answer": "NEET toppers often score above 700 out of 720."
+    },
+    {
+      "question": "coaching",
+      "answer": "Coaching institutes help in focused NEET preparation."
+    },
+    {
+      "question": "selfstudy",
+      "answer": "Many NEET aspirants succeed through self-study using NCERT books."
+    },
+    {
+      "question": "rankpredictor",
+      "answer": "Rank predictor tools estimate your NEET AIR based on marks."
+    },
+    {
+      "question": "collegepredictor",
+      "answer": "College predictor tools suggest colleges based on NEET rank and category."
+    },
+    {
+      "question": "strategy",
+      "answer": "A strong strategy includes mock tests, revisions, and proper time management for NEET."
+    },
+    {
+      "question": "ias",
+      "answer": "IAS stands for Indian Administrative Service, one of the top civil services in India."
+    },
+    {
+      "question": "ips",
+      "answer": "IPS stands for Indian Police Service, responsible for maintaining law and order."
+    },
+    {
+      "question": "ifs",
+      "answer": "IFS stands for Indian Foreign Service or Indian Forest Service, depending on the context."
+    },
+    {
+      "question": "bdo",
+      "answer": "BDO stands for Block Development Officer, a key post in rural development administration."
+    },
+    {
+      "question": "dm",
+      "answer": "DM stands for District Magistrate, the top administrative officer of a district."
+    },
+    {
+      "question": "sp",
+      "answer": "SP stands for Superintendent of Police, in charge of district-level policing."
+    },
+    {
+      "question": "upsc",
+      "answer": "UPSC or Union Public Service Commission conducts exams like IAS, IPS, IFS."
+    },
+    {
+      "question": "civilservices",
+      "answer": "Civil Services refer to top administrative services like IAS, IPS, IFS under UPSC."
+    },
+    {
+      "question": "cse",
+      "answer": "CSE stands for Civil Services Examination conducted by UPSC every year."
+    },
+    {
+      "question": "prelims",
+      "answer": "Prelims is the first stage of the UPSC Civil Services Examination."
+    },
+    {
+      "question": "mains",
+      "answer": "Mains is the second stage of UPSC CSE with descriptive papers."
+    },
+    {
+      "question": "interview",
+      "answer": "Interview is the final stage of UPSC CSE also called the Personality Test."
+    },
+    {
+      "question": "posting",
+      "answer": "IAS and IPS officers are posted across India based on cadre allocation."
+    },
+    {
+      "question": "cadre",
+      "answer": "Cadre is the state or group of states where an IAS/IPS officer is posted."
+    },
+    {
+      "question": "training",
+      "answer": "IAS officers are trained at LBSNAA in Mussoorie."
+    },
+    {
+      "question": "lbsnaa",
+      "answer": "LBSNAA stands for Lal Bahadur Shastri National Academy of Administration."
+    },
+    {
+      "question": "rank",
+      "answer": "The final UPSC rank determines service and cadre allocation."
+    },
+    {
+      "question": "attempts",
+      "answer": "General candidates can attempt UPSC CSE 6 times till age 32."
+    },
+    {
+      "question": "age",
+      "answer": "The age limit for UPSC CSE is 21 to 32 years for general category."
+    },
+    {
+      "question": "qualification",
+      "answer": "A graduate degree is required to appear in UPSC CSE."
+    },
+    {
+      "question": "uniform",
+      "answer": "IPS officers wear khaki uniform and badges according to rank."
+    },
+    {
+      "question": "respected",
+      "answer": "IAS and IPS officers are highly respected for their authority and service."
+    },
+    {
+      "question": "powers",
+      "answer": "IAS and IPS officers have administrative and legal powers in their jurisdictions."
+    },
+    {
+      "question": "salary",
+      "answer": "IAS/IPS officers receive a salary as per 7th Pay Commission with perks."
+    },
+    {
+      "question": "perks",
+      "answer": "Perks include government accommodation, vehicles, and staff for IAS/IPS."
+    },
+    {
+      "question": "bihar",
+      "answer": "Bihar Public Service Commission (BPSC) also recruits for BDO and police services."
+    },
+    {
+      "question": "wbcs",
+      "answer": "WBCS stands for West Bengal Civil Service, recruiting for state-level IAS, IPS equivalents."
+    },
+    {
+      "question": "bpsc",
+      "answer": "BPSC conducts exams for BDO, DSP, and other administrative posts in Bihar."
+    },
+    {
+      "question": "mpsc",
+      "answer": "MPSC is the Maharashtra Public Service Commission, conducting state-level administrative exams."
+    },
+    {
+      "question": "statepsc",
+      "answer": "State PSCs conduct exams for state civil services like BDO, DSP, etc."
+    },
+    {
+      "question": "ssc",
+      "answer": "SSC conducts recruitment for various posts in central government departments."
+    },
+    {
+      "question": "crpf",
+      "answer": "CRPF is Central Reserve Police Force under Ministry of Home Affairs."
+    },
+    {
+      "question": "bsf",
+      "answer": "BSF is Border Security Force, guarding India's land borders."
+    },
+    {
+      "question": "cisf",
+      "answer": "CISF provides security to industrial units and airports in India."
+    },
+    {
+      "question": "ncc",
+      "answer": "NCC is National Cadet Corps which trains students in military discipline."
+    },
+    {
+      "question": "nda",
+      "answer": "NDA is National Defence Academy, entry route for armed forces officers."
+    },
+    {
+      "question": "cds",
+      "answer": "CDS is Combined Defence Services exam for army, navy and air force."
+    },
+    {
+      "question": "si",
+      "answer": "SI stands for Sub-Inspector, a rank in police below Inspector."
+    },
+    {
+      "question": "constable",
+      "answer": "Constable is the entry-level position in police services."
+    },
+    {
+      "question": "promotion",
+      "answer": "Promotions in IPS depend on years of service, performance and availability of posts."
+    },
+    {
+      "question": "ssp",
+      "answer": "SSP is Senior Superintendent of Police, a senior police officer in a large district."
+    },
+    {
+      "question": "dgp",
+      "answer": "DGP is Director General of Police, the top police official in a state."
+    },
+    {
+      "question": "ig",
+      "answer": "IG stands for Inspector General, above DIG in the police hierarchy."
+    },
+    {
+      "question": "dig",
+      "answer": "DIG stands for Deputy Inspector General of Police, a high-ranking police officer."
+    },
+    {
+      "question": "asp",
+      "answer": "ASP is Assistant Superintendent of Police, usually a probationary IPS officer."
+    },
+    {
+      "question": "resignation",
+      "answer": "An IAS/IPS officer can resign by submitting a formal request to the government."
+    },
+    {
+      "question": "transfer",
+      "answer": "IAS and IPS officers can be transferred between departments or districts."
+    },
+    {
+      "question": "postingplace",
+      "answer": "IAS/IPS officers can be posted in urban or rural areas."
+    },
+    {
+      "question": "promotionexam",
+      "answer": "Internal departmental exams may be held for certain promotions in services."
+    },
+    {
+      "question": "civilian",
+      "answer": "A civilian is a person not in the armed forces or police services."
+    },
+    {
+      "question": "retirement",
+      "answer": "IAS and IPS officers usually retire at the age of 60."
+    },
+    {
+      "question": "services",
+      "answer": "All India Services include IAS, IPS, and IFS."
+    },
+    {
+      "question": "allindia",
+      "answer": "All India Services means officers can be posted in any Indian state."
+    },
+    {
+      "question": "laworder",
+      "answer": "IPS officers are mainly responsible for maintaining law and order."
+    },
+    {
+      "question": "disaster",
+      "answer": "IAS officers play a crucial role in disaster management at the district level."
+    },
+    {
+      "question": "election",
+      "answer": "IAS officers are appointed as Returning Officers for managing elections."
+    },
+    {
+      "question": "governance",
+      "answer": "IAS officers are involved in policy implementation and governance."
+    },
+    {
+      "question": "publicservice",
+      "answer": "The main aim of civil services is to serve the public and ensure good governance."
+    },
+    {
+      "question": "postingips",
+      "answer": "IPS officers are posted in police departments, CBI, IB, and other agencies."
+    },
+    {
+      "question": "investigation",
+      "answer": "IPS officers may head crime investigation teams and special branches."
+    },
+    {
+      "question": "women",
+      "answer": "Many women have successfully become IAS, IPS and BDO officers in India."
+    },
+    {
+      "question": "role",
+      "answer": "IAS and IPS officers play leadership roles in administration and policing."
+    },
+    {
+      "question": "1900",
+      "answer": "World: Boxer Rebellion in China, Paris hosts first modern Olympics. India: Formation of All India Muslim League, Partition of Bengal announced."
+    },
+    {
+      "question": "1901",
+      "answer": "World: Queen Victoria dies; Edward VII becomes King. India: First Census of India conducted."
+    },
+    {
+      "question": "1902",
+      "answer": "World: End of Second Boer War. India: Anushilan Samiti revolutionary group formed."
+    },
+    {
+      "question": "1903",
+      "answer": "World: Wright brothers make first powered flight. India: Delhi Durbar held; King Edward VII visits."
+    },
+    {
+      "question": "1904",
+      "answer": "World: Russo-Japanese War begins. India: Co-operative Societies Act passed."
+    },
+    {
+      "question": "1905",
+      "answer": "World: Einstein publishes Special Theory of Relativity. India: Partition of Bengal, Swadeshi Movement starts."
+    },
+    {
+      "question": "1906",
+      "answer": "World: First International Women's Conference. India: All India Muslim League formed."
+    },
+    {
+      "question": "1907",
+      "answer": "World: International Women's Day celebrated first time. India: Surat Split in Indian National Congress."
+    },
+    {
+      "question": "1908",
+      "answer": "World: Henry Ford introduces assembly line. India: Alipore Bomb Case trial starts."
+    },
+    {
+      "question": "1909",
+      "answer": "World: Nobel Prize established. India: Indian Councils Act passed."
+    },
+    {
+      "question": "1910",
+      "answer": "World: Mexican Revolution begins. India: Formation of revolutionary groups."
+    },
+    {
+      "question": "1911",
+      "answer": "World: First airplane crossing English Channel. India: Delhi Durbar; Capital shifted to Delhi."
+    },
+    {
+      "question": "1912",
+      "answer": "World: Titanic sinks. India: Delhi Conspiracy Case trial."
+    },
+    {
+      "question": "1913",
+      "answer": "World: First Balkan War. India: Gadar Party formed."
+    },
+    {
+      "question": "1914",
+      "answer": "World: World War I begins. India: Hindu-German Conspiracy trial."
+    },
+    {
+      "question": "1915",
+      "answer": "World: Gallipoli Campaign. India: Provisional Government of India in Kabul."
+    },
+    {
+      "question": "1916",
+      "answer": "World: Battle of the Somme. India: Lucknow Pact signed."
+    },
+    {
+      "question": "1917",
+      "answer": "World: Russian Revolution. India: Champaran Satyagraha begins."
+    },
+    {
+      "question": "1918",
+      "answer": "World: World War I ends; Spanish flu pandemic. India: Kheda Satyagraha."
+    },
+    {
+      "question": "1919",
+      "answer": "World: Treaty of Versailles signed. India: Jallianwala Bagh massacre; Montagu-Chelmsford Reforms."
+    },
+    {
+      "question": "1920",
+      "answer": "World: League of Nations formed. India: Non-Cooperation Movement starts."
+    },
+    {
+      "question": "1921",
+      "answer": "World: Irish War of Independence. India: Moplah Rebellion."
+    },
+    {
+      "question": "1922",
+      "answer": "World: Formation of USSR. India: Chauri Chaura incident."
+    },
+    {
+      "question": "1923",
+      "answer": "World: Rise of Nazi Party in Germany. India: First electric train in Bombay."
+    },
+    {
+      "question": "1924",
+      "answer": "World: First Winter Olympics held. India: Hindustan Socialist Republican Association formed."
+    },
+    {
+      "question": "1925",
+      "answer": "World: Mein Kampf published. India: Kakori Conspiracy."
+    },
+    {
+      "question": "1926",
+      "answer": "World: General strike in UK. India: Lord Irwin becomes Viceroy."
+    },
+    {
+      "question": "1927",
+      "answer": "World: First talking film released. India: Simon Commission arrives."
+    },
+    {
+      "question": "1928",
+      "answer": "World: Penicillin discovered. India: Bardoli Satyagraha."
+    },
+    {
+      "question": "1929",
+      "answer": "World: Great Depression begins. India: Bhagat Singh bombs Central Assembly."
+    },
+    {
+      "question": "1930",
+      "answer": "World: Salt March; worldwide economic crisis. India: Salt Satyagraha (Dandi March)."
+    },
+    {
+      "question": "1931",
+      "answer": "World: Empire State Building opens. India: Gandhi-Irwin Pact signed."
+    },
+    {
+      "question": "1932",
+      "answer": "World: Lindbergh kidnapping. India: Poona Pact signed."
+    },
+    {
+      "question": "1933",
+      "answer": "World: Hitler becomes Chancellor. India: Round Table Conferences."
+    },
+    {
+      "question": "1934",
+      "answer": "World: Dust Bowl in USA. India: Civil Disobedience Movement."
+    },
+    {
+      "question": "1935",
+      "answer": "World: Nuremberg Laws enacted. India: Government of India Act 1935."
+    },
+    {
+      "question": "1936",
+      "answer": "World: Spanish Civil War begins. India: Civil Disobedience Movement continues."
+    },
+    {
+      "question": "1937",
+      "answer": "World: Hindenburg disaster. India: Provincial elections held."
+    },
+    {
+      "question": "1938",
+      "answer": "World: Kristallnacht. India: Continued nationalist activities."
+    },
+    {
+      "question": "1939",
+      "answer": "World: World War II begins. India: Subhas Chandra Bose forms Forward Bloc."
+    },
+    {
+      "question": "1940",
+      "answer": "World: Battle of Britain. India: Lahore Resolution passed."
+    },
+    {
+      "question": "1941",
+      "answer": "World: Pearl Harbor attack. India: Indian National Army formed."
+    },
+    {
+      "question": "1942",
+      "answer": "World: Battle of Stalingrad. India: Quit India Movement launched."
+    },
+    {
+      "question": "1943",
+      "answer": "World: Tehran Conference. India: Bengal famine."
+    },
+    {
+      "question": "1944",
+      "answer": "World: D-Day planning. India: Wavell Plan."
+    },
+    {
+      "question": "1945",
+      "answer": "World: World War II ends; United Nations formed. India: Cabinet Mission Plan."
+    },
+    {
+      "question": "1946",
+      "answer": "World: Nuremberg Trials. India: Royal Indian Navy Mutiny."
+    },
+    {
+      "question": "1947",
+      "answer": "World: India and Pakistan independence; UN Partition Plan. India: India gains independence."
+    },
+    {
+      "question": "1948",
+      "answer": "World: Israel founded. India: Mahatma Gandhi assassinated."
+    },
+    {
+      "question": "1949",
+      "answer": "World: NATO founded. India: Integration of princely states."
+    },
+    {
+      "question": "1950",
+      "answer": "World: Korean War begins. India: India becomes Republic."
+    },
+    {
+      "question": "1951",
+      "answer": "World: Post-war reconstruction continues. India: First Five Year Plan launched."
+    },
+    {
+      "question": "1952",
+      "answer": "World: Polio vaccine discovered. India: First general elections held."
+    },
+    {
+      "question": "1953",
+      "answer": "World: DNA structure discovered. India: Early nuclear research."
+    },
+    {
+      "question": "1954",
+      "answer": "World: Vietnam conflict escalates. India: States reorganization underway."
+    },
+    {
+      "question": "1955",
+      "answer": "World: Warsaw Pact formed. India: Nationalization of banks."
+    },
+    {
+      "question": "1956",
+      "answer": "World: Suez Crisis. India: States Reorganization Act passed."
+    },
+    {
+      "question": "1957",
+      "answer": "World: Sputnik launched, starting Space Age. India: Second Five Year Plan."
+    },
+    {
+      "question": "1958",
+      "answer": "World: NASA established. India: Continued industrial growth."
+    },
+    {
+      "question": "1959",
+      "answer": "World: Cuban Revolution. India: Tibetan refugee crisis."
+    },
+    {
+      "question": "1960",
+      "answer": "World: African nations gain independence. India: Green Revolution begins."
+    },
+    {
+      "question": "1961",
+      "answer": "World: Berlin Wall built. India: First nuclear test preparations."
+    },
+    {
+      "question": "1962",
+      "answer": "World: Cuban Missile Crisis. India: Sino-Indian War."
+    },
+    {
+      "question": "1963",
+      "answer": "World: JFK assassinated. India: Formation of new states."
+    },
+    {
+      "question": "1964",
+      "answer": "World: Civil Rights Act passed in USA. India: Indira Gandhi becomes PM."
+    },
+    {
+      "question": "1965",
+      "answer": "World: Indo-Pakistani War. India: War and aftermath."
+    },
+    {
+      "question": "1966",
+      "answer": "World: Cultural revolutions begin. India: Political changes."
+    },
+    {
+      "question": "1967",
+      "answer": "World: Six-Day War. India: Naxalite movement starts."
+    },
+    {
+      "question": "1968",
+      "answer": "World: Global protests. India: Political unrest."
+    },
+    {
+      "question": "1969",
+      "answer": "World: Apollo 11 Moon landing. India: Space research advances."
+    },
+    {
+      "question": "1970",
+      "answer": "World: Environmental movements grow. India: Bangladesh Liberation War."
+    },
+    {
+      "question": "1971",
+      "answer": "World: Indo-Pakistani War; Bangladesh independence. India: War victory."
+    },
+    {
+      "question": "1972",
+      "answer": "World: Munich Olympics tragedy. India: Political reforms."
+    },
+    {
+      "question": "1973",
+      "answer": "World: Oil crisis. India: Economic challenges."
+    },
+    {
+      "question": "1974",
+      "answer": "World: Nuclear arms development. India: Pokhran nuclear test."
+    },
+    {
+      "question": "1975",
+      "answer": "World: Vietnam War ends. India: Emergency declared."
+    },
+    {
+      "question": "1976",
+      "answer": "World: Soweto uprising. India: Post-emergency political changes."
+    },
+    {
+      "question": "1977",
+      "answer": "World: New political shifts. India: Janata Party government."
+    },
+    {
+      "question": "1978",
+      "answer": "World: Camp David Accords. India: Economic development."
+    },
+    {
+      "question": "1979",
+      "answer": "World: Soviet invasion of Afghanistan. India: Political instability."
+    },
+    {
+      "question": "1980",
+      "answer": "World: Iran-Iraq war begins. India: Operation Blue Star."
+    },
+    {
+      "question": "1981",
+      "answer": "World: First Space Shuttle flight. India: Political and social changes."
+    },
+    {
+      "question": "1982",
+      "answer": "World: Falklands War. India: Technological growth."
+    },
+    {
+      "question": "1983",
+      "answer": "World: US invasion of Grenada. India: Economic liberalization discussions."
+    },
+    {
+      "question": "1984",
+      "answer": "World: Bhopal disaster. India: Assassination of Indira Gandhi."
+    },
+    {
+      "question": "1985",
+      "answer": "World: Live Aid concerts. India: Rajiv Gandhi becomes PM."
+    },
+    {
+      "question": "1986",
+      "answer": "World: Chernobyl disaster. India: Political reforms."
+    },
+    {
+      "question": "1987",
+      "answer": "World: Stock market crash. India: Economic challenges."
+    },
+    {
+      "question": "1988",
+      "answer": "World: End of Cold War begins. India: Political changes."
+    },
+    {
+      "question": "1989",
+      "answer": "World: Fall of Berlin Wall. India: Political unrest."
+    },
+    {
+      "question": "1990",
+      "answer": "World: Gulf War begins. India: Economic crisis."
+    },
+    {
+      "question": "1991",
+      "answer": "World: Soviet Union dissolves. India: Economic liberalization."
+    },
+    {
+      "question": "1992",
+      "answer": "World: Earth Summit. India: Babri Masjid demolition."
+    },
+    {
+      "question": "1993",
+      "answer": "World: Oslo Accords signed. India: Mumbai bomb blasts."
+    },
+    {
+      "question": "1994",
+      "answer": "World: Nelson Mandela elected. India: Economic reforms continue."
+    },
+    {
+      "question": "1995",
+      "answer": "World: Windows 95 released. India: Tech industry grows."
+    },
+    {
+      "question": "1996",
+      "answer": "World: Mad Cow Disease scare. India: Political instability."
+    },
+    {
+      "question": "1997",
+      "answer": "World: Hong Kong returned to China. India: Nuclear tests preparations."
+    },
+    {
+      "question": "1998",
+      "answer": "World: Google founded. India: Pokhran-II nuclear tests."
+    },
+    {
+      "question": "1999",
+      "answer": "World: Kosovo War. India: Kargil War."
+    },
+    {
+      "question": "2000",
+      "answer": "World: Y2K scare. India: IT boom."
+    },
+    {
+      "question": "2001",
+      "answer": "World: 9/11 attacks. India: Terror attacks in Parliament."
+    },
+    {
+      "question": "2002",
+      "answer": "World: Euro introduced. India: Gujarat riots."
+    },
+    {
+      "question": "2003",
+      "answer": "World: Iraq War. India: Economic growth."
+    },
+    {
+      "question": "2004",
+      "answer": "World: Indian Ocean tsunami. India: Growth in infrastructure."
+    },
+    {
+      "question": "2005",
+      "answer": "World: Hurricane Katrina. India: Social reforms."
+    },
+    {
+      "question": "2006",
+      "answer": "World: Twitter launched. India: Tech advances."
+    },
+    {
+      "question": "2007",
+      "answer": "World: iPhone released. India: Economic rise."
+    },
+    {
+      "question": "2008",
+      "answer": "World: Global financial crisis. India: Economic slowdown."
+    },
+    {
+      "question": "2009",
+      "answer": "World: Obama elected US President. India: Vaccine developments."
+    },
+    {
+      "question": "2010",
+      "answer": "World: Haiti earthquake. India: Commonwealth Games."
+    },
+    {
+      "question": "2011",
+      "answer": "World: Arab Spring. India: Anti-corruption movement."
+    },
+    {
+      "question": "2012",
+      "answer": "World: Curiosity rover lands on Mars. India: Political elections."
+    },
+    {
+      "question": "2013",
+      "answer": "World: Edward Snowden leaks. India: Economic reforms."
+    },
+    {
+      "question": "2014",
+      "answer": "World: Ebola outbreak. India: Narendra Modi becomes PM."
+    },
+    {
+      "question": "2015",
+      "answer": "World: Paris Climate Agreement. India: Swachh Bharat mission."
+    },
+    {
+      "question": "2016",
+      "answer": "World: Brexit referendum. India: Demonetization announced."
+    },
+    {
+      "question": "2017",
+      "answer": "World: #MeToo movement. India: GST implemented."
+    },
+    {
+      "question": "2018",
+      "answer": "World: Kilauea eruption. India: Economic growth."
+    },
+    {
+      "question": "2019",
+      "answer": "World: COVID-19 outbreak begins. India: Citizenship Amendment Act protests."
+    },
+    {
+      "question": "2020",
+      "answer": "World: COVID-19 pandemic spreads. India: Nationwide lockdown."
+    },
+    {
+      "question": "2021",
+      "answer": "World: COVID-19 vaccination campaigns. India: Second wave of COVID-19."
+    },
+    {
+      "question": "2022",
+      "answer": "World: Russia invades Ukraine. India: G20 summit host."
+    },
+    {
+      "question": "2023",
+      "answer": "World: Advances in AI technology. India: Continued post-pandemic recovery."
+    },
+    {
+      "question": "2024",
+      "answer": "World: Space exploration milestones. India: Infrastructure development."
+    },
+    {
+      "question": "2025",
+      "answer": "World: Global climate action accelerated. India: Economic and technological growth."
+    },
+    {
+      "question": "4000 BC",
+      "answer": "First known use of the wheel; early Bronze Age civilizations emerge."
+    },
+    {
+      "question": "3500 BC",
+      "answer": "Sumerian civilization develops writing (cuneiform) in Mesopotamia."
+    },
+    {
+      "question": "3100 BC",
+      "answer": "Unification of Upper and Lower Egypt by Pharaoh Narmer; start of Ancient Egyptian civilization."
+    },
+    {
+      "question": "2500 BC",
+      "answer": "Construction of the Great Pyramids of Giza in Egypt."
+    },
+    {
+      "question": "2334 BC",
+      "answer": "Sargon of Akkad establishes the Akkadian Empire, first known empire."
+    },
+    {
+      "question": "2000 BC",
+      "answer": "Indus Valley Civilization flourishes; early urban culture in South Asia."
+    },
+    {
+      "question": "1792 BC",
+      "answer": "Hammurabi rules Babylon and creates the Code of Hammurabi, one of the earliest law codes."
+    },
+    {
+      "question": "1600 BC",
+      "answer": "Start of the Shang Dynasty in China; early Chinese writing develops."
+    },
+    {
+      "question": "1500 BC",
+      "answer": "Aryan migration into India; Vedic period begins."
+    },
+    {
+      "question": "1200 BC",
+      "answer": "Trojan War (approximate); Late Bronze Age collapse in the Eastern Mediterranean."
+    },
+    {
+      "question": "1046 BC",
+      "answer": "Beginning of the Zhou Dynasty in China, lasting until 256 BC."
+    },
+    {
+      "question": "800 BC",
+      "answer": "Greek city-states form; Homer composes the Iliad and Odyssey."
+    },
+    {
+      "question": "753 BC",
+      "answer": "Legendary founding of Rome by Romulus and Remus."
+    },
+    {
+      "question": "550 BC",
+      "answer": "Cyrus the Great founds the Achaemenid Persian Empire."
+    },
+    {
+      "question": "509 BC",
+      "answer": "Establishment of the Roman Republic."
+    },
+    {
+      "question": "490 BC",
+      "answer": "Battle of Marathon; Greek city-states defeat Persian invasion."
+    },
+    {
+      "question": "480 BC",
+      "answer": "Battle of Thermopylae and Salamis during Persian Wars."
+    },
+    {
+      "question": "431 BC",
+      "answer": "Start of the Peloponnesian War between Athens and Sparta."
+    },
+    {
+      "question": "336 BC",
+      "answer": "Alexander the Great becomes king of Macedonia."
+    },
+    {
+      "question": "323 BC",
+      "answer": "Death of Alexander the Great; beginning of Hellenistic period."
+    },
+    {
+      "question": "221 BC",
+      "answer": "Qin Shi Huang unifies China, founding the Qin Dynasty."
+    },
+    {
+      "question": "44 BC",
+      "answer": "Assassination of Julius Caesar in Rome."
+    },
+    {
+      "question": "27 BC",
+      "answer": "Beginning of Roman Empire under Augustus Caesar."
+    },
+    {
+      "question": "4 BC",
+      "answer": "Traditional estimated birth year of Jesus Christ."
+    },
+    {
+      "question": "64 AD",
+      "answer": "Great Fire of Rome during Emperor Nero's reign."
+    },
+    {
+      "question": "313 AD",
+      "answer": "Edict of Milan grants religious tolerance to Christianity in Roman Empire."
+    },
+    {
+      "question": "395 AD",
+      "answer": "Division of Roman Empire into Eastern and Western halves."
+    },
+    {
+      "question": "476 AD",
+      "answer": "Fall of the Western Roman Empire; start of the Middle Ages."
+    },
+    {
+      "question": "570 AD",
+      "answer": "Birth of Prophet Muhammad."
+    },
+    {
+      "question": "632 AD",
+      "answer": "Death of Prophet Muhammad; start of Islamic Caliphates."
+    },
+    {
+      "question": "732 AD",
+      "answer": "Battle of Tours halts Muslim expansion into Western Europe."
+    },
+    {
+      "question": "800 AD",
+      "answer": "Charlemagne crowned Holy Roman Emperor."
+    },
+    {
+      "question": "1054 AD",
+      "answer": "Great Schism divides Christianity into Roman Catholic and Eastern Orthodox."
+    },
+    {
+      "question": "1066 AD",
+      "answer": "Norman Conquest of England at the Battle of Hastings."
+    },
+    {
+      "question": "1096 AD",
+      "answer": "First Crusade launched to capture Jerusalem."
+    },
+    {
+      "question": "1215 AD",
+      "answer": "Magna Carta signed in England, limiting royal power."
+    },
+    {
+      "question": "1347 AD",
+      "answer": "Black Death pandemic begins in Europe."
+    },
+    {
+      "question": "1453 AD",
+      "answer": "Fall of Constantinople to Ottoman Turks; end of Byzantine Empire."
+    },
+    {
+      "question": "1492 AD",
+      "answer": "Christopher Columbus reaches the Americas."
+    },
+    {
+      "question": "1517 AD",
+      "answer": "Martin Luther initiates Protestant Reformation."
+    },
+    {
+      "question": "1588 AD",
+      "answer": "Defeat of the Spanish Armada by England."
+    },
+    {
+      "question": "1644 AD",
+      "answer": "Beginning of Qing Dynasty in China."
+    },
+    {
+      "question": "1776 AD",
+      "answer": "American Declaration of Independence."
+    },
+    {
+      "question": "1789 AD",
+      "answer": "French Revolution begins."
+    },
+    {
+      "question": "1804 AD",
+      "answer": "Napoleon crowns himself Emperor of France."
+    },
+    {
+      "question": "1857 AD",
+      "answer": "Indian Rebellion against British rule (First War of Independence)."
+    },
+    {
+      "question": "1861 AD",
+      "answer": "American Civil War begins."
+    },
+    {
+      "question": "1885 AD",
+      "answer": "Formation of the Indian National Congress."
+    },
+    {
+      "question": "1896 AD",
+      "answer": "First modern Olympic Games held in Athens."
+    },
+    {
+      "question": "1900 AD",
+      "answer": "Start of the 20th century; rapid industrial and technological advances."
+    },
+    {
+      "question": "wheel invention",
+      "answer": "The invention of the wheel around 4000 BC revolutionized transportation and technology. It is considered one of the most important breakthroughs in human history, enabling the development of carts, chariots, and complex machinery. The wheel's creation marks a significant point in the Bronze Age, aiding early civilizations in agriculture, trade, and warfare."
+    },
+    {
+      "question": "cuneiform writing",
+      "answer": "Around 3500 BC, the Sumerians in Mesopotamia developed cuneiform writing, one of the earliest known writing systems. This writing used wedge-shaped marks on clay tablets and allowed the recording of laws, trade transactions, and stories. It laid the foundation for the development of literature, administration, and complex societies."
+    },
+    {
+      "question": "Egypt unification",
+      "answer": "In about 3100 BC, Pharaoh Narmer (also known as Menes) unified Upper and Lower Egypt, marking the beginning of Ancient Egyptian civilization. This unification led to the establishment of a centralized government, monumental architecture, and advances in art, religion, and engineering that influenced cultures for millennia."
+    },
+    {
+      "question": "pyramids construction",
+      "answer": "The construction of the Great Pyramids of Giza around 2500 BC showcases the engineering genius of Ancient Egypt. Built as tombs for Pharaohs Khufu, Khafre, and Menkaure, these massive stone structures symbolized the power of the kings and their religious beliefs about the afterlife. The pyramids remain some of the most remarkable architectural feats in history."
+    },
+    {
+      "question": "Akkadian Empire",
+      "answer": "Founded by Sargon the Great around 2334 BC, the Akkadian Empire was the first known empire to unite multiple city-states under centralized rule in Mesopotamia. It introduced innovations in administration, military organization, and culture, influencing subsequent empires in the region for centuries."
+    },
+    {
+      "question": "Indus Valley Civilization",
+      "answer": "Flourishing around 2000 BC, the Indus Valley Civilization in South Asia was known for its advanced urban planning, drainage systems, and standardized weights and measures. Cities like Harappa and Mohenjo-Daro demonstrated sophisticated social organization, though the civilization’s script remains undeciphered, leaving many mysteries about their culture."
+    },
+    {
+      "question": "Hammurabi's Code",
+      "answer": "Around 1792 BC, King Hammurabi of Babylon codified one of the earliest known legal systems, the Code of Hammurabi. This set of 282 laws established rules on trade, family, labor, and property, emphasizing justice and the principle of 'an eye for an eye.' It influenced future legal codes and is a milestone in the history of governance."
+    },
+    {
+      "question": "Shang Dynasty",
+      "answer": "Starting around 1600 BC, the Shang Dynasty was the earliest recorded Chinese dynasty, known for its bronze casting, oracle bone script (early Chinese writing), and complex rituals. It laid the foundation for Chinese culture, politics, and philosophy that persisted for millennia."
+    },
+    {
+      "question": "Vedic period",
+      "answer": "Beginning roughly in 1500 BC after the Aryan migration into India, the Vedic period was marked by the composition of the Vedas, sacred Hindu texts. This era shaped religious thought, social structure, and rituals, establishing cultural norms that influence Indian society even today."
+    },
+    {
+      "question": "Trojan War",
+      "answer": "Around 1200 BC, the Trojan War, immortalized in Greek epic poetry, symbolized the struggle between the Greeks and Trojans. Though its historicity is debated, archaeological evidence suggests conflicts in the region during this period. The war’s tales inspired Western literature and mythology for centuries."
+    },
+    {
+      "question": "Zhou Dynasty",
+      "answer": "Established in 1046 BC, the Zhou Dynasty introduced the concept of the Mandate of Heaven to justify the ruler’s authority. This dynasty saw the rise of Confucianism and Daoism, philosophies that deeply impacted Chinese society, politics, and ethics."
+    },
+    {
+      "question": "Greek city-states",
+      "answer": "By 800 BC, Greek city-states such as Athens and Sparta emerged, each with unique political systems like democracy and oligarchy. This era saw the flourishing of philosophy, arts, and sciences, with figures like Socrates, Plato, and Aristotle laying the intellectual foundations of Western civilization."
+    },
+    {
+      "question": "founding of Rome",
+      "answer": "In 753 BC, according to legend, Rome was founded by Romulus and Remus. Rome grew from a small city-state into a powerful Republic and later an empire, influencing law, governance, architecture, and warfare across Europe and beyond."
+    },
+    {
+      "question": "Persian Empire",
+      "answer": "Cyrus the Great founded the Achaemenid Persian Empire around 550 BC, creating one of the largest empires in history. Known for its efficient administration, road systems, and respect for cultural diversity, it set standards for governance and diplomacy in the ancient world."
+    },
+    {
+      "question": "Roman Republic",
+      "answer": "Founded in 509 BC, the Roman Republic introduced a complex system of governance with elected officials and checks and balances. It expanded its territory through military conquest and alliances, shaping the political and legal systems that influence modern democracies."
+    },
+    {
+      "question": "Battle of Marathon",
+      "answer": "In 490 BC, during the first Persian invasion of Greece, the outnumbered Athenians won the Battle of Marathon. This victory boosted Greek confidence and preserved the independence of the city-states, becoming a symbol of courage and strategic brilliance."
+    },
+    {
+      "question": "Battle of Thermopylae",
+      "answer": "In 480 BC, King Leonidas and 300 Spartans famously held the narrow pass of Thermopylae against a vastly larger Persian army. Though ultimately defeated, their sacrifice inspired Greek unity and resistance leading to Persian withdrawal from Greece."
+    },
+    {
+      "question": "Peloponnesian War",
+      "answer": "Starting in 431 BC, the Peloponnesian War was a protracted conflict between Athens and Sparta that weakened Greek city-states. It reshaped the political landscape and paved the way for Macedonian domination under Philip II and Alexander the Great."
+    },
+    {
+      "question": "Alexander the Great",
+      "answer": "Ascending the throne in 336 BC, Alexander the Great embarked on a vast military campaign, creating one of the largest empires in history stretching from Greece to India. His conquests spread Hellenistic culture, blending Greek, Egyptian, Persian, and Indian influences."
+    },
+    {
+      "question": "death of Alexander",
+      "answer": "Alexander the Great died in 323 BC in Babylon at the age of 32, leaving a vast but fragile empire. His death led to the division of his empire among generals, beginning the Hellenistic period characterized by cultural fusion and scientific advancement."
+    },
+    {
+      "question": "Qin unification",
+      "answer": "In 221 BC, Qin Shi Huang unified China for the first time, ending the Warring States period. He standardized currency, weights, measures, and scripts, and began construction of the Great Wall. His authoritarian rule laid foundations for imperial China."
+    },
+    {
+      "question": "Julius Caesar assassination",
+      "answer": "On the Ides of March, 44 BC, Julius Caesar was assassinated by senators fearing his rising power. This event ended the Roman Republic and triggered a series of civil wars that culminated in the rise of the Roman Empire under Augustus."
+    },
+    {
+      "question": "Roman Empire beginning",
+      "answer": "In 27 BC, Octavian became Augustus, the first Roman Emperor, marking the start of the Roman Empire. This period saw expansion, peace (Pax Romana), and cultural flourishing that deeply influenced Western civilization."
+    },
+    {
+      "question": "birth of Jesus",
+      "answer": "Around 4 BC, Jesus of Nazareth was born, whose teachings would form the basis of Christianity, one of the world's major religions. His life and message have profoundly impacted history, culture, and ethics globally."
+    },
+    {
+      "question": "Great Fire of Rome",
+      "answer": "In 64 AD, a devastating fire destroyed much of Rome. Emperor Nero was controversially accused of negligence or even starting the fire. The event led to major reconstruction and persecution of Christians, shaping Roman history."
+    },
+    {
+      "question": "Edict of Milan",
+      "answer": "In 313 AD, Emperor Constantine issued the Edict of Milan, granting religious tolerance across the Roman Empire. It allowed Christianity to be practiced openly, significantly aiding its spread and eventual dominance in Europe."
+    },
+    {
+      "question": "Roman Empire split",
+      "answer": "In 395 AD, the Roman Empire was permanently divided into Western and Eastern halves to better manage its vast territories. The Western Roman Empire declined and fell by 476 AD, while the Eastern Byzantine Empire survived for centuries."
+    },
+    {
+      "question": "fall of Western Rome",
+      "answer": "In 476 AD, the last Western Roman Emperor was deposed by Germanic chieftain Odoacer, marking the end of ancient Rome and the beginning of the European Middle Ages characterized by feudalism and fragmented kingdoms."
+    },
+    {
+      "question": "birth of Muhammad",
+      "answer": "In 570 AD, Muhammad was born in Mecca. He would become the Prophet of Islam, founding one of the world's major religions. His teachings and leadership united the Arabian Peninsula and influenced global history."
+    },
+    {
+      "question": "death of Muhammad",
+      "answer": "Muhammad died in 632 AD, after which his successors, the Caliphs, expanded Islamic territories rapidly. The Islamic Golden Age followed, making significant advances in science, philosophy, and culture."
+    },
+    {
+      "question": "Battle of Tours",
+      "answer": "In 732 AD, Frankish leader Charles Martel defeated Muslim forces at the Battle of Tours, halting their advance into Western Europe. This battle preserved Christianity's dominance in the region and shaped European history."
+    },
+    {
+      "question": "Charlemagne crowned",
+      "answer": "In 800 AD, Charlemagne was crowned Emperor of the Romans by Pope Leo III, reviving the idea of a unified Christian empire in Western Europe and laying foundations for the Holy Roman Empire."
+    },
+    {
+      "question": "Great Schism",
+      "answer": "In 1054 AD, the Christian Church split into the Roman Catholic Church in the West and the Eastern Orthodox Church, due to theological, political, and cultural differences that persist today."
+    },
+    {
+      "question": "Norman Conquest",
+      "answer": "In 1066 AD, William the Conqueror defeated King Harold at the Battle of Hastings, becoming King of England. This event reshaped English language, culture, and governance."
+    },
+    {
+      "question": "First Crusade",
+      "answer": "Launched in 1096 AD, the First Crusade was a military expedition by European Christians to reclaim Jerusalem and the Holy Land from Muslim control, resulting in the establishment of Crusader states."
+    },
+    {
+      "question": "Magna Carta",
+      "answer": "Signed in 1215 AD, the Magna Carta limited the power of the English monarchy and established principles of justice and the rule of law, influencing constitutional developments worldwide."
+    },
+    {
+      "question": "Black Death",
+      "answer": "Beginning in 1347 AD, the Black Death pandemic killed an estimated one-third of Europe's population, leading to social, economic, and religious upheavals that transformed medieval society."
+    },
+    {
+      "question": "Fall of Constantinople",
+      "answer": "In 1453 AD, the Ottoman Empire captured Constantinople, ending the Byzantine Empire. This event shifted trade routes, prompting European exploration and the Renaissance."
+    },
+    {
+      "question": "Columbus discovers Americas",
+      "answer": "In 1492 AD, Christopher Columbus reached the Americas, opening the continent to European exploration, colonization, and profound cultural exchanges with lasting global impact."
+    },
+    {
+      "question": "Protestant Reformation",
+      "answer": "In 1517 AD, Martin Luther's Ninety-Five Theses sparked the Protestant Reformation, challenging Catholic Church doctrines and leading to religious fragmentation and wars across Europe."
+    },
+    {
+      "question": "Spanish Armada defeat",
+      "answer": "In 1588 AD, the English navy defeated the Spanish Armada, halting Spain's attempt to invade England and marking the rise of England as a major naval power."
+    },
+    {
+      "question": "Qing Dynasty",
+      "answer": "Established in 1644 AD, the Qing Dynasty was China's last imperial dynasty, overseeing territorial expansion, cultural flowering, and eventual decline under foreign pressures."
+    },
+    {
+      "question": "American Independence",
+      "answer": "In 1776 AD, the Thirteen Colonies declared independence from Britain, leading to the creation of the United States and inspiring democratic movements worldwide."
+    },
+    {
+      "question": "French Revolution",
+      "answer": "Beginning in 1789 AD, the French Revolution overthrew monarchy and aristocracy, spreading ideals of liberty, equality, and fraternity, profoundly reshaping France and Europe."
+    },
+    {
+      "question": "Napoleon Empire",
+      "answer": "In 1804 AD, Napoleon Bonaparte crowned himself Emperor, establishing a European empire through conquest, legal reforms like the Napoleonic Code, and administrative modernization."
+    },
+    {
+      "question": "Indian Rebellion",
+      "answer": "In 1857 AD, Indian soldiers and civilians rebelled against British East India Company rule, marking the first large-scale resistance that eventually led to British Crown control of India."
+    },
+    {
+      "question": "American Civil War",
+      "answer": "Starting in 1861 AD, the American Civil War was fought over slavery and states' rights, resulting in the abolition of slavery and preservation of the United States as one nation."
+    },
+    {
+      "question": "Indian National Congress",
+      "answer": "Founded in 1885 AD, the Indian National Congress became the primary political party advocating for Indian self-rule and independence from British colonial rule."
+    },
+    {
+      "question": "Modern Olympics",
+      "answer": "The first modern Olympic Games were held in Athens in 1896 AD, reviving the ancient tradition and fostering international athletic competition and cooperation."
+    },
+    {
+      "question": "1900 AD",
+      "answer": "The start of the 20th century ushered in rapid technological, scientific, and social changes, including industrialization, global conflicts, and shifts in political ideologies."
+    },
+    {
+      "question": "computer",
+      "answer": "A computer is an electronic device that processes data and performs tasks according to instructions called programs. It can perform calculations, store information, and run software applications."
+    },
+    {
+      "question": "hardware",
+      "answer": "Hardware refers to the physical parts of a computer system, such as the monitor, keyboard, mouse, processor, memory, and storage devices."
+    },
+    {
+      "question": "software",
+      "answer": "Software is a collection of programs and data that tell the computer how to perform specific tasks. Examples include operating systems, applications, and games."
+    },
+    {
+      "question": "operating system",
+      "answer": "An operating system (OS) is software that manages computer hardware and provides services for computer programs. Examples include Windows, macOS, and Linux."
+    },
+    {
+      "question": "CPU",
+      "answer": "The Central Processing Unit (CPU) is the brain of the computer, responsible for executing instructions and processing data."
+    },
+    {
+      "question": "RAM",
+      "answer": "Random Access Memory (RAM) is a type of computer memory that temporarily stores data and instructions that the CPU needs while performing tasks."
+    },
+    {
+      "question": "storage",
+      "answer": "Storage refers to devices or media where data is saved permanently or temporarily. Common types are hard drives (HDD), solid-state drives (SSD), and USB flash drives."
+    },
+    {
+      "question": "input devices",
+      "answer": "Input devices allow users to enter data and commands into a computer. Examples include keyboard, mouse, scanner, and microphone."
+    },
+    {
+      "question": "output devices",
+      "answer": "Output devices display or produce results from computer processing. Examples include monitors, printers, and speakers."
+    },
+    {
+      "question": "software application",
+      "answer": "A software application is a program designed for end-users to perform specific tasks like word processing, browsing the internet, or playing games."
+    },
+    {
+      "question": "internet",
+      "answer": "The internet is a global network connecting millions of computers, allowing communication, data sharing, and access to information worldwide."
+    },
+    {
+      "question": "browser",
+      "answer": "A browser is a software application used to access and view websites on the internet, such as Chrome, Firefox, and Safari."
+    },
+    {
+      "question": "file",
+      "answer": "A file is a collection of data stored on a computer, such as documents, images, videos, or software programs."
+    },
+    {
+      "question": "folder",
+      "answer": "A folder is a virtual container on a computer used to organize files and other folders."
+    },
+    {
+      "question": "download",
+      "answer": "To download means to transfer data or files from the internet or another computer to your own device."
+    },
+    {
+      "question": "upload",
+      "answer": "To upload means to transfer data or files from your computer to the internet or another device."
+    },
+    {
+      "question": "email",
+      "answer": "Email (electronic mail) is a method of exchanging digital messages over the internet."
+    },
+    {
+      "question": "virus",
+      "answer": "A computer virus is a malicious program designed to damage or disrupt a computer system or steal information."
+    },
+    {
+      "question": "antivirus",
+      "answer": "Antivirus software detects, prevents, and removes computer viruses and other malicious software."
+    },
+    {
+      "question": "backup",
+      "answer": "Backup means making a copy of data to protect it from loss or damage."
+    },
+    {
+      "question": "desktop",
+      "answer": "A desktop computer is a personal computer designed to stay in one place, typically on a desk."
+    },
+    {
+      "question": "laptop",
+      "answer": "A laptop is a portable personal computer with a built-in screen and keyboard."
+    },
+    {
+      "question": "USB",
+      "answer": "USB (Universal Serial Bus) is a common interface used to connect peripherals like keyboards, mice, and storage devices to a computer."
+    },
+    {
+      "question": "WiFi",
+      "answer": "WiFi is a wireless technology that allows devices to connect to the internet or a network without cables."
+    },
+    {
+      "question": "password",
+      "answer": "A password is a secret word or phrase used to access a computer system or online account securely."
+    },
+    {
+      "question": "login",
+      "answer": "Login is the process of entering credentials, such as username and password, to access a computer system or service."
+    },
+    {
+      "question": "logout",
+      "answer": "Logout is the process of signing out from a computer system or service to protect privacy."
+    },
+    {
+      "question": "browser cache",
+      "answer": "Browser cache stores temporary files from websites to speed up loading times on subsequent visits."
+    },
+    {
+      "question": "URL",
+      "answer": "URL (Uniform Resource Locator) is the web address used to access websites."
+    },
+    {
+      "question": "software update",
+      "answer": "Software update refers to the process of installing new versions of software to improve features or fix security issues."
+    },
+    {
+      "question": "malware",
+      "answer": "Malware is malicious software designed to harm or exploit any programmable device or network."
+    },
+    {
+      "question": "firewall",
+      "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+    },
+    {
+      "question": "download folder",
+      "answer": "The download folder is a location on your computer where downloaded files are saved by default."
+    },
+    {
+      "question": "search engine",
+      "answer": "A search engine is an online tool used to find websites and information by typing keywords, like Google or Bing."
+    },
+    {
+      "question": "copy paste",
+      "answer": "Copy paste is a function that duplicates selected text or files and inserts them elsewhere."
+    },
+    {
+      "question": "shortcut",
+      "answer": "A shortcut is a quick way to access a program, file, or folder without navigating the full path."
+    },
+    {
+      "question": "scroll",
+      "answer": "Scrolling moves the content up or down on the screen to view parts that are not immediately visible."
+    },
+    {
+      "question": "click",
+      "answer": "Click refers to pressing a mouse button to select or interact with an item on the screen."
+    },
+    {
+      "question": "double click",
+      "answer": "Double click means quickly pressing a mouse button twice to open files or programs."
+    },
+    {
+      "question": "drag and drop",
+      "answer": "Drag and drop is a method of moving objects on the screen by clicking, holding, dragging, and releasing them."
+    },
+    {
+      "question": "icon",
+      "answer": "An icon is a small graphical representation of a program, file, or function on a computer."
+    },
+    {
+      "question": "taskbar",
+      "answer": "The taskbar is a bar on the screen that shows open programs and allows quick access to them."
+    },
+    {
+      "question": "desktop background",
+      "answer": "The desktop background is the image or color displayed on the main screen behind icons and windows."
+    },
+    {
+      "question": "system clock",
+      "answer": "The system clock shows the current time and date on the computer."
+    },
+    {
+      "question": "recycle bin",
+      "answer": "The recycle bin is a folder where deleted files are temporarily stored before permanent removal."
+    },
+    {
+      "question": "format",
+      "answer": "Formatting a storage device erases all data and prepares it for use."
+    },
+    {
+      "question": "file extension",
+      "answer": "A file extension is a suffix in a filename that indicates its file type, like .docx for documents or .jpg for images."
+    },
+    {
+      "question": "multitasking",
+      "answer": "Multitasking is the ability of a computer to run multiple programs or processes at the same time."
+    },
+    {
+      "question": "cloud storage",
+      "answer": "Cloud storage allows saving files on remote servers accessed via the internet, providing backup and sharing capabilities."
+    },
+    {
+      "question": "Bluetooth",
+      "answer": "Bluetooth is a wireless technology to exchange data over short distances between devices like phones, computers, and headphones."
+    },
+    {
+      "question": "monitor",
+      "answer": "A monitor is an output device that displays images and videos generated by the computer."
+    },
+    {
+      "question": "printer",
+      "answer": "A printer is a device that produces physical copies of digital documents and images on paper."
+    },
+    {
+      "question": "scanner",
+      "answer": "A scanner converts physical documents or photos into digital format for storage or editing on a computer."
+    },
+    {
+      "question": "keyboard",
+      "answer": "A keyboard is an input device with keys used to enter text and commands into a computer."
+    },
+    {
+      "question": "mouse",
+      "answer": "A mouse is a pointing input device used to interact with graphical elements on the screen."
+    },
+    {
+      "question": "graphics card",
+      "answer": "A graphics card is hardware that renders images, videos, and animations on the monitor, especially important for gaming and design."
+    },
+    {
+      "question": "motherboard",
+      "answer": "The motherboard is the main circuit board connecting all computer components, allowing communication between CPU, memory, and peripherals."
+    },
+    {
+      "question": "software license",
+      "answer": "A software license is a legal agreement that defines how software can be used and distributed."
+    },
+    {
+      "question": "open source",
+      "answer": "Open source software has source code available for anyone to inspect, modify, and distribute."
+    },
+    {
+      "question": "file compression",
+      "answer": "File compression reduces the size of files to save space or speed up transfer, using formats like ZIP or RAR."
+    },
+    {
+      "question": "system restore",
+      "answer": "System restore allows returning a computer to a previous state to fix problems caused by software or updates."
+    },
+    {
+      "question": "USB drive",
+      "answer": "A USB drive is a portable storage device used to save and transfer files between computers."
+    },
+    {
+      "question": "external hard drive",
+      "answer": "An external hard drive is a portable storage device connected via USB or other ports for backup or extra space."
+    },
+    {
+      "question": "cache memory",
+      "answer": "Cache memory is a small amount of fast memory in the CPU that stores frequently used data to speed up processing."
+    },
+    {
+      "question": "cookies",
+      "answer": "Cookies are small files stored by websites on your computer to remember preferences and login information."
+    },
+    {
+      "question": "malware removal",
+      "answer": "Malware removal involves scanning and deleting malicious software from a computer to protect its security and performance."
+    },
+    {
+      "question": "defragmentation",
+      "answer": "Defragmentation reorganizes fragmented data on a hard drive to improve access speed and efficiency."
+    },
+    {
+      "question": "bit",
+      "answer": "A bit is the smallest unit of digital data, representing a 0 or 1 in binary code."
+    },
+    {
+      "question": "byte",
+      "answer": "A byte is a group of 8 bits, commonly used to represent a single character of data."
+    },
+    {
+      "question": "gigabyte",
+      "answer": "A gigabyte (GB) is approximately one billion bytes, a common measure of storage capacity."
+    },
+    {
+      "question": "download speed",
+      "answer": "Download speed measures how fast data is transferred from the internet to your device, usually in Mbps."
+    },
+    {
+      "question": "upload speed",
+      "answer": "Upload speed measures how fast data is sent from your device to the internet, also in Mbps."
+    },
+    {
+      "question": "network",
+      "answer": "A network connects multiple computers and devices to share resources and communicate."
+    },
+    {
+      "question": "IP address",
+      "answer": "An IP address is a unique numerical label assigned to each device on a network to identify it."
+    },
+    {
+      "question": "firewall",
+      "answer": "A firewall protects a computer or network by controlling incoming and outgoing network traffic based on security rules."
+    },
+    {
+      "question": "password manager",
+      "answer": "A password manager securely stores and manages multiple passwords for online accounts."
+    },
+    {
+      "question": "phishing",
+      "answer": "Phishing is a cyber attack where attackers impersonate trustworthy entities to steal sensitive information."
+    },
+    {
+      "question": "two-factor authentication",
+      "answer": "Two-factor authentication adds an extra security layer by requiring a second form of verification besides a password."
+    },
+    {
+      "question": "VPN",
+      "answer": "A VPN (Virtual Private Network) encrypts your internet connection to provide privacy and security online."
+    },
+    {
+      "question": "software installation",
+      "answer": "Software installation is the process of copying and configuring a program on a computer to make it ready for use."
+    },
+    {
+      "question": "uninstall",
+      "answer": "Uninstalling removes software programs from a computer to free up space or fix issues."
+    },
+    {
+      "question": "update",
+      "answer": "An update improves software by fixing bugs, adding features, or enhancing security."
+    },
+    {
+      "question": "bug",
+      "answer": "A bug is an error or flaw in software that causes it to behave unexpectedly or incorrectly."
+    },
+    {
+      "question": "crash",
+      "answer": "A crash is when a program or computer stops working suddenly due to errors or conflicts."
+    },
+    {
+      "question": "safe mode",
+      "answer": "Safe mode is a diagnostic mode that starts a computer with minimal drivers and software to troubleshoot problems."
+    },
+    {
+      "question": "task manager",
+      "answer": "Task manager shows running programs and processes, allowing users to monitor performance and stop unresponsive applications."
+    },
+    {
+      "question": "shortcut key",
+      "answer": "Shortcut keys are keyboard combinations that perform specific actions quickly, like Ctrl+C to copy."
+    },
+    {
+      "question": "scroll bar",
+      "answer": "A scroll bar lets users move the visible area of content vertically or horizontally within a window."
+    },
+    {
+      "question": "pop-up",
+      "answer": "A pop-up is a small window that appears unexpectedly, often used for ads or notifications."
+    },
+    {
+      "question": "widget",
+      "answer": "A widget is a small application or tool on a desktop or website that provides quick access to information or functions."
+    },
+    {
+      "question": "bandwidth",
+      "answer": "Bandwidth is the maximum rate of data transfer across a network connection."
+    },
+    {
+      "question": "cache clearing",
+      "answer": "Clearing cache removes temporary files stored by programs or browsers to free up space and fix loading issues."
+    },
+    {
+      "question": "formatting text",
+      "answer": "Formatting text changes its appearance, such as font size, color, or style in documents or applications."
+    },
+    {
+      "question": "spell check",
+      "answer": "Spell check automatically identifies and corrects spelling errors in text."
+    },
+    {
+      "question": "syntax",
+      "answer": "Syntax refers to the set of rules that define the structure of commands or code in programming languages."
+    },
+    {
+      "question": "algorithm",
+      "answer": "An algorithm is a step-by-step procedure or formula for solving a problem or completing a task."
+    },
+    {
+      "question": "database",
+      "answer": "A database is an organized collection of data stored electronically for easy access, management, and updating."
+    },
+    {
+      "question": "cloud computing",
+      "answer": "Cloud computing delivers computing services like storage, servers, and software over the internet instead of local hardware."
+    },
+    {
+      "question": "firewall",
+      "answer": "A firewall protects your device by monitoring and controlling incoming and outgoing network traffic based on security rules."
+    },
+    {
+      "question": "spam",
+      "answer": "Spam refers to unsolicited and often irrelevant or inappropriate messages sent over the internet."
+    },
+    {
+      "question": "URL",
+      "answer": "A URL (Uniform Resource Locator) is the address of a web page or file on the internet."
+    },
+    {
+      "question": "HTML",
+      "answer": "HTML (HyperText Markup Language) is the standard language used to create and design web pages."
+    },
+    {
+      "question": "CSS",
+      "answer": "CSS (Cascading Style Sheets) is used to style and layout web pages, controlling colors, fonts, and positioning."
+    },
+    {
+      "question": "JavaScript",
+      "answer": "JavaScript is a programming language used to make web pages interactive and dynamic."
+    },
+    {
+      "question": "file sharing",
+      "answer": "File sharing is the practice of distributing or providing access to digital files over a network or internet."
+    },
+    {
+      "question": "encryption",
+      "answer": "Encryption converts data into a coded form to prevent unauthorized access during transmission or storage."
+    },
+    {
+      "question": "backup",
+      "answer": "Backing up data means creating copies to protect against loss from hardware failure, theft, or accidents."
+    },
+    {
+      "question": "sync",
+      "answer": "Syncing keeps data consistent across multiple devices by updating changes in real time."
+    },
+    {
+      "question": "cache",
+      "answer": "Cache is temporary storage that helps speed up access to frequently used data or programs."
+    },
+    {
+      "question": "bit",
+      "answer": "A bit is the smallest unit of digital data, representing a 0 or 1."
+    },
+    {
+      "question": "gigabyte",
+      "answer": "A gigabyte is a unit of data storage equal to approximately one billion bytes."
+    },
+    {
+      "question": "browser",
+      "answer": "A browser is software used to access and view websites on the internet."
+    },
+    {
+      "question": "firewall",
+      "answer": "A firewall monitors and controls network traffic to protect against unauthorized access."
+    },
+    {
+      "question": "gaming",
+      "answer": "Gaming is the activity of playing electronic games, either on computers, consoles, or mobile devices, for entertainment or competition."
+    },
+    {
+      "question": "console",
+      "answer": "A gaming console is a specialized electronic device designed primarily for playing video games, such as PlayStation, Xbox, or Nintendo Switch."
+    },
+    {
+      "question": "PC gaming",
+      "answer": "PC gaming refers to playing video games on a personal computer, often preferred for its flexibility, customization, and graphics capabilities."
+    },
+    {
+      "question": "graphics card",
+      "answer": "A graphics card is hardware that processes images and videos, crucial for rendering high-quality graphics in games."
+    },
+    {
+      "question": "FPS",
+      "answer": "FPS stands for First-Person Shooter, a popular game genre where players experience the action through the eyes of the protagonist."
+    },
+    {
+      "question": "multiplayer",
+      "answer": "Multiplayer games allow multiple players to participate simultaneously, either cooperatively or competitively."
+    },
+    {
+      "question": "eSports",
+      "answer": "eSports are organized competitive video gaming events, often with professional players and large audiences."
+    },
+    {
+      "question": "lag",
+      "answer": "Lag is a delay between a player's action and the game's response, usually caused by slow internet or hardware issues."
+    },
+    {
+      "question": "fps (frames per second)",
+      "answer": "FPS in gaming measures how many images (frames) a system can display per second; higher FPS means smoother gameplay."
+    },
+    {
+      "question": "VR",
+      "answer": "Virtual Reality (VR) gaming immerses players in a simulated environment using special headsets and controllers."
+    },
+    {
+      "question": "controller",
+      "answer": "A controller is a handheld device used to input commands and control characters or actions in a game."
+    },
+    {
+      "question": "streaming",
+      "answer": "Game streaming involves broadcasting gameplay live over the internet, often on platforms like Twitch or YouTube."
+    },
+    {
+      "question": "mods",
+      "answer": "Mods are modifications created by users to change or add features to existing games."
+    },
+    {
+      "question": "open world",
+      "answer": "Open world games allow players to explore large, interactive environments freely rather than following a linear path."
+    },
+    {
+      "question": "RPG",
+      "answer": "Role-Playing Games (RPGs) involve players assuming the roles of characters in a fictional setting, focusing on story and character development."
+    },
+    {
+      "question": "MMORPG",
+      "answer": "Massively Multiplayer Online Role-Playing Games support hundreds or thousands of players interacting in a persistent online world."
+    },
+    {
+      "question": "quest",
+      "answer": "A quest is a task or mission given to a player to complete within a game."
+    },
+    {
+      "question": "XP",
+      "answer": "Experience points (XP) are earned by players to level up or improve their characters' abilities."
+    },
+    {
+      "question": "loot",
+      "answer": "Loot refers to in-game items collected by players, often from defeated enemies or treasure chests."
+    },
+    {
+      "question": "patch",
+      "answer": "A patch is an update released by developers to fix bugs, add content, or improve game performance."
+    },
+    {
+      "question": "DLC",
+      "answer": "Downloadable Content (DLC) is additional content for a game that can be downloaded separately, such as new levels or characters."
+    },
+    {
+      "question": "skill tree",
+      "answer": "A skill tree is a system in RPGs where players can choose specific abilities or upgrades for their character."
+    },
+    {
+      "question": "boss",
+      "answer": "A boss is a powerful enemy that players must defeat to progress in the game."
+    },
+    {
+      "question": "co-op",
+      "answer": "Co-op (cooperative) games allow players to work together to achieve objectives."
+    },
+    {
+      "question": "respawn",
+      "answer": "Respawn is when a player or enemy reappears in the game after being defeated."
+    },
+    {
+      "question": "PvP",
+      "answer": "Player versus Player (PvP) refers to competitive gameplay where players fight against each other."
+    },
+    {
+      "question": "PvE",
+      "answer": "Player versus Environment (PvE) involves players fighting computer-controlled enemies or completing missions."
+    },
+    {
+      "question": "HUD",
+      "answer": "The Heads-Up Display (HUD) shows important information on the screen, such as health, ammo, and maps."
+    },
+    {
+      "question": "speedrun",
+      "answer": "Speedrunning is playing a game with the goal of completing it as fast as possible."
+    },
+    {
+      "question": "AAA games",
+      "answer": "AAA games are high-budget, high-profile games developed by major studios with extensive resources."
+    },
+    {
+      "question": "indie games",
+      "answer": "Indie games are created by small teams or individual developers, often with unique or experimental gameplay."
+    },
+    {
+      "question": "sandbox",
+      "answer": "Sandbox games give players freedom to create, modify, and interact with the game world with minimal restrictions."
+    },
+    {
+      "question": "checkpoint",
+      "answer": "A checkpoint is a saved point in a game where progress is recorded to resume after failure."
+    },
+    {
+      "question": "hitbox",
+      "answer": "A hitbox is an invisible area around a character or object used to detect collisions or hits."
+    },
+    {
+      "question": "aimbot",
+      "answer": "An aimbot is cheating software that automatically aims weapons for the player."
+    },
+    {
+      "question": "controller vibration",
+      "answer": "Controller vibration provides tactile feedback to enhance immersion during gameplay."
+    },
+    {
+      "question": "crafting",
+      "answer": "Crafting involves creating new items or equipment by combining resources collected in the game."
+    },
+    {
+      "question": "skill cooldown",
+      "answer": "Skill cooldown is the waiting period before a player can use a specific ability again."
+    },
+    {
+      "question": "health bar",
+      "answer": "The health bar displays the player's or enemy's remaining life during gameplay."
+    },
+    {
+      "question": "mana",
+      "answer": "Mana is a resource used to cast spells or perform special abilities in many games."
+    },
+    {
+      "question": "platform",
+      "answer": "A gaming platform is the hardware or system on which games are played, such as PC, console, or mobile."
+    },
+    {
+      "question": "crossplay",
+      "answer": "Crossplay allows players on different platforms to play together online."
+    },
+    {
+      "question": "leaderboard",
+      "answer": "A leaderboard ranks players based on their scores, achievements, or performance in a game."
+    },
+    {
+      "question": "sandbox mode",
+      "answer": "Sandbox mode allows players to experiment and create freely without specific objectives or restrictions."
+    },
+    {
+      "question": "esports team",
+      "answer": "An esports team is a group of professional gamers competing in tournaments and leagues."
+    },
+    {
+      "question": "cheats",
+      "answer": "Cheats are codes or software used to gain unfair advantages in games."
+    },
+    {
+      "question": "achievement",
+      "answer": "Achievements are rewards for completing specific tasks or milestones in a game."
+    },
+    {
+      "question": "skins",
+      "answer": "Skins are cosmetic changes to a character's appearance without affecting gameplay."
+    },
+    {
+      "question": "clan",
+      "answer": "A clan is a group of players who team up regularly to play games together."
+    },
+    {
+      "question": "grinding",
+      "answer": "Grinding means repeating tasks to gain experience, items, or currency in a game."
+    },
+    {
+      "question": "multiplayer lobby",
+      "answer": "A multiplayer lobby is a waiting area where players gather before starting a game session."
+    },
+    {
+      "question": "voice chat",
+      "answer": "Voice chat allows players to communicate with each other using microphones during gameplay."
+    },
+    {
+      "question": "NPC",
+      "answer": "Non-Player Characters (NPCs) are characters controlled by the game, not by human players."
+    },
+    {
+      "question": "respawn time",
+      "answer": "Respawn time is the delay before a defeated player or enemy reappears."
+    },
+    {
+      "question": "game engine",
+      "answer": "A game engine is software that provides tools and systems to create and run video games."
+    },
+    {
+      "question": "hit points",
+      "answer": "Hit points represent the amount of damage a character can take before dying or losing."
+    },
+    {
+      "question": "loot box",
+      "answer": "A loot box is a virtual container that gives random in-game items, often purchased with real money."
+    },
+    {
+      "question": "party system",
+      "answer": "A party system lets players team up to play cooperatively in multiplayer games."
+    },
+    {
+      "question": "open beta",
+      "answer": "Open beta is a testing phase where the game is available to the public before official release."
+    },
+    {
+      "question": "server",
+      "answer": "A server hosts online multiplayer games, allowing players to connect and play together."
+    },
+    {
+      "question": "lag compensation",
+      "answer": "Lag compensation techniques reduce the impact of network delays in online gaming."
+    },
+    {
+      "question": "hit detection",
+      "answer": "Hit detection determines whether a player's attack successfully hits a target."
+    },
+    {
+      "question": "game patch",
+      "answer": "A game patch is an update released to fix bugs, add content, or balance gameplay."
+    },
+    {
+      "question": "respawn point",
+      "answer": "A respawn point is a specific location where players or characters reappear after being defeated."
+    },
+    {
+      "question": "sandbox game",
+      "answer": "Sandbox games offer open-ended gameplay with freedom to explore and create."
+    },
+    {
+      "question": "game server",
+      "answer": "A game server hosts the multiplayer environment where players connect and interact."
+    },
+    {
+      "question": "gamepad",
+      "answer": "A gamepad is a handheld controller used for playing games on consoles or PCs."
+    },
+    {
+      "question": "NPC behavior",
+      "answer": "NPC behavior refers to how non-player characters act and respond within a game world."
+    },
+    {
+      "question": "voice command",
+      "answer": "Voice command lets players control game functions using spoken instructions."
+    },
+    {
+      "question": "game mechanics",
+      "answer": "Game mechanics are rules and systems that define how a game operates and responds to player actions."
+    },
+    {
+      "question": "virtual economy",
+      "answer": "A virtual economy is the in-game system of currency and trade among players and NPCs."
+    },
+    {
+      "question": "skill progression",
+      "answer": "Skill progression allows characters to improve abilities and unlock new skills over time."
+    },
+    {
+      "question": "game AI",
+      "answer": "Game AI controls non-player characters and adapts gameplay to provide challenge and interaction."
+    },
+    {
+      "question": "cheat detection",
+      "answer": "Cheat detection identifies and prevents unfair advantages or hacking in games."
+    },
+    {
+      "question": "game lobby",
+      "answer": "A game lobby is a waiting area where players join and prepare before a match starts."
+    },
+    {
+      "question": "matchmaking",
+      "answer": "Matchmaking pairs players of similar skill levels for balanced online gameplay."
+    },
+    {
+      "question": "respawn timer",
+      "answer": "A respawn timer counts down the time before a player or enemy can return to the game."
+    },
+    {
+      "question": "game streaming",
+      "answer": "Game streaming broadcasts live gameplay to viewers online."
+    },
+    {
+      "question": "controller mapping",
+      "answer": "Controller mapping assigns game functions to specific buttons or controls."
+    },
+    {
+      "question": "game physics",
+      "answer": "Game physics simulates real-world laws like gravity and collision within a game."
+    },
+    {
+      "question": "game soundtrack",
+      "answer": "A game soundtrack is the music composed specifically for a video game."
+    },
+    {
+      "question": "player stats",
+      "answer": "Player stats track performance metrics like kills, deaths, and scores."
+    },
+    {
+      "question": "loot drop",
+      "answer": "Loot drop is the process of items being released by defeated enemies or found in the game world."
+    },
+    {
+      "question": "game customization",
+      "answer": "Game customization allows players to personalize characters, settings, and gameplay options."
+    },
+    {
+      "question": "in-game currency",
+      "answer": "In-game currency is virtual money used to buy items, upgrades, or services within a game."
+    },
+    {
+      "question": "game tutorial",
+      "answer": "A game tutorial teaches players how to play and use game controls effectively."
+    },
+    {
+      "question": "game achievements",
+      "answer": "Game achievements reward players for reaching milestones or completing challenges."
+    },
+    {
+      "question": "game rating",
+      "answer": "Game rating indicates the recommended age group and content suitability for a game."
+    },
+    {
+      "question": "game release",
+      "answer": "Game release is the official launch of a game to the public."
+    },
+    {
+      "question": "game developer",
+      "answer": "Game developers design, create, and test video games."
+    },
+    {
+      "question": "gaming community",
+      "answer": "The gaming community consists of players, fans, and creators who interact around games."
+    },
+    {
+      "question": "game update",
+      "answer": "A game update improves a game by fixing bugs or adding new features after release."
+    },
+    {
+      "question": "game patch notes",
+      "answer": "Patch notes are documents that detail changes made in a game update or patch."
+    },
+    {
+      "question": "game beta",
+      "answer": "Game beta is a testing version of a game released before the final version to find bugs and gather feedback."
+    },
+    {
+      "question": "game crash",
+      "answer": "A game crash is when a game unexpectedly stops working, often due to errors or conflicts."
+    },
+    {
+      "question": "game save",
+      "answer": "Saving a game records the player's progress so they can continue later."
+    },
+    {
+      "question": "game loading screen",
+      "answer": "A loading screen appears while the game loads data or transitions between scenes."
+    },
+    {
+      "question": "game achievement system",
+      "answer": "An achievement system rewards players for completing specific goals or challenges in a game."
+    },
+    {
+      "question": "game walkthrough",
+      "answer": "A walkthrough is a detailed guide to help players complete a game or specific challenges."
+    },
+    {
+      "question": "game lore",
+      "answer": "Game lore is the backstory and world-building details that enrich the game's narrative."
+    },
+    {
+      "question": "Minecraft",
+      "answer": "Minecraft is a sandbox game where players can build and explore infinite worlds made of blocks."
+    },
+    {
+      "question": "Fortnite",
+      "answer": "Fortnite is a popular battle royale game where 100 players fight to be the last one standing."
+    },
+    {
+      "question": "Call of Duty",
+      "answer": "Call of Duty is a first-person shooter series known for its intense multiplayer and realistic combat."
+    },
+    {
+      "question": "Among Us",
+      "answer": "Among Us is a multiplayer social deduction game where players work together to complete tasks while identifying impostors."
+    },
+    {
+      "question": "PUBG",
+      "answer": "PlayerUnknown's Battlegrounds (PUBG) is a battle royale game focusing on realistic survival and shooting mechanics."
+    },
+    {
+      "question": "League of Legends",
+      "answer": "League of Legends is a multiplayer online battle arena (MOBA) game featuring team-based strategic combat."
+    },
+    {
+      "question": "Overwatch",
+      "answer": "Overwatch is a team-based shooter with unique heroes, each having distinct abilities and roles."
+    },
+    {
+      "question": "The Legend of Zelda",
+      "answer": "The Legend of Zelda is an action-adventure series known for exploration, puzzles, and story-driven gameplay."
+    },
+    {
+      "question": "Super Mario Bros",
+      "answer": "Super Mario Bros is a classic platformer where players control Mario to rescue Princess Peach from Bowser."
+    },
+    {
+      "question": "Animal Crossing",
+      "answer": "Animal Crossing is a life simulation game where players build and customize their own island community."
+    },
+    {
+      "question": "Cyberpunk 2077",
+      "answer": "Cyberpunk 2077 is an open-world RPG set in a futuristic dystopian city with deep narrative and customization."
+    },
+    {
+      "question": "Apex Legends",
+      "answer": "Apex Legends is a fast-paced battle royale game with squads of three players competing for survival."
+    },
+    {
+      "question": "FIFA",
+      "answer": "FIFA is a popular soccer simulation series featuring licensed teams and realistic gameplay."
+    },
+    {
+      "question": "Minecraft Dungeons",
+      "answer": "Minecraft Dungeons is an action-adventure dungeon crawler set in the Minecraft universe."
+    },
+    {
+      "question": "Fall Guys",
+      "answer": "Fall Guys is a multiplayer party game featuring obstacle course races with colorful jellybean-like characters."
+    },
+    {
+      "question": "Dark Souls",
+      "answer": "Dark Souls is an action RPG known for challenging combat and deep lore."
+    },
+    {
+      "question": "The Witcher 3",
+      "answer": "The Witcher 3 is an open-world RPG with rich storytelling and immersive gameplay."
+    },
+    {
+      "question": "Grand Theft Auto V",
+      "answer": "GTA V is an open-world action-adventure game featuring a sprawling city and multiple protagonists."
+    },
+    {
+      "question": "Valorant",
+      "answer": "Valorant is a tactical shooter combining precise gunplay with unique agent abilities."
+    },
+    {
+      "question": "Rocket League",
+      "answer": "Rocket League is a high-energy game blending soccer with rocket-powered cars."
+    },
+    {
+      "question": "Minecraft Education Edition",
+      "answer": "Minecraft Education Edition is a version of Minecraft designed for classroom learning and creativity."
+    },
+    {
+      "question": "Red Dead Redemption 2",
+      "answer": "Red Dead Redemption 2 is a Western-themed open-world game with a strong narrative focus."
+    },
+    {
+      "question": "Terraria",
+      "answer": "Terraria is a 2D sandbox adventure game featuring exploration, crafting, and combat."
+    },
+    {
+      "question": "Among Us VR",
+      "answer": "Among Us VR brings the social deduction gameplay into virtual reality for immersive experiences."
+    },
+    {
+      "question": "Genshin Impact",
+      "answer": "Genshin Impact is an open-world action RPG with elemental magic and character switching."
+    },
+    {
+      "question": "Halo Infinite",
+      "answer": "Halo Infinite is a first-person shooter continuing the story of Master Chief in a sci-fi universe."
+    },
+    {
+      "question": "Candy Crush Saga",
+      "answer": "Candy Crush Saga is a popular match-three puzzle game available on mobile platforms."
+    },
+    {
+      "question": "Call of Duty Warzone",
+      "answer": "Warzone is a free-to-play battle royale game part of the Call of Duty franchise."
+    },
+    {
+      "question": "Super Smash Bros",
+      "answer": "Super Smash Bros is a crossover fighting game featuring characters from various Nintendo franchises."
+    },
+    {
+      "question": "Assassin's Creed",
+      "answer": "Assassin's Creed is an action-adventure series with historical settings and stealth gameplay."
+    },
+    {
+      "question": "Stardew Valley",
+      "answer": "Stardew Valley is a farming simulation RPG where players grow crops, raise animals, and build relationships."
+    },
+    {
+      "question": "Pokemon Go",
+      "answer": "Pokemon Go is an augmented reality mobile game where players catch Pokemon in the real world."
+    },
+    {
+      "question": "The Sims",
+      "answer": "The Sims is a life simulation game where players create and control virtual people and households."
+    },
+    {
+      "question": "Call of Duty Mobile",
+      "answer": "Call of Duty Mobile brings the popular shooter experience to smartphones with multiplayer and battle royale modes."
+    },
+    {
+      "question": "League of Legends: Wild Rift",
+      "answer": "Wild Rift is the mobile adaptation of the popular MOBA League of Legends."
+    },
+    {
+      "question": "Clash of Clans",
+      "answer": "Clash of Clans is a mobile strategy game where players build villages and battle other players online."
+    },
+    {
+      "question": "Valorant Mobile",
+      "answer": "Valorant Mobile is the upcoming mobile version of the tactical shooter Valorant."
+    },
+    {
+      "question": "Fortnite Mobile",
+      "answer": "Fortnite Mobile allows players to enjoy the battle royale experience on mobile devices."
+    },
+    {
+      "question": "Among Us Mobile",
+      "answer": "Among Us Mobile lets players join social deduction games on their smartphones."
+    },
+    {
+      "question": "Minecraft Pocket Edition",
+      "answer": "Pocket Edition is the mobile version of Minecraft, optimized for touch controls."
+    },
+    {
+      "question": "Dead by Daylight",
+      "answer": "Dead by Daylight is an asymmetric horror multiplayer game where players hunt or escape from a killer."
+    },
+    {
+      "question": "Call of Duty Black Ops",
+      "answer": "Black Ops is a popular sub-series in the Call of Duty franchise, known for its Cold War setting."
+    },
+    {
+      "question": "Counter-Strike: Global Offensive",
+      "answer": "CS:GO is a tactical first-person shooter focused on team-based competitive gameplay."
+    },
+    {
+      "question": "Among Trees",
+      "answer": "Among Trees is a relaxing survival game set in a beautiful forest environment."
+    },
+    {
+      "question": "Dota 2",
+      "answer": "Dota 2 is a multiplayer online battle arena game famous for its deep strategy and competitive scene."
+    },
+    {
+      "question": "Path of Exile",
+      "answer": "Path of Exile is a free-to-play action RPG with complex skill systems and dark fantasy themes."
+    },
+    {
+      "question": "Halo Reach",
+      "answer": "Halo Reach is a prequel to the Halo series with a strong focus on multiplayer and campaign modes."
+    },
+    {
+      "question": "World of Warcraft",
+      "answer": "World of Warcraft is a massively multiplayer online RPG known for its expansive world and community."
+    },
+    {
+      "question": "Minecraft Story Mode",
+      "answer": "Minecraft Story Mode is an episodic adventure game set in the Minecraft universe with a narrative focus."
+    },
+    {
+      "question": "Subnautica",
+      "answer": "Subnautica is an underwater survival game with exploration and crafting elements."
+    },
+    {
+      "question": "Cyberpunk 2077 Mobile",
+      "answer": "The upcoming mobile version of Cyberpunk 2077 aims to bring the open-world RPG experience to smartphones."
+    },
+    {
+      "question": "Fallout 4",
+      "answer": "Fallout 4 is an open-world RPG set in a post-apocalyptic world with crafting and combat."
+    },
+    {
+      "question": "The Elder Scrolls V: Skyrim",
+      "answer": "Skyrim is a fantasy open-world RPG famous for its vast world and modding community."
+    },
+    {
+      "question": "Among Us PC",
+      "answer": "Among Us PC allows players to enjoy the social deduction game with keyboard and mouse controls."
+    },
+    {
+      "question": "GTA Online",
+      "answer": "GTA Online is the multiplayer mode of Grand Theft Auto V, offering an open-world experience with missions and events."
+    },
+    {
+      "question": "League of Legends PC",
+      "answer": "League of Legends PC is the original MOBA game played competitively worldwide."
+    },
+    {
+      "question": "Rocket League PC",
+      "answer": "Rocket League on PC offers fast-paced vehicle-based soccer gameplay with online multiplayer."
+    },
+    {
+      "question": "Call of Duty PC",
+      "answer": "Call of Duty PC features multiplayer shooters with competitive gameplay and regular updates."
+    },
+    {
+      "question": "Valorant PC",
+      "answer": "Valorant PC is a tactical shooter known for precise gunplay and agent abilities."
+    },
+    {
+      "question": "Among Us Switch",
+      "answer": "Among Us on Nintendo Switch allows players to enjoy social deduction gameplay on the console."
+    },
+    {
+      "question": "Minecraft Switch",
+      "answer": "Minecraft on Nintendo Switch supports multiplayer and crossplay with other platforms."
+    },
+    {
+      "question": "Fortnite Switch",
+      "answer": "Fortnite on Switch brings the battle royale experience to Nintendo's hybrid console."
+    },
+    {
+      "question": "Animal Crossing Switch",
+      "answer": "Animal Crossing on Switch lets players build and customize their island paradise."
+    },
+    {
+      "question": "Splatoon 3",
+      "answer": "Splatoon 3 is a team-based shooter with ink-splatting battles exclusive to Nintendo Switch."
+    },
+    {
+      "question": "Super Mario Odyssey",
+      "answer": "Super Mario Odyssey is a 3D platformer where Mario explores diverse worlds to rescue Princess Peach."
+    },
+    {
+      "question": "Metroid Dread",
+      "answer": "Metroid Dread is a 2D action-adventure game continuing the Metroid saga."
+    },
+    {
+      "question": "The Legend of Zelda Breath of the Wild",
+      "answer": "This Zelda game offers an open-world adventure with exploration and puzzles."
+    },
+    {
+      "question": "Among Us VR",
+      "answer": "Among Us VR immerses players in the social deduction game through virtual reality."
+    },
+    {
+      "question": "Minecraft VR",
+      "answer": "Minecraft VR lets players build and explore the blocky world in virtual reality."
+    },
+    {
+      "question": "Beat Saber",
+      "answer": "Beat Saber is a rhythm VR game where players slash blocks to music beats."
+    },
+    {
+      "question": "Half-Life: Alyx",
+      "answer": "Half-Life: Alyx is a VR first-person shooter set in the Half-Life universe."
+    },
+    {
+      "question": "VRChat",
+      "answer": "VRChat is a social VR platform where players interact in virtual worlds."
+    },
+    {
       "question": "what is javascript",
       "answer": "JavaScript is a programming language commonly used for web development. It allows you to add interactive features to websites."
     },
@@ -79586,7 +83006,7 @@
     "answer": "🤣"
   },
   {
-    "question": "Sabir Ali Mondal",
+    "question": "Sabir",
     "answer": "Sabir Ali Mondal is a creative and passionate B.Tech student 🧑‍🎓 who built this platform with love for both code and poetry ✍️. His name means 'patient' and 'noble', and he studied science at the Space Institute Domkol, where he met his closest friends."
   },
   {
