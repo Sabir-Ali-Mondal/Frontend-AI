@@ -1820,55 +1820,55 @@
       "pattern": "image",
       "action": "fetch_picsum_image",
       "formula": "Show a random image from Picsum Photos.",
-      "code_snippet": "async function image() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Image\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "code_snippet": "async function image() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Image\\\" />`;\n}"
     },
     {
       "pattern": "img",
       "action": "fetch_picsum_image",
-      "formula": "Return a random image using Picsum with adaptive height.",
-      "code_snippet": "async function img() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Img\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "formula": "Return a random image using Picsum.",
+      "code_snippet": "async function img() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Img\\\" />`;\n}"
     },
     {
       "pattern": "pic",
       "action": "fetch_picsum_image",
       "formula": "Get a fresh random picture from Picsum.",
-      "code_snippet": "async function pic() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Pic\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "code_snippet": "async function pic() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Pic\\\" />`;\n}"
     },
     {
       "pattern": "picture",
       "action": "fetch_picsum_image",
       "formula": "Render a random picture via Picsum API.",
-      "code_snippet": "async function picture() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Picture\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "code_snippet": "async function picture() {\n  const url = `https://picsum.photos/400/300?random=${Math.random()}`;\n  return `<img src=\\\"${url}\\\" alt=\\\"Random Picture\\\" />`;\n}"
     },
     {
       "pattern": "food",
       "action": "fetch_random_food",
       "formula": "Fetch a random meal image and recipe intro.",
-      "code_snippet": "async function food() {\n  const res = await fetch('https://www.themealdb.com/api/json/v1/1/random.php');\n  const data = await res.json();\n  const meal = data.meals[0];\n  return `<b>${meal.strMeal}</b><br/><img src=\\\"${meal.strMealThumb}\\\" alt=\\\"Food\\\" style=\\\"max-width:200px;height:auto;\\\" /><br/>${meal.strInstructions.substring(0,200)}...`;\n}"
+      "code_snippet": "async function food() {\n  const res = await fetch('https://www.themealdb.com/api/json/v1/1/random.php');\n  const data = await res.json();\n  const meal = data.meals[0];\n  return `<b>${meal.strMeal}</b><br/><img src=\\\"${meal.strMealThumb}\\\" alt=\\\"Food\\\" /><br/>${meal.strInstructions.substring(0,200)}...`;\n}"
     },
     {
       "pattern": "meme",
       "action": "fetch_random_meme",
       "formula": "Fetch a meme image with its title from Reddit.",
-      "code_snippet": "async function meme() {\n  const res = await fetch('https://meme-api.com/gimme');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Meme\\\" style=\\\"max-width:200px;height:auto;\\\" /><br/>${data.title}`;\n}"
+      "code_snippet": "async function meme() {\n  const res = await fetch('https://meme-api.com/gimme');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Meme\\\" /><br/>${data.title}`;\n}"
     },
     {
       "pattern": "cat",
       "action": "fetch_cat_image",
       "formula": "Display a random cat image from TheCatAPI.",
-      "code_snippet": "async function cat() {\n  const res = await fetch('https://api.thecatapi.com/v1/images/search');\n  const data = await res.json();\n  return `<img src=\\\"${data[0].url}\\\" alt=\\\"Random Cat\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "code_snippet": "async function cat() {\n  const res = await fetch('https://api.thecatapi.com/v1/images/search');\n  const data = await res.json();\n  return `<img src=\\\"${data[0].url}\\\" alt=\\\"Random Cat\\\" />`;\n}"
     },
     {
       "pattern": "dog",
       "action": "fetch_dog_image",
       "formula": "Show a random dog image from Dog CEO API.",
-      "code_snippet": "async function dog() {\n  const res = await fetch('https://dog.ceo/api/breeds/image/random');\n  const data = await res.json();\n  return `<img src=\\\"${data.message}\\\" alt=\\\"Random Dog\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "code_snippet": "async function dog() {\n  const res = await fetch('https://dog.ceo/api/breeds/image/random');\n  const data = await res.json();\n  return `<img src=\\\"${data.message}\\\" alt=\\\"Random Dog\\\" />`;\n}"
     },
     {
       "pattern": "user",
       "action": "fetch_random_user",
       "formula": "Generate a random user profile card with a picture, name, and email.",
-      "code_snippet": "async function user() {\n  const res = await fetch('https://randomuser.me/api/');\n  const data = await res.json();\n  const user = data.results[0];\n  return `<img src=\\\"${user.picture.medium}\\\" alt=\\\"User\\\" style=\\\"border-radius:50%;\\\" /><br/><b>${user.name.first} ${user.name.last}</b><br/>${user.email}`;\n}"
+      "code_snippet": "async function user() {\n  const res = await fetch('https://randomuser.me/api/');\n  const data = await res.json();\n  const user = data.results[0];\n  return `<img src=\\\"${user.picture.medium}\\\" alt=\\\"User\\\" /><br/><b>${user.name.first} ${user.name.last}</b><br/>${user.email}`;\n}"
     },
     {
       "pattern": "location",
@@ -1880,19 +1880,19 @@
       "pattern": "new to know",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Learn something new by fetching a summary of a random Wikipedia article.",
-      "code_snippet": "async function learn() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" style=\\\"max-width:150px;height:auto;float:left;margin-right:10px;\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a><div style=\\\"clear:both;\\\"></div>`;\n}"
+      "code_snippet": "async function learn() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
     },
     {
       "pattern": "learn new",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Get a random Wikipedia summary.",
-      "code_snippet": "async function wiki() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" style=\\\"max-width:150px;height:auto;float:left;margin-right:10px;\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a><div style=\\\"clear:both;\\\"></div>`;\n}"
+      "code_snippet": "async function wiki() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
     },
     {
       "pattern": "fact",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Retrieve a random fact from Wikipedia.",
-      "code_snippet": "async function fact() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" style=\\\"max-width:150px;height:auto;float:left;margin-right:10px;\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a><div style=\\\"clear:both;\\\"></div>`;\n}"
+      "code_snippet": "async function fact() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
     },
     {
       "pattern": "random word",
@@ -1910,7 +1910,7 @@
       "pattern": "anime",
       "action": "fetch_waifu_image",
       "formula": "Display a random SFW anime character image.",
-      "code_snippet": "async function animepic() {\n  const res = await fetch('https://api.waifu.pics/sfw/waifu');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Anime Character\\\" style=\\\"max-width:200px;height:auto;\\\" />`;\n}"
+      "code_snippet": "async function animepic() {\n  const res = await fetch('https://api.waifu.pics/sfw/waifu');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Anime Character\\\" />`;\n}"
     },
     {
       "pattern": "dice",
@@ -1922,13 +1922,13 @@
       "pattern": "random country",
       "action": "fetch_random_country_info",
       "formula": "Learn about a random country, including its flag, capital, and population.",
-      "code_snippet": "async function country() {\n    const res = await fetch('https://restcountries.com/v3.1/all?fields=name,capital,population,flags,continents');\n    const data = await res.json();\n    const randomCountry = data[Math.floor(Math.random() * data.length)];\n    return `<img src=\\\"${randomCountry.flags.png}\\\" alt=\\\"${randomCountry.name.common} Flag\\\" style=\\\"width:100px;height:auto;\\\" /><br/><b>${randomCountry.name.common}</b><br/>Capital: ${randomCountry.capital ? randomCountry.capital[0] : 'N/A'}<br/>Continent: ${randomCountry.continents[0]}<br/>Population: ${randomCountry.population.toLocaleString()}`;\n}"
+      "code_snippet": "async function country() {\n    const res = await fetch('https://restcountries.com/v3.1/all?fields=name,capital,population,flags,continents');\n    const data = await res.json();\n    const randomCountry = data[Math.floor(Math.random() * data.length)];\n    return `<img src=\\\"${randomCountry.flags.png}\\\" alt=\\\"${randomCountry.name.common} Flag\\\" /><br/><b>${randomCountry.name.common}</b><br/>Capital: ${randomCountry.capital ? randomCountry.capital[0] : 'N/A'}<br/>Continent: ${randomCountry.continents[0]}<br/>Population: ${randomCountry.population.toLocaleString()}`;\n}"
     },
     {
       "pattern": "art",
       "action": "fetch_art_image",
       "formula": "Display a random piece of art from the Art Institute of Chicago.",
-      "code_snippet": "async function art() {\n    const randomPage = Math.floor(Math.random() * 5000) + 1;\n    const res = await fetch(`https://api.artic.edu/api/v1/artworks?fields=id,title,image_id,artist_title&limit=1&page=${randomPage}`);\n    const data = await res.json();\n    const artwork = data.data[0];\n    if (artwork.image_id) {\n        const imageUrl = `https://www.artic.edu/iiif/2/${artwork.image_id}/full/400,/0/default.jpg`;\n        return `<img src=\\\"${imageUrl}\\\" alt=\\\"${artwork.title}\\\" style=\\\"max-width:200px;height:auto;\\\" /><br/><b>${artwork.title}</b><br/><i>by ${artwork.artist_title || 'Unknown Artist'}</i>`;\n    } else {\n        return 'Could not retrieve artwork image. Please try again.';\n    }\n}"
+      "code_snippet": "async function art() {\n    const randomPage = Math.floor(Math.random() * 5000) + 1;\n    const res = await fetch(`https://api.artic.edu/api/v1/artworks?fields=id,title,image_id,artist_title&limit=1&page=${randomPage}`);\n    const data = await res.json();\n    const artwork = data.data[0];\n    if (artwork.image_id) {\n        const imageUrl = `https://www.artic.edu/iiif/2/${artwork.image_id}/full/400,/0/default.jpg`;\n        return `<img src=\\\"${imageUrl}\\\" alt=\\\"${artwork.title}\\\" /><br/><b>${artwork.title}</b><br/><i>by ${artwork.artist_title || 'Unknown Artist'}</i>`;\n    } else {\n        return 'Could not retrieve artwork image. Please try again.';\n    }\n}"
     }
   ]
 }
