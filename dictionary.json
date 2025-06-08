@@ -1805,7 +1805,7 @@
       "code_snippet": "function date() {\n  return `Current date: ${new Date().toLocaleDateString()}`;\n}"
     },
     {
-      "pattern": "ip",
+      "pattern": "my ip",
       "action": "fetch_ip",
       "formula": "Get your public IP address using an IP API.",
       "code_snippet": "async function ip() {\n  const res = await fetch('https://api.ipify.org?format=json');\n  const data = await res.json();\n  return `Your IP is ${data.ip}`;\n}"
