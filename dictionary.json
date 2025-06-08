@@ -1853,25 +1853,25 @@
       "code_snippet": "async function meme() {\n  const res = await fetch('https://meme-api.com/gimme');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Meme\\\" /><br/>${data.title}`;\n}"
     },
     {
-      "pattern": "cat",
+      "pattern": "random cat",
       "action": "fetch_cat_image",
       "formula": "Display a random cat image from TheCatAPI.",
       "code_snippet": "async function cat() {\n  const res = await fetch('https://api.thecatapi.com/v1/images/search');\n  const data = await res.json();\n  return `<img src=\\\"${data[0].url}\\\" alt=\\\"Random Cat\\\" />`;\n}"
     },
     {
-      "pattern": "dog",
+      "pattern": "random dog",
       "action": "fetch_dog_image",
       "formula": "Show a random dog image from Dog CEO API.",
       "code_snippet": "async function dog() {\n  const res = await fetch('https://dog.ceo/api/breeds/image/random');\n  const data = await res.json();\n  return `<img src=\\\"${data.message}\\\" alt=\\\"Random Dog\\\" />`;\n}"
     },
     {
-      "pattern": "user",
+      "pattern": "random user",
       "action": "fetch_random_user",
       "formula": "Generate a random user profile card with a picture, name, and email.",
       "code_snippet": "async function user() {\n  const res = await fetch('https://randomuser.me/api/');\n  const data = await res.json();\n  const user = data.results[0];\n  return `<img src=\\\"${user.picture.medium}\\\" alt=\\\"User\\\" /><br/><b>${user.name.first} ${user.name.last}</b><br/>${user.email}`;\n}"
     },
     {
-      "pattern": "location",
+      "pattern": "my location",
       "action": "fetch_user_location",
       "formula": "Detect user's current city and country from IP.",
       "code_snippet": "async function location() {\n  const res = await fetch('https://ipapi.co/json/');\n  const data = await res.json();\n  return `📍 You are in ${data.city}, ${data.region}, ${data.country_name}`;\n}"
@@ -1889,7 +1889,7 @@
       "code_snippet": "async function wiki() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
     },
     {
-      "pattern": "fact",
+      "pattern": "tell a fact",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Retrieve a random fact from Wikipedia.",
       "code_snippet": "async function fact() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
@@ -1907,7 +1907,7 @@
       "code_snippet": "async function numberfact() {\n  const res = await fetch('http://numbersapi.com/random/trivia');\n  const data = await res.text();\n  return `🔢 ${data}`;\n}"
     },
     {
-      "pattern": "anime",
+      "pattern": "random anime",
       "action": "fetch_waifu_image",
       "formula": "Display a random SFW anime character image.",
       "code_snippet": "async function animepic() {\n  const res = await fetch('https://api.waifu.pics/sfw/waifu');\n  const data = await res.json();\n  return `<img src=\\\"${data.url}\\\" alt=\\\"Anime Character\\\" />`;\n}"
@@ -1925,7 +1925,7 @@
       "code_snippet": "async function country() {\n    const res = await fetch('https://restcountries.com/v3.1/all?fields=name,capital,population,flags,continents');\n    const data = await res.json();\n    const randomCountry = data[Math.floor(Math.random() * data.length)];\n    return `<img src=\\\"${randomCountry.flags.png}\\\" alt=\\\"${randomCountry.name.common} Flag\\\" /><br/><b>${randomCountry.name.common}</b><br/>Capital: ${randomCountry.capital ? randomCountry.capital[0] : 'N/A'}<br/>Continent: ${randomCountry.continents[0]}<br/>Population: ${randomCountry.population.toLocaleString()}`;\n}"
     },
     {
-      "pattern": "art",
+      "pattern": "random art",
       "action": "fetch_art_image",
       "formula": "Display a random piece of art from the Art Institute of Chicago.",
       "code_snippet": "async function art() {\n    const randomPage = Math.floor(Math.random() * 5000) + 1;\n    const res = await fetch(`https://api.artic.edu/api/v1/artworks?fields=id,title,image_id,artist_title&limit=1&page=${randomPage}`);\n    const data = await res.json();\n    const artwork = data.data[0];\n    if (artwork.image_id) {\n        const imageUrl = `https://www.artic.edu/iiif/2/${artwork.image_id}/full/400,/0/default.jpg`;\n        return `<img src=\\\"${imageUrl}\\\" alt=\\\"${artwork.title}\\\" /><br/><b>${artwork.title}</b><br/><i>by ${artwork.artist_title || 'Unknown Artist'}</i>`;\n    } else {\n        return 'Could not retrieve artwork image. Please try again.';\n    }\n}"
