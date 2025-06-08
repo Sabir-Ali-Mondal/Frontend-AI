@@ -53,12 +53,6 @@
       "code_snippet": "function quarter(number) { return number / 4; }"
     },
     {
-      "pattern": "add",
-      "action": "calculate_addition",
-      "formula": "result = a + b",
-      "code_snippet": "function add(a, b) { return a + b; }"
-    },
-    {
       "pattern": "subtract",
       "action": "calculate_subtraction",
       "formula": "result = a - b",
@@ -77,7 +71,7 @@
       "code_snippet": "function divide(a, b) { return b !== 0 ? a / b : 'Cannot divide by zero'; }"
     },
     {
-      "pattern": "power",
+      "pattern": "to the power",
       "action": "calculate_power",
       "formula": "result = base ^ exponent",
       "code_snippet": "function power(base, exponent) { return Math.pow(base, exponent); }"
@@ -125,25 +119,25 @@
       "code_snippet": "function floor(number) { return Math.floor(number); }"
     },
     {
-      "pattern": "sine",
+      "pattern": "sin",
       "action": "calculate_sine",
       "formula": "result = sin(angle_in_radians)",
       "code_snippet": "function sine(angle_in_radians) { return Math.sin(angle_in_radians); }"
     },
     {
-      "pattern": "cosine",
+      "pattern": "cos",
       "action": "calculate_cosine",
       "formula": "result = cos(angle_in_radians)",
       "code_snippet": "function cosine(angle_in_radians) { return Math.cos(angle_in_radians); }"
     },
     {
-      "pattern": "tangent",
+      "pattern": "tan",
       "action": "calculate_tangent",
       "formula": "result = tan(angle_in_radians)",
       "code_snippet": "function tangent(angle_in_radians) { return Math.tan(angle_in_radians); }"
     },
     {
-      "pattern": "natural log",
+      "pattern": "log",
       "action": "calculate_natural_log",
       "formula": "result = ln(number)",
       "code_snippet": "function naturalLog(number) { return Math.log(number); }"
@@ -168,6 +162,12 @@
     },
     {
       "pattern": "sum",
+      "action": "calculate_sum",
+      "formula": "result = a + b + c + ...",
+      "code_snippet": "function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }"
+    },
+    {
+      "pattern": "add",
       "action": "calculate_sum",
       "formula": "result = a + b + c + ...",
       "code_snippet": "function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }"
