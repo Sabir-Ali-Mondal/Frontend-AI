@@ -1883,13 +1883,13 @@
       "code_snippet": "async function learn() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
     },
     {
-      "pattern": "learn new",
+      "pattern": "wiki",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Get a random Wikipedia summary.",
       "code_snippet": "async function wiki() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
     },
     {
-      "pattern": "tell a fact",
+      "pattern": "tell me a fact",
       "action": "fetch_random_wikipedia_summary",
       "formula": "Retrieve a random fact from Wikipedia.",
       "code_snippet": "async function fact() {\n  const res = await fetch('https://en.wikipedia.org/api/rest_v1/page/random/summary');\n  const data = await res.json();\n  let imgHtml = '';\n  if (data.thumbnail && data.thumbnail.source) {\n      imgHtml = `<img src=\\\"${data.thumbnail.source}\\\" alt=\\\"${data.title}\\\" />`;\n  }\n  return `${imgHtml}<b>${data.title}</b><br/><p>${data.extract}</p><a href=\\\"${data.content_urls.desktop.page}\\\" target=\\\"_blank\\\">Read more</a>`;\n}"
