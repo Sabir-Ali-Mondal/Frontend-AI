@@ -1,8 +1,8 @@
 ## JSON Structure Examples for Advanced AI Chatbot
 
-## 1. Training Data (Q&A Pairs) - Flat Array Format
+1. Training Data (Q&A Pairs) - Flat Array Format
 
-```json
+
 [
   {
     "question": "what is artificial intelligence",
