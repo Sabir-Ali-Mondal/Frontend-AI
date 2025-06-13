@@ -1,5 +1,7 @@
 ## JSON Structure Examples for Advanced AI Chatbot
 
+
+```json
 1. Training Data (Q&A Pairs) - Flat Array Format
 
 
@@ -20,7 +22,7 @@
     "question": "who invented the internet",
     "answer": "The Internet was not invented by a single person. It evolved from ARPANET, which was developed in the late 1960s by a team led by Robert Taylor and Larry Roberts. Tim Berners-Lee later invented the World Wide Web, which is what most people think of as the Internet."
   }
-]
+] 
 ________________________________________
 2. Comprehensive Training Data - Nested Object Format
 {
