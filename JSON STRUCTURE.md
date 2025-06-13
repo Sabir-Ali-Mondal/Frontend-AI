@@ -1,5 +1,4 @@
-________________________________________
-# JSON Structure Examples for Advanced AI Chatbot
+## JSON Structure Examples for Advanced AI Chatbot
 
 ## 1. Training Data (Q&A Pairs) - Flat Array Format
 
@@ -66,44 +65,9 @@ ________________________________________
     }
   ]
 }
+
 ________________________________________
-3. Emoji Dictionary - Flat Array Format
-[
-  {
-    "question": "nerd face",
-    "answer": "🤓"
-  },
-  {
-    "question": "shushing face",
-    "answer": "🤫"
-  },
-  {
-    "question": "smiling face with hearts",
-    "answer": "🥰"
-  },
-  {
-    "question": "woozy face",
-    "answer": "🥴"
-  },
-  {
-    "question": "rolling on the floor laughing",
-    "answer": "🤣"
-  },
-  {
-    "question": "thinking face",
-    "answer": "🤔"
-  },
-  {
-    "question": "face with raised eyebrow",
-    "answer": "🤨"
-  },
-  {
-    "question": "exploding head",
-    "answer": "🤯"
-  }
-]
-________________________________________
-4. Database Export (Complete Chatbot Data)
+3. Database Export (Complete Chatbot Data)
 {
   "qa_pairs": [
     {
@@ -151,7 +115,7 @@ ________________________________________
   }
 }
 ________________________________________
-5. Chat History Format (Internal Use)
+4. Chat History Format (Internal Use)
 [
   {
     "id": 1,
@@ -200,54 +164,5 @@ ________________________________________
     "recordCount": 25
   }
 ]
-________________________________________
-7. Small Domain-Specific Dataset (Programming Terms)
-[
-  {
-    "question": "what is a variable",
-    "answer": "A variable is a named storage location in a program that holds data which can be modified during program execution."
-  },
-  {
-    "question": "what is a function",
-    "answer": "A function is a block of reusable code designed to perform a particular task. It runs when it is called from somewhere in the program."
-  },
-  {
-    "question": "what is an array",
-    "answer": "An array is a data structure that stores a collection of elements, typically of the same data type, each identified by an index or a key."
-  },
-  {
-    "question": "what is a loop",
-    "answer": "A loop is a programming construct that repeats a group of statements until a specified condition is met."
-  },
-  {
-    "question": "what is a class",
-    "answer": "A class is a blueprint for creating objects in object-oriented programming, providing initial values for state and implementations of behavior."
-  }
-]
-________________________________________
-8. Conversational Dataset (Small Talk)
-[
-  {
-    "question": "hi",
-    "answer": "Hello! How can I help you today?"
-  },
-  {
-    "question": "who are you",
-    "answer": "I'm an AI chatbot designed to answer questions and perform calculations. I learn from the training data you provide me."
-  },
-  {
-    "question": "thank you",
-    "answer": "You're welcome! Is there anything else I can help you with?"
-  },
-  {
-    "question": "goodbye",
-    "answer": "Goodbye! Feel free to chat again whenever you have questions."
-  },
-  {
-    "question": "how's the weather",
-    "answer": "I don't have access to real-time weather data. You might want to check a weather app or website for that information."
-  }
-]
-________________________________________
 
 
