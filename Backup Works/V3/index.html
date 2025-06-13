@@ -1,0 +1,2029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabir's Chatbot Interface</title>
+    <link rel="icon" href="https://res.cloudinary.com/dmttn34te/image/upload/v1749298712/Generated_Image_June_07_2025_-_5_45PM_uin2s9.jpg" type="image/jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Toast Container for Notifications (Bootstrap) -->
+    <div class="toast-container position-fixed p-3 top-0 end-0" id="toastPlacement">
+        <!-- Toasts will be appended here by JS -->
+    </div>
+
+    <div class="container-fluid py-4">
+        <!-- Tab Content: Placed first in DOM for flexbox ordering -->
+        <div class="tab-content" id="mainTabContent">
+            <!-- Chat Tab -->
+            <div class="tab-pane fade show active" id="chatTabPane" role="tabpanel" aria-labelledby="chat-tab-btn">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 col-xl-8">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <div class="chat-container" id="chatContainer">
+                                    <div class="welcome-message" id="welcomeMessage">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-brain"></i>
+                                        </div>
+                                        <h4>Hello! How can I help you today?</h4>
+                                        <div class="row text-start justify-content-center mt-3">
+                                            <div class="col-md-5">
+                                                <ul class="list-unstyled">
+                                                    <li><i class="fas fa-calculator text-primary me-2"></i>Perform calculations</li>
+                                                    <li><i class="fas fa-question-circle text-primary me-2"></i>Answer questions</li>
+                                                    <li><i class="fas fa-exchange-alt text-primary me-2"></i>Convert units</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <ul class="list-unstyled">
+                                                    <li><i class="fas fa-flask text-primary me-2"></i>Recall scientific formulas</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <p class="text-muted mt-3">Type your message below to get started.</p>
+                                    </div>
+                                    <!-- Messages will be appended here by JS -->
+                                </div>
+                            </div>
+                            <div class="card-footer bg-light">
+                                <form id="chatForm" class="d-flex gap-2">
+                                    <input type="text" class="form-control form-control-lg" id="messageInput" placeholder="Ask me anything..." autocomplete="off">
+                                    <div class="loading-spinner mt-2 align-self-center" id="loadingSpinner" style="display: none;">
+                                        <!-- align-self-center -->
+                                        <div class="d-flex align-items-center text-primary">
+                                            <div class="loader me-2" role="status"></div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg" id="sendButton" title="Send Message">
+                                        <i class="fas fa-paper-plane" style="color:blue;"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Training Tab -->
+            <div class="tab-pane fade" id="trainingTabPane" role="tabpanel" aria-labelledby="training-tab-btn">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Prompt Generation Section -->
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="mb-0"><i class="fas fa-lightbulb me-2"></i>Generate Training Prompts</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="topicInput" class="form-label">Enter Topic for Prompt:</label>
+                                    <input type="text" class="form-control" id="topicInput" placeholder="e.g., Space Exploration, History of AI">
+                                </div>
+                                <div class="form-check form-switch mb-3">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="searchEngineToggle">
+                                    <label class="form-check-label" for="searchEngineToggle">Use Perplexity.ai (else ChatGPT)</label>
+                                </div>
+                                <button class="btn btn-info w-100" id="generatePromptBtn">
+                                    <i class="fas fa-rocket me-2"></i>Generate & Search Prompt
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-file-code me-2"></i>Bulk Import Training Data (JSON from Text)
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="small text-muted">
+                                    Paste JSON array below. Ensure it's an array of items or an object with "qa_pairs" and/or "calculation_patterns".
+                                </p>
+                                <textarea id="jsonImportTextArea" rows="8" class="form-control mb-2" placeholder="Paste JSON data here..."></textarea>
+                                <button id="importJsonFromTextAreaBtn" class="btn btn-success w-100 mb-2">
+                                    <i class="fas fa-upload me-2"></i>Import from Text Area
+                                </button>
+                                <button id="downloadJsonTemplateBtn" class="btn btn-secondary w-100">
+                                    <i class="fas fa-download me-2"></i>Download JSON Template
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <pre class="bg-light mt-3 p-2 small rounded border mb-0"><code>Example JSON Structure:
+{
+  "qa_pairs": [
+    {
+      "question": "what is javascript",
+      "answer": "JavaScript is a programming language."
+    }
+  ],
+  "calculation_patterns": [
+    {
+      "pattern": "double of {number}",
+      "action": "calculate_double",
+      "formula": "result = 2 * number",
+      "code_snippet": "function double(number) { return 2 * number; }"
+    }
+  ]
+}
+Or a simple array of Q&A:
+[
+  {"question": "q1", "answer": "a1"},
+  {"question": "q2", "answer": "a2"}
+]</code></pre>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Store/Data & Settings Tab -->
+            <div class="tab-pane fade" id="storeTabPane" role="tabpanel" aria-labelledby="store-tab-btn">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="stats-card mb-4">
+                            <h5 class="mb-3"><i class="fas fa-chart-pie me-2"></i>Database Overview</h5>
+                            <div class="row text-center">
+                                <div class="col-4">
+                                    <h3 id="totalQACount">0</h3><small>Q&A Pairs</small>
+                                </div>
+                                <div class="col-4">
+                                    <h3 id="totalPatternCount">0</h3><small>Patterns</small>
+                                </div>
+                                <div class="col-4">
+                                    <h3 id="totalMessageCount">0</h3><small>Messages</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="mb-0"><i class="fas fa-cogs me-2"></i>Quick Actions</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-outline-info" id="installConversationData"> Install : <i class="fas fa-comments me-2"></i> Talk's and <span style="font-size:10px;">JKNOQUVWXYZ</span></button>
+                                    <button class="btn btn-outline-info" id="installDictionaryData"> Install : <i class="fa-solid fa-calculator"></i> Formula's and API's</button>
+                                    <div class="card mb-2" id="importProgressCard" style="display: none;">
+                                        <div class="card-body p-2">
+                                            <!-- Reduced padding -->
+                                            <h6 class="mb-2 small"><i class="fas fa-spinner fa-spin me-2"></i>Importing Data...</h6>
+                                            <div class="progress" style="height: 15px;">
+                                                <!-- Reduced height -->
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id="progressBar" role="progressbar" style="width: 0%; font-size: 0.75em;">0%</div>
+                                            </div>
+                                            <small class="text-muted mt-1 d-block" id="progressText" style="font-size: 0.75em;">Preparing import...</small>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-outline-success" id="exportAllData"><i class="fas fa-file-export me-2"></i>Export All Data (JSON)</button>
+                                    <a href="https://drive.google.com/uc?export=download&id=10td4KBrArO45XstnPfFbRInGb_mXwSRy" class="btn btn-outline-secondary" download target="_blank">
+                                        <i class="fas fa-cloud-download-alt me-2"></i> Download Full Dictionary (JSON)
+                                    </a>
+                                    <label for="importFile" class="btn btn-outline-warning mb-0 w-100"><i class="fas fa-file-import me-2"></i>Import Data (JSON File)</label>
+                                    <input type="file" id="importFile" accept=".json" style="display: none;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0 text-danger"><i class="fas fa-exclamation-triangle me-2"></i>Danger Zone</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-danger" id="clearChatHistory"><i class="fas fa-broom me-2"></i>Clear Chat History</button>
+                                    <button class="btn btn-danger" id="resetEntireDatabase"><i class="fas fa-trash-alt me-2"></i>Reset Entire Database</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>System Information</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <h6><i class="fas fa-hdd me-2"></i>Storage Details</h6>
+                                        <ul class="list-unstyled">
+                                            <li><strong>Type:</strong> IndexedDB</li>
+                                            <li><strong>DB Name:</strong> <code id="dbNameValue">AdvancedChatbotDB</code></li>
+                                            <li><strong>Version:</strong> <code id="dbVersionValue">1</code></li>
+                                            <li><strong>Status:</strong> <span class="badge bg-success" id="dbStatus">Connected</span></li>
+                                        </ul>
+                                        <h6><i class="fas fa-file-alt me-2"></i>Uploaded Files Log</h6>
+                                        <div id="uploadedFilesInfo" style="font-size:0.9em; max-height: 100px; overflow-y:auto;" class="border rounded p-2 bg-light">
+                                            <p class="text-muted small mb-0">No files imported yet.</p>
+                                        </div>
+                                        <button class="btn btn-sm btn-outline-danger mt-2" id="clearUploadedFilesRecords" title="Clear only the records of uploaded files, not the imported data itself.">
+                                            <i class="fas fa-eraser me-1"></i> Clear Uploaded Files Log
+                                        </button>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <h6><i class="fas fa-check-circle me-2"></i>Supported Features</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-1"></i> Real-time Q '&' A</li>
+                                            <li><i class="fas fa-check text-success me-1"></i> Dynamic Calculations</li>
+                                            <li><i class="fas fa-check text-success me-1"></i> Trainable via Bulk JSON</li>
+                                            <li><i class="fas fa-check text-success me-1"></i> Stemming & Fuzzy Matching</li>
+                                        </ul>
+                                        <h6><i class="fas fa-history me-2"></i>Recent Activity Log</h6>
+                                        <div id="recentActivity" style="max-height: 150px; overflow-y: auto; font-size: 0.9em;" class="border rounded p-2 bg-light">
+                                            <p class="text-muted small mb-0 p-2">No activity logged yet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0"><i class="fas fa-list-alt me-2"></i>Stored Training Data</h5>
+                                <div class="search-box w-50">
+                                    <input type="text" class="form-control form-control-sm" id="searchTraining" placeholder="Search training data (not implemented)...">
+                                </div>
+                            </div>
+                            <div class="card-body" style="padding:20px;min-height: 400px; max-height: 60vh; overflow-y: auto;">
+                                <ul class="nav nav-pills mb-3" id="trainingDataTabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="qa-list-tab-btn" data-bs-toggle="pill" data-bs-target="#qaListPane" type="button" role="tab" aria-controls="qaListPane" aria-selected="true">
+                                            Q&A (<span id="qaCount">0</span>)
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pattern-list-tab-btn" data-bs-toggle="pill" data-bs-target="#patternListPane" type="button" role="tab" aria-controls="patternListPane" aria-selected="false">
+                                            Patterns & Calculations (<span id="patternCount">0</span>)
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="trainingDataTabContent">
+                                    <div class="tab-pane fade show active" id="qaListPane" role="tabpanel" aria-labelledby="qa-list-tab-btn">
+                                        <div id="qaList">
+                                            <p class="text-muted text-center mt-3">No Q&A data trained yet. Add some using the 'Training' tab.</p>
+                                        </div>
+                                        <div class="pagination-container mt-3 d-flex justify-content-center" id="qaPagination"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="patternListPane" role="tabpanel" aria-labelledby="pattern-list-tab-btn">
+                                        <div id="patternList">
+                                            <p class="text-muted text-center mt-3">No patterns trained yet. Add some using the 'Training' tab.</p>
+                                        </div>
+                                        <div class="pagination-container mt-3 d-flex justify-content-center" id="patternPagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabs: Placed last in DOM for flexbox ordering -->
+        <ul class="nav nav-tabs mb-0 d-flex" id="mainTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="chat-tab-btn" data-bs-toggle="tab" data-bs-target="#chatTabPane" type="button" role="tab" aria-controls="chatTabPane" aria-selected="true">
+                    <i class="fas fa-comments me-2"></i>
+                    Chat
+                    <span class="badge bg-light text-primary ms-1" id="connectionStatus" title="Connection Status">Online</span>
+                </button>
+            </li>
+            <div class="ms-auto d-flex">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="training-tab-btn" data-bs-toggle="tab" data-bs-target="#trainingTabPane" type="button" role="tab" aria-controls="trainingTabPane" aria-selected="false" title="Training">
+                        <i class="fas fa-graduation-cap"></i>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="store-tab-btn" data-bs-toggle="tab" data-bs-target="#storeTabPane" type="button" role="tab" aria-controls="storeTabPane" aria-selected="false" title="Data & Settings">
+                        <i class="fas fa-gear"></i>
+                    </button>
+                </li>
+            </div>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // --- CONSOLIDATED SCRIPT ---
+
+        // --- Global State for Conversational Flow & Data (from snippet2) ---
+        var pendingSuggestion = null;
+        var pendingAnswer = null;
+
+        // --- Constants & Configuration ---
+        const DB_NAME = 'AdvancedSynergyChatDB'; // From snippet2
+        const DB_VERSION = 1; // Consistent
+        const STORES = { // Merged, ensuring all from snippet1 are present
+            TRAINING_DATA: 'trainingData',
+            CALCULATION_PATTERNS: 'calculationPatterns',
+            DEFAULT_TRAINING: 'defaultTrainingData', // From snippet1
+            UPLOADED_FILES: 'uploadedFilesLog', // snippet2's name
+            CHAT_HISTORY: 'chatHistory'
+        };
+
+        const DEFAULT_CONVERSATION_URL = "https://raw.githubusercontent.com/Sabir-Ali-Mondal/Frontend-AI/main/new_data.json";
+        const DEFAULT_DICTIONARY_URL = "https://raw.githubusercontent.com/Sabir-Ali-Mondal/Frontend-AI/main/dictionary.json";
+
+        const SIMILARITY_THRESHOLDS = { // From snippet1
+            HIGH: 50,
+            MEDIUM: 30,
+            LOW: 0 // Not directly used in snippet1's getResponse, but kept
+        };
+
+        const ITEMS_PER_PAGE_TRAINING = 10; // From snippet2
+
+        // Using snippet2's more comprehensive stopwords list
+        const stopwords = [
+            "a", "about", "above", "after", "again", "against", "all", "am", "an", "and",
+            "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being",
+            "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't",
+            "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during",
+            "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't",
+            "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here",
+            "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i",
+            "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's",
+            "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself",
+            "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought",
+            "our", "ours", "ourselves", "out", "over", "own", "same", "shan't", "she",
+            "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such",
+            "than", "that", "that's", "the", "their", "theirs", "them", "themselves",
+            "then", "there", "there's", "these", "they", "they'd", "they'll", "they're",
+            "they've", "this", "those", "through", "to", "too", "under", "until", "up",
+            "very", "was", "wasn't", "we", "we'd", "we'll", "we're", "we've", "were",
+            "weren't", "what", "what's", "when", "when's", "where", "where's", "which",
+            "while", "who", "who's", "whom", "why", "why's", "with", "won't", "would",
+            "wouldn't", "you", "you'd", "you'll", "you're", "you've", "your", "yours",
+            "yourself", "yourselves", "tell", "give", "ask", "explain", "define", "calculate", "compute", "find"
+        ];
+
+        // Using snippet2's confirmations (very similar to snippet1's)
+        const positiveConfirmations = [
+            "yes", "yess", "ya", "yaa", "ok", "okk", "okay", "okayy",
+            "oky", "okyy", "hmm", "hmmm", "yep", "yepp", "yup", "yupp",
+            "yah", "yahh", "aye", "ayee", "hm", "hmm", "sure", "suure",
+            "alright", "alrighty", "right", "rightt", "yass", "yasss"
+        ];
+        const negativeConfirmations = [
+            "no", "nah", "nope", "noo", "nuh-uh", "never", "not really",
+            "no way", "no thanks", "nopeee", "naah", "nay", "uh-uh",
+            "absolutely not", "not at all", "negative", "incorrect",
+            "that's wrong", "not this time", "not quite", "definitely not"
+        ];
+
+
+        // --- UI Element Selectors (from snippet2) ---
+        let chatContainer, messageInput, chatForm, loadingSpinner, welcomeMessageDiv,
+            qaListDiv, patternListDiv, qaPaginationDiv, patternPaginationDiv,
+            totalQACountEl, totalPatternCountEl, totalMessageCountEl,
+            qaCountBadge, patternCountBadge, dbNameValueEl, dbVersionValueEl, dbStatusEl,
+            recentActivityDiv, uploadedFilesInfoDiv, importProgressCard, progressBar,
+            progressText, importFileEl, jsonImportTextArea, topicInput, searchEngineToggle;
+
+
+        // --- Utility Functions (from snippet2, `notify` replaces `showNotification`) ---
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        function escapeHtml(unsafe) {
+            if (typeof unsafe !== 'string') return String(unsafe);
+            return unsafe.replace(/&/g, "&").replace(/</g, "<").replace(/>/g, ">").replace(/"/g, "\"").replace(/'/g, "\'");
+        }
+
+        function showBootstrapToast(message, type = 'info', duration = 1000) { // From snippet2
+            const toastPlacement = document.getElementById('toastPlacement');
+            if (!toastPlacement) {
+                console.error("Toast container #toastPlacement not found!");
+                alert(message); // Fallback
+                return;
+            }
+            const toastId = 'toast-' + Date.now();
+            let bgClass = 'text-bg-' + type;
+            let btnCloseClass = 'btn-close-white';
+            if (type === 'warning' || type === 'light' || type === 'info') {
+                bgClass = 'bg-' + type + ' text-dark';
+                btnCloseClass = '';
+            } else if (type === 'normal' || type === '') {
+                bgClass = 'bg-secondary text-white';
+            }
+
+            const toastHTML = `
+                <div id="${toastId}" class="toast align-items-center ${bgClass} border-0" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="${duration}">
+                  <div class="d-flex">
+                    <div class="toast-body">${escapeHtml(message)}</div>
+                    <button type="button" class="btn-close me-2 m-auto ${btnCloseClass}" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                </div>`;
+            toastPlacement.insertAdjacentHTML('beforeend', toastHTML);
+            const toastEl = document.getElementById(toastId);
+            if (bootstrap && bootstrap.Toast) { // Check if bootstrap is loaded
+                const toast = new bootstrap.Toast(toastEl);
+                toast.show();
+                toastEl.addEventListener('hidden.bs.toast', () => toastEl.remove());
+            } else {
+                console.warn("Bootstrap Toast component not found, using alert fallback for: " + message);
+                alert(message); // Fallback if bootstrap not loaded
+                setTimeout(() => toastEl.remove(), duration);
+            }
+        }
+        const notify = showBootstrapToast; // Alias for consistency
+
+        function addActivityLog(message) { // From snippet2
+            if (!recentActivityDiv) return;
+            const firstChildIsPlaceholder = recentActivityDiv.querySelector('p.text-muted.small.mb-0');
+            if (firstChildIsPlaceholder) firstChildIsPlaceholder.remove();
+
+            const logEntry = document.createElement('div');
+            logEntry.classList.add('activity-item', 'small', 'border-bottom', 'pb-1', 'mb-1');
+            const time = new Date().toLocaleTimeString([], {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+            logEntry.innerHTML = `<span class="text-muted">[${time}]</span> ${escapeHtml(message)}`;
+            recentActivityDiv.insertBefore(logEntry, recentActivityDiv.firstChild);
+            if (recentActivityDiv.children.length > 20) recentActivityDiv.removeChild(recentActivityDiv.lastChild);
+        }
+
+        // --- IndexedDB Functions (Enhanced with snippet1's onupgradeneeded) ---
+        let dbInstance = null;
+
+        function initDB() { // Merged approach
+            return new Promise((resolve, reject) => {
+                if (dbInstance) {
+                    resolve(dbInstance);
+                    return;
+                }
+                const request = indexedDB.open(DB_NAME, DB_VERSION);
+                request.onupgradeneeded = (event) => {
+                    const db = event.target.result;
+                    // Training data store with question index (from snippet1)
+                    if (!db.objectStoreNames.contains(STORES.TRAINING_DATA)) {
+                        const trainingStore = db.createObjectStore(STORES.TRAINING_DATA, {
+                            keyPath: 'id',
+                            autoIncrement: true
+                        });
+                        trainingStore.createIndex('question_idx', 'question', { // snippet2's name
+                            unique: false
+                        });
+                        trainingStore.createIndex('timestamp_idx', 'timestamp', { // snippet2's addition
+                            unique: false
+                        });
+                    }
+                    // Calculation patterns store (from snippet1)
+                    if (!db.objectStoreNames.contains(STORES.CALCULATION_PATTERNS)) {
+                        const calcStore = db.createObjectStore(STORES.CALCULATION_PATTERNS, {
+                            keyPath: 'id',
+                            autoIncrement: true
+                        });
+                        calcStore.createIndex('pattern_idx', 'pattern', { // snippet2's name
+                            unique: false
+                        });
+                        calcStore.createIndex('timestamp_idx', 'timestamp', { // snippet2's addition
+                            unique: false
+                        });
+                    }
+                    // Default training data store (from snippet1)
+                    if (!db.objectStoreNames.contains(STORES.DEFAULT_TRAINING)) {
+                        db.createObjectStore(STORES.DEFAULT_TRAINING, {
+                            keyPath: 'id',
+                            autoIncrement: true
+                        });
+                    }
+                    // Uploaded files metadata store (from snippet1, using snippet2's keyPath)
+                    if (!db.objectStoreNames.contains(STORES.UPLOADED_FILES)) {
+                        const filesStore = db.createObjectStore(STORES.UPLOADED_FILES, {
+                            keyPath: 'filename' // from snippet2
+                        });
+                        filesStore.createIndex('timestamp_idx', 'timestamp', { // snippet2's name
+                            unique: false
+                        });
+                    }
+                    // Chat history store (from snippet1)
+                    if (!db.objectStoreNames.contains(STORES.CHAT_HISTORY)) {
+                        const chatStore = db.createObjectStore(STORES.CHAT_HISTORY, {
+                            keyPath: 'id',
+                            autoIncrement: true
+                        });
+                        chatStore.createIndex('timestamp_idx', 'timestamp', { // snippet2's name
+                            unique: false
+                        });
+                    }
+                };
+                request.onsuccess = (event) => {
+                    dbInstance = event.target.result;
+                    dbInstance.onversionchange = function() {
+                        dbInstance.close();
+                        alert("Database is outdated, please reload the page.");
+                        window.location.reload();
+                    };
+                    resolve(dbInstance);
+                };
+                request.onerror = (event) => {
+                    console.error('IndexedDB initialization error:', event.target.error);
+                    reject('IndexedDB initialization error: ' + event.target.error);
+                };
+            });
+        }
+
+        async function dbOperation(storeName, mode, operation, data) { // From snippet2
+            const db = await initDB();
+            return new Promise((resolve, reject) => {
+                if (!db.objectStoreNames.contains(storeName)) {
+                    return reject(new Error(`Store ${storeName} does not exist.`));
+                }
+                const transaction = db.transaction(storeName, mode);
+                const store = transaction.objectStore(storeName);
+                let request;
+                switch (operation) {
+                    case 'add':
+                        request = store.add(data);
+                        break;
+                    case 'put':
+                        request = store.put(data);
+                        break;
+                    case 'get':
+                        request = store.get(data);
+                        break;
+                    case 'getAll':
+                        request = store.getAll();
+                        break;
+                    case 'delete':
+                        request = store.delete(data);
+                        break;
+                    case 'clear':
+                        request = store.clear();
+                        break;
+                    default:
+                        return reject(new Error('Invalid DB operation.'));
+                }
+                request.onsuccess = (event) => resolve(event.target.result);
+                request.onerror = (event) => reject(event.target.error);
+            });
+        }
+        // Using snippet2's CRUD wrappers
+        const addRecord = (s, d) => dbOperation(s, 'readwrite', 'add', d);
+        const updateRecord = (s, d) => dbOperation(s, 'readwrite', 'put', d);
+        const getRecordById = (s, id) => dbOperation(s, 'readonly', 'get', id);
+        const getAllRecords = (s) => dbOperation(s, 'readonly', 'getAll');
+        const deleteRecord = (s, id) => dbOperation(s, 'readwrite', 'delete', id);
+        const clearStore = (s) => dbOperation(s, 'readwrite', 'clear');
+
+        // Training data specific operations (from snippet1, using general addRecord)
+        async function addTrainingData(question, answer) { // From snippet1
+            return addRecord(STORES.TRAINING_DATA, {
+                question: question.toLowerCase().trim(),
+                answer: answer.trim(),
+                timestamp: Date.now()
+            });
+        }
+        // Use snippet2's addCalcPatternData for consistency with code_snippet
+        const addCalcPatternData = (p, act, f, cs = '') => addRecord(STORES.CALCULATION_PATTERNS, {
+            pattern: p.toLowerCase().trim(),
+            action: act.trim(),
+            formula: f.trim(),
+            code_snippet: cs.trim(),
+            timestamp: Date.now()
+        });
+        // addCalculationPattern from snippet1 is now covered by addCalcPatternData
+
+        // --- Migration from localStorage (from snippet1) ---
+        async function migrateFromLocalStorage() {
+            try {
+                const trainingDataLS = localStorage.getItem('trainingData');
+                const defaultTrainingDataLS = localStorage.getItem('defaultTrainingData');
+                const uploadedFilesLS = localStorage.getItem('uploadedFiles');
+
+                if (!trainingDataLS && !defaultTrainingDataLS && !uploadedFilesLS) {
+                    return false; // No migration needed
+                }
+                notify('Migration from localStorage to IndexedDB in progress...', 'info');
+
+                if (trainingDataLS) {
+                    const parsedData = JSON.parse(trainingDataLS);
+                    for (const question in parsedData) {
+                        if (parsedData.hasOwnProperty(question)) {
+                            await addTrainingData(question, parsedData[question]);
+                        }
+                    }
+                }
+                if (defaultTrainingDataLS) {
+                    const parsedData = JSON.parse(defaultTrainingDataLS);
+                    // Assuming parsedData is the actual data, not an object with a 'data' property
+                    await addRecord(STORES.DEFAULT_TRAINING, {
+                        id: 'migrated_default_qa', // Give it a specific ID
+                        data: parsedData, // Store the whole array/object
+                        timestamp: Date.now()
+                    });
+                }
+                if (uploadedFilesLS) {
+                    const parsedFiles = JSON.parse(uploadedFilesLS);
+                    for (const file of parsedFiles) {
+                        await addRecord(STORES.UPLOADED_FILES, { // Using snippet2's store name
+                            filename: file.name || `migrated_unknown_${Date.now()}`,
+                            timestamp: file.timestamp || Date.now(),
+                            size: file.size || 0,
+                            type: file.type || 'application/json'
+                        });
+                    }
+                }
+                localStorage.removeItem('trainingData');
+                localStorage.removeItem('defaultTrainingData');
+                localStorage.removeItem('uploadedFiles');
+                // localStorage.clear(); // Be cautious with full clear if other LS items exist
+                notify('Migration complete. Data has been transferred to IndexedDB.', 'success');
+                return true;
+            } catch (error) {
+                console.error('Migration error:', error);
+                notify('Error during migration: ' + error.message, 'error');
+                return false;
+            }
+        }
+
+        // --- Core Chatbot Logic (from snippet1, text processing and similarity) ---
+        function cleanInput(text, forMatching = true) {
+            const cleaned = text.toLowerCase();
+            if (forMatching) {
+                const words = cleaned.replace(/[?,.;]/g, '').split(/\s+/);
+                if (words.length === 1) return words[0]; // Keep the single word, even if it's a stopword
+                return words
+                    .filter(word => !stopwords.includes(word))
+                    .join(' ');
+            }
+            return cleaned;
+        }
+
+
+        function levenshteinDistance(str1, str2) { // From snippet1
+            const s1 = str1 || ""; // Handle null/undefined
+            const s2 = str2 || "";
+            const matrix = [];
+            for (let i = 0; i <= s1.length; i++) {
+                matrix[i] = [i];
+            }
+            for (let j = 0; j <= s2.length; j++) {
+                matrix[0][j] = j;
+            }
+            for (let i = 1; i <= s1.length; i++) {
+                for (let j = 1; j <= s2.length; j++) {
+                    const cost = s1.charAt(i - 1) === s2.charAt(j - 1) ? 0 : 1;
+                    matrix[i][j] = Math.min(
+                        matrix[i - 1][j] + 1, // deletion
+                        matrix[i][j - 1] + 1, // insertion
+                        matrix[i - 1][j - 1] + cost // substitution
+                    );
+                }
+            }
+            return matrix[s1.length][s2.length];
+        }
+
+        function calculateSimilarity(str1, str2) { // From snippet1
+            if (!str1 || !str2) return 0;
+            const cleaned1 = cleanInput(str1, true);
+            const cleaned2 = cleanInput(str2, true);
+
+            if (!cleaned1 && !cleaned2) return 1; // Both empty after cleaning
+            if (!cleaned1 || !cleaned2) return 0; // One empty after cleaning
+
+            if (cleaned1 === cleaned2) return 1;
+
+            const words1 = cleaned1.split(/\s+/);
+            const words2 = cleaned2.split(/\s+/);
+            let matchingWords = 0;
+            const setWords2 = new Set(words2);
+            words1.forEach(word => {
+                if (setWords2.has(word)) matchingWords++;
+            });
+
+            const wordSimilarity = (words1.length + words2.length > 0) ? (2.0 * matchingWords) / (words1.length + words2.length) : 0;
+
+            const levenshtein = levenshteinDistance(cleaned1, cleaned2);
+            const maxLength = Math.max(cleaned1.length, cleaned2.length);
+            const charSimilarity = maxLength > 0 ? (1 - (levenshtein / maxLength)) : 0;
+
+            return (wordSimilarity * 0.6) + (charSimilarity * 0.4);
+        }
+
+        async function findBestMatch(input) { // From snippet1
+            const trainingData = await getAllRecords(STORES.TRAINING_DATA);
+            if (!trainingData || trainingData.length === 0) return null;
+
+            let bestMatch = null;
+            let bestScore = -1; // Initialize to allow 0 score matches
+
+            for (const item of trainingData) {
+                // Ensure item.question and item.answer are strings
+                const itemQuestion = String(item.question || "");
+                const itemAnswer = String(item.answer || "");
+                const inputString = String(input || "");
+
+                const questionSimilarity = calculateSimilarity(inputString, itemQuestion);
+                const answerSimilarity = calculateSimilarity(inputString, itemAnswer); // Consider if matching answer is desired
+                const maxSimilarity = Math.max(questionSimilarity, answerSimilarity);
+
+                if (maxSimilarity > bestScore) {
+                    bestScore = maxSimilarity;
+                    bestMatch = {
+                        item,
+                        similarity: bestScore,
+                        matchedAnswer: questionSimilarity < answerSimilarity && answerSimilarity > 0.1 // Be somewhat confident it matched answer
+                    };
+                }
+            }
+            return bestMatch;
+        }
+
+        async function processWordByWord(input) { // From snippet1
+            const words = cleanInput(input, false).split(/\s+/); // forMatching=false to keep original word forms
+            const results = [];
+            const processedWords = new Set();
+
+            const exactMatchWholeInput = await findBestMatch(input); // Check whole input first
+            if (exactMatchWholeInput && exactMatchWholeInput.similarity * 100 >= SIMILARITY_THRESHOLDS.HIGH) {
+                return exactMatchWholeInput.item.answer; // If strong match for whole, prefer it.
+            }
+
+            for (const word of words) {
+                if (!stopwords.includes(word.toLowerCase()) && !processedWords.has(word) && word.length > 1) { // Avoid stopwords and short words
+                    const match = await findBestMatch(word); // Match individual word
+                    if (match && match.similarity * 100 >= SIMILARITY_THRESHOLDS.MEDIUM) {
+                        results.push({
+                            text: word,
+                            answer: match.item.answer,
+                            similarity: match.similarity
+                        });
+                        processedWords.add(word);
+                    }
+                }
+            }
+            if (results.length > 0) {
+                return results
+                    .sort((a, b) => b.similarity - a.similarity)
+                    .map(result => `Regarding "${result.text}": ${result.answer}`)
+                    .join('\n---\n'); // Use a more distinct separator
+            }
+            return null;
+        }
+
+        // --- Calculation Logic (from snippet1, to be called by getResponse) ---
+        function factorial(n) { // From snippet1
+            if (n === 0 || n === 1) return 1;
+            if (n < 0) return "Factorial is only defined for non-negative integers";
+            if (n > 20) return "Number too large for factorial (max 20)"; // Prevent overflow/performance issues
+            let result = 1;
+            for (let i = 2; i <= n; i++) result *= i;
+            return result;
+        }
+
+        function isArithmetic(input) { // From snippet1
+            const arithmeticRegex = /\d+(\s*[\+\-\*\/\^\%]\s*\d+)+/;
+            return arithmeticRegex.test(input);
+        }
+
+        function extractArithmetic(input) { // From snippet1
+            const matches = input.match(/\d+(\s*[\+\-\*\/\^\%]\s*\d+)+/g);
+            return matches ? matches[0] : null;
+        }
+
+        function evaluateArithmetic(expression) { // From snippet1
+            if (!expression) return null;
+            expression = expression.replace(/\^/g, '**').replace(/\%/g, '/100*'); // Basic % handling
+            try {
+                // Sanitize further: only allow numbers, operators, parentheses, decimal points
+                const sanitizedExpression = expression.replace(/[^0-9+\-*/.() ]/g, '');
+                if (sanitizedExpression.length === 0) return "Invalid calculation";
+                // Avoid direct new Function if possible, but for this limited scope it's common
+                const result = new Function(`return ${sanitizedExpression}`)();
+                if (isNaN(result) || !isFinite(result)) {
+                    return "Invalid calculation result (NaN or Infinity)";
+                }
+                return result;
+            } catch (error) {
+                console.error("Error evaluating arithmetic:", error);
+                return null; // "Error in calculation"
+            }
+        }
+
+        async function checkFunctionPatterns(input) { // From snippet1
+            // Assumes math.js is loaded if you want to use math.evaluate
+            // Add <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js">
+            try {
+                if (typeof math !== 'undefined') {
+                    try {
+                        let mathInput = input
+                            .replace(/what is/gi, '')
+                            .replace(/calculate/gi, '')
+                            .replace(/times/gi, '*')
+                            .replace(/multiplied by/gi, '*')
+                            .replace(/divided by/gi, '/')
+                            .replace(/plus/gi, '+')
+                            .replace(/minus/gi, '-')
+                            .replace(/squared/gi, '^2')
+                            .replace(/cubed/gi, '^3')
+                            .trim();
+                        if (isArithmetic(mathInput)) { // Only evaluate if it looks like an expression
+                            const result = math.evaluate(mathInput);
+                            if (result !== undefined && typeof result !== 'function' && !isNaN(parseFloat(result))) {
+                                return result;
+                            }
+                        }
+                    } catch (e) {
+                        // console.log("Not a direct math.js expression, continuing to patterns");
+                    }
+                }
+
+                const patterns = await getAllRecords(STORES.CALCULATION_PATTERNS);
+                const lowerInput = input.toLowerCase();
+
+                for (const pattern of patterns) {
+                    const lowerPatternPattern = (pattern.pattern || "").toLowerCase();
+                    if (lowerPatternPattern && lowerInput.includes(lowerPatternPattern)) {
+                        const numbers = input.match(/\d+(\.\d+)?/g);
+                        if (numbers && numbers.length > 0) {
+                            const firstNum = parseFloat(numbers[0]);
+                            switch (pattern.action) { // These are snippet1's specific actions
+                                case 'calculate_double':
+                                    return 2 * firstNum;
+                                case 'calculate_square':
+                                    return Math.pow(firstNum, 2);
+                                case 'calculate_percentage':
+                                    if (numbers.length >= 2) {
+                                        const percentage = firstNum;
+                                        const total = parseFloat(numbers[1]);
+                                        return (percentage / 100) * total;
+                                    }
+                                    break;
+                                case 'calculate_factorial':
+                                    const n = parseInt(numbers[0]);
+                                    if (!isNaN(n)) return factorial(n);
+                                    break;
+                                    // Add more cases here if snippet1 had more specific actions
+                            }
+                        }
+                    }
+                }
+                // Fallback basic arithmetic if no specific pattern matched
+                if (isArithmetic(input)) {
+                    const mathExpression = extractArithmetic(input);
+                    if (mathExpression) {
+                        try {
+                            if (typeof math !== 'undefined') return math.evaluate(mathExpression);
+                            return evaluateArithmetic(mathExpression); // Use basic evaluator
+                        } catch (error) {
+                            /* console.error("Arithmetic fallback error:", error); */
+                        }
+                    }
+                }
+                return null;
+            } catch (error) {
+                console.error("Error in checkFunctionPatterns:", error);
+                return null;
+            }
+        }
+
+
+        // --- Core Text-Based Response Generation Logic (from snippet1, adapted) ---
+        async function getResponse(rawInput) { // From snippet1, now the main getResponse
+            const sanitizedInput = rawInput.trim().toLowerCase();
+            let response = '';
+
+            // Handle pending suggestions (from snippet2 logic, integrated here)
+            if (pendingSuggestion) {
+                if (positiveConfirmations.includes(sanitizedInput)) {
+                    const ans = pendingAnswer;
+                    pendingSuggestion = null;
+                    pendingAnswer = null;
+                    return ans;
+                } else if (negativeConfirmations.includes(sanitizedInput)) {
+                    pendingSuggestion = null;
+                    pendingAnswer = null;
+                    return "Okay, what else can I help you with?";
+                }
+                // If not a confirmation, let the normal flow continue below,
+                // but clear pending suggestion as it's a new query.
+                pendingSuggestion = null;
+                pendingAnswer = null;
+            }
+
+
+            // Check for calculations (from snippet1's getResponse logic)
+            const calculationResult = await checkFunctionPatterns(sanitizedInput); // Uses snippet1's patterns
+
+            const bestMatch = await findBestMatch(sanitizedInput); // Uses snippet1's matching
+
+            if (calculationResult !== null) {
+                if (bestMatch && bestMatch.similarity * 100 >= SIMILARITY_THRESHOLDS.MEDIUM) { // If also a medium QA match
+                    response = `${bestMatch.item.answer}\n\nRegarding a possible calculation: ${calculationResult}`;
+                } else {
+                    response = `The result is: ${calculationResult}`;
+                }
+            } else if (bestMatch) {
+                if (bestMatch.similarity * 100 >= SIMILARITY_THRESHOLDS.HIGH) {
+                    response = bestMatch.matchedAnswer ?
+                        `Your input sounds like an answer. Were you perhaps looking for information related to: "${bestMatch.item.question}"? (yes/no)` :
+                        bestMatch.item.answer;
+                    if (bestMatch.matchedAnswer) {
+                        pendingSuggestion = bestMatch.item.question;
+                        pendingAnswer = bestMatch.item.answer;
+                    }
+                } else if (bestMatch.similarity * 100 >= SIMILARITY_THRESHOLDS.MEDIUM) {
+                    response = `Did you mean: "${bestMatch.item.question}"? (yes/no)`;
+                    pendingSuggestion = bestMatch.item.question;
+                    pendingAnswer = bestMatch.item.answer;
+                } else {
+                    // Try word by word analysis if complete match isn't strong enough
+                    const wordByWordResponse = await processWordByWord(rawInput); // Use rawInput for wbw
+                    if (wordByWordResponse) {
+                        response = wordByWordResponse;
+                    } else {
+                        response = "I'm not quite sure. Could you rephrase that or ask something else?";
+                    }
+                }
+            } else {
+                // Try word by word as a last resort if no match at all
+                const wordByWordResponse = await processWordByWord(rawInput); // Use rawInput
+                response = wordByWordResponse || "I don't understand. Could you try asking differently?";
+            }
+            return response;
+        }
+
+        // --- Porter Stemmer (Simplified Implementation from snippet2) ---
+        const PorterStemmer = (function() {
+            /* ... snippet2's PorterStemmer code ... */
+            const step2list = {
+                    "ational": "ate",
+                    "tional": "tion",
+                    "enci": "ence",
+                    "anci": "ance",
+                    "izer": "ize",
+                    "bli": "ble",
+                    "alli": "al",
+                    "entli": "ent",
+                    "eli": "e",
+                    "ousli": "ous",
+                    "ization": "ize",
+                    "ation": "ate",
+                    "ator": "ate",
+                    "alism": "al",
+                    "iveness": "ive",
+                    "fulness": "ful",
+                    "ousness": "ous",
+                    "aliti": "al",
+                    "iviti": "ive",
+                    "biliti": "ble",
+                    "logi": "log"
+                },
+                step3list = {
+                    "icate": "ic",
+                    "ative": "",
+                    "alize": "al",
+                    "iciti": "ic",
+                    "ical": "ic",
+                    "ful": "",
+                    "ness": ""
+                },
+                c = "[^aeiou]",
+                v = "[aeiouy]",
+                C = c + "[^aeiouy]*",
+                V = v + "[aeiou]*",
+                mgr0 = "^(" + C + ")?" + V + C,
+                meq1 = "^(" + C + ")?" + V + C + "(" + V + ")?$",
+                mgr1 = "^(" + C + ")?" + V + C + V + C,
+                s_v = "^(" + C + ")?" + v;
+
+            function stemWord(w) {
+                let stem, suffix, firstch, origword = w;
+                if (w.length < 3) return w;
+                firstch = w.substring(0, 1);
+                if (firstch == "y") w = firstch.toUpperCase() + w.substring(1);
+                let re = /^(.+?)(ss|i)es$/;
+                let re2 = /^(.+?)([^s])s$/;
+                if (re.test(w)) {
+                    w = w.replace(re, "$1$2")
+                } else if (re2.test(w)) {
+                    w = w.replace(re2, "$1$2")
+                }
+                re = /^(.+?)eed$/;
+                re2 = /^(.+?)(ed|ing)$/;
+                if (re.test(w)) {
+                    let fp = re.exec(w);
+                    re = new RegExp(mgr0);
+                    if (re.test(fp[1])) {
+                        let temp = fp[1];
+                        w = temp.substring(0, temp.length - 1)
+                    }
+                } else if (re2.test(w)) {
+                    let fp = re2.exec(w);
+                    stem = fp[1];
+                    re2 = new RegExp(s_v);
+                    if (re2.test(stem)) {
+                        w = stem;
+                        re2 = /(at|bl|iz)$/;
+                        re = new RegExp("([^aeiouylsz])\\1$");
+                        let re3 = new RegExp("^" + C + v + "[^aeiouwxy]$");
+                        if (re2.test(w)) {
+                            w = w + "e"
+                        } else if (re.test(w)) {
+                            let temp = w;
+                            w = temp.substring(0, temp.length - 1)
+                        } else if (re3.test(w)) {
+                            w = w + "e"
+                        }
+                    }
+                }
+                re = /^(.+?)y$/;
+                if (re.test(w)) {
+                    let fp = re.exec(w);
+                    stem = fp[1];
+                    re = new RegExp(s_v);
+                    if (re.test(stem)) {
+                        w = stem + "i"
+                    }
+                }
+                re = /^(.+?)(ational|tional|enci|anci|izer|bli|alli|entli|eli|ousli|ization|ation|ator|alism|iveness|fulness|ousness|aliti|iviti|biliti|logi)$/;
+                if (re.test(w)) {
+                    let fp = re.exec(w);
+                    stem = fp[1];
+                    suffix = fp[2];
+                    re = new RegExp(mgr0);
+                    if (re.test(stem)) {
+                        w = stem + step2list[suffix]
+                    }
+                }
+                re = /^(.+?)(icate|ative|alize|iciti|ical|ful|ness)$/;
+                if (re.test(w)) {
+                    let fp = re.exec(w);
+                    stem = fp[1];
+                    suffix = fp[2];
+                    re = new RegExp(mgr0);
+                    if (re.test(stem)) {
+                        w = stem + step3list[suffix]
+                    }
+                }
+                re = /^(.+?)(al|ance|ence|er|ic|able|ible|ant|ement|ment|ent|ou|ism|ate|iti|ous|ive|ize)$/;
+                re2 = /^(.+?)(s|t)(ion)$/;
+                if (re.test(w)) {
+                    let fp = re.exec(w);
+                    stem = fp[1];
+                    re = new RegExp(mgr1);
+                    if (re.test(stem)) {
+                        w = stem
+                    }
+                } else if (re2.test(w)) {
+                    let fp = re2.exec(w);
+                    stem = fp[1] + fp[2];
+                    re2 = new RegExp(mgr1);
+                    if (re2.test(stem)) {
+                        w = stem
+                    }
+                }
+                re = /^(.+?)e$/;
+                if (re.test(w)) {
+                    let fp = re.exec(w);
+                    stem = fp[1];
+                    re = new RegExp(mgr1);
+                    re2 = new RegExp(meq1);
+                    let re3 = new RegExp("^" + C + v + "[^aeiouwxy]$");
+                    if (re.test(stem) || (re2.test(stem) && !(re3.test(stem)))) {
+                        w = stem
+                    }
+                }
+                re = /ll$/;
+                re2 = new RegExp(mgr1);
+                if (re.test(w) && re2.test(w)) {
+                    let temp = w;
+                    w = temp.substring(0, temp.length - 1)
+                }
+                if (firstch == "y" && w.length > 0) {
+                    w = firstch.toLowerCase() + w.substring(1)
+                }
+                return w
+            }
+            return {
+                stem: stemWord
+            }
+        })();
+
+
+        // --- Calculation Execution Logic (from snippet2 - for code_snippet patterns) ---
+        async function executeDynamicCalculation(pattern, input) { // From snippet2
+            try {
+                const numbers = input.match(/\d+(?:\.\d+)?/g);
+                if (!pattern.code_snippet || typeof pattern.code_snippet !== 'string' || pattern.code_snippet.trim() === '') {
+                    return null; // No snippet, so this function doesn't apply
+                }
+                if (!numbers || numbers.length === 0 && !pattern.code_snippet.includes("()")) { // Allow no-arg functions
+                    // Return specific message only if numbers are expected but not found
+                    if (pattern.code_snippet.match(/num\d*|\.\.\.nums/)) { // Heuristic: if snippet expects numbers
+                        return `Please provide numbers for the calculation: "${pattern.pattern}".`;
+                    }
+                }
+                const nums = numbers ? numbers.map(n => parseFloat(n)) : [];
+
+                try {
+                    const dynamicFunction = new Function('return ' + pattern.code_snippet)();
+                    const result = dynamicFunction(...nums);
+                    return result;
+                } catch (e) {
+                    console.error(`Error executing code snippet for pattern "${pattern.pattern}":`, e, "\nSnippet:", pattern.code_snippet, "\nInput Nums:", nums);
+                    return `Calculation error in custom code for "${pattern.pattern}": ${e.message}`;
+                }
+            } catch (error) {
+                console.error(`Error processing calculation for pattern "${pattern.pattern}":`, error);
+                return `Error processing calculation: ${error.message}`;
+            }
+        }
+
+        // --- Chat Message UI (from snippet2 - more advanced) ---
+        function appendChatMessage(sender, messageContent, timestamp = Date.now(), isTyping = false) {
+            /* ... snippet2's appendChatMessage ... */
+            if (welcomeMessageDiv && !welcomeMessageDiv.classList.contains('hidden')) {
+                welcomeMessageDiv.classList.add('hidden');
+            }
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', sender === 'user' ? 'user-message' : 'bot-message');
+
+            if (isTyping) {
+                messageDiv.classList.add('is-typing');
+                messageDiv.innerHTML = '<div class="typing-indicator"><span></span><span></span><span></span></div>';
+            } else {
+                let finalHtmlContent = "";
+                if (sender === 'bot') {
+                    let htmlContent = escapeHtml(String(messageContent)); // Ensure string
+                    htmlContent = htmlContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                    htmlContent = htmlContent.replace(/```([\s\S]*?)```/g, (match, p1) => `<pre class="code-block"><code>${p1.trim()}</code></pre>`);
+                    htmlContent = htmlContent.replace(/`([^`]+)`/g, '<code>$1</code>');
+                    finalHtmlContent = htmlContent.replace(/\n/g, '<br>');
+                } else {
+                    finalHtmlContent = escapeHtml(String(messageContent));
+                }
+                messageDiv.innerHTML = finalHtmlContent;
+
+                const timeSpan = document.createElement('span');
+                timeSpan.classList.add('message-time');
+                timeSpan.textContent = new Date(timestamp).toLocaleTimeString([], {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                messageDiv.appendChild(timeSpan);
+            }
+            if (chatContainer) {
+                chatContainer.appendChild(messageDiv);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            } else {
+                console.error("chatContainer is null in appendChatMessage");
+            }
+        }
+
+        async function typeBotMessage(messageContent) {
+            /* ... snippet2's typeBotMessage ... */
+            if (!chatContainer) {
+                console.error("chatContainer is null in typeBotMessage");
+                appendChatMessage('bot', messageContent); // Fallback to non-typed
+                return;
+            }
+            const typingEl = chatContainer.querySelector('.is-typing');
+            if (typingEl) typingEl.remove();
+
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', 'bot-message');
+            chatContainer.appendChild(messageDiv);
+
+            const rawMessageContent = String(messageContent); // Ensure string
+            let typedTextAccumulator = "";
+
+            for (let i = 0; i < rawMessageContent.length; i++) {
+                typedTextAccumulator += rawMessageContent[i];
+                let tempTypedHtml = escapeHtml(typedTextAccumulator);
+                tempTypedHtml = tempTypedHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'); // Bold
+                tempTypedHtml = tempTypedHtml.replace(/`([^`]+)`/g, '<code>$1</code>'); // Inline code
+                // Avoid processing ``` during typing for simplicity, apply at the end.
+                tempTypedHtml = tempTypedHtml.replace(/\n/g, '<br>'); // Newlines
+                messageDiv.innerHTML = tempTypedHtml;
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+                await delay(rawMessageContent[i] === '.' || rawMessageContent[i] === '?' || rawMessageContent[i] === '!' ? 150 : 10); // Pause for punctuation
+            }
+            // Final render with full markdown processing for ```
+            let finalHtmlContent = escapeHtml(rawMessageContent);
+            finalHtmlContent = finalHtmlContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            finalHtmlContent = finalHtmlContent.replace(/```([\s\S]*?)```/g, (match, p1) => `<pre class="code-block"><code>${p1.trim()}</code></pre>`);
+            finalHtmlContent = finalHtmlContent.replace(/`([^`]+)`/g, '<code>$1</code>');
+            finalHtmlContent = finalHtmlContent.replace(/\n/g, '<br>');
+            messageDiv.innerHTML = finalHtmlContent;
+
+            const timeSpan = document.createElement('span');
+            timeSpan.classList.add('message-time');
+            timeSpan.textContent = new Date().toLocaleTimeString([], {
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            messageDiv.appendChild(timeSpan);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+
+        // --- Import/Export & File Handling (using snippet1's core, snippet2's UI wrappers) ---
+        async function importJSON(jsonData) { // From snippet1, adapted for snippet2's progress UI
+            let count = 0,
+                importedItems = 0,
+                totalItemsToImport = 0;
+            if (Array.isArray(jsonData)) totalItemsToImport = jsonData.length;
+            else {
+                if (jsonData.qa_pairs) totalItemsToImport += jsonData.qa_pairs.length;
+                if (jsonData.calculation_patterns) totalItemsToImport += jsonData.calculation_patterns.length;
+            }
+            if (progressText) progressText.textContent = `Preparing to import ${totalItemsToImport} items...`;
+
+            function updateProgressUI() {
+                importedItems++;
+                const percentage = totalItemsToImport > 0 ? Math.round((importedItems / totalItemsToImport) * 100) : 0;
+                if (progressBar) {
+                    progressBar.style.width = percentage + '%';
+                    progressBar.textContent = percentage + '%';
+                }
+                if (progressText) progressText.textContent = `Importing ${importedItems} of ${totalItemsToImport}...`;
+            }
+
+            try {
+                if (Array.isArray(jsonData)) { // Handles old format of direct QA array
+                    for (const pair of jsonData) {
+                        if (pair.question && pair.answer) {
+                            await addTrainingData(pair.question, pair.answer); // Uses snippet1's add
+                            count++;
+                            updateProgressUI();
+                        }
+                    }
+                } else { // Handles new format with qa_pairs and calculation_patterns
+                    if (jsonData.qa_pairs && Array.isArray(jsonData.qa_pairs)) {
+                        for (const pair of jsonData.qa_pairs) {
+                            if (pair.question && pair.answer) {
+                                await addTrainingData(pair.question, pair.answer); // Uses snippet1's add
+                                count++;
+                                updateProgressUI();
+                            }
+                        }
+                    }
+                    if (jsonData.calculation_patterns && Array.isArray(jsonData.calculation_patterns)) {
+                        for (const p of jsonData.calculation_patterns) {
+                            if (p.pattern && p.action) { // formula is optional for snippet1 type patterns
+                                await addCalcPatternData(p.pattern, p.action, p.formula || '', p.code_snippet || ''); // Uses snippet2's add
+                                count++;
+                                updateProgressUI();
+                            }
+                        }
+                    }
+                }
+                return count;
+            } catch (error) {
+                console.error('Error importing JSON data:', error);
+                throw error; // Re-throw for the caller to handle
+            }
+        }
+        const importJSONFromFile = importJSON; // Alias for snippet2's handler
+
+        async function exportToJSON() { // From snippet1
+            try {
+                const trainingData = await getAllRecords(STORES.TRAINING_DATA);
+                const calculationPatterns = await getAllRecords(STORES.CALCULATION_PATTERNS);
+
+                const exportData = {
+                    export_timestamp: new Date().toISOString(), // Added by snippet2's style
+                    qa_pairs: trainingData.map(item => ({
+                        id: item.id,
+                        question: item.question,
+                        answer: item.answer,
+                        timestamp: item.timestamp
+                    })),
+                    calculation_patterns: calculationPatterns.map(item => ({
+                        id: item.id,
+                        pattern: item.pattern,
+                        action: item.action,
+                        formula: item.formula,
+                        code_snippet: item.code_snippet,
+                        timestamp: item.timestamp
+                    }))
+                };
+                return JSON.stringify(exportData, null, 2);
+            } catch (error) {
+                console.error('Error exporting JSON:', error);
+                throw error;
+            }
+        }
+
+        // --- UI Update Functions (from snippet2, largely unchanged) ---
+        async function renderTrainingList(listType, page = 1) {
+            /* ... snippet2's renderTrainingList ... */
+            const listEl = listType === 'qa' ? qaListDiv : patternListDiv;
+            const pagEl = listType === 'qa' ? qaPaginationDiv : patternPaginationDiv;
+            const store = listType === 'qa' ? STORES.TRAINING_DATA : STORES.CALCULATION_PATTERNS;
+
+            if (!listEl || !pagEl) {
+                console.error(`UI elements for ${listType} list not found.`);
+                return;
+            }
+            listEl.innerHTML = `<div class="text-center p-3"><div class="spinner-border spinner-border-sm" role="status"></div> Loading...</div>`;
+            pagEl.innerHTML = '';
+
+            try {
+                const allItems = (await getAllRecords(store)).sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+                const totalItems = allItems.length;
+                const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE_TRAINING) || 1;
+                page = Math.max(1, Math.min(page, totalPages));
+                const paginatedItems = allItems.slice((page - 1) * ITEMS_PER_PAGE_TRAINING, page * ITEMS_PER_PAGE_TRAINING);
+
+                listEl.innerHTML = '';
+                if (paginatedItems.length === 0) {
+                    listEl.innerHTML = `<p class="text-muted text-center mt-3">No ${listType === 'qa' ? 'Q&A entries' : 'patterns'} found. Use the 'Training' tab to add or import data.</p>`;
+                } else {
+                    paginatedItems.forEach(item => {
+                        const itemDiv = document.createElement('div');
+                        itemDiv.className = `training-item p-2 border-bottom`;
+                        let contentHTML = '';
+                        if (listType === 'qa') {
+                            contentHTML = `<div class="fw-bold">${escapeHtml(item.question)}</div><div>${escapeHtml(item.answer)}</div>`;
+                        } else { // Calculation Pattern
+                            contentHTML = `<div><strong>Pattern:</strong> <code>${escapeHtml(item.pattern)}</code></div>
+                                       <div><strong>Action:</strong> ${escapeHtml(item.action)}</div>
+                                       <small class="text-muted">Formula: ${escapeHtml(item.formula || 'N/A')}</small><br>
+                                       ${item.code_snippet ? `<small class="text-muted">Code Snippet:</small><pre class="code-snippet bg-light p-1 m-0 mt-1 rounded" style="font-size:0.8em; max-height: 100px; overflow-y:auto;">${escapeHtml(item.code_snippet)}</pre>` : ''}`;
+                        }
+                        itemDiv.innerHTML = `${contentHTML}
+                        <div class="actions mt-1 text-end">
+                            <button class="btn btn-sm btn-outline-primary edit-btn" data-id="${item.id}" data-type="${listType}" title="Edit"><i class="fas fa-edit"></i></button>
+                            <button class="btn btn-sm btn-outline-danger delete-btn" data-id="${item.id}" data-type="${listType}" title="Delete"><i class="fas fa-trash"></i></button>
+                        </div>`;
+                        listEl.appendChild(itemDiv);
+                    });
+                }
+                if (totalPages > 1) createPaginationControls(pagEl, listType, page, totalPages);
+                await updateCountsUI();
+            } catch (error) {
+                console.error(`Error rendering ${listType} list:`, error);
+                listEl.innerHTML = `<p class="text-center text-danger">Error loading data. ${error.message}</p>`;
+            }
+        }
+
+        function createPaginationControls(pagEl, listType, currentPage, totalPages) {
+            /* ... snippet2's createPaginationControls ... */
+            pagEl.innerHTML = '';
+            const maxPagesToShow = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
+            let endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+            if (endPage - startPage + 1 < maxPagesToShow && startPage > 1) startPage = Math.max(1, endPage - maxPagesToShow + 1);
+
+            if (currentPage > 1) pagEl.appendChild(createPageButton(listType, 1, '<i class="fas fa-angle-double-left"></i>'));
+            if (currentPage > 1) pagEl.appendChild(createPageButton(listType, currentPage - 1, '<i class="fas fa-angle-left"></i>'));
+            for (let i = startPage; i <= endPage; i++) pagEl.appendChild(createPageButton(listType, i, i, currentPage === i));
+            if (currentPage < totalPages) pagEl.appendChild(createPageButton(listType, currentPage + 1, '<i class="fas fa-angle-right"></i>'));
+            if (currentPage < totalPages) pagEl.appendChild(createPageButton(listType, totalPages, '<i class="fas fa-angle-double-right"></i>'));
+        }
+
+        function createPageButton(listType, pageNum, text, isActive = false) {
+            /* ... snippet2's createPageButton ... */
+            const btn = document.createElement('button');
+            btn.className = `btn btn-sm mx-1 ${isActive ? 'btn-primary active' : 'btn-outline-primary'}`;
+            btn.innerHTML = text;
+            btn.onclick = () => renderTrainingList(listType, pageNum);
+            return btn;
+        }
+        async function updateCountsUI() {
+            /* ... snippet2's updateCountsUI ... */
+            try {
+                const qa = (await getAllRecords(STORES.TRAINING_DATA)).length;
+                const pt = (await getAllRecords(STORES.CALCULATION_PATTERNS)).length;
+                const ms = (await getAllRecords(STORES.CHAT_HISTORY)).length;
+                if (qaCountBadge) qaCountBadge.textContent = qa;
+                if (patternCountBadge) patternCountBadge.textContent = pt;
+                if (totalQACountEl) totalQACountEl.textContent = qa;
+                if (totalPatternCountEl) totalPatternCountEl.textContent = pt;
+                if (totalMessageCountEl) totalMessageCountEl.textContent = Math.ceil(ms / 2); // Assuming pairs of messages
+            } catch (e) {
+                console.error("Failed to update counts UI", e);
+            }
+        }
+        async function updateSystemInfoUI() {
+            /* ... snippet2's updateSystemInfoUI ... */
+            if (dbNameValueEl) dbNameValueEl.textContent = DB_NAME;
+            if (dbVersionValueEl) dbVersionValueEl.textContent = DB_VERSION;
+            try {
+                const files = await getAllRecords(STORES.UPLOADED_FILES);
+                if (uploadedFilesInfoDiv) {
+                    const placeholder = uploadedFilesInfoDiv.querySelector('p.text-muted.small.mb-0');
+                    if (files.length > 0) {
+                        if (placeholder) placeholder.remove();
+                        uploadedFilesInfoDiv.innerHTML = files.map(f => `<div class="mb-1 small"><i class="fas fa-file-alt me-1 text-muted"></i>${escapeHtml(f.filename)} <span class="text-muted">(${(f.size / 1024).toFixed(1)}KB, ${new Date(f.timestamp).toLocaleDateString()})</span></div>`).join('');
+                    } else if (!placeholder) {
+                        uploadedFilesInfoDiv.innerHTML = '<p class="text-muted small mb-0">No files imported yet.</p>';
+                    }
+                }
+            } catch (e) {
+                if (uploadedFilesInfoDiv) uploadedFilesInfoDiv.innerHTML = '<p class="text-danger small">Error loading file log.</p>';
+            }
+            await loadChatHistory();
+        }
+        async function loadChatHistory() {
+            /* ... snippet2's loadChatHistory ... */
+            try {
+                const history = await getAllRecords(STORES.CHAT_HISTORY);
+                if (!chatContainer) {
+                    console.error("Chat container not found for loading history.");
+                    return;
+                }
+                chatContainer.innerHTML = ''; // Clear before loading
+                if (history.length > 0) {
+                    if (welcomeMessageDiv) welcomeMessageDiv.classList.add('hidden');
+                    history.sort((a, b) => a.timestamp - b.timestamp).forEach(msg => {
+                        // Pass isTyping as false, assuming history doesn't store typing indicators
+                        appendChatMessage(msg.type, msg.content, msg.timestamp, false);
+                    });
+                } else {
+                    if (welcomeMessageDiv) welcomeMessageDiv.classList.remove('hidden');
+                }
+                await updateCountsUI();
+            } catch (error) {
+                console.error("Error loading chat history:", error);
+                if (welcomeMessageDiv) welcomeMessageDiv.classList.remove('hidden');
+                // Initial welcome message is handled in DOMContentLoaded
+            }
+        }
+
+        // --- Event Handlers (from snippet2, adapted for new logic) ---
+        async function handleSendMessage(event) { // Adapted from snippet2
+            if (event) event.preventDefault();
+            if (!messageInput || !loadingSpinner || !chatContainer) return;
+
+            const userMessage = messageInput.value.trim();
+            if (!userMessage) return;
+
+            appendChatMessage('user', userMessage);
+            addActivityLog(`User: "${userMessage.substring(0, 50)}..."`);
+            messageInput.value = '';
+            loadingSpinner.style.display = 'flex';
+            appendChatMessage('bot', '', Date.now(), true); // Typing indicator
+
+            let botResponse = null;
+            const userMessageTimestamp = Date.now();
+
+            try {
+                // --- Combined Calculation Approach ---
+                // 1. Try snippet2's dynamic calculation (code_snippet) first
+                const calculationPatterns = await getAllRecords(STORES.CALCULATION_PATTERNS);
+                const normalizedUserMessage = userMessage.toLowerCase();
+                let dynamicCalcResult = null;
+
+                for (const pattern of calculationPatterns) {
+                    const patternTrigger = (pattern.pattern || '').toLowerCase();
+                    if (pattern.code_snippet && patternTrigger && normalizedUserMessage.includes(patternTrigger)) {
+                        dynamicCalcResult = await executeDynamicCalculation(pattern, userMessage); // Pass original userMessage
+                        if (dynamicCalcResult !== null && dynamicCalcResult !== undefined && !(typeof dynamicCalcResult === 'string' && dynamicCalcResult.toLowerCase().includes("error"))) {
+                            botResponse = `**${pattern.action || 'Custom Rule'}**:\n\`\`\`\n${String(dynamicCalcResult)}\n\`\`\`\nBased on rule: \`${pattern.pattern}\``;
+                            if (pattern.formula) botResponse += `\n**Formula : ${pattern.formula}**`;
+                            break; // Found a dynamic calculation
+                        } else if (typeof dynamicCalcResult === 'string' && dynamicCalcResult.toLowerCase().includes("please provide numbers")) {
+                            botResponse = dynamicCalcResult; // Show specific error message
+                            break;
+                        }
+                        // If error or null, it will fall through to getResponse
+                    }
+                }
+
+                // 2. If no dynamic calculation was successful, proceed with snippet1's getResponse
+                //    which includes snippet1's checkFunctionPatterns (math.js, hardcoded patterns)
+                if (!botResponse) {
+                    botResponse = await getResponse(userMessage); // Uses snippet1's getResponse
+                }
+
+                if (!botResponse) { // Fallback if getResponse also didn't find anything
+                    botResponse = "I'm sorry, I don't have a specific answer or calculation for that. Can you try rephrasing?";
+                }
+
+                await addRecord(STORES.CHAT_HISTORY, {
+                    type: 'user',
+                    content: userMessage,
+                    timestamp: userMessageTimestamp
+                });
+                await addRecord(STORES.CHAT_HISTORY, {
+                    type: 'bot',
+                    content: String(botResponse),
+                    timestamp: Date.now()
+                });
+
+                await delay(300 + Math.random() * 300); // Slightly shorter delay
+                await typeBotMessage(String(botResponse));
+                addActivityLog(`Bot: "${String(botResponse).substring(0, 50)}..."`);
+
+            } catch (error) {
+                const errorMsg = 'Sorry, an error occurred. Please try again.';
+                await typeBotMessage(errorMsg);
+                console.error('Error during send message processing:', error);
+                notify('Error processing message: ' + error.message, 'danger');
+                addActivityLog(`ERROR processing message: ${error.message}`);
+                try { // Save error to history
+                    await addRecord(STORES.CHAT_HISTORY, {
+                        type: 'user',
+                        content: userMessage,
+                        timestamp: userMessageTimestamp
+                    });
+                    await addRecord(STORES.CHAT_HISTORY, {
+                        type: 'bot',
+                        content: errorMsg,
+                        timestamp: Date.now()
+                    });
+                } catch (dbError) {
+                    console.error("Error saving error message to DB", dbError);
+                }
+            } finally {
+                if (loadingSpinner) loadingSpinner.style.display = 'none';
+                const typingEl = chatContainer ? chatContainer.querySelector('.is-typing') : null;
+                if (typingEl) typingEl.remove();
+                await updateCountsUI();
+            }
+        }
+
+        // Save Training Data (adapting snippet1's saveTrainingData for snippet2's UI)
+        async function saveNewTrainingData() { // Renamed to avoid conflict if snippet1's was global
+            const questionElement = document.getElementById('trainQuestionInput'); // Assuming IDs from a typical form
+            const answerElement = document.getElementById('trainAnswerInput');
+
+            if (!questionElement || !answerElement) {
+                notify('Training input fields not found.', 'error');
+                return;
+            }
+            const question = questionElement.value.trim();
+            const answer = answerElement.value.trim();
+
+            if (!question || !answer) {
+                notify('Please provide both question and answer.', 'error');
+                return;
+            }
+            try {
+                await addTrainingData(question, answer); // Uses snippet1's function
+                questionElement.value = '';
+                answerElement.value = '';
+                notify('Training data saved successfully!', 'success');
+                addActivityLog(`Added new Q&A: ${question.substring(0,30)}...`);
+                await renderTrainingList('qa', 1); // Refresh list
+            } catch (error) {
+                console.error('Error saving training data:', error);
+                notify('Failed to save training data: ' + error.message, 'error');
+            }
+        }
+
+        // Save Calculation Pattern (adapting snippet1's for snippet2's UI and code_snippet)
+        async function saveNewCalculationPattern() { // Renamed
+            const patternElement = document.getElementById('calcPatternInput');
+            const actionElement = document.getElementById('calcActionInput');
+            const formulaElement = document.getElementById('calcFormulaInput');
+            const codeSnippetElement = document.getElementById('calcCodeSnippetInput'); // Assuming this field exists
+
+            if (!patternElement || !actionElement || !formulaElement || !codeSnippetElement) {
+                notify('Calculation pattern input fields not found.', 'error');
+                return;
+            }
+            const pattern = patternElement.value.trim();
+            const action = actionElement.value.trim();
+            const formula = formulaElement.value.trim();
+            const codeSnippet = codeSnippetElement.value.trim();
+
+            if (!pattern || !action) { // Formula and code_snippet can be optional
+                notify('Pattern and Action are required for calculation patterns.', 'error');
+                return;
+            }
+            try {
+                // Using addCalcPatternData (from snippet2, which uses addRecord)
+                // to ensure code_snippet is saved correctly.
+                await addCalcPatternData(pattern, action, formula, codeSnippet);
+                patternElement.value = '';
+                actionElement.value = '';
+                formulaElement.value = '';
+                codeSnippetElement.value = '';
+                notify('Calculation pattern saved successfully!', 'success');
+                addActivityLog(`Added new Calc Pattern: ${pattern.substring(0,30)}...`);
+                await renderTrainingList('pattern', 1); // Refresh list
+            } catch (error) {
+                console.error('Error saving calculation pattern:', error);
+                notify('Failed to save calculation pattern: ' + error.message, 'error');
+            }
+        }
+
+        // Event listener for training list edit/delete (from snippet2, largely unchanged)
+        // Ensure it handles both 'qa' and 'pattern' types correctly for prompts
+        document.getElementById('trainingDataTabContent')?.addEventListener('click', async (e) => {
+            const target = e.target.closest('button.edit-btn, button.delete-btn');
+            if (!target) return;
+            const id = parseInt(target.dataset.id);
+            const type = target.dataset.type; // 'qa' or 'pattern'
+            const storeName = type === 'qa' ? STORES.TRAINING_DATA : STORES.CALCULATION_PATTERNS;
+            try {
+                if (target.classList.contains('edit-btn')) {
+                    const item = await getRecordById(storeName, id);
+                    if (!item) return notify('Item not found to edit.', 'warning');
+
+                    if (type === 'qa') {
+                        const newQ = prompt('Edit Question:', item.question);
+                        if (newQ === null) return;
+                        const newA = prompt('Edit Answer:', item.answer);
+                        if (newA === null) return;
+                        await updateRecord(storeName, {
+                            ...item,
+                            question: newQ.trim().toLowerCase(),
+                            answer: newA.trim(),
+                            timestamp: Date.now()
+                        });
+                    } else { // 'pattern'
+                        const newP = prompt('Edit Pattern:', item.pattern);
+                        if (newP === null) return;
+                        const newAct = prompt('Edit Action:', item.action);
+                        if (newAct === null) return;
+                        const newF = prompt('Edit Formula:', item.formula || '');
+                        // if (newF === null) return; // Formula can be empty
+                        const newCS = prompt('Edit Code Snippet:', item.code_snippet || '');
+                        // if (newCS === null) return; // Code snippet can be empty
+                        await updateRecord(storeName, {
+                            ...item,
+                            pattern: newP.trim().toLowerCase(),
+                            action: newAct.trim(),
+                            formula: newF.trim(),
+                            code_snippet: newCS.trim(),
+                            timestamp: Date.now()
+                        });
+                    }
+                    notify(`${type.toUpperCase()} item updated.`, 'success');
+                    addActivityLog(`Edited ${type} ID: ${id}`);
+                } else if (target.classList.contains('delete-btn')) {
+                    if (confirm(`Delete this ${type.toUpperCase()} item?`)) {
+                        await deleteRecord(storeName, id);
+                        notify(`${type.toUpperCase()} item deleted.`, 'success');
+                        addActivityLog(`Deleted ${type} ID: ${id}`);
+                    } else return;
+                }
+                // Refresh the correct list
+                const pagDiv = type === 'qa' ? qaPaginationDiv : patternPaginationDiv;
+                const currentPageButton = pagDiv ? pagDiv.querySelector('.btn-primary.active') : null;
+                const currentPage = currentPageButton ? parseInt(currentPageButton.textContent) || 1 : 1;
+                await renderTrainingList(type, currentPage);
+            } catch (err) {
+                notify(`Error with ${type} item: ` + err.message, 'danger');
+            }
+        });
+
+
+        // Other event handlers from snippet2 (largely unchanged, but using merged core functions)
+        async function handleImportFileFromInput() {
+            /* Uses importJSONFromFile (aliased importJSON) */
+            if (!importFileEl || !importProgressCard || !progressBar || !progressText) return;
+            const file = importFileEl.files[0];
+            if (!file) return notify('No file selected.', 'warning');
+            if (!file.name.endsWith('.json') && file.type !== 'application/json') return notify('Invalid file. Must be JSON.', 'danger');
+
+            importProgressCard.style.display = 'block';
+            progressBar.style.width = '0%';
+            progressBar.textContent = '0%';
+            progressText.textContent = 'Reading file...';
+            try {
+                const content = await file.text();
+                const jsonData = JSON.parse(content);
+                const count = await importJSONFromFile(jsonData); // Uses merged importJSON
+                await addRecord(STORES.UPLOADED_FILES, {
+                    filename: file.name,
+                    size: file.size,
+                    type: file.type,
+                    timestamp: Date.now()
+                });
+                notify(`Imported ${count} items from ${file.name}.`, 'success');
+                addActivityLog(`Imported file: ${file.name} (${count} items)`);
+                await Promise.all([renderTrainingList('qa', 1), renderTrainingList('pattern', 1), updateSystemInfoUI()]);
+            } catch (e) {
+                notify('Import error: ' + e.message, 'danger');
+                addActivityLog(`ERROR importing file: ${e.message}`);
+                progressText.textContent = 'Import failed.';
+            } finally {
+                setTimeout(() => {
+                    importProgressCard.style.display = 'none';
+                }, 2000);
+                if (importFileEl) importFileEl.value = ''; // Clear file input
+            }
+        }
+        async function handleImportJsonFromTextArea() {
+            /* Uses importJSONFromFile */
+            if (!jsonImportTextArea || !importProgressCard || !progressBar || !progressText) return;
+            const jsonString = jsonImportTextArea.value.trim();
+            if (!jsonString) return notify('Text area is empty. Paste JSON data to import.', 'warning');
+
+            importProgressCard.style.display = 'block';
+            progressBar.style.width = '0%';
+            progressBar.textContent = '0%';
+            progressText.textContent = 'Parsing JSON...';
+            try {
+                const jsonData = JSON.parse(jsonString);
+                const count = await importJSONFromFile(jsonData); // Uses merged importJSON
+                notify(`Imported ${count} items from text area.`, 'success');
+                addActivityLog(`Imported from text area: ${count} items`);
+                await Promise.all([renderTrainingList('qa', 1), renderTrainingList('pattern', 1), updateSystemInfoUI()]);
+                jsonImportTextArea.value = '';
+            } catch (e) {
+                notify('Import error from text area: ' + e.message, 'danger');
+                addActivityLog(`ERROR importing from text area: ${e.message}`);
+                progressText.textContent = 'Import failed.';
+            } finally {
+                setTimeout(() => {
+                    importProgressCard.style.display = 'none';
+                    progressText.textContent = 'Import finished.';
+                }, 2000);
+            }
+        }
+
+        function handleDownloadJsonTemplate() {
+            /* ... snippet2's handleDownloadJsonTemplate ... */
+            const template = {
+                "qa_pairs": [{
+                    "id": 1,
+                    "question": "Sample Q1?",
+                    "answer": "Sample A1",
+                    "timestamp": Date.now()
+                }],
+                "calculation_patterns": [{
+                    "id": 1,
+                    "pattern": "double {num}",
+                    "action": "calculate_double_custom",
+                    "formula": "num * 2",
+                    "code_snippet": "function(num){ return num * 2; }",
+                    "timestamp": Date.now()
+                }]
+            };
+            const blob = new Blob([JSON.stringify(template, null, 2)], {
+                type: 'application/json'
+            });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = `chatbot_template_${Date.now()}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(a.href);
+            notify('JSON template download initiated.', 'info');
+            addActivityLog('Downloaded JSON template.');
+        }
+        async function handleExportData() {
+            /* Uses exportToJSON */
+            try {
+                const jsonStr = await exportToJSON(); // Uses merged exportToJSON
+                const blob = new Blob([jsonStr], {
+                    type: 'application/json'
+                });
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = `chatbot_data_${new Date().toISOString().slice(0,10)}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(a.href);
+                notify('Data exported successfully!', 'success');
+                addActivityLog('Exported all data.');
+            } catch (e) {
+                notify('Export error: ' + e.message, 'danger');
+            }
+        }
+        async function handleClearChatHistory() {
+            /* ... snippet2's handleClearChatHistory ... */
+            if (1 == 1) {
+                try {
+                    await clearStore(STORES.CHAT_HISTORY);
+                    if (chatContainer) chatContainer.innerHTML = '';
+                    if (welcomeMessageDiv) welcomeMessageDiv.classList.remove('hidden');
+                    notify('Chat history cleared.', 'success');
+                    addActivityLog('Chat history cleared.');
+                    await updateCountsUI();
+                } catch (e) {
+                    notify('Error clearing history: ' + e.message, 'danger');
+                }
+            }
+        }
+        async function handleResetDatabase() {
+            /* ... snippet2's handleResetDatabase ... */
+            if (1 == 1) {
+                try {
+                    await Promise.all(Object.values(STORES).map(sName => clearStore(sName)));
+                    notify('ENTIRE DATABASE RESET!', 'danger', 10000);
+                    addActivityLog('ENTIRE DATABASE RESET.');
+                    if (chatContainer) chatContainer.innerHTML = '';
+                    if (welcomeMessageDiv) welcomeMessageDiv.classList.remove('hidden');
+                    // Reset pending suggestions as well
+                    pendingSuggestion = null;
+                    pendingAnswer = null;
+                    await Promise.all([renderTrainingList('qa', 1), renderTrainingList('pattern', 1), updateSystemInfoUI()]);
+                } catch (e) {
+                    notify('Database reset failed: ' + e.message, 'danger');
+                }
+            } else {
+                notify('Reset cancelled. Confirmation phrase was incorrect.', 'warning');
+            }
+        }
+        async function handleClearUploadedFilesLog() {
+            /* ... snippet2's handleClearUploadedFilesLog ... */
+            if (1 == 1) {
+                try {
+                    await clearStore(STORES.UPLOADED_FILES);
+                    notify('Uploaded files log cleared.', 'success');
+                    addActivityLog('Uploaded files log cleared.');
+                    await updateSystemInfoUI();
+                } catch (e) {
+                    notify('Error clearing files log: ' + e.message, 'danger');
+                }
+            }
+        }
+
+        async function fetchAndInstallDefaultData(url, typeName) {
+            /* Uses importJSONFromFile */
+            if (!importProgressCard || !progressBar || !progressText) return;
+            importProgressCard.style.display = 'block';
+            progressBar.style.width = '0%';
+            progressBar.textContent = '0%';
+            progressText.textContent = `Fetching ${typeName}...`;
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`Fetch failed: ${response.status} for ${url}`);
+                const jsonData = await response.json();
+                progressText.textContent = `Importing ${typeName}...`;
+                const count = await importJSONFromFile(jsonData); // Uses merged importJSON
+                notify(`Installed ${count} ${typeName} items.`, 'success');
+                addActivityLog(`Installed default: ${typeName} (${count} items)`);
+                await Promise.all([renderTrainingList('qa', 1), renderTrainingList('pattern', 1), updateSystemInfoUI()]);
+            } catch (e) {
+                notify(`Error installing ${typeName}: ${e.message}`, 'danger');
+                addActivityLog(`ERROR installing default ${typeName}: ${e.message}`);
+                progressText.textContent = `${typeName} installation failed.`;
+            } finally {
+                setTimeout(() => {
+                    importProgressCard.style.display = 'none';
+                }, 2000);
+            }
+        }
+
+        function generatePrompt() {
+            /* ... snippet2's generatePrompt ... */
+            if (!topicInput || !searchEngineToggle) return;
+            const topicVal = topicInput.value.trim();
+            if (!topicVal) return notify("Please enter a topic.", 'warning');
+            const promptStr = `Generate training data for an AI chatbot on the topic "${topicVal}". Return a single JSON object in exactly this structure:
+
+{
+  "qa_pairs": [
+    { "question": "...", "answer": "..." }
+  ],
+  "calculation_patterns": [
+    { "pattern": "...", "action": "...", "formula": "...", "code_snippet": "..." }
+  ]
+}
+
+Rules:
+• Use "qa_pairs" for fact-based content. Produce 50 pairs when only Q&A is needed.  
+• Use "calculation_patterns" when the topic needs calculative actions; provide suitable patterns and at least 30 QA pairs alongside them.  
+• Keep any unused section as an empty array.  
+• Try to use single word or less word combinaton in "question" and "pattern"
+• Output only valid JSON, no extra text.
+
+Example format:
+{
+  "qa_pairs": [
+    { "question": "javascript", "answer": "JavaScript is a programming language." }
+  ],
+  "calculation_patterns": [
+    {
+      "pattern": "double",
+      "action": "calculate_double",
+      "formula": "result = 2 * number",
+      "code_snippet": "function double(number) { return 2 * number; }"
+    }
+  ]
+}`;
+            const usePerplexity = searchEngineToggle.checked;
+            const searchUrl = usePerplexity ? `https://www.perplexity.ai/search?q=${encodeURIComponent(promptStr)}` : `https://chat.openai.com/?q=${encodeURIComponent(promptStr)}`; // Use chat.openai.com as fallback
+            window.open(searchUrl, '_blank', 'noopener,noreferrer,width=1000,height=700');
+            addActivityLog(`Generated training prompt for topic: ${topicVal}`);
+        }
+
+        // --- DOMContentLoaded Initializer (from snippet2, with migration call) ---
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Assign UI elements (from snippet2)
+            chatContainer = document.getElementById('chatContainer');
+            messageInput = document.getElementById('messageInput');
+            chatForm = document.getElementById('chatForm');
+            loadingSpinner = document.getElementById('loadingSpinner');
+            welcomeMessageDiv = document.getElementById('welcomeMessage');
+            qaListDiv = document.getElementById('qaList');
+            patternListDiv = document.getElementById('patternList');
+            qaPaginationDiv = document.getElementById('qaPagination');
+            patternPaginationDiv = document.getElementById('patternPagination');
+            totalQACountEl = document.getElementById('totalQACount');
+            totalPatternCountEl = document.getElementById('totalPatternCount');
+            totalMessageCountEl = document.getElementById('totalMessageCount');
+            qaCountBadge = document.getElementById('qaCount');
+            patternCountBadge = document.getElementById('patternCount');
+            dbNameValueEl = document.getElementById('dbNameValue');
+            dbVersionValueEl = document.getElementById('dbVersionValue');
+            dbStatusEl = document.getElementById('dbStatus');
+            recentActivityDiv = document.getElementById('recentActivity');
+            uploadedFilesInfoDiv = document.getElementById('uploadedFilesInfo');
+            importProgressCard = document.getElementById('importProgressCard');
+            progressBar = document.getElementById('progressBar');
+            progressText = document.getElementById('progressText');
+            importFileEl = document.getElementById('importFile');
+            jsonImportTextArea = document.getElementById('jsonImportTextArea');
+            topicInput = document.getElementById('topicInput');
+            searchEngineToggle = document.getElementById('searchEngineToggle');
+
+            try {
+                if (dbStatusEl) {
+                    dbStatusEl.textContent = 'Connecting...';
+                    dbStatusEl.className = 'badge bg-warning';
+                }
+                await initDB();
+                if (dbStatusEl) {
+                    dbStatusEl.textContent = 'Connected';
+                    dbStatusEl.className = 'badge bg-success';
+                }
+                addActivityLog('Application initialized & DB connected.');
+
+                await migrateFromLocalStorage(); // Call migration
+
+                await Promise.all([
+                    renderTrainingList('qa', 1),
+                    renderTrainingList('pattern', 1),
+                    updateSystemInfoUI() // This also calls loadChatHistory
+                ]);
+
+                // Attach event listeners (from snippet2)
+                if (chatForm) chatForm.addEventListener('submit', handleSendMessage);
+                if (messageInput) messageInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        handleSendMessage();
+                    }
+                });
+
+                // Event listeners for training forms
+                document.getElementById('saveTrainDataBtn')?.addEventListener('click', saveNewTrainingData);
+                document.getElementById('saveCalcPatternBtn')?.addEventListener('click', saveNewCalculationPattern);
+
+
+                if (importFileEl) importFileEl.addEventListener('change', handleImportFileFromInput);
+                document.getElementById('exportAllData')?.addEventListener('click', handleExportData);
+                document.getElementById('installConversationData')?.addEventListener('click', () => fetchAndInstallDefaultData(DEFAULT_CONVERSATION_URL, 'Conversation Data'));
+                document.getElementById('installDictionaryData')?.addEventListener('click', () => fetchAndInstallDefaultData(DEFAULT_DICTIONARY_URL, 'Dictionary Data'));
+                document.getElementById('clearChatHistory')?.addEventListener('click', handleClearChatHistory);
+                document.getElementById('resetEntireDatabase')?.addEventListener('click', handleResetDatabase);
+                document.getElementById('clearUploadedFilesRecords')?.addEventListener('click', handleClearUploadedFilesLog);
+                document.getElementById('generatePromptBtn')?.addEventListener('click', generatePrompt);
+                document.getElementById('importJsonFromTextAreaBtn')?.addEventListener('click', handleImportJsonFromTextArea);
+                document.getElementById('downloadJsonTemplateBtn')?.addEventListener('click', handleDownloadJsonTemplate);
+
+
+                // Tab switching (if you have Bootstrap tabs)
+                document.querySelectorAll('.nav-link[data-bs-toggle="tab"]').forEach(tab => {
+                    tab.addEventListener('shown.bs.tab', async event => {
+                        addActivityLog(`Switched to tab: ${event.target.textContent.trim()}`);
+                        if (event.target.hash === '#trainingDataTab') { // Assuming this is the ID of the training data tab content
+                            await renderTrainingList('qa', 1);
+                            await renderTrainingList('pattern', 1);
+                        } else if (event.target.hash === '#systemInfoTab') {
+                            await updateSystemInfoUI();
+                        }
+                    });
+                });
+
+
+                // Initial welcome message if no history
+                const history = await getAllRecords(STORES.CHAT_HISTORY);
+                if (history.length === 0 && welcomeMessageDiv && chatContainer && chatContainer.children.length === 0) {
+                    const clonedWelcomeMessage = welcomeMessageDiv.cloneNode(true);
+                    clonedWelcomeMessage.removeAttribute('id');
+                    clonedWelcomeMessage.style.display = 'block';
+                    chatContainer.appendChild(clonedWelcomeMessage);
+                }
+
+
+                console.log("Chatbot UI initialized with merged features.");
+                notify("Welcome to your AI Chatbot Interface!", "primary");
+
+            } catch (error) {
+                console.error('FATAL Initialization Error:', error);
+                if (dbStatusEl) {
+                    dbStatusEl.textContent = 'ERROR';
+                    dbStatusEl.className = 'badge bg-danger';
+                }
+                notify('CRITICAL ERROR: App failed to initialize. ' + error.message, 'danger', 10000);
+                addActivityLog('FATAL ERROR on init: ' + error.message);
+            }
+        });
+    </script>
+</body>
+
+</html>
