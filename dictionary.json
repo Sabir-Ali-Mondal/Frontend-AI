@@ -1931,7 +1931,7 @@
       "code_snippet": "async function art() {\n    const randomPage = Math.floor(Math.random() * 5000) + 1;\n    const res = await fetch(`https://api.artic.edu/api/v1/artworks?fields=id,title,image_id,artist_title&limit=1&page=${randomPage}`);\n    const data = await res.json();\n    const artwork = data.data[0];\n    if (artwork.image_id) {\n        const imageUrl = `https://www.artic.edu/iiif/2/${artwork.image_id}/full/400,/0/default.jpg`;\n        return `<img src=\\\"${imageUrl}\\\" alt=\\\"${artwork.title}\\\" /><br/><b>${artwork.title}</b><br/><i>by ${artwork.artist_title || 'Unknown Artist'}</i>`;\n    } else {\n        return 'Could not retrieve artwork image. Please try again.';\n    }\n}"
     },
     {
-  "pattern": "fact",
+  "pattern": "useless fact",
   "action": "get_useless_fact",
   "formula": "result = fetch useless fact from API and display",
   "code_snippet": "function getUselessFact() {\n  fetch('https://uselessfacts.jsph.pl/random.json?language=en')\n    .then(response => response.json())\n    .then(data => {\n      document.getElementById('fact').textContent = data.text;\n    })\n    .catch(error => console.error('Error fetching fact:', error));\n}"
