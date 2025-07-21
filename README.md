@@ -16,10 +16,7 @@ This is an AI simulator that works *completely offline* — no backend, no cloud
 - ⚡ **Real-Time Response Engine**  
   Instant answers from a dataset of 2.69 lakh Q&A pairs and 325+ logic formulas.
 
-- 🔁 **Offline-Ready**  
-  The app loads, runs, and trains completely offline after first use.
-
-- 🔍 **Fuzzy Matching + Pattern Recognition**  
+- 🔍 **Fuzzy Matching**
   Supports fuzzy logic for better natural language understanding.
 
 - 🧮 **Dynamic Calculation Engine**  
@@ -45,10 +42,11 @@ Imagine an AI that can help you:
 
 ## 🛠 Tech Stack
 
-- HTML + JavaScript (No Framework)
+- HTML + JavaScript + CSS
 - IndexedDB for offline storage
+- Github as cloud
 - JSON loaders for custom training
-- Local fuzzy string matching (no external libraries)
+- Local fuzzy string matching
 
 ---
 
