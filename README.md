@@ -71,7 +71,7 @@ Imagine an AI that can help you:
 
 - 🔗 **Live Demo (link)**: [https://aibysabir.ccbp.tech/](https://aibysabir.ccbp.tech/)
 - 🧠 **GitHub Repo**: [Frontend-AI](https://github.com/Sabir-Ali-Mondal/Frontend-AI)
-- 🔁 **LinkedIn Post**: [Check here]([https://www.linkedin.com/posts/sabir-ali-mondal_frontend-ai-innovationwithjs-activity-7309301864280338433-gJoD](https://www.linkedin.com/posts/sabir-ali-mondal_frontend-ai-js-activity-7352580258463694851-FrvP?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy))
+- 🔁 **LinkedIn Post**: [Check here](https://www.linkedin.com/posts/sabir-ali-mondal_frontend-ai-js-activity-7352580258463694851-FrvP?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy)
 
 
 
