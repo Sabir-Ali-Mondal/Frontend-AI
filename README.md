@@ -1,9 +1,9 @@
 # 🚀 Trainable Frontend AI (Simulator) — by S.A.M.
 
-🔥 **No Server. No Hardcoded AI API.
+🔥 No Server. No Hardcoded AI API.
 This is an AI simulator that works *completely offline* — no backend, no cloud, just your browser and structured training data!
 
----
+
 
 ## ✨ Key Highlights
 
@@ -90,9 +90,9 @@ Frontend-AI/
 
 ## 🌐 Links
 
-- 🔗 **Live Demo (optional)**: *Coming soon*
+- 🔗 **Live Demo (link)**: [https://aibysabir.ccbp.tech/](https://aibysabir.ccbp.tech/)
 - 🧠 **GitHub Repo**: [Frontend-AI](https://github.com/Sabir-Ali-Mondal/Frontend-AI)
-- 🔁 **LinkedIn Post**: [Check here](https://www.linkedin.com/posts/sabir-ali-mondal_frontend-ai-innovationwithjs-activity-7309301864280338433-gJoD)
+- 🔁 **LinkedIn Post**: [Check here]([https://www.linkedin.com/posts/sabir-ali-mondal_frontend-ai-innovationwithjs-activity-7309301864280338433-gJoD](https://www.linkedin.com/posts/sabir-ali-mondal_frontend-ai-js-activity-7352580258463694851-FrvP?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy))
 
 
 
