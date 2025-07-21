@@ -48,25 +48,6 @@ Imagine an AI that can help you:
 - JSON loaders for custom training
 - Local fuzzy string matching
 
----
-
-## 📁 Folder Structure
-
-```
-
-Frontend-AI/
-│
-├── index.html             # Main UI
-├── script.js              # Core AI logic
-├── dataset.json           # Sample Q\&A pairs (trainable)
-├── patterns.json          # Logic formulas
-├── train.html             # Interface to train with custom data
-├── styles.css             # Glassmorphic UI styling
-└── README.md              # This file
-
-```
-
----
 
 ## 🧠 How It Works
 
